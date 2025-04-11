@@ -1,0 +1,11 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "Physician",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner Physician</b></p><a name=\"Physician\"> </a><a name=\"hcPhysician\"> </a><a name=\"Physician-und\"> </a><p><b>name</b>: Dr. Jean Toubib</p></div>"
+  },
+  "name" : [{
+    "text" : "Dr. Jean Toubib"
+  }]
+}

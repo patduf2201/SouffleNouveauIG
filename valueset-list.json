@@ -1,0 +1,58 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-efr",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "EFR_VS",
+      "title" : "Observations d'une épreuve fonctionnelle respiratoire",
+      "description" : "Observations d'une épreuve fonctionnelle respiratoire",
+      "systems" : ["http://loinc.org", "http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-bio",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "PNEUMO_BIO_VS",
+      "title" : "Jeu de biologies d'intérêt pour la télésurveillance des maladies respiratoires",
+      "description" : "Jeu de biologies d'intérêt pour la télésurveillance des maladies respiratoires",
+      "systems" : ["http://loinc.org"]
+    },
+    {
+      "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-diagnostic",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "PNEUMO_DIAGNOSTIC_VS",
+      "title" : "Diagnostic principal maladie respiratoire",
+      "description" : "Diagnostic principal maladie respiratoire",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-vitaux",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "PNEUMO_VITAAUX_VS",
+      "title" : "Signes vitaux pneumologie",
+      "description" : "Signes vitaux pneumologie",
+      "systems" : ["http://loinc.org"]
+    },
+    {
+      "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "TABAC_VS",
+      "title" : "Jeu de concept de tabacologie",
+      "description" : "Jeu de concept de tabacologie",
+      "systems" : ["http://loinc.org"]
+    },
+    {
+      "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac-status",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "TABAC_STATUS_VS",
+      "title" : "Jeu de concept pour le statut de tabagisme",
+      "description" : null,
+      "systems" : ["http://loinc.org"]
+    }
+  ]
+}

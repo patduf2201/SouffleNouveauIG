@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="ChulLabPatientExample"/>
+  <meta>
+    <profile value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulLabPatient"/>
+    <profile value="https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient"/>
+    <profile value="http://hl7.eu/fhir/base/StructureDefinition/patient-eu-core"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Patient ChulLabPatientExample</b></p><a name="ChulLabPatientExample"> </a><a name="hcChulLabPatientExample"> </a><a name="ChulLabPatientExample-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profils: <a href="StructureDefinition-ChulLabPatient.html">ChulLabPatient</a>, <a href="https://www.ehealth.fgov.be/standards/fhir/core/2.1.2/StructureDefinition-be-patient.html">BePatient</a>, <a href="https://build.fhir.org/ig/hl7-eu/base/StructureDefinition-patient-eu-core.html">Patient (EU core)</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://terminology.chuliege.be/NamingSystem/numnat#123456A)</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Other Id (see the one above)">Other Id:</td><td colspan="3"><a href="https://www.ehealth.fgov.be/standards/fhir/core/2.1.2/NamingSystem-be-ssin.html" title="NISS/INSZ">BeSSINNamingSystem</a>/11111111111</td></tr><tr><td style="background-color: #f3f5da" title="Moyens de contacter le Patient">Contact Detail</td><td colspan="3"><ul><li>ph: 04497887145</li><li><a href="mailto:pduflot@chuliege.be">pduflot@chuliege.be</a></li></ul></td></tr></table></div>
+  </text>
+  <identifier>
+    <system value="https://terminology.chuliege.be/NamingSystem/numnat"/>
+    <value value="123456A"/>
+  </identifier>
+  <identifier>
+    <system value="https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin"/>
+    <value value="11111111111"/>
+  </identifier>
+  <name>
+    <family value="Duflot"/>
+    <given value="Patrick"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="04497887145"/>
+  </telecom>
+  <telecom>
+    <system value="email"/>
+    <value value="pduflot@chuliege.be"/>
+  </telecom>
+  <gender value="male"/>
+  <birthDate value="1974-01-22"/>
+</Patient>

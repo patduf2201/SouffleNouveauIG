@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="Physician"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Practitioner Physician</b></p><a name="Physician"> </a><a name="hcPhysician"> </a><a name="Physician-und"> </a><p><b>name</b>: Dr. Jean Toubib</p></div>
+  </text>
+  <name>
+    <text value="Dr. Jean Toubib"/>
+  </name>
+</Practitioner>

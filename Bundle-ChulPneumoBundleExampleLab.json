@@ -1,0 +1,179 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "ChulPneumoBundleExampleLab",
+  "meta" : {
+    "profile" : ["http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPneumoBundle"]
+  },
+  "identifier" : {
+    "system" : "https://terminology.chuliege.be/NamingSystem/global",
+    "value" : "SampleBundle01"
+  },
+  "type" : "document",
+  "timestamp" : "2025-03-01T12:00:00+01:00",
+  "entry" : [{
+    "fullUrl" : "http://si-s-serv1041/ig/Composition/ChulPneumoCompositionExampleLab",
+    "resource" : {
+      "resourceType" : "Composition",
+      "id" : "ChulPneumoCompositionExampleLab",
+      "meta" : {
+        "profile" : ["http://hl7.eu/fhir/hdr/StructureDefinition/composition-eu-hdr"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Composition_ChulPneumoCompositionExampleLab\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Composition ChulPneumoCompositionExampleLab</b></p><a name=\"ChulPneumoCompositionExampleLab\"> </a><a name=\"hcChulPneumoCompositionExampleLab\"> </a><a name=\"ChulPneumoCompositionExampleLab-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"https://build.fhir.org/ig/hl7-eu/hdr/StructureDefinition-composition-eu-hdr.html\">Composition (HDR)</a></p></div><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{http://loinc.org 34105-7}\">Hospital Discharge summary</span></p><p><b>date</b>: 2025-03-01</p><p><b>author</b>: <a href=\"Organization-GSI.html\">Organization GSI tests</a></p><p><b>title</b>: Exemple de composition en pneumologie</p></div>"
+      },
+      "status" : "final",
+      "type" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "34105-7",
+          "display" : "Hospital Discharge summary"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/ChulLabPatientExample"
+      },
+      "date" : "2025-03-01",
+      "author" : [{
+        "reference" : "Organization/GSI"
+      }],
+      "title" : "Exemple de composition en pneumologie",
+      "section" : [{
+        "title" : "Exemple de titre en pneumologie",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "8648-8"
+          }]
+        },
+        "text" : {
+          "status" : "additional",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Exemple de rapport en pneumologie</div>"
+        }
+      },
+      {
+        "title" : "Biologies",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "30954-2"
+          }]
+        },
+        "text" : {
+          "status" : "additional",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Biologies</div>"
+        },
+        "entry" : [{
+          "reference" : "Observation/ChulPneumoBioExample"
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://si-s-serv1041/ig/Patient/ChulLabPatientExample",
+    "resource" : {
+      "resourceType" : "Patient",
+      "id" : "ChulLabPatientExample",
+      "meta" : {
+        "profile" : ["http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulLabPatient",
+        "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient",
+        "http://hl7.eu/fhir/base/StructureDefinition/patient-eu-core"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Patient_ChulLabPatientExample\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Patient ChulLabPatientExample</b></p><a name=\"ChulLabPatientExample\"> </a><a name=\"hcChulLabPatientExample\"> </a><a name=\"ChulLabPatientExample-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profils: <a href=\"StructureDefinition-ChulLabPatient.html\">ChulLabPatient</a>, <a href=\"https://www.ehealth.fgov.be/standards/fhir/core/2.1.2/StructureDefinition-be-patient.html\">BePatient</a>, <a href=\"https://build.fhir.org/ig/hl7-eu/base/StructureDefinition-patient-eu-core.html\">Patient (EU core)</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://terminology.chuliege.be/NamingSystem/numnat#123456A)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Other Id (see the one above)\">Other Id:</td><td colspan=\"3\"><a href=\"https://www.ehealth.fgov.be/standards/fhir/core/2.1.2/NamingSystem-be-ssin.html\" title=\"NISS/INSZ\">BeSSINNamingSystem</a>/11111111111</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Moyens de contacter le Patient\">Contact Detail</td><td colspan=\"3\"><ul><li>ph: 04497887145</li><li><a href=\"mailto:pduflot@chuliege.be\">pduflot@chuliege.be</a></li></ul></td></tr></table></div>"
+      },
+      "identifier" : [{
+        "system" : "https://terminology.chuliege.be/NamingSystem/numnat",
+        "value" : "123456A"
+      },
+      {
+        "system" : "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin",
+        "value" : "11111111111"
+      }],
+      "name" : [{
+        "family" : "Duflot",
+        "given" : ["Patrick"]
+      }],
+      "telecom" : [{
+        "system" : "phone",
+        "value" : "04497887145"
+      },
+      {
+        "system" : "email",
+        "value" : "pduflot@chuliege.be"
+      }],
+      "gender" : "male",
+      "birthDate" : "1974-01-22"
+    }
+  },
+  {
+    "fullUrl" : "http://si-s-serv1041/ig/Observation/ChulPneumoBioExample",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "ChulPneumoBioExample",
+      "meta" : {
+        "profile" : ["http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_ChulPneumoBioExample\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation ChulPneumoBioExample</b></p><a name=\"ChulPneumoBioExample\"> </a><a name=\"hcChulPneumoBioExample\"> </a><a name=\"ChulPneumoBioExample-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.eu/fhir/laboratory/0.1.0/StructureDefinition-Observation-resultslab-eu-lab.html\">Observation Results: laboratory</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category laboratory}\">Laboratory</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 38483-4}\">Creatinine [Mass/volume] in Blood</span></p><p><b>subject</b>: <a href=\"Patient-ChulLabPatientExample.html\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://terminology.chuliege.be/NamingSystem/numnat#123456A)</a></p><p><b>effective</b>: 2025-03-01</p><p><b>performer</b>: <a href=\"Organization-ChuLabo.html\">Organization CHU Labo</a></p><p><b>value</b>: 1.8 mg/dL<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg/dL = 'mg/dL')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "laboratory"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "38483-4"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/ChulLabPatientExample"
+      },
+      "effectiveDateTime" : "2025-03-01",
+      "performer" : [{
+        "reference" : "Organization/ChuLabo"
+      }],
+      "valueQuantity" : {
+        "value" : 1.8,
+        "system" : "http://unitsofmeasure.org",
+        "code" : "mg/dL"
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://si-s-serv1041/ig/Organization/GSI",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "GSI",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_GSI\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Organization GSI</b></p><a name=\"GSI\"> </a><a name=\"hcGSI\"> </a><a name=\"GSI-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"https://build.fhir.org/ig/HL7/fhir-ips/StructureDefinition-Organization-uv-ips.html\">Organization (IPS)</a></p></div><p><b>name</b>: GSI tests</p></div>"
+      },
+      "name" : "GSI tests"
+    }
+  },
+  {
+    "fullUrl" : "http://si-s-serv1041/ig/Organization/ChuLabo",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "ChuLabo",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_ChuLabo\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Organization ChuLabo</b></p><a name=\"ChuLabo\"> </a><a name=\"hcChuLabo\"> </a><a name=\"ChuLabo-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"https://build.fhir.org/ig/HL7/fhir-ips/StructureDefinition-Organization-uv-ips.html\">Organization (IPS)</a></p></div><p><b>name</b>: CHU Labo</p></div>"
+      },
+      "name" : "CHU Labo"
+    }
+  }]
+}

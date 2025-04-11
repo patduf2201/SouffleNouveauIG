@@ -1,0 +1,126 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Composition/ChulPneumoCompositionExample> a fhir:Composition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ChulPneumoCompositionExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.eu/fhir/hdr/StructureDefinition/composition-eu-hdr"^^xsd:anyURI ;
+       fhir:link <http://hl7.eu/fhir/hdr/StructureDefinition/composition-eu-hdr>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Composition ChulPneumoCompositionExample</b></p><a name=\"ChulPneumoCompositionExample\"> </a><a name=\"hcChulPneumoCompositionExample\"> </a><a name=\"ChulPneumoCompositionExample-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"https://build.fhir.org/ig/hl7-eu/hdr/StructureDefinition-composition-eu-hdr.html\">Composition (HDR)</a></p></div><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{http://loinc.org 34105-7}\">Hospital Discharge summary</span></p><p><b>date</b>: 2025-03-01</p><p><b>author</b>: <a href=\"Organization-GSI.html\">Organization GSI tests</a></p><p><b>title</b>: Exemple de composition en pneumologie</p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       a loinc:34105-7 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "34105-7" ] ;
+       fhir:display [ fhir:v "Hospital Discharge summary" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Patient/ChulPatientExample> ;
+     fhir:reference [ fhir:v "Patient/ChulPatientExample" ]
+  ] ; # 
+  fhir:date [ fhir:v "2025-03-01"^^xsd:date] ; # 
+  fhir:author ( [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Organization/GSI> ;
+     fhir:reference [ fhir:v "Organization/GSI" ]
+  ] ) ; # 
+  fhir:title [ fhir:v "Exemple de composition en pneumologie"] ; # 
+  fhir:section ( [
+     fhir:title [ fhir:v "Paramètres de référence" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:8716-3 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "8716-3" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Paramètres vitaux</div>"^^rdf:XMLLiteral
+     ] ;
+     fhir:entry ( [
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/ChulPneumoVitalSignExample> ;
+       fhir:reference [ fhir:v "Observation/ChulPneumoVitalSignExample" ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "Exemple de titre en pneumologie" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:8648-8 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "8648-8" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Exemple de rapport en pneumologie</div>"^^rdf:XMLLiteral
+     ]
+  ] [
+     fhir:title [ fhir:v "Diagnostic primaire" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:11535-2 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "11535-2" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Diagnostic</div>"^^rdf:XMLLiteral
+     ] ;
+     fhir:entry ( [
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Condition/ChulPneumoConditionExample> ;
+       fhir:reference [ fhir:v "Condition/ChulPneumoConditionExample" ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "Historique des épreuves fonctionnelles respiratoires" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:10185-7 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "10185-7" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "empty" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">EFR</div>"^^rdf:XMLLiteral
+     ] ;
+     fhir:entry ( [
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Procedure/ChulEfrExample> ;
+       fhir:reference [ fhir:v "Procedure/ChulEfrExample" ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "Tabagisme" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:11367-0 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "11367-0" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Tabagisme</div>"^^rdf:XMLLiteral
+     ] ;
+     fhir:entry ( [
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/ChulTobaccoObservationExample> ;
+       fhir:reference [ fhir:v "Observation/ChulTobaccoObservationExample" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

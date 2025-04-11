@@ -1,0 +1,121 @@
+[
+  {
+    "id" : "be.chuliege.versunsoufflenouveau",
+    "type" : "ImplementationGuide",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ImplementationGuide/be.chuliege.versunsoufflenouveau",
+    "version" : "0.1.0",
+    "name" : "SouffleNouveauIG"
+  },
+  {
+    "id" : "ChulEfr",
+    "type" : "StructureDefinition",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulEfr",
+    "version" : "0.1.0",
+    "name" : "ChulEfr"
+  },
+  {
+    "id" : "ChulEfrObservation",
+    "type" : "StructureDefinition",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulEfrObservation",
+    "version" : "0.1.0",
+    "name" : "ChulEfrObservation"
+  },
+  {
+    "id" : "ChulLabPatient",
+    "type" : "StructureDefinition",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulLabPatient",
+    "version" : "0.1.0",
+    "name" : "ChulLabPatient"
+  },
+  {
+    "id" : "ChulPatient",
+    "type" : "StructureDefinition",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPatient",
+    "version" : "0.1.0",
+    "name" : "ChulPatient"
+  },
+  {
+    "id" : "ChulPneumoBio",
+    "type" : "StructureDefinition",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPneumoBio",
+    "version" : "0.1.0",
+    "name" : "ChulPneumoBio"
+  },
+  {
+    "id" : "ChulPneumoBundle",
+    "type" : "StructureDefinition",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPneumoBundle",
+    "version" : "0.1.0",
+    "name" : "ChulPneumoBundle"
+  },
+  {
+    "id" : "ChulPneumoComposition",
+    "type" : "StructureDefinition",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPneumoComposition",
+    "version" : "0.1.0",
+    "name" : "ChulPneumoComposition"
+  },
+  {
+    "id" : "ChulPneumoCondition",
+    "type" : "StructureDefinition",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPneumoCondition",
+    "version" : "0.1.0",
+    "name" : "ChulPneumoCondition"
+  },
+  {
+    "id" : "ChulPneumoVitalSign",
+    "type" : "StructureDefinition",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPneumoVitalSign",
+    "version" : "0.1.0",
+    "name" : "ChulPneumoVitalSign"
+  },
+  {
+    "id" : "ChulTobaccoObservation",
+    "type" : "StructureDefinition",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulTobaccoObservation",
+    "version" : "0.1.0",
+    "name" : "ChulTobaccoObservation"
+  },
+  {
+    "id" : "i2x-efr",
+    "type" : "ValueSet",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-efr",
+    "version" : "0.1.0",
+    "name" : "EFR_VS"
+  },
+  {
+    "id" : "i2x-pneumo-bio",
+    "type" : "ValueSet",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-bio",
+    "version" : "0.1.0",
+    "name" : "PNEUMO_BIO_VS"
+  },
+  {
+    "id" : "i2x-pneumo-diagnostic",
+    "type" : "ValueSet",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-diagnostic",
+    "version" : "0.1.0",
+    "name" : "PNEUMO_DIAGNOSTIC_VS"
+  },
+  {
+    "id" : "i2x-pneumo-vitaux",
+    "type" : "ValueSet",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-vitaux",
+    "version" : "0.1.0",
+    "name" : "PNEUMO_VITAAUX_VS"
+  },
+  {
+    "id" : "i2x-tabac",
+    "type" : "ValueSet",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac",
+    "version" : "0.1.0",
+    "name" : "TABAC_VS"
+  },
+  {
+    "id" : "i2x-tabac-status",
+    "type" : "ValueSet",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac-status",
+    "version" : "0.1.0",
+    "name" : "TABAC_STATUS_VS"
+  }
+]

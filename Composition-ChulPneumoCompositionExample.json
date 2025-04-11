@@ -1,0 +1,104 @@
+{
+  "resourceType" : "Composition",
+  "id" : "ChulPneumoCompositionExample",
+  "meta" : {
+    "profile" : ["http://hl7.eu/fhir/hdr/StructureDefinition/composition-eu-hdr"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Composition ChulPneumoCompositionExample</b></p><a name=\"ChulPneumoCompositionExample\"> </a><a name=\"hcChulPneumoCompositionExample\"> </a><a name=\"ChulPneumoCompositionExample-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"https://build.fhir.org/ig/hl7-eu/hdr/StructureDefinition-composition-eu-hdr.html\">Composition (HDR)</a></p></div><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{http://loinc.org 34105-7}\">Hospital Discharge summary</span></p><p><b>date</b>: 2025-03-01</p><p><b>author</b>: <a href=\"Organization-GSI.html\">Organization GSI tests</a></p><p><b>title</b>: Exemple de composition en pneumologie</p></div>"
+  },
+  "status" : "final",
+  "type" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "34105-7",
+      "display" : "Hospital Discharge summary"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/ChulPatientExample"
+  },
+  "date" : "2025-03-01",
+  "author" : [{
+    "reference" : "Organization/GSI"
+  }],
+  "title" : "Exemple de composition en pneumologie",
+  "section" : [{
+    "title" : "Paramètres de référence",
+    "code" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "8716-3"
+      }]
+    },
+    "text" : {
+      "status" : "additional",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Paramètres vitaux</div>"
+    },
+    "entry" : [{
+      "reference" : "Observation/ChulPneumoVitalSignExample"
+    }]
+  },
+  {
+    "title" : "Exemple de titre en pneumologie",
+    "code" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "8648-8"
+      }]
+    },
+    "text" : {
+      "status" : "additional",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Exemple de rapport en pneumologie</div>"
+    }
+  },
+  {
+    "title" : "Diagnostic primaire",
+    "code" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "11535-2"
+      }]
+    },
+    "text" : {
+      "status" : "additional",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Diagnostic</div>"
+    },
+    "entry" : [{
+      "reference" : "Condition/ChulPneumoConditionExample"
+    }]
+  },
+  {
+    "title" : "Historique des épreuves fonctionnelles respiratoires",
+    "code" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "10185-7"
+      }]
+    },
+    "text" : {
+      "status" : "empty",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">EFR</div>"
+    },
+    "entry" : [{
+      "reference" : "Procedure/ChulEfrExample"
+    }]
+  },
+  {
+    "title" : "Tabagisme",
+    "code" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "11367-0"
+      }]
+    },
+    "text" : {
+      "status" : "additional",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Tabagisme</div>"
+    },
+    "entry" : [{
+      "reference" : "Observation/ChulTobaccoObservationExample"
+    }]
+  }]
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="i2x-pneumo-diagnostic"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet i2x-pneumo-diagnostic</b></p><a name="i2x-pneumo-diagnostic"> </a><a name="hci2x-pneumo-diagnostic"> </a><a name="i2x-pneumo-diagnostic-und"> </a><ul><li>Include ces codes sont définis dans <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/195967001">195967001</a></td><td>asthme</td></tr><tr><td><a href="http://snomed.info/id/63480004">63480004</a></td><td>bronchite chronique</td></tr><tr><td><a href="http://snomed.info/id/102361000119104">102361000119104</a></td><td>pneumonie chronique</td></tr><tr><td><a href="http://snomed.info/id/2561000112106">2561000112106</a></td><td>toux chronique réfractaire</td></tr><tr><td><a href="http://snomed.info/id/13645005">13645005</a></td><td>bronchopneumopathie chronique obstructive</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-diagnostic"/>
+  <version value="0.1.0"/>
+  <name value="PNEUMO_DIAGNOSTIC_VS"/>
+  <title value="Diagnostic principal maladie respiratoire"/>
+  <status value="draft"/>
+  <date value="2025-04-09T15:00:50+02:00"/>
+  <publisher value="CHU Liège"/>
+  <contact>
+    <name value="CHU Liège"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.chuliege.be"/>
+    </telecom>
+  </contact>
+  <description value="Diagnostic principal maladie respiratoire"/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="195967001"/>
+        <display value="asthme"/>
+      </concept>
+      <concept>
+        <code value="63480004"/>
+        <display value="bronchite chronique"/>
+      </concept>
+      <concept>
+        <code value="102361000119104"/>
+        <display value="pneumonie chronique"/>
+      </concept>
+      <concept>
+        <code value="2561000112106"/>
+        <display value="toux chronique réfractaire"/>
+      </concept>
+      <concept>
+        <code value="13645005"/>
+        <display value="bronchopneumopathie chronique obstructive"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

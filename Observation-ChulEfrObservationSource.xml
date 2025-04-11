@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="ChulEfrObservationSource"/>
+  <language value="fr-BE"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-BE" lang="fr-BE"><p class="res-header-id"><b>Generated Narrative: Observation ChulEfrObservationSource</b></p><a name="ChulEfrObservationSource"> </a><a name="hcChulEfrObservationSource"> </a><a name="ChulEfrObservationSource-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: fr-BE</p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://terminology.chuliege.be/OmniPro 30040:VTIFF}">Tiffeneau</span></p><p><b>subject</b>: <a href="Patient-ChulPatientExample.html">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://terminology.chuliege.be/NamingSystem/numnat#123456A)</a></p><p><b>effective</b>: 2025-03-01</p><p><b>performer</b>: <a href="Practitioner-Physician.html">Practitioner Dr. Jean Toubib</a></p><p><b>value</b>: 80</p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://terminology.chuliege.be/OmniPro"/>
+      <code value="30040:VTIFF"/>
+      <display value="Tiffeneau"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/ChulPatientExample"/>
+  </subject>
+  <effectiveDateTime value="2025-03-01"/>
+  <performer>
+    <reference value="Practitioner/Physician"/>
+  </performer>
+  <valueQuantity>
+    <value value="80"/>
+  </valueQuantity>
+</Observation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Encounter xmlns="http://hl7.org/fhir">
+  <id value="EuEncounterExample"/>
+  <meta>
+    <profile value="http://hl7.eu/fhir/hdr/StructureDefinition/encounter-eu-hdr"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Encounter EuEncounterExample</b></p><a name="EuEncounterExample"> </a><a name="hcEuEncounterExample"> </a><a name="EuEncounterExample-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="https://build.fhir.org/ig/hl7-eu/hdr/StructureDefinition-encounter-eu-hdr.html">Encounter (HDR)</a></p></div><p><b>status</b>: Finished</p><p><b>class</b>: <a href="http://terminology.hl7.org/6.0.2/CodeSystem-v3-ActCode.html#v3-ActCode-SS">ActCode SS</a>: short stay</p><p><b>subject</b>: <a href="Patient-ChulPatientExample.html">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://terminology.chuliege.be/NamingSystem/numnat#123456A)</a></p></div>
+  </text>
+  <status value="finished"/>
+  <class>
+    <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+    <code value="SS"/>
+  </class>
+  <subject>
+    <reference value="Patient/ChulPatientExample"/>
+  </subject>
+</Encounter>

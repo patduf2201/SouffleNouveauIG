@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="d7c1757f-558a-4da2-9d4d-82397f8d460a"/>
+  <meta>
+    <lastUpdated value="2025-04-09T15:01:50.350+02:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-efr"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>ValueSet </b>
+            </p>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion from tx.fhir.org based on:</p>
+              <ul>
+                <li>Loinc v2.80</li>
+                <li>SNOMED CT 900000000000207008 edition 01-févr. 2025</li>
+              </ul>
+            </div>
+            <p>Ce jeu de valeur (ValueSet) contient 3 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td>
+                  <b>Display (und)</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://loinc.org-81450-9"> </a>  
+                  <a href="https://loinc.org/81450-9/">81450-9</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Total lung capacity --pre bronchodilation</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-407602006"> </a>  
+                  <a href="http://snomed.info/id/407602006">407602006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Volume expiratoire maximal par seconde</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-313222007"> </a>  
+                  <a href="http://snomed.info/id/313222007">313222007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>FEV1/FVC percent</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-efr"/>
+        <version value="0.1.0"/>
+        <name value="EFR_VS"/>
+        <title value="Observations d'une épreuve fonctionnelle respiratoire"/>
+        <status value="draft"/>
+        <date value="2025-04-09T15:00:50+02:00"/>
+        <expansion>
+          <identifier value="urn:uuid:7ee38510-df8f-4749-9efe-f95eced963d3"/>
+          <timestamp value="2025-04-09T15:02:52+02:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="und"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://loinc.org|2.80"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://loinc.org|2.80"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="81450-9"/>
+            <display value="Total lung capacity --pre bronchodilation"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="407602006"/>
+            <display value="Volume expiratoire maximal par seconde"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="313222007"/>
+            <display value="FEV1/FVC percent"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-bio"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on Loinc v2.80</p>
+            <p>Ce jeu de valeur (ValueSet) contient 6 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td>
+                  <b>Display (und)</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://loinc.org-718-7"> </a>  
+                  <a href="https://loinc.org/718-7/">718-7</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Hemoglobin [Mass/volume] in Blood</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://loinc.org-1988-5"> </a>  
+                  <a href="https://loinc.org/1988-5/">1988-5</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>C reactive protein [Mass/volume] in Serum or Plasma</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://loinc.org-26449-9"> </a>  
+                  <a href="https://loinc.org/26449-9/">26449-9</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Eosinophils [#/volume] in Blood</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://loinc.org-38483-4"> </a>  
+                  <a href="https://loinc.org/38483-4/">38483-4</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Creatinine [Mass/volume] in Blood</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://loinc.org-70969-1"> </a>  
+                  <a href="https://loinc.org/70969-1/">70969-1</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Glomerular filtration rate [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)/1.73 sq M among male population</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://loinc.org-50044-7"> </a>  
+                  <a href="https://loinc.org/50044-7/">50044-7</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Glomerular filtration rate [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)/1.73 sq M among female population</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-bio"/>
+        <version value="0.1.0"/>
+        <name value="PNEUMO_BIO_VS"/>
+        <title value="Jeu de biologies d'intérêt pour la télésurveillance des maladies respiratoires"/>
+        <status value="draft"/>
+        <date value="2025-04-09T15:00:50+02:00"/>
+        <expansion>
+          <identifier value="urn:uuid:9b071611-42d4-451b-9834-bc8ddc759554"/>
+          <timestamp value="2025-04-09T15:02:53+02:00"/>
+          <total value="6"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="und"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://loinc.org|2.80"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://loinc.org|2.80"/>
+          </parameter>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="718-7"/>
+            <display value="Hemoglobin [Mass/volume] in Blood"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="1988-5"/>
+            <display value="C reactive protein [Mass/volume] in Serum or Plasma"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="26449-9"/>
+            <display value="Eosinophils [#/volume] in Blood"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="38483-4"/>
+            <display value="Creatinine [Mass/volume] in Blood"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="70969-1"/>
+            <display value="Glomerular filtration rate [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)/1.73 sq M among male population"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="50044-7"/>
+            <display value="Glomerular filtration rate [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)/1.73 sq M among female population"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-diagnostic"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on SNOMED CT 900000000000207008 edition 01-févr. 2025</p>
+            <p>Ce jeu de valeur (ValueSet) contient 5 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td>
+                  <b>Display (und)</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-195967001"> </a>  
+                  <a href="http://snomed.info/id/195967001">195967001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Airway hyperreactivity</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-63480004"> </a>  
+                  <a href="http://snomed.info/id/63480004">63480004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Chronic bronchitis</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-102361000119104"> </a>  
+                  <a href="http://snomed.info/id/102361000119104">102361000119104</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Chronic pneumonia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-2561000112106"> </a>  
+                  <a href="http://snomed.info/id/2561000112106">2561000112106</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Chronic refractory cough</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-13645005"> </a>  
+                  <a href="http://snomed.info/id/13645005">13645005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Chronic obstructive lung disease</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-diagnostic"/>
+        <version value="0.1.0"/>
+        <name value="PNEUMO_DIAGNOSTIC_VS"/>
+        <title value="Diagnostic principal maladie respiratoire"/>
+        <status value="draft"/>
+        <date value="2025-04-09T15:00:50+02:00"/>
+        <expansion>
+          <identifier value="urn:uuid:9676c1f8-0946-4110-92ee-6a873e64be72"/>
+          <timestamp value="2025-04-09T15:02:53+02:00"/>
+          <total value="5"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="und"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="195967001"/>
+            <display value="Airway hyperreactivity"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="63480004"/>
+            <display value="Chronic bronchitis"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="102361000119104"/>
+            <display value="Chronic pneumonia"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="2561000112106"/>
+            <display value="Chronic refractory cough"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="13645005"/>
+            <display value="Chronic obstructive lung disease"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-vitaux"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on Loinc v2.80</p>
+            <p>Ce jeu de valeur (ValueSet) contient 2 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td>
+                  <b>Display (und)</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://loinc.org-29463-7"> </a>  
+                  <a href="https://loinc.org/29463-7/">29463-7</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Body weight</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://loinc.org-8302-2"> </a>  
+                  <a href="https://loinc.org/8302-2/">8302-2</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Body height</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-vitaux"/>
+        <version value="0.1.0"/>
+        <name value="PNEUMO_VITAAUX_VS"/>
+        <title value="Signes vitaux pneumologie"/>
+        <status value="draft"/>
+        <date value="2025-04-09T15:00:50+02:00"/>
+        <expansion>
+          <identifier value="urn:uuid:9ea89d62-d5d4-4574-908e-a6db0a1f98b6"/>
+          <timestamp value="2025-04-09T15:02:53+02:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="und"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://loinc.org|2.80"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://loinc.org|2.80"/>
+          </parameter>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="29463-7"/>
+            <display value="Body weight"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="8302-2"/>
+            <display value="Body height"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac-status"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on Loinc v2.80</p>
+            <p>Ce jeu de valeur (ValueSet) contient 4 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td>
+                  <b>Display (und)</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://loinc.org-LA18976-3"> </a>  
+                  <a href="https://loinc.org/LA18976-3/">LA18976-3</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Current every day smoker</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://loinc.org-LA15920-4"> </a>  
+                  <a href="https://loinc.org/LA15920-4/">LA15920-4</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Former smoker</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://loinc.org-LA18978-9"> </a>  
+                  <a href="https://loinc.org/LA18978-9/">LA18978-9</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Never smoker</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://loinc.org-LA18979-7"> </a>  
+                  <a href="https://loinc.org/LA18979-7/">LA18979-7</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Smoker, current status unknown</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac-status"/>
+        <version value="0.1.0"/>
+        <name value="TABAC_STATUS_VS"/>
+        <title value="Jeu de concept pour le statut de tabagisme"/>
+        <status value="draft"/>
+        <date value="2025-04-09T15:00:50+02:00"/>
+        <expansion>
+          <identifier value="urn:uuid:e3ab66ca-32b5-4415-b0f7-624cedc90786"/>
+          <timestamp value="2025-04-09T15:02:53+02:00"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="und"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://loinc.org|2.80"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://loinc.org|2.80"/>
+          </parameter>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="LA18976-3"/>
+            <display value="Current every day smoker"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="LA15920-4"/>
+            <display value="Former smoker"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="LA18978-9"/>
+            <display value="Never smoker"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="LA18979-7"/>
+            <display value="Smoker, current status unknown"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on Loinc v2.80</p>
+            <p>Ce jeu de valeur (ValueSet) contient 3 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td>
+                  <b>Display (und)</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://loinc.org-72166-2"> </a>  
+                  <a href="https://loinc.org/72166-2/">72166-2</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Tobacco smoking status</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://loinc.org-74011-8"> </a>  
+                  <a href="https://loinc.org/74011-8/">74011-8</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Lifetime tobacco use</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://loinc.org-88029-4"> </a>  
+                  <a href="https://loinc.org/88029-4/">88029-4</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Tobacco use duration</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac"/>
+        <version value="0.1.0"/>
+        <name value="TABAC_VS"/>
+        <title value="Jeu de concept de tabacologie"/>
+        <status value="draft"/>
+        <date value="2025-04-09T15:00:50+02:00"/>
+        <expansion>
+          <identifier value="urn:uuid:bfe34b83-3c3b-46de-87f2-609d5f2715de"/>
+          <timestamp value="2025-04-09T15:02:53+02:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="und"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en-US"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://loinc.org|2.80"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://loinc.org|2.80"/>
+          </parameter>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="72166-2"/>
+            <display value="Tobacco smoking status"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="74011-8"/>
+            <display value="Lifetime tobacco use"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="88029-4"/>
+            <display value="Tobacco use duration"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>
