@@ -10,7 +10,7 @@
   <version value="0.1.0"/>
   <name value="SouffleNouveauIG"/>
   <status value="draft"/>
-  <date value="2025-04-09T15:00:50+02:00"/>
+  <date value="2025-04-14T13:33:24+02:00"/>
   <publisher value="CHU Liège"/>
   <contact>
     <name value="CHU Liège"/>
@@ -469,93 +469,6 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Organization"/>
-      </extension>
-      <reference>
-        <reference value="Organization/ChuLabo"/>
-      </reference>
-      <name value="ChuLabo"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/ChulEfr"/>
-      </reference>
-      <name value="ChulEfr"/>
-      <description value="EFR observation"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Procedure"/>
-      </extension>
-      <reference>
-        <reference value="Procedure/ChulEfrExample"/>
-      </reference>
-      <name value="ChulEfrExample"/>
-      <description value="Exemple d'épreuve fonctionnelle respiratoire"/>
-      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulEfr"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/ChulEfrObservation"/>
-      </reference>
-      <name value="ChulEfrObservation"/>
-      <description value="EFR observation"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/ChulEfrObservationExample"/>
-      </reference>
-      <name value="ChulEfrObservationExample"/>
-      <description value="Example d'observation lors d'une épreuve fonctionnelle respiratoire"/>
-      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulEfrObservation"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/ChulEfrObservationSource"/>
-      </reference>
-      <name value="ChulEfrObservationSource"/>
-      <description value="Observation originale dans OmniPro"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/ChulLabPatient"/>
-      </reference>
-      <name value="ChulLabPatient"/>
-      <description value="Profil pour un Patient CHU Liège"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Patient"/>
-      </extension>
-      <reference>
-        <reference value="Patient/ChulLabPatientExample"/>
-      </reference>
-      <name value="ChulLabPatientExample"/>
-      <description value="Example de patient CHU Liège"/>
-      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulLabPatient"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
@@ -564,149 +477,6 @@
       <name value="ChulPatient"/>
       <description value="Profil pour un Patient CHU Liège"/>
       <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Patient"/>
-      </extension>
-      <reference>
-        <reference value="Patient/ChulPatientExample"/>
-      </reference>
-      <name value="ChulPatientExample"/>
-      <description value="Example de patient CHU Liège"/>
-      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPatient"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/ChulPneumoBio"/>
-      </reference>
-      <name value="ChulPneumoBio"/>
-      <description value="Profil pour les biologies d'intérêt pneumologique"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/ChulPneumoBioExample"/>
-      </reference>
-      <name value="ChulPneumoBioExample"/>
-      <description value="Example de biologie d'intérêt pneumologique"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/ChulPneumoBundle"/>
-      </reference>
-      <name value="ChulPneumoBundle"/>
-      <description value="Profil pour un Bundle Discharge Report en pneumologie"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Bundle"/>
-      </extension>
-      <reference>
-        <reference value="Bundle/ChulPneumoBundleExample"/>
-      </reference>
-      <name value="ChulPneumoBundleExample"/>
-      <description value="Example de composition en pneumologie"/>
-      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPneumoBundle"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Bundle"/>
-      </extension>
-      <reference>
-        <reference value="Bundle/ChulPneumoBundleExampleLab"/>
-      </reference>
-      <name value="ChulPneumoBundleExampleLab"/>
-      <description value="Example de composition en pneumologie"/>
-      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPneumoBundle"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/ChulPneumoComposition"/>
-      </reference>
-      <name value="ChulPneumoComposition"/>
-      <description value="Profil pour une Composition Discharge Report en pneumologie"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/ChulPneumoCondition"/>
-      </reference>
-      <name value="ChulPneumoCondition"/>
-      <description value="Diagnostic pneumologie"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Condition"/>
-      </extension>
-      <reference>
-        <reference value="Condition/ChulPneumoConditionExample"/>
-      </reference>
-      <name value="ChulPneumoConditionExample"/>
-      <description value="Example de diagnostic pneumologique"/>
-      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPneumoCondition"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/ChulPneumoVitalSign"/>
-      </reference>
-      <name value="ChulPneumoVitalSign"/>
-      <description value="Profil pour une observation de signe vital en pneumologie"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/ChulPneumoVitalSignExample"/>
-      </reference>
-      <name value="ChulPneumoVitalSignExample"/>
-      <description value="Example de signe vital en pneumologie"/>
-      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPneumoVitalSign"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/ChulTobaccoObservation"/>
-      </reference>
-      <name value="ChulTobaccoObservation"/>
-      <description value="Profil pour une observation en tabacologie"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/ChulTobaccoObservationExample"/>
-      </reference>
-      <name value="ChulTobaccoObservationExample"/>
-      <description value="Example d'observation en tabacologie"/>
-      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulTobaccoObservation"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -745,7 +515,7 @@
         <valueString value="Composition"/>
       </extension>
       <reference>
-        <reference value="Composition/ChulPneumoCompositionExample"/>
+        <reference value="Composition/VunsPneumoCompositionExample"/>
       </reference>
       <name value="Exemple de composition en pneumologie"/>
       <description value="Example de composition en pneumologie"/>
@@ -756,7 +526,7 @@
         <valueString value="Composition"/>
       </extension>
       <reference>
-        <reference value="Composition/ChulPneumoCompositionExampleLab"/>
+        <reference value="Composition/VunsPneumoCompositionExampleLab"/>
       </reference>
       <name value="Exemple de composition en pneumologie"/>
       <description value="Example de composition en pneumologie"/>
@@ -835,6 +605,247 @@
       <name value="Signes vitaux pneumologie"/>
       <description value="Signes vitaux pneumologie"/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/Vunsabo"/>
+      </reference>
+      <name value="Vunsabo"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/VunsEfr"/>
+      </reference>
+      <name value="VunsEfr"/>
+      <description value="EFR observation"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Procedure"/>
+      </extension>
+      <reference>
+        <reference value="Procedure/VunsEfrExample"/>
+      </reference>
+      <name value="VunsEfrExample"/>
+      <description value="Exemple d'épreuve fonctionnelle respiratoire"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfr"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/VunsEfrObservation"/>
+      </reference>
+      <name value="VunsEfrObservation"/>
+      <description value="EFR observation"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/VunsEfrObservationExample"/>
+      </reference>
+      <name value="VunsEfrObservationExample"/>
+      <description value="Example d'observation lors d'une épreuve fonctionnelle respiratoire"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/VunsEfrObservationSource"/>
+      </reference>
+      <name value="VunsEfrObservationSource"/>
+      <description value="Observation originale dans OmniPro"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/VunsLabPatient"/>
+      </reference>
+      <name value="VunsLabPatient"/>
+      <description value="Profil pour un Patient enrôlé dans le cadre du projet Vers Un Souffle Nouveau"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/VunsLabPatientExample"/>
+      </reference>
+      <name value="VunsLabPatientExample"/>
+      <description value="Example de patient CHU Liège"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsLabPatient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/VunsPatient"/>
+      </reference>
+      <name value="VunsPatient"/>
+      <description value="Profil pour un Patient enrôlé dans le cadre du projet Vers Un Souffle Nouveau"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/VunsPatientExample"/>
+      </reference>
+      <name value="VunsPatientExample"/>
+      <description value="Example de patient CHU Liège"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPatient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/VunsPneumoBio"/>
+      </reference>
+      <name value="VunsPneumoBio"/>
+      <description value="Profil pour les biologies d'intérêt pneumologique"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/VunsPneumoBioExample"/>
+      </reference>
+      <name value="VunsPneumoBioExample"/>
+      <description value="Example de biologie d'intérêt pneumologique"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/VunsPneumoBundle"/>
+      </reference>
+      <name value="VunsPneumoBundle"/>
+      <description value="Profil pour un Bundle Discharge Report en pneumologie"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/VunsPneumoBundleExample"/>
+      </reference>
+      <name value="VunsPneumoBundleExample"/>
+      <description value="Example de composition en pneumologie"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBundle"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/VunsPneumoBundleExampleLab"/>
+      </reference>
+      <name value="VunsPneumoBundleExampleLab"/>
+      <description value="Example de composition en pneumologie"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBundle"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/VunsPneumoComposition"/>
+      </reference>
+      <name value="VunsPneumoComposition"/>
+      <description value="Profil pour une Composition Discharge Report en pneumologie"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/VunsPneumoCondition"/>
+      </reference>
+      <name value="VunsPneumoCondition"/>
+      <description value="Diagnostic pneumologie"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/VunsPneumoConditionExample"/>
+      </reference>
+      <name value="VunsPneumoConditionExample"/>
+      <description value="Example de diagnostic pneumologique"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/VunsPneumoVitalSign"/>
+      </reference>
+      <name value="VunsPneumoVitalSign"/>
+      <description value="Profil pour une observation de signe vital en pneumologie"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/VunsPneumoVitalSignExample"/>
+      </reference>
+      <name value="VunsPneumoVitalSignExample"/>
+      <description value="Example de signe vital en pneumologie"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoVitalSign"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/VunsTobaccoObservation"/>
+      </reference>
+      <name value="VunsTobaccoObservation"/>
+      <description value="Profil pour une observation en tabacologie"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/VunsTobaccoObservationExample"/>
+      </reference>
+      <name value="VunsTobaccoObservationExample"/>
+      <description value="Example d'observation en tabacologie"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsTobaccoObservation"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">

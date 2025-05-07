@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "EFR_VS"] ; # 
   fhir:title [ fhir:v "Observations d'une épreuve fonctionnelle respiratoire"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-04-09T15:00:50+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-04-14"^^xsd:date] ; # 
   fhir:publisher [ fhir:v "CHU Liège"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "CHU Liège" ] ;
@@ -28,6 +28,7 @@
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Observations d'une épreuve fonctionnelle respiratoire"] ; # 
+  fhir:copyright [ fhir:v "Vers Un Souffle Nouveau FHIR IG (C) 2025-2025 University Hospital of Liege, GSI Department, Belgium. This implementation guide is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>."] ; # 
   fhir:compose [
      fhir:include ( [
        fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;

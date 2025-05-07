@@ -10,7 +10,7 @@
   "version" : "0.1.0",
   "name" : "SouffleNouveauIG",
   "status" : "draft",
-  "date" : "2025-04-09T15:00:50+02:00",
+  "date" : "2025-04-14T13:33:24+02:00",
   "publisher" : "CHU Liège",
   "contact" : [{
     "name" : "CHU Liège",
@@ -630,101 +630,6 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Organization"
-      }],
-      "reference" : {
-        "reference" : "Organization/ChuLabo"
-      },
-      "name" : "ChuLabo",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/ChulEfr"
-      },
-      "name" : "ChulEfr",
-      "description" : "EFR observation",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Procedure"
-      }],
-      "reference" : {
-        "reference" : "Procedure/ChulEfrExample"
-      },
-      "name" : "ChulEfrExample",
-      "description" : "Exemple d'épreuve fonctionnelle respiratoire",
-      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulEfr"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/ChulEfrObservation"
-      },
-      "name" : "ChulEfrObservation",
-      "description" : "EFR observation",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/ChulEfrObservationExample"
-      },
-      "name" : "ChulEfrObservationExample",
-      "description" : "Example d'observation lors d'une épreuve fonctionnelle respiratoire",
-      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulEfrObservation"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/ChulEfrObservationSource"
-      },
-      "name" : "ChulEfrObservationSource",
-      "description" : "Observation originale dans OmniPro",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/ChulLabPatient"
-      },
-      "name" : "ChulLabPatient",
-      "description" : "Profil pour un Patient CHU Liège",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Patient"
-      }],
-      "reference" : {
-        "reference" : "Patient/ChulLabPatientExample"
-      },
-      "name" : "ChulLabPatientExample",
-      "description" : "Example de patient CHU Liège",
-      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulLabPatient"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
@@ -733,162 +638,6 @@
       "name" : "ChulPatient",
       "description" : "Profil pour un Patient CHU Liège",
       "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Patient"
-      }],
-      "reference" : {
-        "reference" : "Patient/ChulPatientExample"
-      },
-      "name" : "ChulPatientExample",
-      "description" : "Example de patient CHU Liège",
-      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPatient"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/ChulPneumoBio"
-      },
-      "name" : "ChulPneumoBio",
-      "description" : "Profil pour les biologies d'intérêt pneumologique",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/ChulPneumoBioExample"
-      },
-      "name" : "ChulPneumoBioExample",
-      "description" : "Example de biologie d'intérêt pneumologique",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/ChulPneumoBundle"
-      },
-      "name" : "ChulPneumoBundle",
-      "description" : "Profil pour un Bundle Discharge Report en pneumologie",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Bundle"
-      }],
-      "reference" : {
-        "reference" : "Bundle/ChulPneumoBundleExample"
-      },
-      "name" : "ChulPneumoBundleExample",
-      "description" : "Example de composition en pneumologie",
-      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPneumoBundle"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Bundle"
-      }],
-      "reference" : {
-        "reference" : "Bundle/ChulPneumoBundleExampleLab"
-      },
-      "name" : "ChulPneumoBundleExampleLab",
-      "description" : "Example de composition en pneumologie",
-      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPneumoBundle"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/ChulPneumoComposition"
-      },
-      "name" : "ChulPneumoComposition",
-      "description" : "Profil pour une Composition Discharge Report en pneumologie",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/ChulPneumoCondition"
-      },
-      "name" : "ChulPneumoCondition",
-      "description" : "Diagnostic pneumologie",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Condition"
-      }],
-      "reference" : {
-        "reference" : "Condition/ChulPneumoConditionExample"
-      },
-      "name" : "ChulPneumoConditionExample",
-      "description" : "Example de diagnostic pneumologique",
-      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPneumoCondition"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/ChulPneumoVitalSign"
-      },
-      "name" : "ChulPneumoVitalSign",
-      "description" : "Profil pour une observation de signe vital en pneumologie",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/ChulPneumoVitalSignExample"
-      },
-      "name" : "ChulPneumoVitalSignExample",
-      "description" : "Example de signe vital en pneumologie",
-      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPneumoVitalSign"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/ChulTobaccoObservation"
-      },
-      "name" : "ChulTobaccoObservation",
-      "description" : "Profil pour une observation en tabacologie",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/ChulTobaccoObservationExample"
-      },
-      "name" : "ChulTobaccoObservationExample",
-      "description" : "Example d'observation en tabacologie",
-      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulTobaccoObservation"
     },
     {
       "extension" : [{
@@ -931,7 +680,7 @@
         "valueString" : "Composition"
       }],
       "reference" : {
-        "reference" : "Composition/ChulPneumoCompositionExample"
+        "reference" : "Composition/VunsPneumoCompositionExample"
       },
       "name" : "Exemple de composition en pneumologie",
       "description" : "Example de composition en pneumologie",
@@ -943,7 +692,7 @@
         "valueString" : "Composition"
       }],
       "reference" : {
-        "reference" : "Composition/ChulPneumoCompositionExampleLab"
+        "reference" : "Composition/VunsPneumoCompositionExampleLab"
       },
       "name" : "Exemple de composition en pneumologie",
       "description" : "Example de composition en pneumologie",
@@ -1029,6 +778,269 @@
       "name" : "Signes vitaux pneumologie",
       "description" : "Signes vitaux pneumologie",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/Vunsabo"
+      },
+      "name" : "Vunsabo",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/VunsEfr"
+      },
+      "name" : "VunsEfr",
+      "description" : "EFR observation",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Procedure"
+      }],
+      "reference" : {
+        "reference" : "Procedure/VunsEfrExample"
+      },
+      "name" : "VunsEfrExample",
+      "description" : "Exemple d'épreuve fonctionnelle respiratoire",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfr"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/VunsEfrObservation"
+      },
+      "name" : "VunsEfrObservation",
+      "description" : "EFR observation",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/VunsEfrObservationExample"
+      },
+      "name" : "VunsEfrObservationExample",
+      "description" : "Example d'observation lors d'une épreuve fonctionnelle respiratoire",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/VunsEfrObservationSource"
+      },
+      "name" : "VunsEfrObservationSource",
+      "description" : "Observation originale dans OmniPro",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/VunsLabPatient"
+      },
+      "name" : "VunsLabPatient",
+      "description" : "Profil pour un Patient enrôlé dans le cadre du projet Vers Un Souffle Nouveau",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/VunsLabPatientExample"
+      },
+      "name" : "VunsLabPatientExample",
+      "description" : "Example de patient CHU Liège",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsLabPatient"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/VunsPatient"
+      },
+      "name" : "VunsPatient",
+      "description" : "Profil pour un Patient enrôlé dans le cadre du projet Vers Un Souffle Nouveau",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/VunsPatientExample"
+      },
+      "name" : "VunsPatientExample",
+      "description" : "Example de patient CHU Liège",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPatient"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/VunsPneumoBio"
+      },
+      "name" : "VunsPneumoBio",
+      "description" : "Profil pour les biologies d'intérêt pneumologique",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/VunsPneumoBioExample"
+      },
+      "name" : "VunsPneumoBioExample",
+      "description" : "Example de biologie d'intérêt pneumologique",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/VunsPneumoBundle"
+      },
+      "name" : "VunsPneumoBundle",
+      "description" : "Profil pour un Bundle Discharge Report en pneumologie",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/VunsPneumoBundleExample"
+      },
+      "name" : "VunsPneumoBundleExample",
+      "description" : "Example de composition en pneumologie",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBundle"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/VunsPneumoBundleExampleLab"
+      },
+      "name" : "VunsPneumoBundleExampleLab",
+      "description" : "Example de composition en pneumologie",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBundle"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/VunsPneumoComposition"
+      },
+      "name" : "VunsPneumoComposition",
+      "description" : "Profil pour une Composition Discharge Report en pneumologie",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/VunsPneumoCondition"
+      },
+      "name" : "VunsPneumoCondition",
+      "description" : "Diagnostic pneumologie",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/VunsPneumoConditionExample"
+      },
+      "name" : "VunsPneumoConditionExample",
+      "description" : "Example de diagnostic pneumologique",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/VunsPneumoVitalSign"
+      },
+      "name" : "VunsPneumoVitalSign",
+      "description" : "Profil pour une observation de signe vital en pneumologie",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/VunsPneumoVitalSignExample"
+      },
+      "name" : "VunsPneumoVitalSignExample",
+      "description" : "Example de signe vital en pneumologie",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoVitalSign"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/VunsTobaccoObservation"
+      },
+      "name" : "VunsTobaccoObservation",
+      "description" : "Profil pour une observation en tabacologie",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/VunsTobaccoObservationExample"
+      },
+      "name" : "VunsTobaccoObservationExample",
+      "description" : "Example d'observation en tabacologie",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsTobaccoObservation"
     }],
     "page" : {
       "extension" : [{

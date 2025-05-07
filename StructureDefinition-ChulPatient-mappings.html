@@ -45,8 +45,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"4.4"}
-    h3,h4,h5,h6{--heading-prefix:"4.4"}</style>
+    <style type="text/css">h2{--heading-prefix:"4.1"}
+    h3,h4,h5,h6{--heading-prefix:"4.1"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -158,16 +158,6 @@
 
 
 
-  
-    
-      <li>
-        <a href="StructureDefinition-ChulPatient-examples.html">Examples</a>
-      </li>
-    
-  
-
-
-
 
   
     <li>
@@ -203,7 +193,7 @@
         
           Draft
           
-            as of 2025-04-09
+            as of 2025-04-14
           
         
       </td>
@@ -222,16 +212,9 @@
   <a name="rim"> </a><h3>Mappings for RIM Mapping (<a href="http://hl7.org/comparison-v3.html">http://hl7.org/v3</a>)</h3><table class="grid">
  <tr><td colspan="3"><b>ChulPatient</b></td></tr>
  <tr><td>Patient</td><td>Entity. Role, or Act, Patient[classCode=PAT]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;meta</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;text</td><td>Act.text?</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;contained</td><td>N/A</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;extension (birthPlace)</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;url</td><td>N/A</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value[x]</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>id</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;identifier (chulIdentifier)</td><td>id</td> </tr>
@@ -245,38 +228,9 @@
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assigner</td><td>II.assigningAuthorityName but note that this is an improper use by the definition of the field.  Also Role.scoper</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;active</td><td>statusCode</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;name</td><td>name</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (name-absent-reason)</td><td>ANY.nullFlavor</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;use</td><td>unique(./use)</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text</td><td>./formatted</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;family</td><td>./part[partType = FAM]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (fathersFamily)</td><td>N/A</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (mothersFamily)</td><td>N/A</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;given</td><td>./part[partType = GIV]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prefix</td><td>./part[partType = PFX]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;suffix</td><td>./part[partType = SFX]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td>./usablePeriod[type=&quot;IVL&lt;TS&gt;&quot;]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;telecom</td><td>telecom</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;telecom (phone)</td><td>telecom</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;system</td><td>./scheme</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value</td><td>./url</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;use</td><td>unique(./use)</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rank</td><td>n/a</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td>./usablePeriod[type=&quot;IVL&lt;TS&gt;&quot;]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;telecom (email)</td><td>telecom</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;system</td><td>./scheme</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value</td><td>./url</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;use</td><td>unique(./use)</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rank</td><td>n/a</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td>./usablePeriod[type=&quot;IVL&lt;TS&gt;&quot;]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;gender</td><td>player[classCode=PSN|ANM and determinerCode=INSTANCE]/administrativeGender</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;birthDate</td><td>player[classCode=PSN|ANM and determinerCode=INSTANCE]/birthTime</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (dob-absent-reason)</td><td>ANY.nullFlavor</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;deceased[x]</td><td>player[classCode=PSN|ANM and determinerCode=INSTANCE]/deceasedInd, player[classCode=PSN|ANM and determinerCode=INSTANCE]/deceasedTime</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;address</td><td>addr</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;maritalStatus</td><td>player[classCode=PSN]/maritalStatusCode</td> </tr>
@@ -316,8 +270,6 @@
  <tr><td>&nbsp;&nbsp;&nbsp;active</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;name</td><td>.patient.name</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;telecom</td><td>.telecom</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;telecom (phone)</td><td>.telecom</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;telecom (email)</td><td>.telecom</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;gender</td><td>.patient.administrativeGenderCode</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;birthDate</td><td>.patient.birthTime</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;deceased[x]</td><td>n/a</td> </tr>
@@ -361,28 +313,7 @@
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td>CX.7 + CX.8</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assigner</td><td>CX.4 / (CX.4,CX.9,CX.10)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;name</td><td>PID-5, PID-9</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;use</td><td>XPN.7, but often indicated by which field contains the name</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text</td><td>implied by XPN.11</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;family</td><td>XPN.1/FN.1</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (fathersFamily)</td><td>N/A</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (mothersFamily)</td><td>N/A</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;given</td><td>XPN.2 + XPN.3</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prefix</td><td>XPN.5</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;suffix</td><td>XPN/4</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td>XPN.13 + XPN.14</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;telecom</td><td>PID-13, PID-14, PID-40</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;telecom (phone)</td><td>PID-13, PID-14, PID-40</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;system</td><td>XTN.3</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value</td><td>XTN.1 (or XTN.12)</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;use</td><td>XTN.2 - but often indicated by field</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rank</td><td>n/a</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td>N/A</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;telecom (email)</td><td>PID-13, PID-14, PID-40</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;system</td><td>XTN.3</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value</td><td>XTN.1 (or XTN.12)</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;use</td><td>XTN.2 - but often indicated by field</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rank</td><td>n/a</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;period</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;gender</td><td>PID-8</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;birthDate</td><td>PID-7</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;deceased[x]</td><td>PID-30  (bool) and PID-29 (datetime)</td> </tr>
@@ -435,7 +366,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.chuliege.be">CHU Liège</a>.  Package be.chuliege.versunsoufflenouveau#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Apr 9, 2025 15:01+0200">2025-04-09</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.chuliege.be">CHU Liège</a>.  Package be.chuliege.versunsoufflenouveau#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Apr 14, 2025 13:35+0200">2025-04-14</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

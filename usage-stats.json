@@ -4,48 +4,48 @@
   "fhirVersion": "4.0.1",
   "extensions": [],
   "profiles": {
+    "Patient": [
+      {
+        "url": "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsLabPatient",
+        "title": "VunsLabPatient"
+      },
+      {
+        "url": "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPatient",
+        "title": "VunsPatient"
+      }
+    ],
     "Procedure": [
       {
-        "url": "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulEfr",
-        "title": "ChulEfr"
+        "url": "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfr",
+        "title": "VunsEfr"
       }
     ],
     "Observation": [
       {
-        "url": "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPneumoVitalSign",
-        "title": "ChulPneumoVitalSign"
+        "url": "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoVitalSign",
+        "title": "VunsPneumoVitalSign"
       },
       {
-        "url": "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulTobaccoObservation",
-        "title": "ChulTobaccoObservation"
-      }
-    ],
-    "Patient": [
-      {
-        "url": "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulLabPatient",
-        "title": "ChulLabPatient"
-      },
-      {
-        "url": "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPatient",
-        "title": "ChulPatient"
+        "url": "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsTobaccoObservation",
+        "title": "VunsTobaccoObservation"
       }
     ],
     "Bundle": [
       {
-        "url": "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPneumoBundle",
-        "title": "ChulPneumoBundle"
+        "url": "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBundle",
+        "title": "VunsPneumoBundle"
       }
     ],
     "Composition": [
       {
-        "url": "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPneumoComposition",
-        "title": "ChulPneumoComposition"
+        "url": "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoComposition",
+        "title": "VunsPneumoComposition"
       }
     ],
     "Condition": [
       {
-        "url": "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPneumoCondition",
-        "title": "ChulPneumoCondition"
+        "url": "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition",
+        "title": "VunsPneumoCondition"
       }
     ]
   },

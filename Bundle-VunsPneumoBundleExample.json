@@ -1,0 +1,432 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "VunsPneumoBundleExample",
+  "meta" : {
+    "profile" : ["http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBundle"]
+  },
+  "identifier" : {
+    "system" : "https://terminology.chuliege.be/NamingSystem/global",
+    "value" : "SampleBundle01"
+  },
+  "type" : "document",
+  "timestamp" : "2025-03-01T12:00:00+01:00",
+  "entry" : [{
+    "fullUrl" : "http://si-s-serv1041/ig/Composition/VunsPneumoCompositionExample",
+    "resource" : {
+      "resourceType" : "Composition",
+      "id" : "VunsPneumoCompositionExample",
+      "meta" : {
+        "profile" : ["http://hl7.eu/fhir/hdr/StructureDefinition/composition-eu-hdr"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Composition_VunsPneumoCompositionExample\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Composition VunsPneumoCompositionExample</b></p><a name=\"VunsPneumoCompositionExample\"> </a><a name=\"hcVunsPneumoCompositionExample\"> </a><a name=\"VunsPneumoCompositionExample-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"https://build.fhir.org/ig/hl7-eu/hdr/StructureDefinition-composition-eu-hdr.html\">Composition (HDR)</a></p></div><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{http://loinc.org 34105-7}\">Hospital Discharge summary</span></p><p><b>date</b>: 2025-03-01</p><p><b>author</b>: <a href=\"Organization-GSI.html\">Organization GSI tests</a></p><p><b>title</b>: Exemple de composition en pneumologie</p></div>"
+      },
+      "status" : "final",
+      "type" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "34105-7",
+          "display" : "Hospital Discharge summary"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/VunsPatientExample"
+      },
+      "date" : "2025-03-01",
+      "author" : [{
+        "reference" : "Organization/GSI"
+      }],
+      "title" : "Exemple de composition en pneumologie",
+      "section" : [{
+        "title" : "Paramètres de référence",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "8716-3"
+          }]
+        },
+        "text" : {
+          "status" : "additional",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Paramètres vitaux</div>"
+        },
+        "entry" : [{
+          "reference" : "Observation/VunsPneumoVitalSignExample"
+        }]
+      },
+      {
+        "title" : "Exemple de titre en pneumologie",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "8648-8"
+          }]
+        },
+        "text" : {
+          "status" : "additional",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Exemple de rapport en pneumologie</div>"
+        }
+      },
+      {
+        "title" : "Diagnostic primaire",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "11535-2"
+          }]
+        },
+        "text" : {
+          "status" : "additional",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Diagnostic</div>"
+        },
+        "entry" : [{
+          "reference" : "Condition/VunsPneumoConditionExample"
+        }]
+      },
+      {
+        "title" : "Historique des épreuves fonctionnelles respiratoires",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "10185-7"
+          }]
+        },
+        "text" : {
+          "status" : "empty",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">EFR</div>"
+        },
+        "entry" : [{
+          "reference" : "Procedure/VunsEfrExample"
+        }]
+      },
+      {
+        "title" : "Tabagisme",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "11367-0"
+          }]
+        },
+        "text" : {
+          "status" : "additional",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Tabagisme</div>"
+        },
+        "entry" : [{
+          "reference" : "Observation/VunsTobaccoObservationExample"
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://si-s-serv1041/ig/Patient/VunsPatientExample",
+    "resource" : {
+      "resourceType" : "Patient",
+      "id" : "VunsPatientExample",
+      "meta" : {
+        "profile" : ["http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPatient",
+        "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient",
+        "http://hl7.eu/fhir/laboratory/StructureDefinition/Patient-eu-lab"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Patient_VunsPatientExample\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Patient VunsPatientExample</b></p><a name=\"VunsPatientExample\"> </a><a name=\"hcVunsPatientExample\"> </a><a name=\"VunsPatientExample-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profils: <a href=\"StructureDefinition-VunsPatient.html\">VunsPatient</a>, <a href=\"https://www.ehealth.fgov.be/standards/fhir/core/2.1.2/StructureDefinition-be-patient.html\">BePatient</a>, <a href=\"http://hl7.eu/fhir/laboratory/0.1.0/StructureDefinition-Patient-eu-lab.html\">Patient: Person</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Moyens de contacter le Patient\">Contact Detail</td><td colspan=\"3\"><ul><li>ph: 04497887145</li><li><a href=\"mailto:pduflot@chuliege.be\">pduflot@chuliege.be</a></li></ul></td></tr></table></div>"
+      },
+      "identifier" : [{
+        "system" : "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin",
+        "value" : "11111111111"
+      }],
+      "name" : [{
+        "family" : "Duflot",
+        "given" : ["Patrick"]
+      }],
+      "telecom" : [{
+        "system" : "phone",
+        "value" : "04497887145"
+      },
+      {
+        "system" : "email",
+        "value" : "pduflot@chuliege.be"
+      }],
+      "gender" : "male",
+      "birthDate" : "1974-01-22"
+    }
+  },
+  {
+    "fullUrl" : "http://si-s-serv1041/ig/Encounter/EuEncounterExample",
+    "resource" : {
+      "resourceType" : "Encounter",
+      "id" : "EuEncounterExample",
+      "meta" : {
+        "profile" : ["http://hl7.eu/fhir/hdr/StructureDefinition/encounter-eu-hdr"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Encounter_EuEncounterExample\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Encounter EuEncounterExample</b></p><a name=\"EuEncounterExample\"> </a><a name=\"hcEuEncounterExample\"> </a><a name=\"EuEncounterExample-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"https://build.fhir.org/ig/hl7-eu/hdr/StructureDefinition-encounter-eu-hdr.html\">Encounter (HDR)</a></p></div><p><b>status</b>: Finished</p><p><b>class</b>: <a href=\"http://terminology.hl7.org/6.0.2/CodeSystem-v3-ActCode.html#v3-ActCode-SS\">ActCode SS</a>: short stay</p><p><b>subject</b>: <a href=\"Patient-VunsPatientExample.html\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p></div>"
+      },
+      "status" : "finished",
+      "class" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "code" : "SS"
+      },
+      "subject" : {
+        "reference" : "Patient/VunsPatientExample"
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://si-s-serv1041/ig/Condition/VunsPneumoConditionExample",
+    "resource" : {
+      "resourceType" : "Condition",
+      "id" : "VunsPneumoConditionExample",
+      "meta" : {
+        "profile" : ["http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Condition_VunsPneumoConditionExample\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Condition VunsPneumoConditionExample</b></p><a name=\"VunsPneumoConditionExample\"> </a><a name=\"hcVunsPneumoConditionExample\"> </a><a name=\"VunsPneumoConditionExample-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-VunsPneumoCondition.html\">VunsPneumoCondition</a></p></div><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 195967001}\">Airway hyperreactivity</span></p><p><b>subject</b>: <a href=\"Patient-VunsPatientExample.html\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p></div>"
+      },
+      "clinicalStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code" : "active"
+        }]
+      },
+      "code" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "195967001"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/VunsPatientExample"
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://si-s-serv1041/ig/Observation/VunsPneumoVitalSignExample",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "VunsPneumoVitalSignExample",
+      "meta" : {
+        "profile" : ["http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoVitalSign"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_VunsPneumoVitalSignExample\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation VunsPneumoVitalSignExample</b></p><a name=\"VunsPneumoVitalSignExample\"> </a><a name=\"hcVunsPneumoVitalSignExample\"> </a><a name=\"VunsPneumoVitalSignExample-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-VunsPneumoVitalSign.html\">VunsPneumoVitalSign</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 29463-7}\">Body weight</span></p><p><b>subject</b>: <a href=\"Patient-VunsPatientExample.html\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>effective</b>: 2023-10-01</p><p><b>performer</b>: <a href=\"Practitioner-Physician.html\">Practitioner Dr. Jean Toubib</a></p><p><b>value</b>: 80 kg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codekg = 'kg')</span></p></div>"
+      },
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code" : "vital-signs"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "29463-7"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/VunsPatientExample"
+      },
+      "effectiveDateTime" : "2023-10-01",
+      "performer" : [{
+        "reference" : "Practitioner/Physician"
+      }],
+      "valueQuantity" : {
+        "value" : 80,
+        "unit" : "kg",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "kg"
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://si-s-serv1041/ig/Observation/VunsEfrObservationExample",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "VunsEfrObservationExample",
+      "meta" : {
+        "profile" : ["http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_VunsEfrObservationExample\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation VunsEfrObservationExample</b></p><a name=\"VunsEfrObservationExample\"> </a><a name=\"hcVunsEfrObservationExample\"> </a><a name=\"VunsEfrObservationExample-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-VunsEfrObservation.html\">VunsEfrObservation</a></p></div><p><b>partOf</b>: <a href=\"Procedure-VunsEfrExample.html\">Procedure Measurement of respiratory function</a></p><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 313222007}\">Volume expiratoire maximal par seconde divisé par la capacité vitale forcée</span></p><p><b>subject</b>: <a href=\"Patient-VunsPatientExample.html\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>effective</b>: 2025-03-01</p><p><b>performer</b>: <a href=\"Practitioner-Physician.html\">Practitioner Dr. Jean Toubib</a></p><p><b>value</b>: 80 %</p><p><b>derivedFrom</b>: <a href=\"Observation-VunsEfrObservationSource.html\">Observation Tiffeneau</a></p></div>"
+      },
+      "partOf" : [{
+        "reference" : "Procedure/VunsEfrExample"
+      }],
+      "status" : "final",
+      "code" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "313222007",
+          "display" : "FEV1/FVC percent"
+        }],
+        "text" : "Volume expiratoire maximal par seconde divisé par la capacité vitale forcée"
+      },
+      "subject" : {
+        "reference" : "Patient/VunsPatientExample"
+      },
+      "effectiveDateTime" : "2025-03-01",
+      "performer" : [{
+        "reference" : "Practitioner/Physician"
+      }],
+      "valueQuantity" : {
+        "value" : 80,
+        "unit" : "%"
+      },
+      "derivedFrom" : [{
+        "reference" : "Observation/VunsEfrObservationSource"
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://si-s-serv1041/ig/Observation/VunsEfrObservationSource",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "VunsEfrObservationSource",
+      "language" : "fr-BE",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr-BE\" lang=\"fr-BE\"><a name=\"Observation_VunsEfrObservationSource\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation VunsEfrObservationSource</b></p><a name=\"VunsEfrObservationSource\"> </a><a name=\"hcVunsEfrObservationSource\"> </a><a name=\"VunsEfrObservationSource-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: fr-BE</p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://terminology.chuliege.be/OmniPro 30040:VTIFF}\">Tiffeneau</span></p><p><b>subject</b>: <a href=\"Patient-VunsPatientExample.html\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>effective</b>: 2025-03-01</p><p><b>performer</b>: <a href=\"Practitioner-Physician.html\">Practitioner Dr. Jean Toubib</a></p><p><b>value</b>: 80</p></div>"
+      },
+      "status" : "final",
+      "code" : {
+        "coding" : [{
+          "system" : "http://terminology.chuliege.be/OmniPro",
+          "code" : "30040:VTIFF",
+          "display" : "Tiffeneau"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/VunsPatientExample"
+      },
+      "effectiveDateTime" : "2025-03-01",
+      "performer" : [{
+        "reference" : "Practitioner/Physician"
+      }],
+      "valueQuantity" : {
+        "value" : 80
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://si-s-serv1041/ig/Observation/VunsTobaccoObservationExample",
+    "resource" : {
+      "resourceType" : "Observation",
+      "id" : "VunsTobaccoObservationExample",
+      "meta" : {
+        "profile" : ["http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsTobaccoObservation"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_VunsTobaccoObservationExample\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation VunsTobaccoObservationExample</b></p><a name=\"VunsTobaccoObservationExample\"> </a><a name=\"hcVunsTobaccoObservationExample\"> </a><a name=\"VunsTobaccoObservationExample-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-VunsTobaccoObservation.html\">VunsTobaccoObservation</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 72166-2}\">Tobacco smoking status</span></p><p><b>subject</b>: <a href=\"Patient-VunsPatientExample.html\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>effective</b>: 2023-10-01</p><p><b>performer</b>: <a href=\"Practitioner-Physician.html\">Practitioner Dr. Jean Toubib</a></p><p><b>value</b>: <span title=\"Codes:{http://loinc.org LA18976-3}\">Current every day smoker</span></p></div>"
+      },
+      "status" : "final",
+      "code" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "72166-2"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/VunsPatientExample"
+      },
+      "effectiveDateTime" : "2023-10-01",
+      "performer" : [{
+        "reference" : "Practitioner/Physician"
+      }],
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://loinc.org",
+          "code" : "LA18976-3"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://si-s-serv1041/ig/Procedure/VunsEfrExample",
+    "resource" : {
+      "resourceType" : "Procedure",
+      "id" : "VunsEfrExample",
+      "meta" : {
+        "profile" : ["http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfr"]
+      },
+      "language" : "fr-BE",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr-BE\" lang=\"fr-BE\"><a name=\"Procedure_VunsEfrExample\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Procedure VunsEfrExample</b></p><a name=\"VunsEfrExample\"> </a><a name=\"hcVunsEfrExample\"> </a><a name=\"VunsEfrExample-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: fr-BE</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-VunsEfr.html\">VunsEfr</a></p></div><p><b>status</b>: Completed</p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 23426006}\">mesure de la fonction respiratoire</span></p><p><b>subject</b>: <a href=\"Patient-VunsPatientExample.html\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>encounter</b>: <a href=\"Encounter-EuEncounterExample.html\">Encounter : status = finished; class = short stay (ActCode#SS)</a></p><p><b>performed</b>: 2025-03-01</p><p><b>report</b>: <a href=\"DiagnosticReport-EfrDiagnosticReport.html\">Diagnostic Report for '23426006' for 'Unspecified Subject'</a></p></div>"
+      },
+      "status" : "completed",
+      "code" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "23426006",
+          "display" : "Measurement of respiratory function"
+        }],
+        "text" : "mesure de la fonction respiratoire"
+      },
+      "subject" : {
+        "reference" : "Patient/VunsPatientExample"
+      },
+      "encounter" : {
+        "reference" : "Encounter/EuEncounterExample"
+      },
+      "performedDateTime" : "2025-03-01",
+      "report" : [{
+        "reference" : "DiagnosticReport/EfrDiagnosticReport"
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://si-s-serv1041/ig/DiagnosticReport/EfrDiagnosticReport",
+    "resource" : {
+      "resourceType" : "DiagnosticReport",
+      "id" : "EfrDiagnosticReport",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"DiagnosticReport_EfrDiagnosticReport\"> </a><p class=\"res-header-id\"><b>Generated Narrative: DiagnosticReport EfrDiagnosticReport</b></p><a name=\"EfrDiagnosticReport\"> </a><a name=\"hcEfrDiagnosticReport\"> </a><a name=\"EfrDiagnosticReport-und\"> </a><h2><span title=\"Codes:\">23426006</span> </h2><table class=\"grid\"/><p><b>Report Details</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Valeur</b></td><td><b>Drapeaux</b></td><td><b>When For</b></td></tr><tr><td><a href=\"Observation-VunsEfrObservationExample.html\"><span title=\"Codes:{http://snomed.info/sct 313222007}\">Volume expiratoire maximal par seconde divisé par la capacité vitale forcée</span></a></td><td>80 %</td><td>Final</td><td>2025-03-01</td></tr></table></div>"
+      },
+      "status" : "final",
+      "code" : {
+        "coding" : [{
+          "code" : "23426006"
+        }]
+      },
+      "result" : [{
+        "reference" : "Observation/VunsEfrObservationExample"
+      }]
+    }
+  },
+  {
+    "fullUrl" : "http://si-s-serv1041/ig/Organization/GSI",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "GSI",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_GSI\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Organization GSI</b></p><a name=\"GSI\"> </a><a name=\"hcGSI\"> </a><a name=\"GSI-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"https://build.fhir.org/ig/HL7/fhir-ips/StructureDefinition-Organization-uv-ips.html\">Organization (IPS)</a></p></div><p><b>name</b>: GSI tests</p></div>"
+      },
+      "name" : "GSI tests"
+    }
+  },
+  {
+    "fullUrl" : "http://si-s-serv1041/ig/Practitioner/Physician",
+    "resource" : {
+      "resourceType" : "Practitioner",
+      "id" : "Physician",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Practitioner_Physician\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Practitioner Physician</b></p><a name=\"Physician\"> </a><a name=\"hcPhysician\"> </a><a name=\"Physician-und\"> </a><p><b>name</b>: Dr. Jean Toubib</p></div>"
+      },
+      "name" : [{
+        "text" : "Dr. Jean Toubib"
+      }]
+    }
+  }]
+}

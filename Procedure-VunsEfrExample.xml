@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Procedure xmlns="http://hl7.org/fhir">
+  <id value="VunsEfrExample"/>
+  <meta>
+    <profile value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfr"/>
+  </meta>
+  <language value="fr-BE"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-BE" lang="fr-BE"><p class="res-header-id"><b>Generated Narrative: Procedure VunsEfrExample</b></p><a name="VunsEfrExample"> </a><a name="hcVunsEfrExample"> </a><a name="VunsEfrExample-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: fr-BE</p><p style="margin-bottom: 0px">Profil: <a href="StructureDefinition-VunsEfr.html">VunsEfr</a></p></div><p><b>status</b>: Completed</p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 23426006}">mesure de la fonction respiratoire</span></p><p><b>subject</b>: <a href="Patient-VunsPatientExample.html">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>encounter</b>: <a href="Encounter-EuEncounterExample.html">Encounter : status = finished; class = short stay (ActCode#SS)</a></p><p><b>performed</b>: 2025-03-01</p><p><b>report</b>: <a href="DiagnosticReport-EfrDiagnosticReport.html">Diagnostic Report for '23426006' for 'Unspecified Subject'</a></p></div>
+  </text>
+  <status value="completed"/>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="23426006"/>
+      <display value="Measurement of respiratory function"/>
+    </coding>
+    <text value="mesure de la fonction respiratoire"/>
+  </code>
+  <subject>
+    <reference value="Patient/VunsPatientExample"/>
+  </subject>
+  <encounter>
+    <reference value="Encounter/EuEncounterExample"/>
+  </encounter>
+  <performedDateTime value="2025-03-01"/>
+  <report>
+    <reference value="DiagnosticReport/EfrDiagnosticReport"/>
+  </report>
+</Procedure>

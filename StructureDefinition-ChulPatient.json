@@ -3,13 +3,13 @@
   "id" : "ChulPatient",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: StructureDefinition ChulPatient</b></p><a name=\"ChulPatient\"> </a><a name=\"hcChulPatient\"> </a><a name=\"ChulPatient-und\"> </a><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Le nom logique de lélément\">Nom</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Information about the use of the element\">Drapeaux</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Minimum and Maximum # of times the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Additional information about the element\">Description et contraintes</a><span style=\"float: right\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Ressource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ChulPatient-definitions.html#Patient\">Patient</a><a name=\"Patient\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/hl7-eu/base/StructureDefinition-patient-eu-core.html\">PatientEuCore</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ChulPatient-definitions.html#Patient.meta\">meta</a><a name=\"Patient.meta\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck103.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Definition\" class=\"hierarchy\"/> <a style=\"font-style: italic\" href=\"StructureDefinition-ChulPatient-definitions.html#Patient.meta.profile\">Slices pour profile</a><a name=\"Patient.meta.profile\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"font-style: italic\"/><span style=\"font-style: italic\">2</span><span style=\"font-style: italic\">..</span><span style=\"opacity: 0.5; font-style: italic\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"font-style: italic\" href=\"http://hl7.org/fhir/R4/references.html\">canonical</a><span style=\"font-style: italic\">(</span><a style=\"opacity: 0.5; font-style: italic\" href=\"http://hl7.org/fhir/R4/structuredefinition.html\">StructureDefinition</a><span style=\"font-style: italic\">)</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5; font-style: italic\">Profiles this resource claims to conform to</span><br style=\"font-style: italic\"/><span style=\"font-weight:bold; font-style: italic\">Slice: </span><span style=\"font-style: italic\">Unordered, Open by value:$this</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1034.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_slicer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ChulPatient-definitions.html#Patient.meta.profile:bePatient\" title=\"Slice bePatient\">profile:bePatient</a><a name=\"Patient.meta.profile.2\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">canonical</a>(<a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/structuredefinition.html\">StructureDefinition</a>)</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Profiles this resource claims to conform to</span><br/><span style=\"font-weight:bold\">Required Pattern: </span><span style=\"color: darkgreen\">https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1024.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end_slicer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ChulPatient-definitions.html#Patient.meta.profile:euPatient\" title=\"Slice euPatient\">profile:euPatient</a><a name=\"Patient.meta.profile.3\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">canonical</a>(<a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/structuredefinition.html\">StructureDefinition</a>)</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Profiles this resource claims to conform to</span><br/><span style=\"font-weight:bold\">Required Pattern: </span><span style=\"color: darkgreen\">http://hl7.eu/fhir/laboratory/StructureDefinition/Patient-eu-lab</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck13.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Definition\" class=\"hierarchy\"/> <a style=\"font-style: italic\" href=\"StructureDefinition-ChulPatient-definitions.html#Patient.identifier\">Slices pour identifier</a><a name=\"Patient.identifier\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"font-style: italic\"/><span style=\"font-style: italic\">1</span><span style=\"font-style: italic\">..</span><span style=\"opacity: 0.5; font-style: italic\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5; font-style: italic\" href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5; font-style: italic\">Patient identifiers</span><br style=\"font-style: italic\"/><span style=\"font-weight:bold; font-style: italic\">Slice: </span><span style=\"font-style: italic\">Unordered, Open by value:system</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck125.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end_slicer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ChulPatient-definitions.html#Patient.identifier:chulIdentifier\" title=\"Slice chulIdentifier\">identifier:chulIdentifier</a><a name=\"Patient.identifier.2\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Patient identifiers</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1250.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_slice.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ChulPatient-definitions.html#Patient.identifier:chulIdentifier.system\">system</a><a name=\"Patient.identifier.system\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..<span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#uri\">uri</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">The namespace for the identifier value</span><br/><span style=\"font-weight:bold\">Required Pattern: </span><span style=\"color: darkgreen\">https://terminology.chuliege.be/NamingSystem/numnat</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1240.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end_slice.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ChulPatient-definitions.html#Patient.identifier:chulIdentifier.value\">value</a><a name=\"Patient.identifier.value\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"padding-left: 3px; padding-right: 3px; border: 1px maroon solid; font-weight: bold; color: #301212; background-color: #fdf4f4;\" href=\"http://hl7.org/fhir/R4/conformance-rules.html#constraints\" title=\"This element has or is affected by constraints ( ChulNumnat )\">C</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">The value that is unique</span><br/><span style=\"font-weight:bold\">ChulNumnat: </span>Format des identifiants numnat</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ChulPatient-definitions.html#Patient.name\">name</a><a name=\"Patient.name\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">1</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"https://build.fhir.org/ig/hl7-eu/base/StructureDefinition-HumanName-eu.html\" title=\"HumanName\">HumanNameEu</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">A name associated with the patient</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck03.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Definition\" class=\"hierarchy\"/> <a style=\"font-style: italic\" href=\"StructureDefinition-ChulPatient-definitions.html#Patient.telecom\">Slices pour telecom</a><a name=\"Patient.telecom\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"font-style: italic\"/><span style=\"font-style: italic\">2</span><span style=\"font-style: italic\">..</span><span style=\"opacity: 0.5; font-style: italic\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5; font-style: italic\" href=\"http://hl7.org/fhir/R4/datatypes.html#ContactPoint\">ContactPoint</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5; font-style: italic\">A contact detail for the patient</span><br style=\"font-style: italic\"/><span style=\"font-weight:bold; font-style: italic\">Slice: </span><span style=\"font-style: italic\">Unordered, Open by value:system</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck035.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_slicer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ChulPatient-definitions.html#Patient.telecom:phone\" title=\"Slice phone\">telecom:phone</a><a name=\"Patient.telecom.2\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#ContactPoint\">ContactPoint</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">A contact detail for the patient</span><br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0350.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline_slicer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_slice.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ChulPatient-definitions.html#Patient.telecom:phone.system\">system</a><a name=\"Patient.telecom.system\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..<span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">phone | fax | email | pager | url | sms | other</span><br/><span style=\"font-weight:bold\">Required Pattern: </span><span style=\"color: darkgreen\">phone</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0340.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline_slicer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end_slice.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ChulPatient-definitions.html#Patient.telecom:phone.value\">value</a><a name=\"Patient.telecom.value\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"padding-left: 3px; padding-right: 3px; border: 1px maroon solid; font-weight: bold; color: #301212; background-color: #fdf4f4;\" href=\"http://hl7.org/fhir/R4/conformance-rules.html#constraints\" title=\"This element has or is affected by constraints ( PhoneNumber )\">C</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">The actual contact point details</span><br/><span style=\"font-weight:bold\">PhoneNumber: </span>Format des numéros de téléphone</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck025.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end_slicer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ChulPatient-definitions.html#Patient.telecom:email\" title=\"Slice email\">telecom:email</a><a name=\"Patient.telecom.3\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#ContactPoint\">ContactPoint</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">A contact detail for the patient</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0250.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_slice.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ChulPatient-definitions.html#Patient.telecom:email.system\">system</a><a name=\"Patient.telecom.system.2\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..<span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">phone | fax | email | pager | url | sms | other</span><br/><span style=\"font-weight:bold\">Required Pattern: </span><span style=\"color: darkgreen\">email</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0240.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end_slice.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ChulPatient-definitions.html#Patient.telecom:email.value\">value</a><a name=\"Patient.telecom.value.2\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"padding-left: 3px; padding-right: 3px; border: 1px maroon solid; font-weight: bold; color: #301212; background-color: #fdf4f4;\" href=\"http://hl7.org/fhir/R4/conformance-rules.html#constraints\" title=\"This element has or is affected by constraints ( Email )\">C</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">The actual contact point details</span><br/><span style=\"font-weight:bold\">Email: </span>Format des emails</td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: StructureDefinition ChulPatient</b></p><a name=\"ChulPatient\"> </a><a name=\"hcChulPatient\"> </a><a name=\"ChulPatient-und\"> </a><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Le nom logique de lélément\">Nom</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Information about the use of the element\">Drapeaux</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Minimum and Maximum # of times the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Additional information about the element\">Description et contraintes</a><span style=\"float: right\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Ressource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ChulPatient-definitions.html#Patient\">Patient</a><a name=\"Patient\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/patient.html\">Patient</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Information about an individual or animal receiving health care services</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck03.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Definition\" class=\"hierarchy\"/> <a style=\"font-style: italic\" href=\"StructureDefinition-ChulPatient-definitions.html#Patient.identifier\">Slices pour identifier</a><a name=\"Patient.identifier\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"font-style: italic\"/><span style=\"font-style: italic\">1</span><span style=\"font-style: italic\">..</span><span style=\"opacity: 0.5; font-style: italic\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5; font-style: italic\" href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5; font-style: italic\">An identifier for this patient</span><br style=\"font-style: italic\"/><span style=\"font-weight:bold; font-style: italic\">Slice: </span><span style=\"font-style: italic\">Unordered, Open by value:system</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck025.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end_slicer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ChulPatient-definitions.html#Patient.identifier:chulIdentifier\" title=\"Slice chulIdentifier\">identifier:chulIdentifier</a><a name=\"Patient.identifier.2\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">An identifier for this patient</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0250.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_slice.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ChulPatient-definitions.html#Patient.identifier:chulIdentifier.system\">system</a><a name=\"Patient.identifier.system\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..<span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#uri\">uri</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">The namespace for the identifier value</span><br/><span style=\"font-weight:bold\">Required Pattern: </span><span style=\"color: darkgreen\">https://terminology.chuliege.be/NamingSystem/numnat</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0240.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end_slice.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ChulPatient-definitions.html#Patient.identifier:chulIdentifier.value\">value</a><a name=\"Patient.identifier.value\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"padding-left: 3px; padding-right: 3px; border: 1px maroon solid; font-weight: bold; color: #301212; background-color: #fdf4f4;\" href=\"http://hl7.org/fhir/R4/conformance-rules.html#constraints\" title=\"This element has or is affected by constraints ( ChulNumnat )\">C</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">The value that is unique</span><br/><span style=\"font-weight:bold\">ChulNumnat: </span>Format des identifiants numnat</td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
   },
   "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPatient",
   "version" : "0.1.0",
   "name" : "ChulPatient",
   "status" : "draft",
-  "date" : "2025-04-09T15:00:50+02:00",
+  "date" : "2025-04-14T13:33:24+02:00",
   "publisher" : "CHU Liège",
   "contact" : [{
     "name" : "CHU Liège",
@@ -48,12 +48,12 @@
   "kind" : "resource",
   "abstract" : false,
   "type" : "Patient",
-  "baseDefinition" : "http://hl7.eu/fhir/base/StructureDefinition/patient-eu-core",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Patient",
   "derivation" : "constraint",
   "snapshot" : {
     "extension" : [{
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version",
-      "valueString" : "0.0.1-ci"
+      "valueString" : "4.0.1"
     }],
     "element" : [{
       "id" : "Patient",
@@ -179,330 +179,6 @@
       }],
       "isModifier" : false,
       "isSummary" : true
-    },
-    {
-      "id" : "Patient.meta.id",
-      "path" : "Patient.meta.id",
-      "representation" : ["xmlAttr"],
-      "short" : "Unique id for inter-element referencing",
-      "definition" : "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "Element.id",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
-          "valueUrl" : "string"
-        }],
-        "code" : "http://hl7.org/fhirpath/System.String"
-      }],
-      "isModifier" : false,
-      "isSummary" : false,
-      "mapping" : [{
-        "identity" : "rim",
-        "map" : "n/a"
-      }]
-    },
-    {
-      "id" : "Patient.meta.extension",
-      "path" : "Patient.meta.extension",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "url"
-        }],
-        "description" : "Extensions are always sliced by (at least) url",
-        "rules" : "open"
-      },
-      "short" : "Additional content defined by implementations",
-      "definition" : "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-      "comment" : "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-      "alias" : ["extensions",
-      "user content"],
-      "min" : 0,
-      "max" : "*",
-      "base" : {
-        "path" : "Element.extension",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "Extension"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      },
-      {
-        "key" : "ext-1",
-        "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
-        "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
-      }],
-      "isModifier" : false,
-      "isSummary" : false,
-      "mapping" : [{
-        "identity" : "rim",
-        "map" : "n/a"
-      }]
-    },
-    {
-      "id" : "Patient.meta.versionId",
-      "path" : "Patient.meta.versionId",
-      "short" : "Version specific identifier",
-      "definition" : "The version specific identifier, as it appears in the version portion of the URL. This value changes when the resource is created, updated, or deleted.",
-      "comment" : "The server assigns this value, and ignores what the client specifies, except in the case that the server is imposing version integrity on updates/deletes.",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "Meta.versionId",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "code" : "id"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : true
-    },
-    {
-      "id" : "Patient.meta.lastUpdated",
-      "path" : "Patient.meta.lastUpdated",
-      "short" : "When the resource version last changed",
-      "definition" : "When the resource last changed - e.g. when the version changed.",
-      "comment" : "This value is always populated except when the resource is first being created. The server / resource manager sets this value; what a client provides is irrelevant. This is equivalent to the HTTP Last-Modified and SHOULD have the same value on a [read](http://hl7.org/fhir/R4/http.html#read) interaction.",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "Meta.lastUpdated",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "code" : "instant"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : true
-    },
-    {
-      "id" : "Patient.meta.source",
-      "path" : "Patient.meta.source",
-      "short" : "Identifies where the resource comes from",
-      "definition" : "A uri that identifies the source system of the resource. This provides a minimal amount of [Provenance](http://hl7.org/fhir/R4/provenance.html#) information that can be used to track or differentiate the source of information in the resource. The source may identify another FHIR server, document, message, database, etc.",
-      "comment" : "In the provenance resource, this corresponds to Provenance.entity.what[x]. The exact use of the source (and the implied Provenance.entity.role) is left to implementer discretion. Only one nominated source is allowed; for additional provenance details, a full Provenance resource should be used. \n\nThis element can be used to indicate where the current master source of a resource that has a canonical URL if the resource is no longer hosted at the canonical URL.",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "Meta.source",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "code" : "uri"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : true
-    },
-    {
-      "id" : "Patient.meta.profile",
-      "path" : "Patient.meta.profile",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "$this"
-        }],
-        "rules" : "open"
-      },
-      "short" : "Profiles this resource claims to conform to",
-      "definition" : "A list of profiles (references to [StructureDefinition](http://hl7.org/fhir/R4/structuredefinition.html#) resources) that this resource claims to conform to. The URL is a reference to [StructureDefinition.url](http://hl7.org/fhir/R4/structuredefinition-definitions.html#StructureDefinition.url).",
-      "comment" : "It is up to the server and/or other infrastructure of policy to determine whether/how these claims are verified and/or updated over time.  The list of profile URLs is a set.",
-      "min" : 2,
-      "max" : "*",
-      "base" : {
-        "path" : "Meta.profile",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "canonical",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/StructureDefinition"]
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : true
-    },
-    {
-      "id" : "Patient.meta.profile:bePatient",
-      "path" : "Patient.meta.profile",
-      "sliceName" : "bePatient",
-      "short" : "Profiles this resource claims to conform to",
-      "definition" : "A list of profiles (references to [StructureDefinition](http://hl7.org/fhir/R4/structuredefinition.html#) resources) that this resource claims to conform to. The URL is a reference to [StructureDefinition.url](http://hl7.org/fhir/R4/structuredefinition-definitions.html#StructureDefinition.url).",
-      "comment" : "It is up to the server and/or other infrastructure of policy to determine whether/how these claims are verified and/or updated over time.  The list of profile URLs is a set.",
-      "min" : 1,
-      "max" : "1",
-      "base" : {
-        "path" : "Meta.profile",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "canonical",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/StructureDefinition"]
-      }],
-      "patternCanonical" : "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient",
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : true
-    },
-    {
-      "id" : "Patient.meta.profile:euPatient",
-      "path" : "Patient.meta.profile",
-      "sliceName" : "euPatient",
-      "short" : "Profiles this resource claims to conform to",
-      "definition" : "A list of profiles (references to [StructureDefinition](http://hl7.org/fhir/R4/structuredefinition.html#) resources) that this resource claims to conform to. The URL is a reference to [StructureDefinition.url](http://hl7.org/fhir/R4/structuredefinition-definitions.html#StructureDefinition.url).",
-      "comment" : "It is up to the server and/or other infrastructure of policy to determine whether/how these claims are verified and/or updated over time.  The list of profile URLs is a set.",
-      "min" : 1,
-      "max" : "1",
-      "base" : {
-        "path" : "Meta.profile",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "canonical",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/StructureDefinition"]
-      }],
-      "patternCanonical" : "http://hl7.eu/fhir/laboratory/StructureDefinition/Patient-eu-lab",
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : true
-    },
-    {
-      "id" : "Patient.meta.security",
-      "path" : "Patient.meta.security",
-      "short" : "Security Labels applied to this resource",
-      "definition" : "Security labels applied to this resource. These tags connect specific resources to the overall security policy and infrastructure.",
-      "comment" : "The security labels can be updated without changing the stated version of the resource. The list of security labels is a set. Uniqueness is based the system/code, and version and display are ignored.",
-      "min" : 0,
-      "max" : "*",
-      "base" : {
-        "path" : "Meta.security",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "Coding"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : true,
-      "binding" : {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString" : "SecurityLabels"
-        }],
-        "strength" : "extensible",
-        "description" : "Security Labels from the Healthcare Privacy and Security Classification System.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/security-labels"
-      }
-    },
-    {
-      "id" : "Patient.meta.tag",
-      "path" : "Patient.meta.tag",
-      "short" : "Tags applied to this resource",
-      "definition" : "Tags applied to this resource. Tags are intended to be used to identify and relate resources to process and workflow, and applications are not required to consider the tags when interpreting the meaning of a resource.",
-      "comment" : "The tags can be updated without changing the stated version of the resource. The list of tags is a set. Uniqueness is based the system/code, and version and display are ignored.",
-      "min" : 0,
-      "max" : "*",
-      "base" : {
-        "path" : "Meta.tag",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "Coding"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : true,
-      "binding" : {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString" : "Tags"
-        }],
-        "strength" : "example",
-        "description" : "Codes that represent various types of tags, commonly workflow-related; e.g. \"Needs review by Dr. Jones\".",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/common-tags"
-      }
     },
     {
       "id" : "Patient.implicitRules",
@@ -636,16 +312,11 @@
     {
       "id" : "Patient.extension",
       "path" : "Patient.extension",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "url"
-        }],
-        "ordered" : false,
-        "rules" : "open"
-      },
-      "short" : "Extension",
-      "definition" : "An Extension",
+      "short" : "Additional content defined by implementations",
+      "definition" : "May be used to represent additional information that is not part of the basic definition of the resource. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
+      "comment" : "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+      "alias" : ["extensions",
+      "user content"],
       "min" : 0,
       "max" : "*",
       "base" : {
@@ -673,267 +344,11 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
       "isModifier" : false,
-      "isSummary" : false
-    },
-    {
-      "id" : "Patient.extension:birthPlace",
-      "path" : "Patient.extension",
-      "sliceName" : "birthPlace",
-      "short" : "Place of Birth for patient",
-      "definition" : "The registered place of birth of the patient. A sytem may use the address.text if they don't store the birthPlace address in discrete elements.",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "DomainResource.extension",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "Extension",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/patient-birthPlace"]
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      },
-      {
-        "key" : "ext-1",
-        "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
-        "expression" : "extension.exists() != value.exists()",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
-      }],
-      "isModifier" : false
-    },
-    {
-      "id" : "Patient.extension:birthPlace.id",
-      "path" : "Patient.extension.id",
-      "representation" : ["xmlAttr"],
-      "short" : "Unique id for inter-element referencing",
-      "definition" : "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "Element.id",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
-          "valueUrl" : "id"
-        }],
-        "code" : "http://hl7.org/fhirpath/System.String"
-      }],
-      "condition" : ["ele-1"],
-      "isModifier" : false,
-      "isSummary" : false,
-      "mapping" : [{
-        "identity" : "rim",
-        "map" : "n/a"
-      }]
-    },
-    {
-      "id" : "Patient.extension:birthPlace.extension",
-      "path" : "Patient.extension.extension",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "url"
-        }],
-        "description" : "Extensions are always sliced by (at least) url",
-        "rules" : "open"
-      },
-      "short" : "Extension",
-      "definition" : "An Extension",
-      "min" : 0,
-      "max" : "0",
-      "base" : {
-        "path" : "Element.extension",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "Extension"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      },
-      {
-        "key" : "ext-1",
-        "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
-        "expression" : "extension.exists() != value.exists()",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
-      }],
-      "isModifier" : false,
-      "isSummary" : false
-    },
-    {
-      "id" : "Patient.extension:birthPlace.url",
-      "path" : "Patient.extension.url",
-      "representation" : ["xmlAttr"],
-      "short" : "identifies the meaning of the extension",
-      "definition" : "Source of the definition for the extension code - a logical name or a URL.",
-      "comment" : "The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.",
-      "min" : 1,
-      "max" : "1",
-      "base" : {
-        "path" : "Extension.url",
-        "min" : 1,
-        "max" : "1"
-      },
-      "type" : [{
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
-          "valueUrl" : "uri"
-        }],
-        "code" : "http://hl7.org/fhirpath/System.String"
-      }],
-      "fixedUri" : "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
-      "isModifier" : false,
       "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "N/A"
       }]
-    },
-    {
-      "id" : "Patient.extension:birthPlace.value[x]",
-      "path" : "Patient.extension.value[x]",
-      "short" : "Value of extension",
-      "definition" : "Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R5/extensibility.html) for a list).",
-      "min" : 1,
-      "max" : "1",
-      "base" : {
-        "path" : "Extension.value[x]",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "code" : "Address",
-        "profile" : ["http://hl7.eu/fhir/base/StructureDefinition/Address-eu"]
-      }],
-      "condition" : ["ext-1"],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : false,
-      "mapping" : [{
-        "identity" : "rim",
-        "map" : "N/A"
-      }]
-    },
-    {
-      "id" : "Patient.extension:sex-for-clinical-use",
-      "path" : "Patient.extension",
-      "sliceName" : "sex-for-clinical-use",
-      "short" : "Sex for clinical use",
-      "definition" : "A parameter that provides guidance on how a recipient should apply settings or reference ranges that are derived from observable information such as an organ inventory, recent hormone lab tests, genetic testing, menstrual status, obstetric history, etc..",
-      "min" : 0,
-      "max" : "*",
-      "base" : {
-        "path" : "DomainResource.extension",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "Extension",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/patient-sexParameterForClinicalUse"]
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      },
-      {
-        "key" : "ext-1",
-        "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
-        "expression" : "extension.exists() != value.exists()",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
-      }],
-      "isModifier" : false
-    },
-    {
-      "id" : "Patient.extension:patient-citizenship",
-      "path" : "Patient.extension",
-      "sliceName" : "patient-citizenship",
-      "short" : "Citizenship",
-      "definition" : "The patient's legal status as citizen of a country.",
-      "min" : 0,
-      "max" : "*",
-      "base" : {
-        "path" : "DomainResource.extension",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "Extension",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/patient-citizenship"]
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      },
-      {
-        "key" : "ext-1",
-        "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
-        "expression" : "extension.exists() != value.exists()",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
-      }],
-      "isModifier" : false
-    },
-    {
-      "id" : "Patient.extension:patient-nationality",
-      "path" : "Patient.extension",
-      "sliceName" : "patient-nationality",
-      "short" : "Nationality",
-      "definition" : "The nationality of the patient.",
-      "min" : 0,
-      "max" : "*",
-      "base" : {
-        "path" : "DomainResource.extension",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "Extension",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/patient-nationality"]
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      },
-      {
-        "key" : "ext-1",
-        "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
-        "expression" : "extension.exists() != value.exists()",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
-      }],
-      "isModifier" : false
     },
     {
       "id" : "Patient.modifierExtension",
@@ -988,7 +403,7 @@
         }],
         "rules" : "open"
       },
-      "short" : "Patient identifiers",
+      "short" : "An identifier for this patient",
       "definition" : "An identifier for this patient.",
       "requirements" : "Patients are almost always assigned specific numerical identifiers.",
       "min" : 1,
@@ -1032,7 +447,7 @@
       "id" : "Patient.identifier:chulIdentifier",
       "path" : "Patient.identifier",
       "sliceName" : "chulIdentifier",
-      "short" : "Patient identifiers",
+      "short" : "An identifier for this patient",
       "definition" : "An identifier for this patient.",
       "requirements" : "Patients are almost always assigned specific numerical identifiers.",
       "min" : 1,
@@ -1460,8 +875,8 @@
       "short" : "A name associated with the patient",
       "definition" : "A name associated with the individual.",
       "comment" : "A patient may have multiple names with different uses or applicable periods. For animals, the name is a \"HumanName\" in the sense that is assigned and used by humans and has the same patterns.",
-      "requirements" : "Need to be able to track the patient by multiple names. Examples are your official name and a partner name.\r\nThe Alphabetic representation of the name SHALL be always provided",
-      "min" : 1,
+      "requirements" : "Need to be able to track the patient by multiple names. Examples are your official name and a partner name.",
+      "min" : 0,
       "max" : "*",
       "base" : {
         "path" : "Patient.name",
@@ -1469,8 +884,7 @@
         "max" : "*"
       },
       "type" : [{
-        "code" : "HumanName",
-        "profile" : ["http://hl7.eu/fhir/base/StructureDefinition/HumanName-eu"]
+        "code" : "HumanName"
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -1479,15 +893,7 @@
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      },
-      {
-        "key" : "eu-pat-1",
-        "severity" : "error",
-        "human" : "given, family, text or a data-absent-reason extension SHALL be present",
-        "expression" : "family.exists() or given.exists() or text.exists() or extension('http://hl7.org/fhir/StructureDefinition/data-absent-reason').exists()",
-        "source" : "http://hl7.eu/fhir/base/StructureDefinition/patient-eu-core"
       }],
-      "mustSupport" : true,
       "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
@@ -1504,612 +910,13 @@
       }]
     },
     {
-      "id" : "Patient.name.id",
-      "path" : "Patient.name.id",
-      "representation" : ["xmlAttr"],
-      "short" : "Unique id for inter-element referencing",
-      "definition" : "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "Element.id",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
-          "valueUrl" : "string"
-        }],
-        "code" : "http://hl7.org/fhirpath/System.String"
-      }],
-      "isModifier" : false,
-      "isSummary" : false,
-      "mapping" : [{
-        "identity" : "rim",
-        "map" : "n/a"
-      }]
-    },
-    {
-      "id" : "Patient.name.extension",
-      "path" : "Patient.name.extension",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "url"
-        }],
-        "description" : "Extensions are always sliced by (at least) url",
-        "rules" : "open"
-      },
-      "short" : "Additional content defined by implementations",
-      "definition" : "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-      "comment" : "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-      "alias" : ["extensions",
-      "user content"],
-      "min" : 0,
-      "max" : "*",
-      "base" : {
-        "path" : "Element.extension",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "Extension"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      },
-      {
-        "key" : "ext-1",
-        "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
-        "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
-      }],
-      "isModifier" : false,
-      "isSummary" : false,
-      "mapping" : [{
-        "identity" : "rim",
-        "map" : "n/a"
-      }]
-    },
-    {
-      "id" : "Patient.name.extension:name-absent-reason",
-      "path" : "Patient.name.extension",
-      "sliceName" : "name-absent-reason",
-      "short" : "Reason for not providing the name.",
-      "definition" : "Reason for not providing the name.",
-      "min" : 0,
-      "max" : "*",
-      "base" : {
-        "path" : "Element.extension",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "Extension",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/data-absent-reason"]
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      },
-      {
-        "key" : "ext-1",
-        "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
-        "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
-      }],
-      "isModifier" : false,
-      "isSummary" : false,
-      "mapping" : [{
-        "identity" : "rim",
-        "map" : "ANY.nullFlavor"
-      }]
-    },
-    {
-      "id" : "Patient.name.use",
-      "path" : "Patient.name.use",
-      "short" : "usual | official | temp | nickname | anonymous | old | maiden",
-      "definition" : "Identifies the purpose for this name.",
-      "comment" : "Applications can assume that a name is current unless it explicitly says that it is temporary or old.",
-      "requirements" : "Allows the appropriate name for a particular context of use to be selected from among a set of names.",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "HumanName.use",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "code" : "code"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : true,
-      "isModifierReason" : "This is labeled as \"Is Modifier\" because applications should not mistake a temporary or old name etc.for a current/permanent one",
-      "isSummary" : true,
-      "binding" : {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString" : "NameUse"
-        }],
-        "strength" : "required",
-        "description" : "The use of a human name.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/name-use|4.0.1"
-      },
-      "mapping" : [{
-        "identity" : "v2",
-        "map" : "XPN.7, but often indicated by which field contains the name"
-      },
-      {
-        "identity" : "rim",
-        "map" : "unique(./use)"
-      },
-      {
-        "identity" : "servd",
-        "map" : "./NamePurpose"
-      }]
-    },
-    {
-      "id" : "Patient.name.text",
-      "path" : "Patient.name.text",
-      "short" : "Text representation of the full name.",
-      "definition" : "Text representation of the full name. Due to the cultural variance around the world a consuming system may not know how to present the name correctly; moreover not all the parts of the name go in given or family. Creators are therefore strongly encouraged to provide through this element a presented version of the name. Future versions of this guide may require this element.",
-      "comment" : "Can provide both a text representation and parts. Applications updating a name SHALL ensure that when both text and parts are present,  no content is included in the text that isn't found in a part.",
-      "requirements" : "A renderable, unencoded form.",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "HumanName.text",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "code" : "string"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : true,
-      "mapping" : [{
-        "identity" : "v2",
-        "map" : "implied by XPN.11"
-      },
-      {
-        "identity" : "rim",
-        "map" : "./formatted"
-      }]
-    },
-    {
-      "id" : "Patient.name.family",
-      "path" : "Patient.name.family",
-      "short" : "Family name.",
-      "definition" : "Family name. When more the family is composed by more than one names, this element documents the full composed family name with the proper * name.familyrder. The parts are recorded in the fhater and mother family names extensions.",
-      "comment" : "Family Name may be decomposed into specific parts using extensions (de, nl, es related cultures).",
-      "alias" : ["surname"],
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "HumanName.family",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "code" : "string"
-      }],
-      "example" : [{
-        "label" : "spanish name",
-        "valueString" : "Valero Iglesias"
-      },
-      {
-        "label" : "spanish",
-        "valueString" : "Valero Iglesias"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : true,
-      "mapping" : [{
-        "identity" : "v2",
-        "map" : "XPN.1/FN.1"
-      },
-      {
-        "identity" : "rim",
-        "map" : "./part[partType = FAM]"
-      },
-      {
-        "identity" : "servd",
-        "map" : "./FamilyName"
-      }]
-    },
-    {
-      "id" : "Patient.name.family.id",
-      "path" : "Patient.name.family.id",
-      "representation" : ["xmlAttr"],
-      "short" : "xml:id (or equivalent in JSON)",
-      "definition" : "unique id for the element within a resource (for internal references)",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "Element.id",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
-          "valueUrl" : "string"
-        }],
-        "code" : "http://hl7.org/fhirpath/System.String"
-      }],
-      "isModifier" : false,
-      "isSummary" : false
-    },
-    {
-      "id" : "Patient.name.family.extension",
-      "path" : "Patient.name.family.extension",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "url"
-        }],
-        "ordered" : false,
-        "rules" : "open"
-      },
-      "short" : "Extension",
-      "definition" : "An Extension",
-      "min" : 0,
-      "max" : "*",
-      "base" : {
-        "path" : "Element.extension",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "Extension"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      },
-      {
-        "key" : "ext-1",
-        "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
-        "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
-      }],
-      "isModifier" : false,
-      "isSummary" : false
-    },
-    {
-      "id" : "Patient.name.family.extension:fathersFamily",
-      "path" : "Patient.name.family.extension",
-      "sliceName" : "fathersFamily",
-      "short" : "Portion of family name derived from father",
-      "definition" : "The portion of the family name that is derived from the person's father.",
-      "min" : 0,
-      "max" : "*",
-      "base" : {
-        "path" : "Element.extension",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "Extension",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/humanname-fathers-family"]
-      }],
-      "example" : [{
-        "label" : "spanish name",
-        "valueString" : "Valero"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      },
-      {
-        "key" : "ext-1",
-        "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
-        "expression" : "extension.exists() != value.exists()",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
-      }],
-      "isModifier" : false,
-      "mapping" : [{
-        "identity" : "v2",
-        "map" : "N/A"
-      },
-      {
-        "identity" : "rim",
-        "map" : "N/A"
-      }]
-    },
-    {
-      "id" : "Patient.name.family.extension:mothersFamily",
-      "path" : "Patient.name.family.extension",
-      "sliceName" : "mothersFamily",
-      "short" : "Portion of family name derived from mother",
-      "definition" : "The portion of the family name that is derived from the person's mother.",
-      "min" : 0,
-      "max" : "*",
-      "base" : {
-        "path" : "Element.extension",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "Extension",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/humanname-mothers-family"]
-      }],
-      "example" : [{
-        "label" : "spanish name",
-        "valueString" : "Iglesias"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      },
-      {
-        "key" : "ext-1",
-        "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
-        "expression" : "extension.exists() != value.exists()",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
-      }],
-      "isModifier" : false,
-      "mapping" : [{
-        "identity" : "v2",
-        "map" : "N/A"
-      },
-      {
-        "identity" : "rim",
-        "map" : "N/A"
-      }]
-    },
-    {
-      "id" : "Patient.name.family.value",
-      "path" : "Patient.name.family.value",
-      "representation" : ["xmlAttr"],
-      "short" : "Primitive value for string",
-      "definition" : "The actual value",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "string.value",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
-          "valueUrl" : "string"
-        },
-        {
-          "url" : "http://hl7.org/fhir/StructureDefinition/regex",
-          "valueString" : "[ \\r\\n\\t\\S]+"
-        }],
-        "code" : "http://hl7.org/fhirpath/System.String"
-      }],
-      "maxLength" : 1048576,
-      "isModifier" : false,
-      "isSummary" : false
-    },
-    {
-      "id" : "Patient.name.given",
-      "path" : "Patient.name.given",
-      "short" : "Given names. Includes middle names",
-      "definition" : "Given name.",
-      "comment" : "If only initials are recorded, they may be used in place of the full name parts. Initials may be separated into multiple given names but often aren't due to paractical limitations.  This element is not called \"first name\" since given names do not always come first.",
-      "alias" : ["first name",
-      "middle name"],
-      "min" : 0,
-      "max" : "*",
-      "base" : {
-        "path" : "HumanName.given",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "string"
-      }],
-      "orderMeaning" : "Given Names appear in the correct order for presenting the name",
-      "example" : [{
-        "label" : "spanish name",
-        "valueString" : "Borja"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : true,
-      "mapping" : [{
-        "identity" : "v2",
-        "map" : "XPN.2 + XPN.3"
-      },
-      {
-        "identity" : "rim",
-        "map" : "./part[partType = GIV]"
-      },
-      {
-        "identity" : "servd",
-        "map" : "./GivenNames"
-      }]
-    },
-    {
-      "id" : "Patient.name.prefix",
-      "path" : "Patient.name.prefix",
-      "short" : "Parts that come before the name",
-      "definition" : "Part of the name that is acquired as a title due to academic, legal, employment or nobility status, etc. and that appears at the start of the name.",
-      "min" : 0,
-      "max" : "*",
-      "base" : {
-        "path" : "HumanName.prefix",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "string"
-      }],
-      "orderMeaning" : "Prefixes appear in the correct order for presenting the name",
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : true,
-      "mapping" : [{
-        "identity" : "v2",
-        "map" : "XPN.5"
-      },
-      {
-        "identity" : "rim",
-        "map" : "./part[partType = PFX]"
-      },
-      {
-        "identity" : "servd",
-        "map" : "./TitleCode"
-      }]
-    },
-    {
-      "id" : "Patient.name.suffix",
-      "path" : "Patient.name.suffix",
-      "short" : "Parts that come after the name",
-      "definition" : "Part of the name that is acquired as a title due to academic, legal, employment or nobility status, etc. and that appears at the end of the name.",
-      "min" : 0,
-      "max" : "*",
-      "base" : {
-        "path" : "HumanName.suffix",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "string"
-      }],
-      "orderMeaning" : "Suffixes appear in the correct order for presenting the name",
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : true,
-      "mapping" : [{
-        "identity" : "v2",
-        "map" : "XPN/4"
-      },
-      {
-        "identity" : "rim",
-        "map" : "./part[partType = SFX]"
-      }]
-    },
-    {
-      "id" : "Patient.name.period",
-      "path" : "Patient.name.period",
-      "short" : "Time period when name was/is in use",
-      "definition" : "Indicates the period of time when this name was valid for the named person.",
-      "requirements" : "Allows names to be placed in historical context.",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "HumanName.period",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "code" : "Period"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : true,
-      "mapping" : [{
-        "identity" : "v2",
-        "map" : "XPN.13 + XPN.14"
-      },
-      {
-        "identity" : "rim",
-        "map" : "./usablePeriod[type=\"IVL<TS>\"]"
-      },
-      {
-        "identity" : "servd",
-        "map" : "./StartDate and ./EndDate"
-      }]
-    },
-    {
       "id" : "Patient.telecom",
       "path" : "Patient.telecom",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "system"
-        }],
-        "rules" : "open"
-      },
-      "short" : "A contact detail for the patient",
+      "short" : "A contact detail for the individual",
       "definition" : "A contact detail (e.g. a telephone number or an email address) by which the individual may be contacted.",
       "comment" : "A Patient may have multiple ways to be contacted with different uses or applicable periods.  May need to have options for contacting the person urgently and also to help with identification. The address might not go directly to the individual, but may reach another party that is able to proxy for the patient (i.e. home phone, or pet owner's phone).",
       "requirements" : "People have (primary) ways to contact them in some way such as phone, email.",
-      "min" : 2,
+      "min" : 0,
       "max" : "*",
       "base" : {
         "path" : "Patient.telecom",
@@ -2140,686 +947,12 @@
       {
         "identity" : "cda",
         "map" : ".telecom"
-      }]
-    },
-    {
-      "id" : "Patient.telecom:phone",
-      "path" : "Patient.telecom",
-      "sliceName" : "phone",
-      "short" : "A contact detail for the patient",
-      "definition" : "A contact detail (e.g. a telephone number or an email address) by which the individual may be contacted.",
-      "comment" : "A Patient may have multiple ways to be contacted with different uses or applicable periods.  May need to have options for contacting the person urgently and also to help with identification. The address might not go directly to the individual, but may reach another party that is able to proxy for the patient (i.e. home phone, or pet owner's phone).",
-      "requirements" : "People have (primary) ways to contact them in some way such as phone, email.",
-      "min" : 1,
-      "max" : "*",
-      "base" : {
-        "path" : "Patient.telecom",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "ContactPoint"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "mustSupport" : true,
-      "isModifier" : false,
-      "isSummary" : true,
-      "mapping" : [{
-        "identity" : "v2",
-        "map" : "PID-13, PID-14, PID-40"
-      },
-      {
-        "identity" : "rim",
-        "map" : "telecom"
-      },
-      {
-        "identity" : "cda",
-        "map" : ".telecom"
-      }]
-    },
-    {
-      "id" : "Patient.telecom:phone.id",
-      "path" : "Patient.telecom.id",
-      "representation" : ["xmlAttr"],
-      "short" : "Unique id for inter-element referencing",
-      "definition" : "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "Element.id",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
-          "valueUrl" : "string"
-        }],
-        "code" : "http://hl7.org/fhirpath/System.String"
-      }],
-      "isModifier" : false,
-      "isSummary" : false,
-      "mapping" : [{
-        "identity" : "rim",
-        "map" : "n/a"
-      }]
-    },
-    {
-      "id" : "Patient.telecom:phone.extension",
-      "path" : "Patient.telecom.extension",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "url"
-        }],
-        "description" : "Extensions are always sliced by (at least) url",
-        "rules" : "open"
-      },
-      "short" : "Additional content defined by implementations",
-      "definition" : "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-      "comment" : "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-      "alias" : ["extensions",
-      "user content"],
-      "min" : 0,
-      "max" : "*",
-      "base" : {
-        "path" : "Element.extension",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "Extension"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      },
-      {
-        "key" : "ext-1",
-        "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
-        "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
-      }],
-      "isModifier" : false,
-      "isSummary" : false,
-      "mapping" : [{
-        "identity" : "rim",
-        "map" : "n/a"
-      }]
-    },
-    {
-      "id" : "Patient.telecom:phone.system",
-      "path" : "Patient.telecom.system",
-      "short" : "phone | fax | email | pager | url | sms | other",
-      "definition" : "Telecommunications form for contact point - what communications system is required to make use of the contact.",
-      "min" : 1,
-      "max" : "1",
-      "base" : {
-        "path" : "ContactPoint.system",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "code" : "code"
-      }],
-      "patternCode" : "phone",
-      "condition" : ["cpt-2"],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : true,
-      "binding" : {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString" : "ContactPointSystem"
-        }],
-        "strength" : "required",
-        "description" : "Telecommunications form for contact point.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/contact-point-system|4.0.1"
-      },
-      "mapping" : [{
-        "identity" : "v2",
-        "map" : "XTN.3"
-      },
-      {
-        "identity" : "rim",
-        "map" : "./scheme"
-      },
-      {
-        "identity" : "servd",
-        "map" : "./ContactPointType"
-      }]
-    },
-    {
-      "id" : "Patient.telecom:phone.value",
-      "path" : "Patient.telecom.value",
-      "short" : "The actual contact point details",
-      "definition" : "The actual contact point details, in a form that is meaningful to the designated communication system (i.e. phone number or email address).",
-      "comment" : "Additional text data such as phone extension numbers, or notes about use of the contact are sometimes included in the value.",
-      "requirements" : "Need to support legacy numbers that are not in a tightly controlled format.",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "ContactPoint.value",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "code" : "string"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      },
-      {
-        "key" : "PhoneNumber",
-        "severity" : "warning",
-        "human" : "Format des numéros de téléphone",
-        "expression" : "matches('\\\\d+')",
-        "source" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPatient"
-      }],
-      "isModifier" : false,
-      "isSummary" : true,
-      "mapping" : [{
-        "identity" : "v2",
-        "map" : "XTN.1 (or XTN.12)"
-      },
-      {
-        "identity" : "rim",
-        "map" : "./url"
-      },
-      {
-        "identity" : "servd",
-        "map" : "./Value"
-      }]
-    },
-    {
-      "id" : "Patient.telecom:phone.use",
-      "path" : "Patient.telecom.use",
-      "short" : "home | work | temp | old | mobile - purpose of this contact point",
-      "definition" : "Identifies the purpose for the contact point.",
-      "comment" : "Applications can assume that a contact is current unless it explicitly says that it is temporary or old.",
-      "requirements" : "Need to track the way a person uses this contact, so a user can choose which is appropriate for their purpose.",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "ContactPoint.use",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "code" : "code"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : true,
-      "isModifierReason" : "This is labeled as \"Is Modifier\" because applications should not mistake a temporary or old contact etc.for a current/permanent one",
-      "isSummary" : true,
-      "binding" : {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString" : "ContactPointUse"
-        }],
-        "strength" : "required",
-        "description" : "Use of contact point.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/contact-point-use|4.0.1"
-      },
-      "mapping" : [{
-        "identity" : "v2",
-        "map" : "XTN.2 - but often indicated by field"
-      },
-      {
-        "identity" : "rim",
-        "map" : "unique(./use)"
-      },
-      {
-        "identity" : "servd",
-        "map" : "./ContactPointPurpose"
-      }]
-    },
-    {
-      "id" : "Patient.telecom:phone.rank",
-      "path" : "Patient.telecom.rank",
-      "short" : "Specify preferred order of use (1 = highest)",
-      "definition" : "Specifies a preferred order in which to use a set of contacts. ContactPoints with lower rank values are more preferred than those with higher rank values.",
-      "comment" : "Note that rank does not necessarily follow the order in which the contacts are represented in the instance.",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "ContactPoint.rank",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "code" : "positiveInt"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : true,
-      "mapping" : [{
-        "identity" : "v2",
-        "map" : "n/a"
-      },
-      {
-        "identity" : "rim",
-        "map" : "n/a"
-      }]
-    },
-    {
-      "id" : "Patient.telecom:phone.period",
-      "path" : "Patient.telecom.period",
-      "short" : "Time period when the contact point was/is in use",
-      "definition" : "Time period when the contact point was/is in use.",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "ContactPoint.period",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "code" : "Period"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : true,
-      "mapping" : [{
-        "identity" : "v2",
-        "map" : "N/A"
-      },
-      {
-        "identity" : "rim",
-        "map" : "./usablePeriod[type=\"IVL<TS>\"]"
-      },
-      {
-        "identity" : "servd",
-        "map" : "./StartDate and ./EndDate"
-      }]
-    },
-    {
-      "id" : "Patient.telecom:email",
-      "path" : "Patient.telecom",
-      "sliceName" : "email",
-      "short" : "A contact detail for the patient",
-      "definition" : "A contact detail (e.g. a telephone number or an email address) by which the individual may be contacted.",
-      "comment" : "A Patient may have multiple ways to be contacted with different uses or applicable periods.  May need to have options for contacting the person urgently and also to help with identification. The address might not go directly to the individual, but may reach another party that is able to proxy for the patient (i.e. home phone, or pet owner's phone).",
-      "requirements" : "People have (primary) ways to contact them in some way such as phone, email.",
-      "min" : 1,
-      "max" : "1",
-      "base" : {
-        "path" : "Patient.telecom",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "ContactPoint"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "mustSupport" : true,
-      "isModifier" : false,
-      "isSummary" : true,
-      "mapping" : [{
-        "identity" : "v2",
-        "map" : "PID-13, PID-14, PID-40"
-      },
-      {
-        "identity" : "rim",
-        "map" : "telecom"
-      },
-      {
-        "identity" : "cda",
-        "map" : ".telecom"
-      }]
-    },
-    {
-      "id" : "Patient.telecom:email.id",
-      "path" : "Patient.telecom.id",
-      "representation" : ["xmlAttr"],
-      "short" : "Unique id for inter-element referencing",
-      "definition" : "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "Element.id",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
-          "valueUrl" : "string"
-        }],
-        "code" : "http://hl7.org/fhirpath/System.String"
-      }],
-      "isModifier" : false,
-      "isSummary" : false,
-      "mapping" : [{
-        "identity" : "rim",
-        "map" : "n/a"
-      }]
-    },
-    {
-      "id" : "Patient.telecom:email.extension",
-      "path" : "Patient.telecom.extension",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "url"
-        }],
-        "description" : "Extensions are always sliced by (at least) url",
-        "rules" : "open"
-      },
-      "short" : "Additional content defined by implementations",
-      "definition" : "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-      "comment" : "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-      "alias" : ["extensions",
-      "user content"],
-      "min" : 0,
-      "max" : "*",
-      "base" : {
-        "path" : "Element.extension",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "Extension"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      },
-      {
-        "key" : "ext-1",
-        "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
-        "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
-      }],
-      "isModifier" : false,
-      "isSummary" : false,
-      "mapping" : [{
-        "identity" : "rim",
-        "map" : "n/a"
-      }]
-    },
-    {
-      "id" : "Patient.telecom:email.system",
-      "path" : "Patient.telecom.system",
-      "short" : "phone | fax | email | pager | url | sms | other",
-      "definition" : "Telecommunications form for contact point - what communications system is required to make use of the contact.",
-      "min" : 1,
-      "max" : "1",
-      "base" : {
-        "path" : "ContactPoint.system",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "code" : "code"
-      }],
-      "patternCode" : "email",
-      "condition" : ["cpt-2"],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : true,
-      "binding" : {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString" : "ContactPointSystem"
-        }],
-        "strength" : "required",
-        "description" : "Telecommunications form for contact point.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/contact-point-system|4.0.1"
-      },
-      "mapping" : [{
-        "identity" : "v2",
-        "map" : "XTN.3"
-      },
-      {
-        "identity" : "rim",
-        "map" : "./scheme"
-      },
-      {
-        "identity" : "servd",
-        "map" : "./ContactPointType"
-      }]
-    },
-    {
-      "id" : "Patient.telecom:email.value",
-      "path" : "Patient.telecom.value",
-      "short" : "The actual contact point details",
-      "definition" : "The actual contact point details, in a form that is meaningful to the designated communication system (i.e. phone number or email address).",
-      "comment" : "Additional text data such as phone extension numbers, or notes about use of the contact are sometimes included in the value.",
-      "requirements" : "Need to support legacy numbers that are not in a tightly controlled format.",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "ContactPoint.value",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "code" : "string"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      },
-      {
-        "key" : "Email",
-        "severity" : "warning",
-        "human" : "Format des emails",
-        "expression" : "matches('\\\\S+@\\\\S+\\\\.\\\\S+')",
-        "source" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPatient"
-      }],
-      "isModifier" : false,
-      "isSummary" : true,
-      "mapping" : [{
-        "identity" : "v2",
-        "map" : "XTN.1 (or XTN.12)"
-      },
-      {
-        "identity" : "rim",
-        "map" : "./url"
-      },
-      {
-        "identity" : "servd",
-        "map" : "./Value"
-      }]
-    },
-    {
-      "id" : "Patient.telecom:email.use",
-      "path" : "Patient.telecom.use",
-      "short" : "home | work | temp | old | mobile - purpose of this contact point",
-      "definition" : "Identifies the purpose for the contact point.",
-      "comment" : "Applications can assume that a contact is current unless it explicitly says that it is temporary or old.",
-      "requirements" : "Need to track the way a person uses this contact, so a user can choose which is appropriate for their purpose.",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "ContactPoint.use",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "code" : "code"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : true,
-      "isModifierReason" : "This is labeled as \"Is Modifier\" because applications should not mistake a temporary or old contact etc.for a current/permanent one",
-      "isSummary" : true,
-      "binding" : {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString" : "ContactPointUse"
-        }],
-        "strength" : "required",
-        "description" : "Use of contact point.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/contact-point-use|4.0.1"
-      },
-      "mapping" : [{
-        "identity" : "v2",
-        "map" : "XTN.2 - but often indicated by field"
-      },
-      {
-        "identity" : "rim",
-        "map" : "unique(./use)"
-      },
-      {
-        "identity" : "servd",
-        "map" : "./ContactPointPurpose"
-      }]
-    },
-    {
-      "id" : "Patient.telecom:email.rank",
-      "path" : "Patient.telecom.rank",
-      "short" : "Specify preferred order of use (1 = highest)",
-      "definition" : "Specifies a preferred order in which to use a set of contacts. ContactPoints with lower rank values are more preferred than those with higher rank values.",
-      "comment" : "Note that rank does not necessarily follow the order in which the contacts are represented in the instance.",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "ContactPoint.rank",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "code" : "positiveInt"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : true,
-      "mapping" : [{
-        "identity" : "v2",
-        "map" : "n/a"
-      },
-      {
-        "identity" : "rim",
-        "map" : "n/a"
-      }]
-    },
-    {
-      "id" : "Patient.telecom:email.period",
-      "path" : "Patient.telecom.period",
-      "short" : "Time period when the contact point was/is in use",
-      "definition" : "Time period when the contact point was/is in use.",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "ContactPoint.period",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "code" : "Period"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : true,
-      "mapping" : [{
-        "identity" : "v2",
-        "map" : "N/A"
-      },
-      {
-        "identity" : "rim",
-        "map" : "./usablePeriod[type=\"IVL<TS>\"]"
-      },
-      {
-        "identity" : "servd",
-        "map" : "./StartDate and ./EndDate"
       }]
     },
     {
       "id" : "Patient.gender",
       "path" : "Patient.gender",
-      "short" : "Administrative Gender",
+      "short" : "male | female | other | unknown",
       "definition" : "Administrative Gender - the gender that the patient is considered to have for administration and record keeping purposes.",
       "comment" : "The gender might not match the biological sex as determined by genetics or the individual's preferred identification. Note that for both humans and particularly animals, there are other legitimate possibilities than male and female, though the vast majority of systems and contexts only support male and female.  Systems providing decision support or enforcing business rules should ideally do this on the basis of Observations dealing with the specific sex or gender aspect of interest (anatomical, chromosomal, social, etc.)  However, because these observations are infrequently recorded, defaulting to the administrative gender is common practice.  Where such defaulting occurs, rule enforcement should allow for the variation between administrative and biological, chromosomal and other gender aspects.  For example, an alert about a hysterectomy on a male should be handled as a warning or overridable error, not a \"hard\" error.  See the Patient Gender and Sex section for additional information about communicating patient gender and sex.",
       "requirements" : "Needed for identification of the individual, in combination with (at least) name and birth date.",
@@ -2868,11 +1001,11 @@
     {
       "id" : "Patient.birthDate",
       "path" : "Patient.birthDate",
-      "short" : "The date of birth for the patient",
+      "short" : "The date of birth for the individual",
       "definition" : "The date of birth for the individual.",
       "comment" : "At least an estimated year should be provided as a guess if the real DOB is unknown  There is a standard extension \"patient-birthTime\" available that should be used where Time is required (such as in maternity/infant care systems).",
       "requirements" : "Age of the individual drives many clinical processes.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Patient.birthDate",
@@ -2908,135 +1041,6 @@
         "identity" : "loinc",
         "map" : "21112-8"
       }]
-    },
-    {
-      "id" : "Patient.birthDate.id",
-      "path" : "Patient.birthDate.id",
-      "representation" : ["xmlAttr"],
-      "short" : "xml:id (or equivalent in JSON)",
-      "definition" : "unique id for the element within a resource (for internal references)",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "Element.id",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
-          "valueUrl" : "string"
-        }],
-        "code" : "http://hl7.org/fhirpath/System.String"
-      }],
-      "isModifier" : false,
-      "isSummary" : false
-    },
-    {
-      "id" : "Patient.birthDate.extension",
-      "path" : "Patient.birthDate.extension",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "url"
-        }],
-        "ordered" : false,
-        "rules" : "open"
-      },
-      "short" : "Extension",
-      "definition" : "An Extension",
-      "min" : 0,
-      "max" : "*",
-      "base" : {
-        "path" : "Element.extension",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "Extension"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      },
-      {
-        "key" : "ext-1",
-        "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
-        "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
-      }],
-      "isModifier" : false,
-      "isSummary" : false
-    },
-    {
-      "id" : "Patient.birthDate.extension:dob-absent-reason",
-      "path" : "Patient.birthDate.extension",
-      "sliceName" : "dob-absent-reason",
-      "short" : "Reason for not providing the Date of Birth.",
-      "definition" : "Reason for not providing the Date of Birth.",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "Element.extension",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "Extension",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/data-absent-reason"]
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      },
-      {
-        "key" : "ext-1",
-        "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
-        "expression" : "extension.exists() != value.exists()",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
-      }],
-      "isModifier" : false,
-      "mapping" : [{
-        "identity" : "rim",
-        "map" : "ANY.nullFlavor"
-      }]
-    },
-    {
-      "id" : "Patient.birthDate.value",
-      "path" : "Patient.birthDate.value",
-      "representation" : ["xmlAttr"],
-      "short" : "Primitive value for date",
-      "definition" : "The actual value",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "date.value",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
-          "valueUrl" : "date"
-        },
-        {
-          "url" : "http://hl7.org/fhir/StructureDefinition/regex",
-          "valueString" : "([0-9]([0-9]([0-9][1-9]|[1-9]0)|[1-9]00)|[1-9]000)(-(0[1-9]|1[0-2])(-(0[1-9]|[1-2][0-9]|3[0-1]))?)?"
-        }],
-        "code" : "http://hl7.org/fhirpath/System.Date"
-      }],
-      "isModifier" : false,
-      "isSummary" : false
     },
     {
       "id" : "Patient.deceased[x]",
@@ -3097,8 +1101,7 @@
         "max" : "*"
       },
       "type" : [{
-        "code" : "Address",
-        "profile" : ["http://hl7.eu/fhir/base/StructureDefinition/Address-eu"]
+        "code" : "Address"
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -3424,8 +1427,7 @@
         "max" : "*"
       },
       "type" : [{
-        "code" : "CodeableConcept",
-        "profile" : ["http://hl7.org/fhir/uv/ips/StructureDefinition/CodeableConcept-uv-ips"]
+        "code" : "CodeableConcept"
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -3462,7 +1464,7 @@
     {
       "id" : "Patient.contact.name",
       "path" : "Patient.contact.name",
-      "short" : "Contact name",
+      "short" : "A name associated with the contact person",
       "definition" : "A name associated with the contact person.",
       "requirements" : "Contact persons need to be identified by name, but it is uncommon to need details about multiple other names for that contact person.",
       "min" : 0,
@@ -3473,8 +1475,7 @@
         "max" : "1"
       },
       "type" : [{
-        "code" : "HumanName",
-        "profile" : ["http://hl7.eu/fhir/base/StructureDefinition/HumanName-eu"]
+        "code" : "HumanName"
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -3502,7 +1503,7 @@
     {
       "id" : "Patient.contact.telecom",
       "path" : "Patient.contact.telecom",
-      "short" : "Contact details for the person",
+      "short" : "A contact detail for the person",
       "definition" : "A contact detail for the person, e.g. a telephone number or an email address.",
       "comment" : "Contact may have multiple ways to be contacted with different uses or applicable periods.  May need to have options for contacting the person urgently, and also to help with identification.",
       "requirements" : "People have (primary) ways to contact them in some way such as phone, email.",
@@ -3542,7 +1543,7 @@
     {
       "id" : "Patient.contact.address",
       "path" : "Patient.contact.address",
-      "short" : "Contact person address",
+      "short" : "Address for the contact person",
       "definition" : "Address for the contact person.",
       "requirements" : "Need to keep track where the contact person can be contacted per postal mail or visited.",
       "min" : 0,
@@ -3553,8 +1554,7 @@
         "max" : "1"
       },
       "type" : [{
-        "code" : "Address",
-        "profile" : ["http://hl7.eu/fhir/base/StructureDefinition/Address-eu"]
+        "code" : "Address"
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -3853,7 +1853,7 @@
     {
       "id" : "Patient.communication.language",
       "path" : "Patient.communication.language",
-      "short" : "Communication language",
+      "short" : "The language which can be used to communicate with the patient about his or her health",
       "definition" : "The ISO-639-1 alpha 2 code in lower case for the language, optionally followed by a hyphen and the ISO-3166-1 alpha 2 code for the region in upper case; e.g. \"en\" for English, or \"en-US\" for American English versus \"en-EN\" for England English.",
       "comment" : "The structure aa-BB with this exact casing is one the most widely used notations for locale. However not all systems actually code this but instead have it as free text. Hence CodeableConcept instead of code as the data type.",
       "requirements" : "Most systems in multilingual countries will want to convey language. Not all systems actually need the regional dialect.",
@@ -3946,7 +1946,7 @@
     {
       "id" : "Patient.generalPractitioner",
       "path" : "Patient.generalPractitioner",
-      "short" : "Patient's nominated primary care provider.",
+      "short" : "Patient's nominated primary care provider",
       "definition" : "Patient's nominated care provider.",
       "comment" : "This may be the primary care provider (in a GP context), or it may be a patient nominated care manager in a community/disability setting, or even organization that will provide people to perform the care provider roles.  It is not to be used to record Care Teams, these should be in a CareTeam resource that may be linked to the CarePlan or EpisodeOfCare resources.\nMultiple GPs may be recorded against the patient for various reasons, such as a student that has his home GP listed along with the GP at university during the school semesters, or a \"fly-in/fly-out\" worker that has the onsite GP also included with his home GP to remain aware of medical issues.\n\nJurisdictions may decide that they can profile this down to 1 if desired, or 1 per type.",
       "alias" : ["careProvider"],
@@ -3959,9 +1959,9 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.eu/fhir/base/StructureDefinition/organization-eu",
-        "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu",
-        "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"]
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Organization",
+        "http://hl7.org/fhir/StructureDefinition/Practitioner",
+        "http://hl7.org/fhir/StructureDefinition/PractitionerRole"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -4263,32 +2263,8 @@
   },
   "differential" : {
     "element" : [{
-      "id" : "Patient.meta.profile",
-      "path" : "Patient.meta.profile",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "$this"
-        }],
-        "rules" : "open"
-      },
-      "min" : 2
-    },
-    {
-      "id" : "Patient.meta.profile:bePatient",
-      "path" : "Patient.meta.profile",
-      "sliceName" : "bePatient",
-      "min" : 1,
-      "max" : "1",
-      "patternCanonical" : "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient"
-    },
-    {
-      "id" : "Patient.meta.profile:euPatient",
-      "path" : "Patient.meta.profile",
-      "sliceName" : "euPatient",
-      "min" : 1,
-      "max" : "1",
-      "patternCanonical" : "http://hl7.eu/fhir/laboratory/StructureDefinition/Patient-eu-lab"
+      "id" : "Patient",
+      "path" : "Patient"
     },
     {
       "id" : "Patient.identifier",
@@ -4323,73 +2299,6 @@
         "severity" : "warning",
         "human" : "Format des identifiants numnat",
         "expression" : "matches('\\\\d{6}\\\\w')",
-        "source" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPatient"
-      }]
-    },
-    {
-      "id" : "Patient.name",
-      "path" : "Patient.name",
-      "mustSupport" : true
-    },
-    {
-      "id" : "Patient.telecom",
-      "path" : "Patient.telecom",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "system"
-        }],
-        "rules" : "open"
-      },
-      "min" : 2
-    },
-    {
-      "id" : "Patient.telecom:phone",
-      "path" : "Patient.telecom",
-      "sliceName" : "phone",
-      "min" : 1,
-      "max" : "*",
-      "mustSupport" : true
-    },
-    {
-      "id" : "Patient.telecom:phone.system",
-      "path" : "Patient.telecom.system",
-      "min" : 1,
-      "patternCode" : "phone"
-    },
-    {
-      "id" : "Patient.telecom:phone.value",
-      "path" : "Patient.telecom.value",
-      "constraint" : [{
-        "key" : "PhoneNumber",
-        "severity" : "warning",
-        "human" : "Format des numéros de téléphone",
-        "expression" : "matches('\\\\d+')",
-        "source" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPatient"
-      }]
-    },
-    {
-      "id" : "Patient.telecom:email",
-      "path" : "Patient.telecom",
-      "sliceName" : "email",
-      "min" : 1,
-      "max" : "1",
-      "mustSupport" : true
-    },
-    {
-      "id" : "Patient.telecom:email.system",
-      "path" : "Patient.telecom.system",
-      "min" : 1,
-      "patternCode" : "email"
-    },
-    {
-      "id" : "Patient.telecom:email.value",
-      "path" : "Patient.telecom.value",
-      "constraint" : [{
-        "key" : "Email",
-        "severity" : "warning",
-        "human" : "Format des emails",
-        "expression" : "matches('\\\\S+@\\\\S+\\\\.\\\\S+')",
         "source" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPatient"
       }]
     }]

@@ -10,7 +10,7 @@
       "systems" : ["http://loinc.org", "http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-ChulEfrObservation.html" : "ChulEfrObservation"
+      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation"
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-bio",
@@ -22,7 +22,7 @@
       "systems" : ["http://loinc.org"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoBio.html" : "ChulPneumoBio"
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio"
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-diagnostic",
@@ -34,7 +34,7 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoCondition.html" : "ChulPneumoCondition"
+      "StructureDefinition-VunsPneumoCondition.html" : "VunsPneumoCondition"
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-vitaux",
@@ -46,7 +46,7 @@
       "systems" : ["http://loinc.org"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoVitalSign.html" : "ChulPneumoVitalSign"
+      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign"
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac",
@@ -58,7 +58,7 @@
       "systems" : ["http://loinc.org"],
       "uses" : {
       },
-      "StructureDefinition-ChulTobaccoObservation.html" : "ChulTobaccoObservation"
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation"
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac-status",

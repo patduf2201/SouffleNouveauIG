@@ -14,7 +14,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoCondition.html" : "ChulPneumoCondition"
+      "StructureDefinition-VunsPneumoCondition.html" : "VunsPneumoCondition"
     },
     {
       "url" : "http://hl7.eu/fhir/hdr/ValueSet/poa-indicator-eu-hdr",
@@ -30,7 +30,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoCondition.html" : "ChulPneumoCondition"
+      "StructureDefinition-VunsPneumoCondition.html" : "VunsPneumoCondition"
     },
     {
       "url" : "http://hl7.eu/fhir/hdr/ValueSet/treated-problem-eu-hdr",
@@ -42,7 +42,7 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoCondition.html" : "ChulPneumoCondition"
+      "StructureDefinition-VunsPneumoCondition.html" : "VunsPneumoCondition"
     },
     {
       "url" : "http://hl7.eu/fhir/laboratory/ValueSet/lab-obsCode-eu-lab",
@@ -54,7 +54,7 @@
       "systems" : ["http://loinc.org", "http://npu-terminology.org"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoBio.html" : "ChulPneumoBio"
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio"
     },
     {
       "url" : "http://hl7.eu/fhir/laboratory/ValueSet/lab-specialty-eu-lab",
@@ -66,7 +66,7 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoBio.html" : "ChulPneumoBio"
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio"
     },
     {
       "url" : "http://hl7.eu/fhir/laboratory/ValueSet/lab-studyType-eu-lab",
@@ -78,7 +78,7 @@
       "systems" : ["http://loinc.org"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoBio.html" : "ChulPneumoBio"
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio"
     },
     {
       "url" : "http://hl7.eu/fhir/laboratory/ValueSet/lab-technique-eu-lab",
@@ -90,7 +90,7 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoBio.html" : "ChulPneumoBio"
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
@@ -104,8 +104,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1"],
       "uses" : {
       },
-      "StructureDefinition-ChulLabPatient.html" : "ChulLabPatient",
-      "StructureDefinition-ChulPatient.html" : "ChulPatient"
+      "StructureDefinition-VunsPatient.html" : "VunsPatient",
+      "StructureDefinition-ChulPatient.html" : "ChulPatient",
+      "StructureDefinition-VunsLabPatient.html" : "VunsLabPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/body-site",
@@ -119,12 +120,12 @@
       "sources" : ["2.16.840.1.113883.4.642.3.141"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoCondition.html" : "ChulPneumoCondition",
-      "StructureDefinition-ChulEfrObservation.html" : "ChulEfrObservation",
-      "StructureDefinition-ChulTobaccoObservation.html" : "ChulTobaccoObservation",
-      "StructureDefinition-ChulPneumoBio.html" : "ChulPneumoBio",
-      "StructureDefinition-ChulEfr.html" : "ChulEfr",
-      "StructureDefinition-ChulPneumoVitalSign.html" : "ChulPneumoVitalSign"
+      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
+      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
+      "StructureDefinition-VunsPneumoCondition.html" : "VunsPneumoCondition",
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
+      "StructureDefinition-VunsEfr.html" : "VunsEfr"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/bundle-type",
@@ -138,7 +139,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.620"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoBundle.html" : "ChulPneumoBundle"
+      "StructureDefinition-VunsPneumoBundle.html" : "VunsPneumoBundle"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/common-tags",
@@ -152,8 +153,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.79"],
       "uses" : {
       },
-      "StructureDefinition-ChulLabPatient.html" : "ChulLabPatient",
-      "StructureDefinition-ChulPatient.html" : "ChulPatient"
+      "StructureDefinition-VunsPatient.html" : "VunsPatient",
+      "StructureDefinition-VunsLabPatient.html" : "VunsLabPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/composition-attestation-mode",
@@ -167,7 +168,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.238"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoComposition.html" : "ChulPneumoComposition"
+      "StructureDefinition-VunsPneumoComposition.html" : "VunsPneumoComposition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/composition-status",
@@ -181,7 +182,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.241"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoComposition.html" : "ChulPneumoComposition"
+      "StructureDefinition-VunsPneumoComposition.html" : "VunsPneumoComposition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/condition-category",
@@ -195,7 +196,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.162"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoCondition.html" : "ChulPneumoCondition"
+      "StructureDefinition-VunsPneumoCondition.html" : "VunsPneumoCondition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/condition-clinical",
@@ -209,7 +210,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.164"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoCondition.html" : "ChulPneumoCondition"
+      "StructureDefinition-VunsPneumoCondition.html" : "VunsPneumoCondition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/condition-code",
@@ -223,7 +224,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.161"],
       "uses" : {
       },
-      "StructureDefinition-ChulEfr.html" : "ChulEfr"
+      "StructureDefinition-VunsEfr.html" : "VunsEfr"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/condition-severity",
@@ -237,7 +238,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.168"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoCondition.html" : "ChulPneumoCondition"
+      "StructureDefinition-VunsPneumoCondition.html" : "VunsPneumoCondition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/condition-stage",
@@ -251,7 +252,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.170"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoCondition.html" : "ChulPneumoCondition"
+      "StructureDefinition-VunsPneumoCondition.html" : "VunsPneumoCondition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/condition-stage-type",
@@ -265,7 +266,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.171"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoCondition.html" : "ChulPneumoCondition"
+      "StructureDefinition-VunsPneumoCondition.html" : "VunsPneumoCondition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/condition-ver-status",
@@ -279,7 +280,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.166"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoCondition.html" : "ChulPneumoCondition"
+      "StructureDefinition-VunsPneumoCondition.html" : "VunsPneumoCondition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/contact-point-system",
@@ -293,8 +294,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.71"],
       "uses" : {
       },
-      "StructureDefinition-ChulLabPatient.html" : "ChulLabPatient",
-      "StructureDefinition-ChulPatient.html" : "ChulPatient"
+      "StructureDefinition-VunsPatient.html" : "VunsPatient",
+      "StructureDefinition-VunsLabPatient.html" : "VunsLabPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/contact-point-use",
@@ -308,8 +309,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.73"],
       "uses" : {
       },
-      "StructureDefinition-ChulLabPatient.html" : "ChulLabPatient",
-      "StructureDefinition-ChulPatient.html" : "ChulPatient"
+      "StructureDefinition-VunsPatient.html" : "VunsPatient",
+      "StructureDefinition-VunsLabPatient.html" : "VunsLabPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
@@ -323,10 +324,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.5"],
       "uses" : {
       },
-      "StructureDefinition-ChulEfrObservation.html" : "ChulEfrObservation",
-      "StructureDefinition-ChulTobaccoObservation.html" : "ChulTobaccoObservation",
-      "StructureDefinition-ChulPneumoBio.html" : "ChulPneumoBio",
-      "StructureDefinition-ChulPneumoVitalSign.html" : "ChulPneumoVitalSign"
+      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
+      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/device-action",
@@ -340,7 +341,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.425"],
       "uses" : {
       },
-      "StructureDefinition-ChulEfr.html" : "ChulEfr"
+      "StructureDefinition-VunsEfr.html" : "VunsEfr"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/device-kind",
@@ -354,7 +355,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.208"],
       "uses" : {
       },
-      "StructureDefinition-ChulEfr.html" : "ChulEfr"
+      "StructureDefinition-VunsEfr.html" : "VunsEfr"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/doc-section-codes",
@@ -368,7 +369,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.237"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoComposition.html" : "ChulPneumoComposition"
+      "StructureDefinition-VunsPneumoComposition.html" : "VunsPneumoComposition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/doc-typecodes",
@@ -382,7 +383,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.240"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoComposition.html" : "ChulPneumoComposition"
+      "StructureDefinition-VunsPneumoComposition.html" : "VunsPneumoComposition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/document-classcodes",
@@ -396,7 +397,7 @@
       "sources" : ["2.16.840.1.113883.3.88.12.80.46"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoComposition.html" : "ChulPneumoComposition"
+      "StructureDefinition-VunsPneumoComposition.html" : "VunsPneumoComposition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/document-relationship-type",
@@ -410,7 +411,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.244"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoComposition.html" : "ChulPneumoComposition"
+      "StructureDefinition-VunsPneumoComposition.html" : "VunsPneumoComposition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/event-status",
@@ -424,7 +425,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.109"],
       "uses" : {
       },
-      "StructureDefinition-ChulEfr.html" : "ChulEfr"
+      "StructureDefinition-VunsEfr.html" : "VunsEfr"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/http-verb",
@@ -438,7 +439,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.624"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoBundle.html" : "ChulPneumoBundle"
+      "StructureDefinition-VunsPneumoBundle.html" : "VunsPneumoBundle"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
@@ -452,7 +453,6 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
-      "StructureDefinition-ChulLabPatient.html" : "ChulLabPatient",
       "StructureDefinition-ChulPatient.html" : "ChulPatient"
     },
     {
@@ -467,7 +467,6 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
-      "StructureDefinition-ChulLabPatient.html" : "ChulLabPatient",
       "StructureDefinition-ChulPatient.html" : "ChulPatient"
     },
     {
@@ -482,16 +481,17 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoComposition.html" : "ChulPneumoComposition",
-      "StructureDefinition-ChulLabPatient.html" : "ChulLabPatient",
+      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
+      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
+      "StructureDefinition-VunsPneumoCondition.html" : "VunsPneumoCondition",
+      "StructureDefinition-VunsPneumoComposition.html" : "VunsPneumoComposition",
+      "StructureDefinition-VunsPatient.html" : "VunsPatient",
       "StructureDefinition-ChulPatient.html" : "ChulPatient",
-      "StructureDefinition-ChulPneumoCondition.html" : "ChulPneumoCondition",
-      "StructureDefinition-ChulEfrObservation.html" : "ChulEfrObservation",
-      "StructureDefinition-ChulTobaccoObservation.html" : "ChulTobaccoObservation",
-      "StructureDefinition-ChulPneumoBio.html" : "ChulPneumoBio",
-      "StructureDefinition-ChulPneumoBundle.html" : "ChulPneumoBundle",
-      "StructureDefinition-ChulEfr.html" : "ChulEfr",
-      "StructureDefinition-ChulPneumoVitalSign.html" : "ChulPneumoVitalSign"
+      "StructureDefinition-VunsPneumoBundle.html" : "VunsPneumoBundle",
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
+      "StructureDefinition-VunsLabPatient.html" : "VunsLabPatient",
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
+      "StructureDefinition-VunsEfr.html" : "VunsEfr"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -505,8 +505,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.423"],
       "uses" : {
       },
-      "StructureDefinition-ChulLabPatient.html" : "ChulLabPatient",
-      "StructureDefinition-ChulPatient.html" : "ChulPatient"
+      "StructureDefinition-VunsPatient.html" : "VunsPatient",
+      "StructureDefinition-ChulPatient.html" : "ChulPatient",
+      "StructureDefinition-VunsLabPatient.html" : "VunsLabPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/list-empty-reason",
@@ -520,7 +521,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.322"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoComposition.html" : "ChulPneumoComposition"
+      "StructureDefinition-VunsPneumoComposition.html" : "VunsPneumoComposition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/list-mode",
@@ -534,7 +535,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.318"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoComposition.html" : "ChulPneumoComposition"
+      "StructureDefinition-VunsPneumoComposition.html" : "VunsPneumoComposition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/list-order",
@@ -548,7 +549,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.324"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoComposition.html" : "ChulPneumoComposition"
+      "StructureDefinition-VunsPneumoComposition.html" : "VunsPneumoComposition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/manifestation-or-symptom",
@@ -562,7 +563,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.169"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoCondition.html" : "ChulPneumoCondition"
+      "StructureDefinition-VunsPneumoCondition.html" : "VunsPneumoCondition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/marital-status",
@@ -579,8 +580,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.29"],
       "uses" : {
       },
-      "StructureDefinition-ChulLabPatient.html" : "ChulLabPatient",
-      "StructureDefinition-ChulPatient.html" : "ChulPatient"
+      "StructureDefinition-VunsPatient.html" : "VunsPatient",
+      "StructureDefinition-ChulPatient.html" : "ChulPatient",
+      "StructureDefinition-VunsLabPatient.html" : "VunsLabPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/mimetypes",
@@ -594,8 +596,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1024"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoComposition.html" : "ChulPneumoComposition",
-      "StructureDefinition-ChulPneumoBundle.html" : "ChulPneumoBundle"
+      "StructureDefinition-VunsPneumoComposition.html" : "VunsPneumoComposition",
+      "StructureDefinition-VunsPneumoBundle.html" : "VunsPneumoBundle"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/name-use",
@@ -609,8 +611,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.65"],
       "uses" : {
       },
-      "StructureDefinition-ChulLabPatient.html" : "ChulLabPatient",
-      "StructureDefinition-ChulPatient.html" : "ChulPatient"
+      "StructureDefinition-VunsPatient.html" : "VunsPatient",
+      "StructureDefinition-VunsLabPatient.html" : "VunsLabPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-category",
@@ -624,10 +626,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.403"],
       "uses" : {
       },
-      "StructureDefinition-ChulEfrObservation.html" : "ChulEfrObservation",
-      "StructureDefinition-ChulTobaccoObservation.html" : "ChulTobaccoObservation",
-      "StructureDefinition-ChulPneumoBio.html" : "ChulPneumoBio",
-      "StructureDefinition-ChulPneumoVitalSign.html" : "ChulPneumoVitalSign"
+      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
+      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
@@ -641,9 +643,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.396"],
       "uses" : {
       },
-      "StructureDefinition-ChulEfrObservation.html" : "ChulEfrObservation",
-      "StructureDefinition-ChulTobaccoObservation.html" : "ChulTobaccoObservation",
-      "StructureDefinition-ChulPneumoVitalSign.html" : "ChulPneumoVitalSign"
+      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
+      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
@@ -659,10 +661,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.399"],
       "uses" : {
       },
-      "StructureDefinition-ChulEfrObservation.html" : "ChulEfrObservation",
-      "StructureDefinition-ChulTobaccoObservation.html" : "ChulTobaccoObservation",
-      "StructureDefinition-ChulPneumoBio.html" : "ChulPneumoBio",
-      "StructureDefinition-ChulPneumoVitalSign.html" : "ChulPneumoVitalSign"
+      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
+      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
@@ -676,9 +678,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.395"],
       "uses" : {
       },
-      "StructureDefinition-ChulEfrObservation.html" : "ChulEfrObservation",
-      "StructureDefinition-ChulTobaccoObservation.html" : "ChulTobaccoObservation",
-      "StructureDefinition-ChulPneumoVitalSign.html" : "ChulPneumoVitalSign"
+      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
+      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-status",
@@ -692,10 +694,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.400"],
       "uses" : {
       },
-      "StructureDefinition-ChulEfrObservation.html" : "ChulEfrObservation",
-      "StructureDefinition-ChulTobaccoObservation.html" : "ChulTobaccoObservation",
-      "StructureDefinition-ChulPneumoBio.html" : "ChulPneumoBio",
-      "StructureDefinition-ChulPneumoVitalSign.html" : "ChulPneumoVitalSign"
+      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
+      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
@@ -709,8 +711,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1130"],
       "uses" : {
       },
-      "StructureDefinition-ChulLabPatient.html" : "ChulLabPatient",
-      "StructureDefinition-ChulPatient.html" : "ChulPatient"
+      "StructureDefinition-VunsPatient.html" : "VunsPatient",
+      "StructureDefinition-ChulPatient.html" : "ChulPatient",
+      "StructureDefinition-VunsLabPatient.html" : "VunsLabPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/performer-role",
@@ -724,7 +727,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.433"],
       "uses" : {
       },
-      "StructureDefinition-ChulEfr.html" : "ChulEfr"
+      "StructureDefinition-VunsEfr.html" : "VunsEfr"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/procedure-category",
@@ -738,7 +741,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.430"],
       "uses" : {
       },
-      "StructureDefinition-ChulEfr.html" : "ChulEfr"
+      "StructureDefinition-VunsEfr.html" : "VunsEfr"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/procedure-followup",
@@ -752,7 +755,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.429"],
       "uses" : {
       },
-      "StructureDefinition-ChulEfr.html" : "ChulEfr"
+      "StructureDefinition-VunsEfr.html" : "VunsEfr"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/procedure-not-performed-reason",
@@ -766,7 +769,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.431"],
       "uses" : {
       },
-      "StructureDefinition-ChulEfr.html" : "ChulEfr"
+      "StructureDefinition-VunsEfr.html" : "VunsEfr"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/procedure-outcome",
@@ -780,7 +783,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.428"],
       "uses" : {
       },
-      "StructureDefinition-ChulEfr.html" : "ChulEfr"
+      "StructureDefinition-VunsEfr.html" : "VunsEfr"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/procedure-reason",
@@ -794,7 +797,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.432"],
       "uses" : {
       },
-      "StructureDefinition-ChulEfr.html" : "ChulEfr"
+      "StructureDefinition-VunsEfr.html" : "VunsEfr"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
@@ -811,10 +814,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.407"],
       "uses" : {
       },
-      "StructureDefinition-ChulEfrObservation.html" : "ChulEfrObservation",
-      "StructureDefinition-ChulTobaccoObservation.html" : "ChulTobaccoObservation",
-      "StructureDefinition-ChulPneumoBio.html" : "ChulPneumoBio",
-      "StructureDefinition-ChulPneumoVitalSign.html" : "ChulPneumoVitalSign"
+      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
+      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
@@ -830,10 +833,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.397"],
       "uses" : {
       },
-      "StructureDefinition-ChulEfrObservation.html" : "ChulEfrObservation",
-      "StructureDefinition-ChulTobaccoObservation.html" : "ChulTobaccoObservation",
-      "StructureDefinition-ChulPneumoBio.html" : "ChulPneumoBio",
-      "StructureDefinition-ChulPneumoVitalSign.html" : "ChulPneumoVitalSign"
+      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
+      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/resource-types",
@@ -847,9 +850,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.27"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoCondition.html" : "ChulPneumoCondition",
-      "StructureDefinition-ChulPneumoBio.html" : "ChulPneumoBio",
-      "StructureDefinition-ChulEfr.html" : "ChulEfr"
+      "StructureDefinition-VunsPneumoCondition.html" : "VunsPneumoCondition",
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
+      "StructureDefinition-VunsEfr.html" : "VunsEfr"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/search-entry-mode",
@@ -863,7 +866,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.622"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoBundle.html" : "ChulPneumoBundle"
+      "StructureDefinition-VunsPneumoBundle.html" : "VunsPneumoBundle"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/security-labels",
@@ -883,8 +886,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.47"],
       "uses" : {
       },
-      "StructureDefinition-ChulLabPatient.html" : "ChulLabPatient",
-      "StructureDefinition-ChulPatient.html" : "ChulPatient"
+      "StructureDefinition-VunsPatient.html" : "VunsPatient",
+      "StructureDefinition-VunsLabPatient.html" : "VunsLabPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/signature-type",
@@ -898,7 +901,7 @@
       "sources" : ["1.2.840.10065.1.12"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoBundle.html" : "ChulPneumoBundle"
+      "StructureDefinition-VunsPneumoBundle.html" : "VunsPneumoBundle"
     },
     {
       "url" : "http://hl7.org/fhir/uv/ips/ValueSet/procedures-uv-ips",
@@ -910,7 +913,7 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-ChulEfr.html" : "ChulEfr"
+      "StructureDefinition-VunsEfr.html" : "VunsEfr"
     },
     {
       "url" : "http://hl7.org/fhir/uv/ips/ValueSet/results-blood-group-snomed-ct-ips-free-set",
@@ -922,7 +925,7 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoBio.html" : "ChulPneumoBio"
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio"
     },
     {
       "url" : "http://hl7.org/fhir/uv/ips/ValueSet/results-coded-values-laboratory-uv-ips",
@@ -934,7 +937,7 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoBio.html" : "ChulPneumoBio"
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio"
     },
     {
       "url" : "http://hl7.org/fhir/uv/ips/ValueSet/results-laboratory-observations-uv-ips",
@@ -946,7 +949,7 @@
       "systems" : ["http://loinc.org"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoBio.html" : "ChulPneumoBio"
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio"
     },
     {
       "url" : "http://hl7.org/fhir/uv/ips/ValueSet/results-microorganism-snomed-ct-ips-free-set",
@@ -958,7 +961,7 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoBio.html" : "ChulPneumoBio"
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio"
     },
     {
       "url" : "http://hl7.org/fhir/uv/ips/ValueSet/results-presence-absence-snomed-ct-ips-free-set",
@@ -970,7 +973,7 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoBio.html" : "ChulPneumoBio"
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio"
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-efr",
@@ -982,7 +985,7 @@
       "systems" : ["http://loinc.org", "http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-ChulEfrObservation.html" : "ChulEfrObservation"
+      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation"
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-bio",
@@ -994,7 +997,7 @@
       "systems" : ["http://loinc.org"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoBio.html" : "ChulPneumoBio"
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio"
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-diagnostic",
@@ -1006,7 +1009,7 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoCondition.html" : "ChulPneumoCondition"
+      "StructureDefinition-VunsPneumoCondition.html" : "VunsPneumoCondition"
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-vitaux",
@@ -1018,7 +1021,7 @@
       "systems" : ["http://loinc.org"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoVitalSign.html" : "ChulPneumoVitalSign"
+      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign"
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac",
@@ -1030,7 +1033,7 @@
       "systems" : ["http://loinc.org"],
       "uses" : {
       },
-      "StructureDefinition-ChulTobaccoObservation.html" : "ChulTobaccoObservation"
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation"
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac-status",
@@ -1051,7 +1054,7 @@
       "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoComposition.html" : "ChulPneumoComposition"
+      "StructureDefinition-VunsPneumoComposition.html" : "VunsPneumoComposition"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-ConfidentialityClassification",
@@ -1065,7 +1068,7 @@
       "sources" : ["2.16.840.1.113883.1.11.10228"],
       "uses" : {
       },
-      "StructureDefinition-ChulPneumoComposition.html" : "ChulPneumoComposition"
+      "StructureDefinition-VunsPneumoComposition.html" : "VunsPneumoComposition"
     }
   ]
 }

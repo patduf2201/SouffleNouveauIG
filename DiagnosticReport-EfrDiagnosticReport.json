@@ -3,7 +3,7 @@
   "id" : "EfrDiagnosticReport",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: DiagnosticReport EfrDiagnosticReport</b></p><a name=\"EfrDiagnosticReport\"> </a><a name=\"hcEfrDiagnosticReport\"> </a><a name=\"EfrDiagnosticReport-und\"> </a><h2><span title=\"Codes:\">23426006</span> </h2><table class=\"grid\"/><p><b>Report Details</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Valeur</b></td><td><b>Drapeaux</b></td><td><b>When For</b></td></tr><tr><td><a href=\"Observation-ChulEfrObservationExample.html\"><span title=\"Codes:{http://snomed.info/sct 313222007}\">Volume expiratoire maximal par seconde divisé par la capacité vitale forcée</span></a></td><td>80 %</td><td>Final</td><td>2025-03-01</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: DiagnosticReport EfrDiagnosticReport</b></p><a name=\"EfrDiagnosticReport\"> </a><a name=\"hcEfrDiagnosticReport\"> </a><a name=\"EfrDiagnosticReport-und\"> </a><h2><span title=\"Codes:\">23426006</span> </h2><table class=\"grid\"/><p><b>Report Details</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Valeur</b></td><td><b>Drapeaux</b></td><td><b>When For</b></td></tr><tr><td><a href=\"Observation-VunsEfrObservationExample.html\"><span title=\"Codes:{http://snomed.info/sct 313222007}\">Volume expiratoire maximal par seconde divisé par la capacité vitale forcée</span></a></td><td>80 %</td><td>Final</td><td>2025-03-01</td></tr></table></div>"
   },
   "status" : "final",
   "code" : {
@@ -12,6 +12,6 @@
     }]
   },
   "result" : [{
-    "reference" : "Observation/ChulEfrObservationExample"
+    "reference" : "Observation/VunsEfrObservationExample"
   }]
 }

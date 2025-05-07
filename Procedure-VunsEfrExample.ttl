@@ -1,0 +1,52 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Procedure/VunsEfrExample> a fhir:Procedure ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "VunsEfrExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfr"^^xsd:anyURI ;
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfr>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "fr-BE"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr-BE\" lang=\"fr-BE\"><p class=\"res-header-id\"><b>Generated Narrative: Procedure VunsEfrExample</b></p><a name=\"VunsEfrExample\"> </a><a name=\"hcVunsEfrExample\"> </a><a name=\"VunsEfrExample-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: fr-BE</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-VunsEfr.html\">VunsEfr</a></p></div><p><b>status</b>: Completed</p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 23426006}\">mesure de la fonction respiratoire</span></p><p><b>subject</b>: <a href=\"Patient-VunsPatientExample.html\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>encounter</b>: <a href=\"Encounter-EuEncounterExample.html\">Encounter : status = finished; class = short stay (ActCode#SS)</a></p><p><b>performed</b>: 2025-03-01</p><p><b>report</b>: <a href=\"DiagnosticReport-EfrDiagnosticReport.html\">Diagnostic Report for '23426006' for 'Unspecified Subject'</a></p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "completed"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:23426006 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "23426006" ] ;
+       fhir:display [ fhir:v "Measurement of respiratory function" ]
+     ] ) ;
+     fhir:text [ fhir:v "mesure de la fonction respiratoire" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Patient/VunsPatientExample> ;
+     fhir:reference [ fhir:v "Patient/VunsPatientExample" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Encounter/EuEncounterExample> ;
+     fhir:reference [ fhir:v "Encounter/EuEncounterExample" ]
+  ] ; # 
+  fhir:performed [
+     a fhir:dateTime ;
+     fhir:v "2025-03-01"^^xsd:date
+  ] ; # 
+  fhir:report ( [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/DiagnosticReport/EfrDiagnosticReport> ;
+     fhir:reference [ fhir:v "DiagnosticReport/EfrDiagnosticReport" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

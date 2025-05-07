@@ -7,27 +7,6 @@
     "name" : "SouffleNouveauIG"
   },
   {
-    "id" : "ChulEfr",
-    "type" : "StructureDefinition",
-    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulEfr",
-    "version" : "0.1.0",
-    "name" : "ChulEfr"
-  },
-  {
-    "id" : "ChulEfrObservation",
-    "type" : "StructureDefinition",
-    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulEfrObservation",
-    "version" : "0.1.0",
-    "name" : "ChulEfrObservation"
-  },
-  {
-    "id" : "ChulLabPatient",
-    "type" : "StructureDefinition",
-    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulLabPatient",
-    "version" : "0.1.0",
-    "name" : "ChulLabPatient"
-  },
-  {
     "id" : "ChulPatient",
     "type" : "StructureDefinition",
     "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPatient",
@@ -35,46 +14,74 @@
     "name" : "ChulPatient"
   },
   {
-    "id" : "ChulPneumoBio",
+    "id" : "VunsEfr",
     "type" : "StructureDefinition",
-    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPneumoBio",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfr",
     "version" : "0.1.0",
-    "name" : "ChulPneumoBio"
+    "name" : "VunsEfr"
   },
   {
-    "id" : "ChulPneumoBundle",
+    "id" : "VunsEfrObservation",
     "type" : "StructureDefinition",
-    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPneumoBundle",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation",
     "version" : "0.1.0",
-    "name" : "ChulPneumoBundle"
+    "name" : "VunsEfrObservation"
   },
   {
-    "id" : "ChulPneumoComposition",
+    "id" : "VunsLabPatient",
     "type" : "StructureDefinition",
-    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPneumoComposition",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsLabPatient",
     "version" : "0.1.0",
-    "name" : "ChulPneumoComposition"
+    "name" : "VunsLabPatient"
   },
   {
-    "id" : "ChulPneumoCondition",
+    "id" : "VunsPatient",
     "type" : "StructureDefinition",
-    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPneumoCondition",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPatient",
     "version" : "0.1.0",
-    "name" : "ChulPneumoCondition"
+    "name" : "VunsPatient"
   },
   {
-    "id" : "ChulPneumoVitalSign",
+    "id" : "VunsPneumoBio",
     "type" : "StructureDefinition",
-    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulPneumoVitalSign",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBio",
     "version" : "0.1.0",
-    "name" : "ChulPneumoVitalSign"
+    "name" : "VunsPneumoBio"
   },
   {
-    "id" : "ChulTobaccoObservation",
+    "id" : "VunsPneumoBundle",
     "type" : "StructureDefinition",
-    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/ChulTobaccoObservation",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBundle",
     "version" : "0.1.0",
-    "name" : "ChulTobaccoObservation"
+    "name" : "VunsPneumoBundle"
+  },
+  {
+    "id" : "VunsPneumoComposition",
+    "type" : "StructureDefinition",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoComposition",
+    "version" : "0.1.0",
+    "name" : "VunsPneumoComposition"
+  },
+  {
+    "id" : "VunsPneumoCondition",
+    "type" : "StructureDefinition",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition",
+    "version" : "0.1.0",
+    "name" : "VunsPneumoCondition"
+  },
+  {
+    "id" : "VunsPneumoVitalSign",
+    "type" : "StructureDefinition",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoVitalSign",
+    "version" : "0.1.0",
+    "name" : "VunsPneumoVitalSign"
+  },
+  {
+    "id" : "VunsTobaccoObservation",
+    "type" : "StructureDefinition",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsTobaccoObservation",
+    "version" : "0.1.0",
+    "name" : "VunsTobaccoObservation"
   },
   {
     "id" : "i2x-efr",
