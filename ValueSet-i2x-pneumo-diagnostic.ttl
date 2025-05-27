@@ -16,9 +16,9 @@
   fhir:url [ fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-diagnostic"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "PNEUMO_DIAGNOSTIC_VS"] ; # 
-  fhir:title [ fhir:v "Diagnostic principal maladie respiratoire"] ; # 
+  fhir:title [ fhir:v "Jeu de diagnostic principal maladie respiratoire"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-04-14T13:33:24+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-23T16:57:29+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "CHU Liège"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "CHU Liège" ] ;
@@ -27,7 +27,7 @@
        fhir:value [ fhir:v "http://www.chuliege.be" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "Diagnostic principal maladie respiratoire"] ; # 
+  fhir:description [ fhir:v "Jeu de diagnostic principal maladie respiratoire"] ; # 
   fhir:compose [
      fhir:include ( [
        fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;

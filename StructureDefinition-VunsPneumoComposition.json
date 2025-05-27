@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "VunsPneumoComposition",
   "status" : "draft",
-  "date" : "2025-04-14T13:33:24+02:00",
+  "date" : "2025-05-23T16:57:29+02:00",
   "publisher" : "CHU Liège",
   "contact" : [{
     "name" : "CHU Liège",
@@ -18,7 +18,7 @@
       "value" : "http://www.chuliege.be"
     }]
   }],
-  "description" : "Profil pour une Composition Discharge Report en pneumologie",
+  "description" : "Profil pour une Composition Discharge Report en pneumologie dans le cadre du projet Vers Un Souffle Nouveau",
   "fhirVersion" : "4.0.1",
   "mapping" : [{
     "identity" : "workflow",

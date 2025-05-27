@@ -8,9 +8,9 @@
   <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-vitaux"/>
   <version value="0.1.0"/>
   <name value="PNEUMO_VITAAUX_VS"/>
-  <title value="Signes vitaux pneumologie"/>
+  <title value="Jeu de signes vitaux pneumologie"/>
   <status value="draft"/>
-  <date value="2025-04-14T13:33:24+02:00"/>
+  <date value="2025-05-23T16:57:29+02:00"/>
   <publisher value="CHU Liège"/>
   <contact>
     <name value="CHU Liège"/>
@@ -19,7 +19,7 @@
       <value value="http://www.chuliege.be"/>
     </telecom>
   </contact>
-  <description value="Signes vitaux pneumologie"/>
+  <description value="Jeu de signes vitaux pneumologie"/>
   <compose>
     <include>
       <system value="http://loinc.org"/>

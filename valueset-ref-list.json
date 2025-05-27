@@ -5,9 +5,9 @@
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "EFR_VS",
-      "title" : "Observations d'une épreuve fonctionnelle respiratoire",
-      "description" : "Observations d'une épreuve fonctionnelle respiratoire",
-      "systems" : ["http://loinc.org", "http://snomed.info/sct"],
+      "title" : "Jeu d'observations d'une épreuve fonctionnelle respiratoire",
+      "description" : "Jeu d'bservations d'une épreuve fonctionnelle respiratoire",
+      "systems" : ["http://loinc.org"],
       "uses" : {
       },
       "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation"
@@ -29,8 +29,8 @@
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "PNEUMO_DIAGNOSTIC_VS",
-      "title" : "Diagnostic principal maladie respiratoire",
-      "description" : "Diagnostic principal maladie respiratoire",
+      "title" : "Jeu de diagnostic principal maladie respiratoire",
+      "description" : "Jeu de diagnostic principal maladie respiratoire",
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
@@ -41,8 +41,8 @@
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "PNEUMO_VITAAUX_VS",
-      "title" : "Signes vitaux pneumologie",
-      "description" : "Signes vitaux pneumologie",
+      "title" : "Jeu de signes vitaux pneumologie",
+      "description" : "Jeu de signes vitaux pneumologie",
       "systems" : ["http://loinc.org"],
       "uses" : {
       },

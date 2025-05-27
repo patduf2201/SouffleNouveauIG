@@ -213,18 +213,18 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
-      "ValueSet-i2x-efr.html" : "Observations d'une épreuve fonctionnelle respiratoire",
-      "ValueSet-i2x-pneumo-vitaux.html" : "Signes vitaux pneumologie",
-      "http://hl7.org/fhir/R4/valueset-doc-typecodes.html" : "FHIR Document Type Codes",
-      "http://hl7.org/fhir/uv/ips/STU1.1/ValueSet-results-laboratory-observations-uv-ips.html" : "Results Laboratory Observation - IPS",
-      "ValueSet-i2x-tabac.html" : "Jeu de concept de tabacologie",
-      "http://hl7.eu/fhir/laboratory/0.1.0/ValueSet-lab-studyType-eu-lab.html" : "Laboratory Study Types",
       "http://hl7.org/fhir/R4/valueset-document-classcodes.html" : "Document Class Value Set",
-      "ValueSet-i2x-tabac-status.html" : "Jeu de concept pour le statut de tabagisme",
+      "ValueSet-i2x-efr.html" : "Jeu d'observations d'une épreuve fonctionnelle respiratoire",
       "http://hl7.org/fhir/R4/valueset-doc-section-codes.html" : "Document Section Codes",
+      "http://hl7.org/fhir/uv/ips/STU1.1/ValueSet-results-laboratory-observations-uv-ips.html" : "Results Laboratory Observation - IPS",
+      "ValueSet-i2x-pneumo-vitaux.html" : "Jeu de signes vitaux pneumologie",
+      "http://hl7.org/fhir/R4/valueset-doc-typecodes.html" : "FHIR Document Type Codes",
+      "ValueSet-i2x-pneumo-bio.html" : "Jeu de biologies d'intérêt pour la télésurveillance des maladies respiratoires",
       "http://hl7.org/fhir/R4/valueset-observation-codes.html" : "LOINC Codes",
       "https://build.fhir.org/ig/hl7-eu/hdr/ValueSet-poa-indicator-eu-hdr.html" : "Condition Present on Admission (POA) Value Set",
-      "ValueSet-i2x-pneumo-bio.html" : "Jeu de biologies d'intérêt pour la télésurveillance des maladies respiratoires"
+      "http://hl7.eu/fhir/laboratory/0.1.0/ValueSet-lab-studyType-eu-lab.html" : "Laboratory Study Types",
+      "ValueSet-i2x-tabac.html" : "Jeu de concept de tabacologie",
+      "ValueSet-i2x-tabac-status.html" : "Jeu de concept pour le statut de tabagisme"
     },
     {
       "url" : "http://snomed.info/sct",
@@ -236,33 +236,32 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "ValueSet-i2x-efr.html" : "Observations d'une épreuve fonctionnelle respiratoire",
-      "http://hl7.org/fhir/uv/ips/STU1.1/ValueSet-results-blood-group-snomed-ct-ips-free-set.html" : "Results Blood Group - SNOMED CT IPS Free Set",
-      "http://hl7.org/fhir/uv/ips/STU1.1/ValueSet-results-presence-absence-snomed-ct-ips-free-set.html" : "Results Presence Absence - SNOMED CT IPS Free Set",
-      "http://hl7.org/fhir/R4/valueset-manifestation-or-symptom.html" : "Manifestation and Symptom Codes",
-      "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
-      "http://hl7.eu/fhir/laboratory/0.1.0/ValueSet-lab-technique-eu-lab.html" : "Laboratory Techniques",
-      "https://build.fhir.org/ig/hl7-eu/hdr/ValueSet-treated-problem-eu-hdr.html" : "Treatment Class Value Set",
       "http://hl7.org/fhir/R4/valueset-procedure-reason.html" : "Procedure Reason Codes",
-      "https://build.fhir.org/ig/hl7-eu/hdr/ValueSet-condition-eu-hdr.html" : "Condition Value Set",
-      "ValueSet-i2x-pneumo-diagnostic.html" : "Diagnostic principal maladie respiratoire",
-      "https://build.fhir.org/ig/HL7/fhir-ips/ValueSet-procedures-uv-ips.html" : "Procedures - IPS",
-      "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
-      "http://hl7.org/fhir/R4/valueset-condition-severity.html" : "Condition/Diagnosis Severity",
-      "http://hl7.org/fhir/R4/valueset-procedure-outcome.html" : "Procedure Outcome Codes (SNOMED CT)",
-      "http://hl7.org/fhir/R4/valueset-device-action.html" : "Procedure Device Action Codes",
       "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
+      "https://build.fhir.org/ig/hl7-eu/hdr/ValueSet-condition-eu-hdr.html" : "Condition Value Set",
       "http://hl7.org/fhir/R4/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes",
-      "http://hl7.org/fhir/R4/valueset-procedure-followup.html" : "Procedure Follow up Codes (SNOMED CT)",
-      "http://hl7.org/fhir/R4/valueset-procedure-category.html" : "Procedure Category Codes (SNOMED CT)",
+      "http://hl7.eu/fhir/laboratory/0.1.0/ValueSet-lab-technique-eu-lab.html" : "Laboratory Techniques",
       "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
-      "http://hl7.org/fhir/R4/valueset-condition-stage.html" : "Condition Stage",
+      "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
+      "http://hl7.org/fhir/R4/valueset-procedure-category.html" : "Procedure Category Codes (SNOMED CT)",
+      "https://build.fhir.org/ig/HL7/fhir-ips/ValueSet-procedures-uv-ips.html" : "Procedures - IPS",
+      "http://hl7.org/fhir/R4/valueset-condition-severity.html" : "Condition/Diagnosis Severity",
       "http://hl7.org/fhir/R4/valueset-procedure-not-performed-reason.html" : "Procedure Not Performed Reason (SNOMED-CT)",
+      "ValueSet-i2x-pneumo-diagnostic.html" : "Jeu de diagnostic principal maladie respiratoire",
       "http://hl7.eu/fhir/laboratory/0.1.0/ValueSet-lab-specialty-eu-lab.html" : "Laboratory Specialty",
-      "https://build.fhir.org/ig/hl7-eu/hdr/ValueSet-poa-indicator-eu-hdr.html" : "Condition Present on Admission (POA) Value Set",
-      "http://hl7.org/fhir/R4/valueset-condition-stage-type.html" : "Condition Stage Type",
+      "http://hl7.org/fhir/R4/valueset-device-action.html" : "Procedure Device Action Codes",
+      "http://hl7.org/fhir/uv/ips/STU1.1/ValueSet-results-presence-absence-snomed-ct-ips-free-set.html" : "Results Presence Absence - SNOMED CT IPS Free Set",
+      "https://build.fhir.org/ig/hl7-eu/hdr/ValueSet-treated-problem-eu-hdr.html" : "Treatment Class Value Set",
       "http://hl7.org/fhir/R4/valueset-device-kind.html" : "FHIR Device Types",
-      "http://hl7.org/fhir/uv/ips/STU1.1/ValueSet-results-microorganism-snomed-ct-ips-free-set.html" : "Results Microorganism - SNOMED CT IPS Free Set"
+      "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
+      "http://hl7.org/fhir/uv/ips/STU1.1/ValueSet-results-microorganism-snomed-ct-ips-free-set.html" : "Results Microorganism - SNOMED CT IPS Free Set",
+      "https://build.fhir.org/ig/hl7-eu/hdr/ValueSet-poa-indicator-eu-hdr.html" : "Condition Present on Admission (POA) Value Set",
+      "http://hl7.org/fhir/uv/ips/STU1.1/ValueSet-results-blood-group-snomed-ct-ips-free-set.html" : "Results Blood Group - SNOMED CT IPS Free Set",
+      "http://hl7.org/fhir/R4/valueset-condition-stage.html" : "Condition Stage",
+      "http://hl7.org/fhir/R4/valueset-procedure-followup.html" : "Procedure Follow up Codes (SNOMED CT)",
+      "http://hl7.org/fhir/R4/valueset-manifestation-or-symptom.html" : "Manifestation and Symptom Codes",
+      "http://hl7.org/fhir/R4/valueset-condition-stage-type.html" : "Condition Stage Type",
+      "http://hl7.org/fhir/R4/valueset-procedure-outcome.html" : "Procedure Outcome Codes (SNOMED CT)"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/common-tags",
@@ -406,7 +405,7 @@
       "oids" : ["2.16.840.1.113883.5.4"],
       "uses" : {
       },
-      "http://terminology.hl7.org/6.0.2/ValueSet-v3-ActCode.html" : "v3 Code System ActCode"
+      "http://terminology.hl7.org/6.2.0/ValueSet-v3-ActCode.html" : "v3 Code System ActCode"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
@@ -442,8 +441,8 @@
       "oids" : ["2.16.840.1.113883.5.1008"],
       "uses" : {
       },
-      "https://build.fhir.org/ig/hl7-eu/hdr/ValueSet-poa-indicator-eu-hdr.html" : "Condition Present on Admission (POA) Value Set",
-      "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus"
+      "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus",
+      "https://build.fhir.org/ig/hl7-eu/hdr/ValueSet-poa-indicator-eu-hdr.html" : "Condition Present on Admission (POA) Value Set"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",

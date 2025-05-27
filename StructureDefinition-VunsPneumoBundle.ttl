@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "VunsPneumoBundle"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-04-14T13:33:24+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-23T16:57:29+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "CHU Liège"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "CHU Liège" ] ;
@@ -26,7 +26,7 @@
        fhir:value [ fhir:v "http://www.chuliege.be" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "Profil pour un Bundle Discharge Report en pneumologie"] ; # 
+  fhir:description [ fhir:v "Profil pour un Bundle 'Discharge Report' en pneumologie dans le cadre du projet Vers Un Souffle Nouveau"] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "v2" ] ;

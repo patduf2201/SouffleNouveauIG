@@ -35,21 +35,21 @@
      fhir:fullUrl [ fhir:v "http://si-s-serv1041/ig/Organization/GSI"^^xsd:anyURI ] ;
      fhir:resource ( <http://si-s-serv1041/ig/Organization/GSI> )
   ] [
-     fhir:fullUrl [ fhir:v "http://si-s-serv1041/ig/Organization/Vunsabo"^^xsd:anyURI ] ;
-     fhir:resource ( <http://si-s-serv1041/ig/Organization/Vunsabo> )
+     fhir:fullUrl [ fhir:v "http://si-s-serv1041/ig/Organization/VunsLabo"^^xsd:anyURI ] ;
+     fhir:resource ( <http://si-s-serv1041/ig/Organization/VunsLabo> )
   ] ) . # 
 
 <http://si-s-serv1041/ig/Composition/VunsPneumoCompositionExampleLab> a fhir:Composition ;
   fhir:id [ fhir:v "VunsPneumoCompositionExampleLab"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://hl7.eu/fhir/hdr/StructureDefinition/composition-eu-hdr"^^xsd:anyURI ;
-       fhir:link <http://hl7.eu/fhir/hdr/StructureDefinition/composition-eu-hdr>
+       fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoComposition"^^xsd:anyURI ;
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoComposition>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Composition_VunsPneumoCompositionExampleLab\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Composition VunsPneumoCompositionExampleLab</b></p><a name=\"VunsPneumoCompositionExampleLab\"> </a><a name=\"hcVunsPneumoCompositionExampleLab\"> </a><a name=\"VunsPneumoCompositionExampleLab-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"https://build.fhir.org/ig/hl7-eu/hdr/StructureDefinition-composition-eu-hdr.html\">Composition (HDR)</a></p></div><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{http://loinc.org 34105-7}\">Hospital Discharge summary</span></p><p><b>date</b>: 2025-03-01</p><p><b>author</b>: <a href=\"Organization-GSI.html\">Organization GSI tests</a></p><p><b>title</b>: Exemple de composition en pneumologie</p></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Composition_VunsPneumoCompositionExampleLab\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Composition VunsPneumoCompositionExampleLab</b></p><a name=\"VunsPneumoCompositionExampleLab\"> </a><a name=\"hcVunsPneumoCompositionExampleLab\"> </a><a name=\"VunsPneumoCompositionExampleLab-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-VunsPneumoComposition.html\">VunsPneumoComposition</a></p></div><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{http://loinc.org 34105-7}\">Hospital Discharge summary</span></p><p><b>date</b>: 2025-03-01</p><p><b>author</b>: <a href=\"Bundle-VunsPneumoBundleExample.html#Organization_GSI\">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p><p><b>title</b>: Exemple de composition en pneumologie</p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:type [
@@ -83,6 +83,23 @@
        fhir:status [ fhir:v "additional" ] ;
        fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Exemple de rapport en pneumologie</div>"^^rdf:XMLLiteral
      ]
+  ] [
+     fhir:title [ fhir:v "Diagnostic primaire" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:11535-2 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "11535-2" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Diagnostic</div>"^^rdf:XMLLiteral
+     ] ;
+     fhir:entry ( [
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Condition/VunsPneumoConditionExample> ;
+       fhir:reference [ fhir:v "Condition/VunsPneumoConditionExample" ]
+     ] )
   ] [
      fhir:title [ fhir:v "Biologies" ] ;
      fhir:code [
@@ -142,13 +159,13 @@
   fhir:id [ fhir:v "VunsPneumoBioExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"^^xsd:anyURI ;
-       fhir:link <http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab>
+       fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBio"^^xsd:anyURI ;
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBio>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_VunsPneumoBioExample\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation VunsPneumoBioExample</b></p><a name=\"VunsPneumoBioExample\"> </a><a name=\"hcVunsPneumoBioExample\"> </a><a name=\"VunsPneumoBioExample-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.eu/fhir/laboratory/0.1.0/StructureDefinition-Observation-resultslab-eu-lab.html\">Observation Results: laboratory</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category laboratory}\">Laboratory</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 38483-4}\">Creatinine [Mass/volume] in Blood</span></p><p><b>subject</b>: <a href=\"Patient-VunsLabPatientExample.html\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>effective</b>: 2025-03-01</p><p><b>performer</b>: <a href=\"Organization-Vunsabo.html\">Organization CHU Labo</a></p><p><b>value</b>: 1.8 mg/dL<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg/dL = 'mg/dL')</span></p></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_VunsPneumoBioExample\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation VunsPneumoBioExample</b></p><a name=\"VunsPneumoBioExample\"> </a><a name=\"hcVunsPneumoBioExample\"> </a><a name=\"VunsPneumoBioExample-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-VunsPneumoBio.html\">VunsPneumoBio</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category laboratory}\">Laboratory</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 38483-4}\">Creatinine [Mass/volume] in Blood</span></p><p><b>subject</b>: <a href=\"Patient-VunsLabPatientExample.html\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>effective</b>: 2025-03-01</p><p><b>performer</b>: <a href=\"Bundle-VunsPneumoBundleExampleLab.html#Organization_VunsLabo\">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p><p><b>value</b>: 1.8 mg/dL<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg/dL = 'mg/dL')</span></p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:category ( [
@@ -173,8 +190,8 @@
      fhir:v "2025-03-01"^^xsd:date
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Organization/Vunsabo> ;
-     fhir:reference [ fhir:v "Organization/Vunsabo" ]
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Organization/VunsLabo> ;
+     fhir:reference [ fhir:v "Organization/VunsLabo" ]
   ] ) ; # 
   fhir:value [
      a fhir:Quantity ;
@@ -197,8 +214,8 @@
   ] ; # 
   fhir:name [ fhir:v "GSI tests"] . # 
 
-<http://si-s-serv1041/ig/Organization/Vunsabo> a fhir:Organization ;
-  fhir:id [ fhir:v "Vunsabo"] ; # 
+<http://si-s-serv1041/ig/Organization/VunsLabo> a fhir:Organization ;
+  fhir:id [ fhir:v "VunsLabo"] ; # 
   fhir:meta [
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips"^^xsd:anyURI ;
@@ -207,7 +224,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_Vunsabo\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Organization Vunsabo</b></p><a name=\"Vunsabo\"> </a><a name=\"hcVunsabo\"> </a><a name=\"Vunsabo-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"https://build.fhir.org/ig/HL7/fhir-ips/StructureDefinition-Organization-uv-ips.html\">Organization (IPS)</a></p></div><p><b>name</b>: CHU Labo</p></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_VunsLabo\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Organization VunsLabo</b></p><a name=\"VunsLabo\"> </a><a name=\"hcVunsLabo\"> </a><a name=\"VunsLabo-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"https://build.fhir.org/ig/HL7/fhir-ips/StructureDefinition-Organization-uv-ips.html\">Organization (IPS)</a></p></div><p><b>name</b>: CHU Labo</p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:name [ fhir:v "CHU Labo"] . # 
 

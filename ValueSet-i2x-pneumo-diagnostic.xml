@@ -8,9 +8,9 @@
   <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-diagnostic"/>
   <version value="0.1.0"/>
   <name value="PNEUMO_DIAGNOSTIC_VS"/>
-  <title value="Diagnostic principal maladie respiratoire"/>
+  <title value="Jeu de diagnostic principal maladie respiratoire"/>
   <status value="draft"/>
-  <date value="2025-04-14T13:33:24+02:00"/>
+  <date value="2025-05-23T16:57:29+02:00"/>
   <publisher value="CHU Liège"/>
   <contact>
     <name value="CHU Liège"/>
@@ -19,7 +19,7 @@
       <value value="http://www.chuliege.be"/>
     </telecom>
   </contact>
-  <description value="Diagnostic principal maladie respiratoire"/>
+  <description value="Jeu de diagnostic principal maladie respiratoire"/>
   <compose>
     <include>
       <system value="http://snomed.info/sct"/>

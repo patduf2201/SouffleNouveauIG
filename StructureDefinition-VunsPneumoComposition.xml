@@ -15,7 +15,7 @@
   <version value="0.1.0"/>
   <name value="VunsPneumoComposition"/>
   <status value="draft"/>
-  <date value="2025-04-14T13:33:24+02:00"/>
+  <date value="2025-05-23T16:57:29+02:00"/>
   <publisher value="CHU Liège"/>
   <contact>
     <name value="CHU Liège"/>
@@ -24,7 +24,7 @@
       <value value="http://www.chuliege.be"/>
     </telecom>
   </contact>
-  <description value="Profil pour une Composition Discharge Report en pneumologie"/>
+  <description value="Profil pour une Composition Discharge Report en pneumologie dans le cadre du projet Vers Un Souffle Nouveau"/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="workflow"/>

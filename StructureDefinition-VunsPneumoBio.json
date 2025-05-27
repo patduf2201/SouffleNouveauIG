@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "VunsPneumoBio",
   "status" : "draft",
-  "date" : "2025-04-14T13:33:24+02:00",
+  "date" : "2025-05-23T16:57:29+02:00",
   "publisher" : "CHU Liège",
   "contact" : [{
     "name" : "CHU Liège",
@@ -2086,6 +2086,51 @@
     },
     {
       "id" : "Observation.code.coding",
+      "extension" : [{
+        "extension" : [{
+          "url" : "code",
+          "valueCode" : "SHALL:populate-if-known"
+        },
+        {
+          "url" : "actor",
+          "valueCanonical" : "http://hl7.org/fhir/uv/ips/ActorDefinition/Producer"
+        },
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-source",
+          "valueUri" : "http://hl7.org/fhir/uv/ips/StructureDefinition/CodeableConcept-uv-ips|2.0.0"
+        }],
+        "url" : "http://hl7.org/fhir/StructureDefinition/obligation"
+      },
+      {
+        "extension" : [{
+          "url" : "code",
+          "valueCode" : "SHALL:handle"
+        },
+        {
+          "url" : "actor",
+          "valueCanonical" : "http://hl7.org/fhir/uv/ips/ActorDefinition/Consumer"
+        },
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-source",
+          "valueUri" : "http://hl7.org/fhir/uv/ips/StructureDefinition/CodeableConcept-uv-ips|2.0.0"
+        }],
+        "url" : "http://hl7.org/fhir/StructureDefinition/obligation"
+      },
+      {
+        "extension" : [{
+          "url" : "code",
+          "valueCode" : "SHOULD:display"
+        },
+        {
+          "url" : "actor",
+          "valueCanonical" : "http://hl7.org/fhir/uv/ips/ActorDefinition/Consumer"
+        },
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-source",
+          "valueUri" : "http://hl7.org/fhir/uv/ips/StructureDefinition/CodeableConcept-uv-ips|2.0.0"
+        }],
+        "url" : "http://hl7.org/fhir/StructureDefinition/obligation"
+      }],
       "path" : "Observation.code.coding",
       "short" : "Code defined by a terminology system",
       "definition" : "A reference to a code defined by a terminology system.",
@@ -2204,6 +2249,36 @@
     },
     {
       "id" : "Observation.code.coding.system",
+      "extension" : [{
+        "extension" : [{
+          "url" : "code",
+          "valueCode" : "SHALL:populate-if-known"
+        },
+        {
+          "url" : "actor",
+          "valueCanonical" : "http://hl7.org/fhir/uv/ips/ActorDefinition/Producer"
+        },
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-source",
+          "valueUri" : "http://hl7.org/fhir/uv/ips/StructureDefinition/Coding-uv-ips|2.0.0"
+        }],
+        "url" : "http://hl7.org/fhir/StructureDefinition/obligation"
+      },
+      {
+        "extension" : [{
+          "url" : "code",
+          "valueCode" : "SHALL:handle"
+        },
+        {
+          "url" : "actor",
+          "valueCanonical" : "http://hl7.org/fhir/uv/ips/ActorDefinition/Consumer"
+        },
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-source",
+          "valueUri" : "http://hl7.org/fhir/uv/ips/StructureDefinition/Coding-uv-ips|2.0.0"
+        }],
+        "url" : "http://hl7.org/fhir/StructureDefinition/obligation"
+      }],
       "path" : "Observation.code.coding.system",
       "short" : "Identity of the terminology system",
       "definition" : "The identification of the code system that defines the meaning of the symbol in the code.",
@@ -2284,6 +2359,36 @@
     },
     {
       "id" : "Observation.code.coding.code",
+      "extension" : [{
+        "extension" : [{
+          "url" : "code",
+          "valueCode" : "SHALL:populate-if-known"
+        },
+        {
+          "url" : "actor",
+          "valueCanonical" : "http://hl7.org/fhir/uv/ips/ActorDefinition/Producer"
+        },
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-source",
+          "valueUri" : "http://hl7.org/fhir/uv/ips/StructureDefinition/Coding-uv-ips|2.0.0"
+        }],
+        "url" : "http://hl7.org/fhir/StructureDefinition/obligation"
+      },
+      {
+        "extension" : [{
+          "url" : "code",
+          "valueCode" : "SHALL:handle"
+        },
+        {
+          "url" : "actor",
+          "valueCanonical" : "http://hl7.org/fhir/uv/ips/ActorDefinition/Consumer"
+        },
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-source",
+          "valueUri" : "http://hl7.org/fhir/uv/ips/StructureDefinition/Coding-uv-ips|2.0.0"
+        }],
+        "url" : "http://hl7.org/fhir/StructureDefinition/obligation"
+      }],
       "path" : "Observation.code.coding.code",
       "short" : "Symbol in syntax defined by the system",
       "definition" : "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).",
@@ -2331,6 +2436,51 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
         "valueBoolean" : true
+      },
+      {
+        "extension" : [{
+          "url" : "code",
+          "valueCode" : "SHALL:populate-if-known"
+        },
+        {
+          "url" : "actor",
+          "valueCanonical" : "http://hl7.org/fhir/uv/ips/ActorDefinition/Producer"
+        },
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-source",
+          "valueUri" : "http://hl7.org/fhir/uv/ips/StructureDefinition/Coding-uv-ips|2.0.0"
+        }],
+        "url" : "http://hl7.org/fhir/StructureDefinition/obligation"
+      },
+      {
+        "extension" : [{
+          "url" : "code",
+          "valueCode" : "SHALL:handle"
+        },
+        {
+          "url" : "actor",
+          "valueCanonical" : "http://hl7.org/fhir/uv/ips/ActorDefinition/Consumer"
+        },
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-source",
+          "valueUri" : "http://hl7.org/fhir/uv/ips/StructureDefinition/Coding-uv-ips|2.0.0"
+        }],
+        "url" : "http://hl7.org/fhir/StructureDefinition/obligation"
+      },
+      {
+        "extension" : [{
+          "url" : "code",
+          "valueCode" : "SHOULD:display"
+        },
+        {
+          "url" : "actor",
+          "valueCanonical" : "http://hl7.org/fhir/uv/ips/ActorDefinition/Consumer"
+        },
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-source",
+          "valueUri" : "http://hl7.org/fhir/uv/ips/StructureDefinition/Coding-uv-ips|2.0.0"
+        }],
+        "url" : "http://hl7.org/fhir/StructureDefinition/obligation"
       }],
       "path" : "Observation.code.coding.display",
       "short" : "Representation defined by the system",
@@ -2401,6 +2551,7 @@
           "type" : "value",
           "path" : "url"
         }],
+        "ordered" : false,
         "rules" : "open"
       },
       "short" : "Extension",
@@ -2466,6 +2617,7 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
       "isModifier" : false,
+      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "ST.translation"
@@ -2544,6 +2696,51 @@
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
         "valueBoolean" : true
+      },
+      {
+        "extension" : [{
+          "url" : "code",
+          "valueCode" : "SHALL:populate-if-known"
+        },
+        {
+          "url" : "actor",
+          "valueCanonical" : "http://hl7.org/fhir/uv/ips/ActorDefinition/Producer"
+        },
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-source",
+          "valueUri" : "http://hl7.org/fhir/uv/ips/StructureDefinition/CodeableConcept-uv-ips|2.0.0"
+        }],
+        "url" : "http://hl7.org/fhir/StructureDefinition/obligation"
+      },
+      {
+        "extension" : [{
+          "url" : "code",
+          "valueCode" : "SHALL:handle"
+        },
+        {
+          "url" : "actor",
+          "valueCanonical" : "http://hl7.org/fhir/uv/ips/ActorDefinition/Consumer"
+        },
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-source",
+          "valueUri" : "http://hl7.org/fhir/uv/ips/StructureDefinition/CodeableConcept-uv-ips|2.0.0"
+        }],
+        "url" : "http://hl7.org/fhir/StructureDefinition/obligation"
+      },
+      {
+        "extension" : [{
+          "url" : "code",
+          "valueCode" : "SHOULD:display"
+        },
+        {
+          "url" : "actor",
+          "valueCanonical" : "http://hl7.org/fhir/uv/ips/ActorDefinition/Consumer"
+        },
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-source",
+          "valueUri" : "http://hl7.org/fhir/uv/ips/StructureDefinition/CodeableConcept-uv-ips|2.0.0"
+        }],
+        "url" : "http://hl7.org/fhir/StructureDefinition/obligation"
       }],
       "path" : "Observation.code.text",
       "short" : "Plain text representation of the concept",

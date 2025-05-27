@@ -111,6 +111,9 @@
     "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family": [
       "Patient.name.family"
     ],
+    "http://hl7.org/fhir/StructureDefinition/obligation": [
+      "StructureDefinition.snapshot.element"
+    ],
     "http://hl7.org/fhir/StructureDefinition/patient-birthPlace": [
       "Patient"
     ],

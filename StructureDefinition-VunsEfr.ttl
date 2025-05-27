@@ -25,7 +25,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "VunsEfr"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-04-14T13:33:24+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-23T16:57:29+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "CHU Liège"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "CHU Liège" ] ;
@@ -34,7 +34,7 @@
        fhir:value [ fhir:v "http://www.chuliege.be" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "EFR observation"] ; # 
+  fhir:description [ fhir:v "Profile pour les épreuves fonctionnelles respiratoires"] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "workflow" ] ;
@@ -1146,6 +1146,73 @@
        ] )
      ] [
        fhir:id [ fhir:v "Procedure.code.coding" ] ;
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:code ;
+             fhir:v "SHALL:populate-if-known"
+           ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:canonical ;
+             fhir:v "http://hl7.org/fhir/uv/ips/ActorDefinition/Producer"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/ips/ActorDefinition/Producer>
+           ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/snapshot-source"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:uri ;
+             fhir:v "http://hl7.org/fhir/uv/ips/StructureDefinition/CodeableConcept-uv-ips|2.0.0"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:code ;
+             fhir:v "SHALL:handle"
+           ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:canonical ;
+             fhir:v "http://hl7.org/fhir/uv/ips/ActorDefinition/Consumer"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/ips/ActorDefinition/Consumer>
+           ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/snapshot-source"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:uri ;
+             fhir:v "http://hl7.org/fhir/uv/ips/StructureDefinition/CodeableConcept-uv-ips|2.0.0"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:code ;
+             fhir:v "SHOULD:display"
+           ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:canonical ;
+             fhir:v "http://hl7.org/fhir/uv/ips/ActorDefinition/Consumer"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/ips/ActorDefinition/Consumer>
+           ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/snapshot-source"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:uri ;
+             fhir:v "http://hl7.org/fhir/uv/ips/StructureDefinition/CodeableConcept-uv-ips|2.0.0"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] ) ;
        fhir:path [ fhir:v "Procedure.code.coding" ] ;
        fhir:short [ fhir:v "Code defined by a terminology system" ] ;
        fhir:definition [ fhir:v "A reference to a code defined by a terminology system." ] ;
@@ -1272,6 +1339,51 @@
        ] )
      ] [
        fhir:id [ fhir:v "Procedure.code.coding.system" ] ;
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:code ;
+             fhir:v "SHALL:populate-if-known"
+           ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:canonical ;
+             fhir:v "http://hl7.org/fhir/uv/ips/ActorDefinition/Producer"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/ips/ActorDefinition/Producer>
+           ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/snapshot-source"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:uri ;
+             fhir:v "http://hl7.org/fhir/uv/ips/StructureDefinition/Coding-uv-ips|2.0.0"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:code ;
+             fhir:v "SHALL:handle"
+           ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:canonical ;
+             fhir:v "http://hl7.org/fhir/uv/ips/ActorDefinition/Consumer"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/ips/ActorDefinition/Consumer>
+           ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/snapshot-source"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:uri ;
+             fhir:v "http://hl7.org/fhir/uv/ips/StructureDefinition/Coding-uv-ips|2.0.0"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] ) ;
        fhir:path [ fhir:v "Procedure.code.coding.system" ] ;
        fhir:short [ fhir:v "Identity of the terminology system" ] ;
        fhir:definition [ fhir:v "The identification of the code system that defines the meaning of the symbol in the code." ] ;
@@ -1356,6 +1468,51 @@
        ] )
      ] [
        fhir:id [ fhir:v "Procedure.code.coding.code" ] ;
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:code ;
+             fhir:v "SHALL:populate-if-known"
+           ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:canonical ;
+             fhir:v "http://hl7.org/fhir/uv/ips/ActorDefinition/Producer"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/ips/ActorDefinition/Producer>
+           ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/snapshot-source"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:uri ;
+             fhir:v "http://hl7.org/fhir/uv/ips/StructureDefinition/Coding-uv-ips|2.0.0"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:code ;
+             fhir:v "SHALL:handle"
+           ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:canonical ;
+             fhir:v "http://hl7.org/fhir/uv/ips/ActorDefinition/Consumer"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/ips/ActorDefinition/Consumer>
+           ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/snapshot-source"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:uri ;
+             fhir:v "http://hl7.org/fhir/uv/ips/StructureDefinition/Coding-uv-ips|2.0.0"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] ) ;
        fhir:path [ fhir:v "Procedure.code.coding.code" ] ;
        fhir:short [ fhir:v "Symbol in syntax defined by the system" ] ;
        fhir:definition [ fhir:v "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination)." ] ;
@@ -1406,6 +1563,72 @@
            a fhir:boolean ;
            fhir:v true
          ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:code ;
+             fhir:v "SHALL:populate-if-known"
+           ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:canonical ;
+             fhir:v "http://hl7.org/fhir/uv/ips/ActorDefinition/Producer"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/ips/ActorDefinition/Producer>
+           ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/snapshot-source"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:uri ;
+             fhir:v "http://hl7.org/fhir/uv/ips/StructureDefinition/Coding-uv-ips|2.0.0"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:code ;
+             fhir:v "SHALL:handle"
+           ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:canonical ;
+             fhir:v "http://hl7.org/fhir/uv/ips/ActorDefinition/Consumer"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/ips/ActorDefinition/Consumer>
+           ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/snapshot-source"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:uri ;
+             fhir:v "http://hl7.org/fhir/uv/ips/StructureDefinition/Coding-uv-ips|2.0.0"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:code ;
+             fhir:v "SHOULD:display"
+           ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:canonical ;
+             fhir:v "http://hl7.org/fhir/uv/ips/ActorDefinition/Consumer"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/ips/ActorDefinition/Consumer>
+           ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/snapshot-source"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:uri ;
+             fhir:v "http://hl7.org/fhir/uv/ips/StructureDefinition/Coding-uv-ips|2.0.0"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
        ] ) ;
        fhir:path [ fhir:v "Procedure.code.coding.display" ] ;
        fhir:short [ fhir:v "Representation defined by the system" ] ;
@@ -1478,6 +1701,7 @@
            fhir:type [ fhir:v "value" ] ;
            fhir:path [ fhir:v "url" ]
          ] ) ;
+         fhir:ordered [ fhir:v false ] ;
          fhir:rules [ fhir:v "open" ]
        ] ;
        fhir:short [ fhir:v "Extension" ] ;
@@ -1555,6 +1779,7 @@
          ]
        ] ) ;
        fhir:isModifier [ fhir:v false ] ;
+       fhir:isSummary [ fhir:v false ] ;
        fhir:mapping ( [
          fhir:identity [ fhir:v "rim" ] ;
          fhir:map [ fhir:v "ST.translation" ]
@@ -1639,6 +1864,72 @@
            a fhir:boolean ;
            fhir:v true
          ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:code ;
+             fhir:v "SHALL:populate-if-known"
+           ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:canonical ;
+             fhir:v "http://hl7.org/fhir/uv/ips/ActorDefinition/Producer"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/ips/ActorDefinition/Producer>
+           ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/snapshot-source"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:uri ;
+             fhir:v "http://hl7.org/fhir/uv/ips/StructureDefinition/CodeableConcept-uv-ips|2.0.0"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:code ;
+             fhir:v "SHALL:handle"
+           ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:canonical ;
+             fhir:v "http://hl7.org/fhir/uv/ips/ActorDefinition/Consumer"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/ips/ActorDefinition/Consumer>
+           ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/snapshot-source"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:uri ;
+             fhir:v "http://hl7.org/fhir/uv/ips/StructureDefinition/CodeableConcept-uv-ips|2.0.0"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:code ;
+             fhir:v "SHOULD:display"
+           ]
+         ] [
+           fhir:url [ fhir:v "actor"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:canonical ;
+             fhir:v "http://hl7.org/fhir/uv/ips/ActorDefinition/Consumer"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/ips/ActorDefinition/Consumer>
+           ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/snapshot-source"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:uri ;
+             fhir:v "http://hl7.org/fhir/uv/ips/StructureDefinition/CodeableConcept-uv-ips|2.0.0"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/obligation"^^xsd:anyURI ]
        ] ) ;
        fhir:path [ fhir:v "Procedure.code.text" ] ;
        fhir:short [ fhir:v "Plain text representation of the concept" ] ;

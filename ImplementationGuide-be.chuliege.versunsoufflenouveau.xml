@@ -10,7 +10,7 @@
   <version value="0.1.0"/>
   <name value="SouffleNouveauIG"/>
   <status value="draft"/>
-  <date value="2025-04-14T13:33:24+02:00"/>
+  <date value="2025-05-23T16:57:29+02:00"/>
   <publisher value="CHU Liège"/>
   <contact>
     <name value="CHU Liège"/>
@@ -28,7 +28,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="6.2.0"/>
+    <version value="6.3.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -480,35 +480,14 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
+        <valueString value="Composition"/>
       </extension>
       <reference>
-        <reference value="ValueSet/i2x-pneumo-diagnostic"/>
+        <reference value="Composition/VunsPneumoCompositionExampleLab"/>
       </reference>
-      <name value="Diagnostic principal maladie respiratoire"/>
-      <description value="Diagnostic principal maladie respiratoire"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="DiagnosticReport"/>
-      </extension>
-      <reference>
-        <reference value="DiagnosticReport/EfrDiagnosticReport"/>
-      </reference>
-      <name value="EfrDiagnosticReport"/>
-      <description value="résultats d'une épreuve fonctionnelle respiratoire"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Encounter"/>
-      </extension>
-      <reference>
-        <reference value="Encounter/EuEncounterExample"/>
-      </reference>
-      <name value="EuEncounterExample"/>
-      <exampleBoolean value="true"/>
+      <name value="Exemple de composition en pneumologie"/>
+      <description value="Example de composition en pneumologie dans le cadre du projet Vers Un Souffle Nouveau (laboratoire)"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoComposition"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -517,30 +496,20 @@
       <reference>
         <reference value="Composition/VunsPneumoCompositionExample"/>
       </reference>
-      <name value="Exemple de composition en pneumologie"/>
-      <description value="Example de composition en pneumologie"/>
-      <exampleBoolean value="true"/>
+      <name value="Exemple de composition en pneumologie dans le cadre du projet Vers Un Souffle Nouveau"/>
+      <description value="Example de composition dans le cadre du projet Vers Un Souffle Nouveau"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoComposition"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Composition"/>
+        <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="Composition/VunsPneumoCompositionExampleLab"/>
+        <reference value="ValueSet/i2x-efr"/>
       </reference>
-      <name value="Exemple de composition en pneumologie"/>
-      <description value="Example de composition en pneumologie"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Organization"/>
-      </extension>
-      <reference>
-        <reference value="Organization/GSI"/>
-      </reference>
-      <name value="GSI"/>
-      <exampleBoolean value="true"/>
+      <name value="Jeu d'observations d'une épreuve fonctionnelle respiratoire"/>
+      <description value="Jeu d'bservations d'une épreuve fonctionnelle respiratoire"/>
+      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -579,10 +548,21 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/i2x-efr"/>
+        <reference value="ValueSet/i2x-pneumo-diagnostic"/>
       </reference>
-      <name value="Observations d'une épreuve fonctionnelle respiratoire"/>
-      <description value="Observations d'une épreuve fonctionnelle respiratoire"/>
+      <name value="Jeu de diagnostic principal maladie respiratoire"/>
+      <description value="Jeu de diagnostic principal maladie respiratoire"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/i2x-pneumo-vitaux"/>
+      </reference>
+      <name value="Jeu de signes vitaux pneumologie"/>
+      <description value="Jeu de signes vitaux pneumologie"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -597,34 +577,13 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/i2x-pneumo-vitaux"/>
-      </reference>
-      <name value="Signes vitaux pneumologie"/>
-      <description value="Signes vitaux pneumologie"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Organization"/>
-      </extension>
-      <reference>
-        <reference value="Organization/Vunsabo"/>
-      </reference>
-      <name value="Vunsabo"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/VunsEfr"/>
       </reference>
       <name value="VunsEfr"/>
-      <description value="EFR observation"/>
+      <description value="Profile pour les épreuves fonctionnelles respiratoires"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -646,7 +605,7 @@
         <reference value="StructureDefinition/VunsEfrObservation"/>
       </reference>
       <name value="VunsEfrObservation"/>
-      <description value="EFR observation"/>
+      <description value="Profil pour les mesures effectuées dans le cadre d'une épreuve fonctionnelle respiratoire"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -668,7 +627,7 @@
         <reference value="Observation/VunsEfrObservationSource"/>
       </reference>
       <name value="VunsEfrObservationSource"/>
-      <description value="Observation originale dans OmniPro"/>
+      <description value="Example d'observation originale dans OmniPro"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -735,7 +694,7 @@
       </reference>
       <name value="VunsPneumoBioExample"/>
       <description value="Example de biologie d'intérêt pneumologique"/>
-      <exampleBoolean value="true"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBio"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -745,7 +704,7 @@
         <reference value="StructureDefinition/VunsPneumoBundle"/>
       </reference>
       <name value="VunsPneumoBundle"/>
-      <description value="Profil pour un Bundle Discharge Report en pneumologie"/>
+      <description value="Profil pour un Bundle 'Discharge Report' en pneumologie dans le cadre du projet Vers Un Souffle Nouveau"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -756,7 +715,7 @@
         <reference value="Bundle/VunsPneumoBundleExample"/>
       </reference>
       <name value="VunsPneumoBundleExample"/>
-      <description value="Example de composition en pneumologie"/>
+      <description value="Example de bundle dans le cadre du projet Vers Un Souffle Nouveau"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBundle"/>
     </resource>
     <resource>
@@ -767,7 +726,7 @@
         <reference value="Bundle/VunsPneumoBundleExampleLab"/>
       </reference>
       <name value="VunsPneumoBundleExampleLab"/>
-      <description value="Example de composition en pneumologie"/>
+      <description value="Example de bundle dans le cadre du projet Vers Un Souffle Nouveau (laboratoire)"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBundle"/>
     </resource>
     <resource>
@@ -778,7 +737,7 @@
         <reference value="StructureDefinition/VunsPneumoComposition"/>
       </reference>
       <name value="VunsPneumoComposition"/>
-      <description value="Profil pour une Composition Discharge Report en pneumologie"/>
+      <description value="Profil pour une Composition Discharge Report en pneumologie dans le cadre du projet Vers Un Souffle Nouveau"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -789,7 +748,7 @@
         <reference value="StructureDefinition/VunsPneumoCondition"/>
       </reference>
       <name value="VunsPneumoCondition"/>
-      <description value="Diagnostic pneumologie"/>
+      <description value="Profile pour un diagnostic pneumologique"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

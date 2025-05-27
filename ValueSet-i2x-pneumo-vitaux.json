@@ -8,9 +8,9 @@
   "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-vitaux",
   "version" : "0.1.0",
   "name" : "PNEUMO_VITAAUX_VS",
-  "title" : "Signes vitaux pneumologie",
+  "title" : "Jeu de signes vitaux pneumologie",
   "status" : "draft",
-  "date" : "2025-04-14T13:33:24+02:00",
+  "date" : "2025-05-23T16:57:29+02:00",
   "publisher" : "CHU Liège",
   "contact" : [{
     "name" : "CHU Liège",
@@ -19,7 +19,7 @@
       "value" : "http://www.chuliege.be"
     }]
   }],
-  "description" : "Signes vitaux pneumologie",
+  "description" : "Jeu de signes vitaux pneumologie",
   "compose" : {
     "include" : [{
       "system" : "http://loinc.org",

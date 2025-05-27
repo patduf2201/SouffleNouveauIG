@@ -3,10 +3,10 @@
 <Composition xmlns="http://hl7.org/fhir">
   <id value="VunsPneumoCompositionExampleLab"/>
   <meta>
-    <profile value="http://hl7.eu/fhir/hdr/StructureDefinition/composition-eu-hdr"/>
+    <profile value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoComposition"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Composition VunsPneumoCompositionExampleLab</b></p><a name="VunsPneumoCompositionExampleLab"> </a><a name="hcVunsPneumoCompositionExampleLab"> </a><a name="VunsPneumoCompositionExampleLab-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="https://build.fhir.org/ig/hl7-eu/hdr/StructureDefinition-composition-eu-hdr.html">Composition (HDR)</a></p></div><p><b>status</b>: Final</p><p><b>type</b>: <span title="Codes:{http://loinc.org 34105-7}">Hospital Discharge summary</span></p><p><b>date</b>: 2025-03-01</p><p><b>author</b>: <a href="Organization-GSI.html">Organization GSI tests</a></p><p><b>title</b>: Exemple de composition en pneumologie</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Composition VunsPneumoCompositionExampleLab</b></p><a name="VunsPneumoCompositionExampleLab"> </a><a name="hcVunsPneumoCompositionExampleLab"> </a><a name="VunsPneumoCompositionExampleLab-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="StructureDefinition-VunsPneumoComposition.html">VunsPneumoComposition</a></p></div><p><b>status</b>: Final</p><p><b>type</b>: <span title="Codes:{http://loinc.org 34105-7}">Hospital Discharge summary</span></p><p><b>date</b>: 2025-03-01</p><p><b>author</b>: <a href="Bundle-VunsPneumoBundleExample.html#Organization_GSI">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p><p><b>title</b>: Exemple de composition en pneumologie</p></div>
   </text>
   <status value="final"/>
   <type>
@@ -35,6 +35,21 @@
     <text>
       <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml">Exemple de rapport en pneumologie</div>
     </text>
+  </section>
+  <section>
+    <title value="Diagnostic primaire"/>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="11535-2"/>
+      </coding>
+    </code>
+    <text>
+      <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml">Diagnostic</div>
+    </text>
+    <entry>
+      <reference value="Condition/VunsPneumoConditionExample"/>
+    </entry>
   </section>
   <section>
     <title value="Biologies"/>

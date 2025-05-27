@@ -1,7 +1,7 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
-http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-efr,0.1.0,draft,,EFR_VS,Observations d'une épreuve fonctionnelle respiratoire,"Observations d'une épreuve fonctionnelle respiratoire",,"SCT,LOINC"
+http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-efr,0.1.0,draft,,EFR_VS,Jeu d'observations d'une épreuve fonctionnelle respiratoire,"Jeu d'bservations d'une épreuve fonctionnelle respiratoire",,"LOINC"
 http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-bio,0.1.0,draft,,PNEUMO_BIO_VS,Jeu de biologies d'intérêt pour la télésurveillance des maladies respiratoires,"Jeu de biologies d'intérêt pour la télésurveillance des maladies respiratoires",,"LOINC"
-http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-diagnostic,0.1.0,draft,,PNEUMO_DIAGNOSTIC_VS,Diagnostic principal maladie respiratoire,"Diagnostic principal maladie respiratoire",,"SCT"
-http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-vitaux,0.1.0,draft,,PNEUMO_VITAAUX_VS,Signes vitaux pneumologie,"Signes vitaux pneumologie",,"LOINC"
+http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-diagnostic,0.1.0,draft,,PNEUMO_DIAGNOSTIC_VS,Jeu de diagnostic principal maladie respiratoire,"Jeu de diagnostic principal maladie respiratoire",,"SCT"
+http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-vitaux,0.1.0,draft,,PNEUMO_VITAAUX_VS,Jeu de signes vitaux pneumologie,"Jeu de signes vitaux pneumologie",,"LOINC"
 http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac,0.1.0,draft,,TABAC_VS,Jeu de concept de tabacologie,"Jeu de concept de tabacologie",,"LOINC"
 http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac-status,0.1.0,draft,,TABAC_STATUS_VS,Jeu de concept pour le statut de tabagisme,"",,"LOINC"

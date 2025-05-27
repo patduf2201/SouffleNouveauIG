@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "40eb4cd4-0e02-4794-a7e1-84f3c8aaaf74",
+  "id" : "adfced7e-8066-4b9b-9893-835f516d6f21",
   "meta" : {
-    "lastUpdated" : "2025-04-14T13:35:44.959+02:00"
+    "lastUpdated" : "2025-05-23T16:58:31.873+02:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -11,18 +11,18 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from tx.fhir.org based on:</p><ul><li>Loinc v2.80</li><li>SNOMED CT 900000000000207008 edition 01-févr. 2025</li></ul></div><p>Ce jeu de valeur (ValueSet) contient 3 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Système</b></td><td><b>Display (und)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-81450-9\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/81450-9/\">81450-9</a></td><td>http://loinc.org</td><td>Total lung capacity --pre bronchodilation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-407602006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/407602006\">407602006</a></td><td>http://snomed.info/sct</td><td>Volume expiratoire maximal par seconde</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-313222007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/313222007\">313222007</a></td><td>http://snomed.info/sct</td><td>FEV1/FVC percent</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on Loinc v2.80</p><p>Ce jeu de valeur (ValueSet) contient 11 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Système</b></td><td><b>Display (und)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-19876-2\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/19876-2/\">19876-2</a></td><td>http://loinc.org</td><td>Forced vital capacity [Volume] Respiratory system by Spirometry --pre bronchodilation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-20157-4\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/20157-4/\">20157-4</a></td><td>http://loinc.org</td><td>FEV1 --pre bronchodilation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-81450-9\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/81450-9/\">81450-9</a></td><td>http://loinc.org</td><td>Total lung capacity --pre bronchodilation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-19926-5\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/19926-5/\">19926-5</a></td><td>http://loinc.org</td><td>FEV1/FVC</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-19871-3\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/19871-3/\">19871-3</a></td><td>http://loinc.org</td><td>FVC pre bronchodilation measured/predicted</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-20152-5\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/20152-5/\">20152-5</a></td><td>http://loinc.org</td><td>FEV1 measured/predicted</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-89085-5\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/89085-5/\">89085-5</a></td><td>http://loinc.org</td><td>Total lung capacity measured/predicted by Plethysmograph body box</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-81454-1\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/81454-1/\">81454-1</a></td><td>http://loinc.org</td><td>Residual volume/Total capacity --pre bronchodilation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-43252-6\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/43252-6/\">43252-6</a></td><td>http://loinc.org</td><td>Residual volume/Total capacity Predicted</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-98130-8\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/98130-8/\">98130-8</a></td><td>http://loinc.org</td><td>Diffusion capacity.carbon monoxide/Predicted</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-98203-3\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/98203-3/\">98203-3</a></td><td>http://loinc.org</td><td>(Diffusion capacity/Alveolar volume)/predicted</td></tr></table></div>"
       },
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-efr",
       "version" : "0.1.0",
       "name" : "EFR_VS",
-      "title" : "Observations d'une épreuve fonctionnelle respiratoire",
+      "title" : "Jeu d'observations d'une épreuve fonctionnelle respiratoire",
       "status" : "draft",
       "date" : "2025-04-14",
       "expansion" : {
-        "identifier" : "urn:uuid:fdfb0f82-b33e-40e5-b716-01d2ac3b48df",
-        "timestamp" : "2025-04-14T13:37:57+02:00",
-        "total" : 3,
+        "identifier" : "urn:uuid:556a9065-6d90-4346-a2a7-1ba600c06490",
+        "timestamp" : "2025-05-23T17:01:40+02:00",
+        "total" : 11,
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -45,43 +45,67 @@
           "valueUri" : "null"
         },
         {
-          "name" : "displayLanguage",
-          "valueCode" : "en-US"
-        },
-        {
           "name" : "used-codesystem",
           "valueUri" : "http://loinc.org|2.80"
         },
         {
           "name" : "version",
           "valueUri" : "http://loinc.org|2.80"
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "used-codesystem",
-          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
         }],
         "contains" : [{
+          "system" : "http://loinc.org",
+          "code" : "19876-2",
+          "display" : "Forced vital capacity [Volume] Respiratory system by Spirometry --pre bronchodilation"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "20157-4",
+          "display" : "FEV1 --pre bronchodilation"
+        },
+        {
           "system" : "http://loinc.org",
           "code" : "81450-9",
           "display" : "Total lung capacity --pre bronchodilation"
         },
         {
-          "system" : "http://snomed.info/sct",
-          "code" : "407602006",
-          "display" : "Volume expiratoire maximal par seconde"
+          "system" : "http://loinc.org",
+          "code" : "19926-5",
+          "display" : "FEV1/FVC"
         },
         {
-          "system" : "http://snomed.info/sct",
-          "code" : "313222007",
-          "display" : "FEV1/FVC percent"
+          "system" : "http://loinc.org",
+          "code" : "19871-3",
+          "display" : "FVC pre bronchodilation measured/predicted"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "20152-5",
+          "display" : "FEV1 measured/predicted"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "89085-5",
+          "display" : "Total lung capacity measured/predicted by Plethysmograph body box"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "81454-1",
+          "display" : "Residual volume/Total capacity --pre bronchodilation"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "43252-6",
+          "display" : "Residual volume/Total capacity Predicted"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "98130-8",
+          "display" : "Diffusion capacity.carbon monoxide/Predicted"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "98203-3",
+          "display" : "(Diffusion capacity/Alveolar volume)/predicted"
         }]
       }
     }
@@ -99,10 +123,10 @@
       "name" : "PNEUMO_BIO_VS",
       "title" : "Jeu de biologies d'intérêt pour la télésurveillance des maladies respiratoires",
       "status" : "draft",
-      "date" : "2025-04-14T13:33:24+02:00",
+      "date" : "2025-05-23T16:57:29+02:00",
       "expansion" : {
-        "identifier" : "urn:uuid:baf66317-3fbf-4e35-8d28-ade0f2b343c5",
-        "timestamp" : "2025-04-14T13:37:58+02:00",
+        "identifier" : "urn:uuid:f2867905-c222-4bee-af8d-4f0d3724c75f",
+        "timestamp" : "2025-05-23T17:01:41+02:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -181,12 +205,12 @@
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-diagnostic",
       "version" : "0.1.0",
       "name" : "PNEUMO_DIAGNOSTIC_VS",
-      "title" : "Diagnostic principal maladie respiratoire",
+      "title" : "Jeu de diagnostic principal maladie respiratoire",
       "status" : "draft",
-      "date" : "2025-04-14T13:33:24+02:00",
+      "date" : "2025-05-23T16:57:29+02:00",
       "expansion" : {
-        "identifier" : "urn:uuid:40836d0c-64da-4564-ae47-5cd9e7021a30",
-        "timestamp" : "2025-04-14T13:37:58+02:00",
+        "identifier" : "urn:uuid:eaa56c0e-956e-45f7-b66a-c4c0f13d410e",
+        "timestamp" : "2025-05-23T17:01:41+02:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -260,12 +284,12 @@
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-vitaux",
       "version" : "0.1.0",
       "name" : "PNEUMO_VITAAUX_VS",
-      "title" : "Signes vitaux pneumologie",
+      "title" : "Jeu de signes vitaux pneumologie",
       "status" : "draft",
-      "date" : "2025-04-14T13:33:24+02:00",
+      "date" : "2025-05-23T16:57:29+02:00",
       "expansion" : {
-        "identifier" : "urn:uuid:9d03c4f5-34e9-4c26-9d53-e0c85b5872c8",
-        "timestamp" : "2025-04-14T13:37:58+02:00",
+        "identifier" : "urn:uuid:7f9a85f6-8553-4a69-8176-015e6be84732",
+        "timestamp" : "2025-05-23T17:01:41+02:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -326,10 +350,10 @@
       "name" : "TABAC_STATUS_VS",
       "title" : "Jeu de concept pour le statut de tabagisme",
       "status" : "draft",
-      "date" : "2025-04-14T13:33:24+02:00",
+      "date" : "2025-05-23T16:57:29+02:00",
       "expansion" : {
-        "identifier" : "urn:uuid:e5013abc-be89-49a6-a68c-2931dc5ed32b",
-        "timestamp" : "2025-04-14T13:37:58+02:00",
+        "identifier" : "urn:uuid:29882a79-4999-41b2-9d3b-3118b98f3231",
+        "timestamp" : "2025-05-23T17:01:42+02:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -400,10 +424,10 @@
       "name" : "TABAC_VS",
       "title" : "Jeu de concept de tabacologie",
       "status" : "draft",
-      "date" : "2025-04-14T13:33:24+02:00",
+      "date" : "2025-05-23T16:57:29+02:00",
       "expansion" : {
-        "identifier" : "urn:uuid:181557d5-296b-492f-9e5b-a9473a513cfa",
-        "timestamp" : "2025-04-14T13:37:58+02:00",
+        "identifier" : "urn:uuid:4e9bbd16-504d-4a9e-af4c-6a97249a88d3",
+        "timestamp" : "2025-05-23T17:01:42+02:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{

@@ -8,9 +8,9 @@
   "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-diagnostic",
   "version" : "0.1.0",
   "name" : "PNEUMO_DIAGNOSTIC_VS",
-  "title" : "Diagnostic principal maladie respiratoire",
+  "title" : "Jeu de diagnostic principal maladie respiratoire",
   "status" : "draft",
-  "date" : "2025-04-14T13:33:24+02:00",
+  "date" : "2025-05-23T16:57:29+02:00",
   "publisher" : "CHU Liège",
   "contact" : [{
     "name" : "CHU Liège",
@@ -19,7 +19,7 @@
       "value" : "http://www.chuliege.be"
     }]
   }],
-  "description" : "Diagnostic principal maladie respiratoire",
+  "description" : "Jeu de diagnostic principal maladie respiratoire",
   "compose" : {
     "include" : [{
       "system" : "http://snomed.info/sct",
