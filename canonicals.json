@@ -28,13 +28,6 @@
     "name" : "VunsEfrObservation"
   },
   {
-    "id" : "VunsLabPatient",
-    "type" : "StructureDefinition",
-    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsLabPatient",
-    "version" : "0.1.0",
-    "name" : "VunsLabPatient"
-  },
-  {
     "id" : "VunsPatient",
     "type" : "StructureDefinition",
     "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPatient",
@@ -47,6 +40,13 @@
     "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBio",
     "version" : "0.1.0",
     "name" : "VunsPneumoBio"
+  },
+  {
+    "id" : "VunsPneumoBioReport",
+    "type" : "StructureDefinition",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBioReport",
+    "version" : "0.1.0",
+    "name" : "VunsPneumoBioReport"
   },
   {
     "id" : "VunsPneumoBundle",

@@ -6,14 +6,14 @@
   "status" : "draft",
   "package-id" : "be.chuliege.versunsoufflenouveau",
   "ig-ver" : "0.1.0",
-  "date" : "Fri, 23 May, 2025 16:58:31 +0200",
-  "dateISO8601" : "2025-05-23T16:58:31+02:00",
-  "errs" : 69,
-  "warnings" : 155,
-  "hints" : 67,
+  "date" : "Tue, 27 May, 2025 16:57:09 +0200",
+  "dateISO8601" : "2025-05-27T16:57:09+02:00",
+  "errs" : 8,
+  "warnings" : 36,
+  "hints" : 18,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 2676609904
+  "maxMemory" : 2341038368
 }

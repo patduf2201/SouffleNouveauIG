@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "PNEUMO_DIAGNOSTIC_VS"] ; # 
   fhir:title [ fhir:v "Jeu de diagnostic principal maladie respiratoire"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-05-23T16:57:29+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-27T16:55:56+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "CHU Liège"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "CHU Liège" ] ;

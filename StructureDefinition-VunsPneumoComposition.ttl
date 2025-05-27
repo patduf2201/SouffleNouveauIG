@@ -18,7 +18,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "VunsPneumoComposition"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-05-23T16:57:29+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-27T16:55:56+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "CHU Liège"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "CHU Liège" ] ;
@@ -63,7 +63,7 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version"^^xsd:anyURI ] ;
        fhir:value [
          a fhir:string ;
-         fhir:v "0.0.1-ci"
+         fhir:v "0.1.0-ballot"
        ]
      ] ) ;
      fhir:element ( [
@@ -447,6 +447,7 @@
          ]
        ] ) ;
        fhir:isModifier [ fhir:v false ] ;
+       fhir:isSummary [ fhir:v false ] ;
        fhir:mapping ( [
          fhir:identity [ fhir:v "workflow" ] ;
          fhir:map [ fhir:v "Event.basedOn" ]
@@ -624,13 +625,11 @@
            fhir:link <http://hl7.eu/fhir/StructureDefinition/presentedForm>
          ] )
        ] ) ;
-       fhir:condition ( [ fhir:v "ele-1" ] ) ;
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -640,13 +639,13 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
        ] ) ;
-       fhir:isModifier [ fhir:v false ]
+       fhir:isModifier [ fhir:v false ] ;
+       fhir:isSummary [ fhir:v false ]
      ] [
        fhir:id [ fhir:v "Composition.extension:presentedForm.id" ] ;
        fhir:path [ fhir:v "Composition.extension.id" ] ;
@@ -665,11 +664,12 @@
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type"^^xsd:anyURI ] ;
            fhir:value [
              a fhir:url ;
-             fhir:v "string"^^xsd:anyURI
+             fhir:v "id"^^xsd:anyURI
            ]
          ] ) ;
          fhir:code [ fhir:v "http://hl7.org/fhirpath/System.String"^^xsd:anyURI ]
        ] ) ;
+       fhir:condition ( [ fhir:v "ele-1" ] ) ;
        fhir:isModifier [ fhir:v false ] ;
        fhir:isSummary [ fhir:v false ] ;
        fhir:mapping ( [
@@ -704,7 +704,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -714,7 +713,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
@@ -760,7 +758,7 @@
        fhir:id [ fhir:v "Composition.extension:presentedForm.value[x]" ] ;
        fhir:path [ fhir:v "Composition.extension.value[x]" ] ;
        fhir:short [ fhir:v "Value of extension" ] ;
-       fhir:definition [ fhir:v "Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list)." ] ;
+       fhir:definition [ fhir:v "Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R5/extensibility.html) for a list)." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -771,12 +769,12 @@
        fhir:type ( [
          fhir:code [ fhir:v "Attachment"^^xsd:anyURI ]
        ] ) ;
+       fhir:condition ( [ fhir:v "ext-1" ] ) ;
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -894,11 +892,8 @@
        ] [
          fhir:label [ fhir:v "pdf" ] ;
          fhir:value [
-           a fhir:CodeableConcept ;
-           fhir:coding ( [
-             fhir:system [ fhir:v "urn:ietf:bcp:13"^^xsd:anyURI ] ;
-             fhir:code [ fhir:v "application/pdf" ]
-           ] )
+           a fhir:code ;
+           fhir:v "application/pdf"
          ]
        ] ) ;
        fhir:constraint ( [
@@ -1270,6 +1265,7 @@
          ]
        ] ) ;
        fhir:isModifier [ fhir:v false ] ;
+       fhir:isSummary [ fhir:v false ] ;
        fhir:mapping ( [
          fhir:identity [ fhir:v "rim" ] ;
          fhir:map [ fhir:v "n/a" ]
@@ -1422,7 +1418,7 @@
        fhir:id [ fhir:v "Composition.extension:information-recipient" ] ;
        fhir:path [ fhir:v "Composition.extension" ] ;
        fhir:sliceName [ fhir:v "information-recipient" ] ;
-       fhir:short [ fhir:v "Information recipient" ] ;
+       fhir:short [ fhir:v "Composition: Information recipient" ] ;
        fhir:definition [ fhir:v "This extension applies to the Composition resource and is used to represent an intended recipient of the composition." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
@@ -1438,13 +1434,11 @@
            fhir:link <http://hl7.eu/fhir/StructureDefinition/information-recipient>
          ] )
        ] ) ;
-       fhir:condition ( [ fhir:v "ele-1" ] ) ;
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -1454,13 +1448,13 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
        ] ) ;
-       fhir:isModifier [ fhir:v false ]
+       fhir:isModifier [ fhir:v false ] ;
+       fhir:isSummary [ fhir:v false ]
      ] [
        fhir:id [ fhir:v "Composition.extension:information-recipient.id" ] ;
        fhir:path [ fhir:v "Composition.extension.id" ] ;
@@ -1479,11 +1473,12 @@
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type"^^xsd:anyURI ] ;
            fhir:value [
              a fhir:url ;
-             fhir:v "string"^^xsd:anyURI
+             fhir:v "id"^^xsd:anyURI
            ]
          ] ) ;
          fhir:code [ fhir:v "http://hl7.org/fhirpath/System.String"^^xsd:anyURI ]
        ] ) ;
+       fhir:condition ( [ fhir:v "ele-1" ] ) ;
        fhir:isModifier [ fhir:v false ] ;
        fhir:isSummary [ fhir:v false ] ;
        fhir:mapping ( [
@@ -1518,7 +1513,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -1528,7 +1522,6 @@
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
-         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
@@ -1574,7 +1567,7 @@
        fhir:id [ fhir:v "Composition.extension:information-recipient.value[x]" ] ;
        fhir:path [ fhir:v "Composition.extension.value[x]" ] ;
        fhir:short [ fhir:v "Value of extension" ] ;
-       fhir:definition [ fhir:v "Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list)." ] ;
+       fhir:definition [ fhir:v "Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R5/extensibility.html) for a list)." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1604,12 +1597,12 @@
            fhir:link <http://hl7.eu/fhir/base/StructureDefinition/organization-eu-core>
          ] )
        ] ) ;
+       fhir:condition ( [ fhir:v "ext-1" ] ) ;
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
-         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -2079,14 +2072,8 @@
            fhir:v "http://hl7.org/fhir/StructureDefinition/Device"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Device>
          ] [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Patient"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Patient>
-         ] [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/RelatedPerson"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/RelatedPerson>
-         ] [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Organization"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Organization>
+           fhir:v "http://hl7.eu/fhir/base/StructureDefinition/organization-eu-core"^^xsd:anyURI ;
+           fhir:link <http://hl7.eu/fhir/base/StructureDefinition/organization-eu-core>
          ] )
        ] ) ;
        fhir:constraint ( [
@@ -4115,7 +4102,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -4759,7 +4746,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -5410,7 +5397,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -6061,7 +6048,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -6706,7 +6693,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -7363,7 +7350,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -8009,7 +7996,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -8654,7 +8641,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -9299,7 +9286,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -9947,7 +9934,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -10601,7 +10588,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -10744,7 +10731,7 @@
        fhir:path [ fhir:v "Composition.section.entry" ] ;
        fhir:slicing [
          fhir:discriminator ( [
-           fhir:type [ fhir:v "type" ] ;
+           fhir:type [ fhir:v "profile" ] ;
            fhir:path [ fhir:v "resolve()" ]
          ] ) ;
          fhir:ordered [ fhir:v false ] ;
@@ -10853,8 +10840,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-radiology-uv-ips"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-radiology-uv-ips>
+           fhir:v "http://hl7.eu/fhir/hdr/StructureDefinition/observation-imgFinding-eu-hdr"^^xsd:anyURI ;
+           fhir:link <http://hl7.eu/fhir/hdr/StructureDefinition/observation-imgFinding-eu-hdr>
          ] )
        ] ) ;
        fhir:condition ( [ fhir:v "cmp-2" ] ) ;
@@ -11344,7 +11331,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -11989,7 +11976,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -12143,8 +12130,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://hl7.eu/fhir/hdr/StructureDefinition/carePlan-eu-eps"^^xsd:anyURI ;
-           fhir:link <http://hl7.eu/fhir/hdr/StructureDefinition/carePlan-eu-eps>
+           fhir:v "http://hl7.eu/fhir/hdr/StructureDefinition/carePlan-eu-hdr"^^xsd:anyURI ;
+           fhir:link <http://hl7.eu/fhir/hdr/StructureDefinition/carePlan-eu-hdr>
          ] [
            fhir:v "http://hl7.org/fhir/StructureDefinition/DocumentReference"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/DocumentReference>
@@ -12637,7 +12624,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -13282,7 +13269,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -13933,7 +13920,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -14631,7 +14618,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -15326,7 +15313,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -15597,7 +15584,7 @@
        fhir:id [ fhir:v "Composition.section:sectionPatientHx" ] ;
        fhir:path [ fhir:v "Composition.section" ] ;
        fhir:sliceName [ fhir:v "sectionPatientHx" ] ;
-       fhir:short [ fhir:v "Problem list Section" ] ;
+       fhir:short [ fhir:v "Patient history Section" ] ;
        fhir:definition [ fhir:v "This Section describes all aspects of the medical history of the patient even if not pertinent to the current procedure, and may include chief complaint, past medical history, social history, family history, surgical or procedure history, medication history, and other history information. The history may be limited to information pertinent to the current procedure or may be more comprehensive. The history may be reported as a collection of random clinical statements or it may be reported categorically. Categorical report formats may be divided into multiple subsections including Past Medical History, Social History." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
@@ -15830,9 +15817,9 @@
        fhir:pattern [
          a fhir:CodeableConcept ;
          fhir:coding ( [
-           a loinc:11450-4 ;
+           a loinc:35090-0 ;
            fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
-           fhir:code [ fhir:v "11450-4" ]
+           fhir:code [ fhir:v "35090-0" ]
          ] )
        ] ;
        fhir:constraint ( [
@@ -15971,7 +15958,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -16475,9 +16462,9 @@
        fhir:pattern [
          a fhir:CodeableConcept ;
          fhir:coding ( [
-           a loinc:11348-0 ;
+           a loinc:11450-4 ;
            fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
-           fhir:code [ fhir:v "11348-0" ]
+           fhir:code [ fhir:v "11450-4" ]
          ] )
        ] ;
        fhir:constraint ( [
@@ -16616,7 +16603,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -17261,7 +17248,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -17906,7 +17893,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -18555,7 +18542,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -19200,7 +19187,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -19850,7 +19837,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -20495,7 +20482,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -21140,7 +21127,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -21788,7 +21775,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -22488,7 +22475,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -23133,7 +23120,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -23778,7 +23765,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -24423,7 +24410,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -25068,7 +25055,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -25713,7 +25700,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -25867,8 +25854,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/Consent"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Consent>
+           fhir:v "http://hl7.eu/fhir/hdr/StructureDefinition/consent-eu-hdr"^^xsd:anyURI ;
+           fhir:link <http://hl7.eu/fhir/hdr/StructureDefinition/consent-eu-hdr>
          ] [
            fhir:v "http://hl7.org/fhir/StructureDefinition/DocumentReference"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/DocumentReference>
@@ -26361,7 +26348,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;
@@ -27057,7 +27044,7 @@
        fhir:short [ fhir:v "Text summary of the section, for human interpretation" ] ;
        fhir:definition [ fhir:v "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative." ] ;
        fhir:comment [ fhir:v "Document profiles may define what content should be represented in the narrative to ensure clinical safety." ] ;
-       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
          fhir:path [ fhir:v "Composition.section.text" ] ;

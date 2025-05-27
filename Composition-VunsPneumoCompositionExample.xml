@@ -67,7 +67,7 @@
     </entry>
   </section>
   <section>
-    <title value="Historique des épreuves fonctionnelles respiratoires"/>
+    <title value="Résultats des EFRs"/>
     <code>
       <coding>
         <system value="http://loinc.org"/>
@@ -75,10 +75,25 @@
       </coding>
     </code>
     <text>
-      <status value="empty"/><div xmlns="http://www.w3.org/1999/xhtml">EFR</div>
+      <status value="empty"/><div xmlns="http://www.w3.org/1999/xhtml">Résultats des EFRs</div>
     </text>
     <entry>
       <reference value="Procedure/VunsEfrExample"/>
+    </entry>
+  </section>
+  <section>
+    <title value="Biologies"/>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="30954-2"/>
+      </coding>
+    </code>
+    <text>
+      <status value="empty"/><div xmlns="http://www.w3.org/1999/xhtml">Biologies</div>
+    </text>
+    <entry>
+      <reference value="DiagnosticReport/VunsPneumoBioReportExample"/>
     </entry>
   </section>
   <section>

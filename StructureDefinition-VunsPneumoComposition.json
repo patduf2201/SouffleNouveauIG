@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "VunsPneumoComposition",
   "status" : "draft",
-  "date" : "2025-05-23T16:57:29+02:00",
+  "date" : "2025-05-27T16:55:56+02:00",
   "publisher" : "CHU Liège",
   "contact" : [{
     "name" : "CHU Liège",
@@ -53,7 +53,7 @@
   "snapshot" : {
     "extension" : [{
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version",
-      "valueString" : "0.0.1-ci"
+      "valueString" : "0.1.0-ballot"
     }],
     "element" : [{
       "id" : "Composition",
@@ -398,6 +398,7 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
       "isModifier" : false,
+      "isSummary" : false,
       "mapping" : [{
         "identity" : "workflow",
         "map" : "Event.basedOn"
@@ -557,13 +558,11 @@
         "code" : "Extension",
         "profile" : ["http://hl7.eu/fhir/StructureDefinition/presentedForm"]
       }],
-      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
         "human" : "All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       },
       {
@@ -571,10 +570,10 @@
         "severity" : "error",
         "human" : "Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
-      "isModifier" : false
+      "isModifier" : false,
+      "isSummary" : false
     },
     {
       "id" : "Composition.extension:presentedForm.id",
@@ -592,10 +591,11 @@
       "type" : [{
         "extension" : [{
           "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
-          "valueUrl" : "string"
+          "valueUrl" : "id"
         }],
         "code" : "http://hl7.org/fhirpath/System.String"
       }],
+      "condition" : ["ele-1"],
       "isModifier" : false,
       "isSummary" : false,
       "mapping" : [{
@@ -631,7 +631,6 @@
         "severity" : "error",
         "human" : "All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       },
       {
@@ -639,7 +638,6 @@
         "severity" : "error",
         "human" : "Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
       "isModifier" : false,
@@ -678,7 +676,7 @@
       "id" : "Composition.extension:presentedForm.value[x]",
       "path" : "Composition.extension.value[x]",
       "short" : "Value of extension",
-      "definition" : "Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).",
+      "definition" : "Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R5/extensibility.html) for a list).",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -689,12 +687,12 @@
       "type" : [{
         "code" : "Attachment"
       }],
+      "condition" : ["ext-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
         "human" : "All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
       "isModifier" : false,
@@ -802,12 +800,7 @@
       },
       {
         "label" : "pdf",
-        "valueCodeableConcept" : {
-          "coding" : [{
-            "system" : "urn:ietf:bcp:13",
-            "code" : "application/pdf"
-          }]
-        }
+        "valueCode" : "application/pdf"
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -1130,6 +1123,7 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
       "isModifier" : false,
+      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
@@ -1271,7 +1265,7 @@
       "id" : "Composition.extension:information-recipient",
       "path" : "Composition.extension",
       "sliceName" : "information-recipient",
-      "short" : "Information recipient",
+      "short" : "Composition: Information recipient",
       "definition" : "This extension applies to the Composition resource and is used to represent an intended recipient of the composition.",
       "min" : 0,
       "max" : "*",
@@ -1284,13 +1278,11 @@
         "code" : "Extension",
         "profile" : ["http://hl7.eu/fhir/StructureDefinition/information-recipient"]
       }],
-      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
         "human" : "All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       },
       {
@@ -1298,10 +1290,10 @@
         "severity" : "error",
         "human" : "Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
-      "isModifier" : false
+      "isModifier" : false,
+      "isSummary" : false
     },
     {
       "id" : "Composition.extension:information-recipient.id",
@@ -1319,10 +1311,11 @@
       "type" : [{
         "extension" : [{
           "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
-          "valueUrl" : "string"
+          "valueUrl" : "id"
         }],
         "code" : "http://hl7.org/fhirpath/System.String"
       }],
+      "condition" : ["ele-1"],
       "isModifier" : false,
       "isSummary" : false,
       "mapping" : [{
@@ -1358,7 +1351,6 @@
         "severity" : "error",
         "human" : "All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       },
       {
@@ -1366,7 +1358,6 @@
         "severity" : "error",
         "human" : "Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
       "isModifier" : false,
@@ -1405,7 +1396,7 @@
       "id" : "Composition.extension:information-recipient.value[x]",
       "path" : "Composition.extension.value[x]",
       "short" : "Value of extension",
-      "definition" : "Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).",
+      "definition" : "Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R5/extensibility.html) for a list).",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -1422,12 +1413,12 @@
         "http://hl7.org/fhir/StructureDefinition/RelatedPerson",
         "http://hl7.eu/fhir/base/StructureDefinition/organization-eu-core"]
       }],
+      "condition" : ["ext-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
         "human" : "All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
       "isModifier" : false,
@@ -1870,9 +1861,7 @@
         "targetProfile" : ["http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu-core",
         "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu-core",
         "http://hl7.org/fhir/StructureDefinition/Device",
-        "http://hl7.org/fhir/StructureDefinition/Patient",
-        "http://hl7.org/fhir/StructureDefinition/RelatedPerson",
-        "http://hl7.org/fhir/StructureDefinition/Organization"]
+        "http://hl7.eu/fhir/base/StructureDefinition/organization-eu-core"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -3736,7 +3725,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -4314,7 +4303,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -4894,7 +4883,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -5474,7 +5463,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -6052,7 +6041,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -6634,7 +6623,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -7213,7 +7202,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -7791,7 +7780,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -8369,7 +8358,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -8948,7 +8937,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -9529,7 +9518,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -9658,7 +9647,7 @@
       "path" : "Composition.section.entry",
       "slicing" : {
         "discriminator" : [{
-          "type" : "type",
+          "type" : "profile",
           "path" : "resolve()"
         }],
         "ordered" : false,
@@ -9754,7 +9743,7 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-radiology-uv-ips"]
+        "targetProfile" : ["http://hl7.eu/fhir/hdr/StructureDefinition/observation-imgFinding-eu-hdr"]
       }],
       "condition" : ["cmp-2"],
       "constraint" : [{
@@ -10193,7 +10182,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -10771,7 +10760,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -10910,7 +10899,7 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.eu/fhir/hdr/StructureDefinition/carePlan-eu-eps",
+        "targetProfile" : ["http://hl7.eu/fhir/hdr/StructureDefinition/carePlan-eu-hdr",
         "http://hl7.org/fhir/StructureDefinition/DocumentReference"]
       }],
       "condition" : ["cmp-2"],
@@ -11350,7 +11339,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -11928,7 +11917,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -12508,7 +12497,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -13133,7 +13122,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -13757,7 +13746,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -14002,7 +13991,7 @@
       "id" : "Composition.section:sectionPatientHx",
       "path" : "Composition.section",
       "sliceName" : "sectionPatientHx",
-      "short" : "Problem list Section",
+      "short" : "Patient history Section",
       "definition" : "This Section describes all aspects of the medical history of the patient even if not pertinent to the current procedure, and may include chief complaint, past medical history, social history, family history, surgical or procedure history, medication history, and other history information. The history may be limited to information pertinent to the current procedure or may be more comprehensive. The history may be reported as a collection of random clinical statements or it may be reported categorically. Categorical report formats may be divided into multiple subsections including Past Medical History, Social History.",
       "min" : 0,
       "max" : "1",
@@ -14221,7 +14210,7 @@
       "patternCodeableConcept" : {
         "coding" : [{
           "system" : "http://loinc.org",
-          "code" : "11450-4"
+          "code" : "35090-0"
         }]
       },
       "constraint" : [{
@@ -14335,7 +14324,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -14799,7 +14788,7 @@
       "patternCodeableConcept" : {
         "coding" : [{
           "system" : "http://loinc.org",
-          "code" : "11348-0"
+          "code" : "11450-4"
         }]
       },
       "constraint" : [{
@@ -14913,7 +14902,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -15491,7 +15480,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -16069,7 +16058,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -16649,7 +16638,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -17227,7 +17216,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -17807,7 +17796,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -18385,7 +18374,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -18963,7 +18952,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -19542,7 +19531,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -20168,7 +20157,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -20746,7 +20735,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -21324,7 +21313,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -21902,7 +21891,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -22480,7 +22469,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -23058,7 +23047,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -23197,7 +23186,7 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Consent",
+        "targetProfile" : ["http://hl7.eu/fhir/hdr/StructureDefinition/consent-eu-hdr",
         "http://hl7.org/fhir/StructureDefinition/DocumentReference"]
       }],
       "condition" : ["cmp-2"],
@@ -23637,7 +23626,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",
@@ -24262,7 +24251,7 @@
       "short" : "Text summary of the section, for human interpretation",
       "definition" : "A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative.",
       "comment" : "Document profiles may define what content should be represented in the narrative to ensure clinical safety.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Composition.section.text",

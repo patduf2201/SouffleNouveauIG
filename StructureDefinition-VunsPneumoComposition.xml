@@ -15,7 +15,7 @@
   <version value="0.1.0"/>
   <name value="VunsPneumoComposition"/>
   <status value="draft"/>
-  <date value="2025-05-23T16:57:29+02:00"/>
+  <date value="2025-05-27T16:55:56+02:00"/>
   <publisher value="CHU Liège"/>
   <contact>
     <name value="CHU Liège"/>
@@ -58,7 +58,7 @@
   <derivation value="constraint"/>
   <snapshot>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version">
-      <valueString value="0.0.1-ci"/>
+      <valueString value="0.1.0-ballot"/>
     </extension>
     <element id="Composition">
       <path value="Composition"/>
@@ -389,6 +389,7 @@
         <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
       </constraint>
       <isModifier value="false"/>
+      <isSummary value="false"/>
       <mapping>
         <identity value="workflow"/>
         <map value="Event.basedOn"/>
@@ -541,13 +542,11 @@
         <code value="Extension"/>
         <profile value="http://hl7.eu/fhir/StructureDefinition/presentedForm"/>
       </type>
-      <condition value="ele-1"/>
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
       <constraint>
@@ -555,10 +554,10 @@
         <severity value="error"/>
         <human value="Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
-        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
       </constraint>
       <isModifier value="false"/>
+      <isSummary value="false"/>
     </element>
     <element id="Composition.extension:presentedForm.id">
       <path value="Composition.extension.id"/>
@@ -574,10 +573,11 @@
       </base>
       <type>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
-          <valueUrl value="string"/>
+          <valueUrl value="id"/>
         </extension>
         <code value="http://hl7.org/fhirpath/System.String"/>
       </type>
+      <condition value="ele-1"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -612,7 +612,6 @@
         <severity value="error"/>
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
       <constraint>
@@ -620,7 +619,6 @@
         <severity value="error"/>
         <human value="Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
-        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
       </constraint>
       <isModifier value="false"/>
@@ -656,7 +654,7 @@
     <element id="Composition.extension:presentedForm.value[x]">
       <path value="Composition.extension.value[x]"/>
       <short value="Value of extension"/>
-      <definition value="Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list)."/>
+      <definition value="Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R5/extensibility.html) for a list)."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -667,12 +665,12 @@
       <type>
         <code value="Attachment"/>
       </type>
+      <condition value="ext-1"/>
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
       <isModifier value="false"/>
@@ -776,12 +774,7 @@
       </example>
       <example>
         <label value="pdf"/>
-        <valueCodeableConcept>
-          <coding>
-            <system value="urn:ietf:bcp:13"/>
-            <code value="application/pdf"/>
-          </coding>
-        </valueCodeableConcept>
+        <valueCode value="application/pdf"/>
       </example>
       <constraint>
         <key value="ele-1"/>
@@ -1092,6 +1085,7 @@
         <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
       </constraint>
       <isModifier value="false"/>
+      <isSummary value="false"/>
       <mapping>
         <identity value="rim"/>
         <map value="n/a"/>
@@ -1226,7 +1220,7 @@
     <element id="Composition.extension:information-recipient">
       <path value="Composition.extension"/>
       <sliceName value="information-recipient"/>
-      <short value="Information recipient"/>
+      <short value="Composition: Information recipient"/>
       <definition value="This extension applies to the Composition resource and is used to represent an intended recipient of the composition."/>
       <min value="0"/>
       <max value="*"/>
@@ -1239,13 +1233,11 @@
         <code value="Extension"/>
         <profile value="http://hl7.eu/fhir/StructureDefinition/information-recipient"/>
       </type>
-      <condition value="ele-1"/>
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
       <constraint>
@@ -1253,10 +1245,10 @@
         <severity value="error"/>
         <human value="Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
-        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
       </constraint>
       <isModifier value="false"/>
+      <isSummary value="false"/>
     </element>
     <element id="Composition.extension:information-recipient.id">
       <path value="Composition.extension.id"/>
@@ -1272,10 +1264,11 @@
       </base>
       <type>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
-          <valueUrl value="string"/>
+          <valueUrl value="id"/>
         </extension>
         <code value="http://hl7.org/fhirpath/System.String"/>
       </type>
+      <condition value="ele-1"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -1310,7 +1303,6 @@
         <severity value="error"/>
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
       <constraint>
@@ -1318,7 +1310,6 @@
         <severity value="error"/>
         <human value="Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
-        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
       </constraint>
       <isModifier value="false"/>
@@ -1354,7 +1345,7 @@
     <element id="Composition.extension:information-recipient.value[x]">
       <path value="Composition.extension.value[x]"/>
       <short value="Value of extension"/>
-      <definition value="Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list)."/>
+      <definition value="Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R5/extensibility.html) for a list)."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1371,12 +1362,12 @@
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
         <targetProfile value="http://hl7.eu/fhir/base/StructureDefinition/organization-eu-core"/>
       </type>
+      <condition value="ext-1"/>
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
       <isModifier value="false"/>
@@ -1807,9 +1798,7 @@
         <targetProfile value="http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu-core"/>
         <targetProfile value="http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu-core"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
+        <targetProfile value="http://hl7.eu/fhir/base/StructureDefinition/organization-eu-core"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -3613,7 +3602,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -4172,7 +4161,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -4733,7 +4722,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -5294,7 +5283,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -5853,7 +5842,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -6416,7 +6405,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -6976,7 +6965,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -7535,7 +7524,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -8094,7 +8083,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -8654,7 +8643,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -9216,7 +9205,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -9340,7 +9329,7 @@
       <path value="Composition.section.entry"/>
       <slicing>
         <discriminator>
-          <type value="type"/>
+          <type value="profile"/>
           <path value="resolve()"/>
         </discriminator>
         <ordered value="false"/>
@@ -9434,7 +9423,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-radiology-uv-ips"/>
+        <targetProfile value="http://hl7.eu/fhir/hdr/StructureDefinition/observation-imgFinding-eu-hdr"/>
       </type>
       <condition value="cmp-2"/>
       <constraint>
@@ -9859,7 +9848,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -10418,7 +10407,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -10552,7 +10541,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.eu/fhir/hdr/StructureDefinition/carePlan-eu-eps"/>
+        <targetProfile value="http://hl7.eu/fhir/hdr/StructureDefinition/carePlan-eu-hdr"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/DocumentReference"/>
       </type>
       <condition value="cmp-2"/>
@@ -10978,7 +10967,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -11537,7 +11526,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -12098,7 +12087,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -12703,7 +12692,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -13307,7 +13296,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -13543,7 +13532,7 @@
     <element id="Composition.section:sectionPatientHx">
       <path value="Composition.section"/>
       <sliceName value="sectionPatientHx"/>
-      <short value="Problem list Section"/>
+      <short value="Patient history Section"/>
       <definition value="This Section describes all aspects of the medical history of the patient even if not pertinent to the current procedure, and may include chief complaint, past medical history, social history, family history, surgical or procedure history, medication history, and other history information. The history may be limited to information pertinent to the current procedure or may be more comprehensive. The history may be reported as a collection of random clinical statements or it may be reported categorically. Categorical report formats may be divided into multiple subsections including Past Medical History, Social History."/>
       <min value="0"/>
       <max value="1"/>
@@ -13756,7 +13745,7 @@
       <patternCodeableConcept>
         <coding>
           <system value="http://loinc.org"/>
-          <code value="11450-4"/>
+          <code value="35090-0"/>
         </coding>
       </patternCodeableConcept>
       <constraint>
@@ -13866,7 +13855,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -14315,7 +14304,7 @@
       <patternCodeableConcept>
         <coding>
           <system value="http://loinc.org"/>
-          <code value="11348-0"/>
+          <code value="11450-4"/>
         </coding>
       </patternCodeableConcept>
       <constraint>
@@ -14425,7 +14414,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -14984,7 +14973,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -15543,7 +15532,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -16104,7 +16093,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -16663,7 +16652,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -17224,7 +17213,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -17783,7 +17772,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -18342,7 +18331,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -18902,7 +18891,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -19508,7 +19497,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -20067,7 +20056,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -20626,7 +20615,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -21185,7 +21174,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -21744,7 +21733,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -22303,7 +22292,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -22437,7 +22426,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Consent"/>
+        <targetProfile value="http://hl7.eu/fhir/hdr/StructureDefinition/consent-eu-hdr"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/DocumentReference"/>
       </type>
       <condition value="cmp-2"/>
@@ -22863,7 +22852,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>
@@ -23468,7 +23457,7 @@
       <short value="Text summary of the section, for human interpretation"/>
       <definition value="A human-readable narrative that contains the attested content of the section, used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative."/>
       <comment value="Document profiles may define what content should be represented in the narrative to ensure clinical safety."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="Composition.section.text"/>

@@ -87,7 +87,7 @@
        fhir:reference [ fhir:v "Condition/VunsPneumoConditionExample" ]
      ] )
   ] [
-     fhir:title [ fhir:v "Historique des épreuves fonctionnelles respiratoires" ] ;
+     fhir:title [ fhir:v "Résultats des EFRs" ] ;
      fhir:code [
        fhir:coding ( [
          a loinc:10185-7 ;
@@ -97,11 +97,28 @@
      ] ;
      fhir:text [
        fhir:status [ fhir:v "empty" ] ;
-       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">EFR</div>"^^rdf:XMLLiteral
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Résultats des EFRs</div>"^^rdf:XMLLiteral
      ] ;
      fhir:entry ( [
        fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Procedure/VunsEfrExample> ;
        fhir:reference [ fhir:v "Procedure/VunsEfrExample" ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "Biologies" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:30954-2 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "30954-2" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "empty" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Biologies</div>"^^rdf:XMLLiteral
+     ] ;
+     fhir:entry ( [
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/DiagnosticReport/VunsPneumoBioReportExample> ;
+       fhir:reference [ fhir:v "DiagnosticReport/VunsPneumoBioReportExample" ]
      ] )
   ] [
      fhir:title [ fhir:v "Tabagisme" ] ;

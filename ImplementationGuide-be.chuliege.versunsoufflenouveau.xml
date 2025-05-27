@@ -10,7 +10,7 @@
   <version value="0.1.0"/>
   <name value="SouffleNouveauIG"/>
   <status value="draft"/>
-  <date value="2025-05-23T16:57:29+02:00"/>
+  <date value="2025-05-27T16:55:56+02:00"/>
   <publisher value="CHU Liège"/>
   <contact>
     <name value="CHU Liège"/>
@@ -43,15 +43,15 @@
     <packageId value="hl7.fhir.be.core"/>
     <version value="2.1.2"/>
   </dependsOn>
-  <dependsOn id="hl7_fhir_eu_base_r4">
-    <uri value="http://hl7.eu/fhir/base/ImplementationGuide/hl7.fhir.eu.base.r4"/>
-    <packageId value="hl7.fhir.eu.base.r4"/>
-    <version value="0.0.1-ci"/>
+  <dependsOn id="hl7_fhir_eu_base">
+    <uri value="http://hl7.eu/fhir/base/ImplementationGuide/hl7.fhir.eu.base"/>
+    <packageId value="hl7.fhir.eu.base"/>
+    <version value="0.1.0-ballot"/>
   </dependsOn>
   <dependsOn id="hl7_fhir_eu_hdr">
     <uri value="http://hl7.eu/fhir/hdr/ImplementationGuide/hl7.fhir.eu.hdr"/>
     <packageId value="hl7.fhir.eu.hdr"/>
-    <version value="0.0.1-ci"/>
+    <version value="0.1.0-ballot"/>
   </dependsOn>
   <dependsOn id="hl7_fhir_uv_ips">
     <uri value="http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips"/>
@@ -61,7 +61,7 @@
   <dependsOn id="hl7_fhir_eu_laboratory">
     <uri value="http://hl7.eu/fhir/laboratory/ImplementationGuide/hl7.fhir.eu.laboratory"/>
     <packageId value="hl7.fhir.eu.laboratory"/>
-    <version value="0.1.0"/>
+    <version value="0.1.1"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -483,17 +483,6 @@
         <valueString value="Composition"/>
       </extension>
       <reference>
-        <reference value="Composition/VunsPneumoCompositionExampleLab"/>
-      </reference>
-      <name value="Exemple de composition en pneumologie"/>
-      <description value="Example de composition en pneumologie dans le cadre du projet Vers Un Souffle Nouveau (laboratoire)"/>
-      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoComposition"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Composition"/>
-      </extension>
-      <reference>
         <reference value="Composition/VunsPneumoCompositionExample"/>
       </reference>
       <name value="Exemple de composition en pneumologie dans le cadre du projet Vers Un Souffle Nouveau"/>
@@ -567,16 +556,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Practitioner"/>
-      </extension>
-      <reference>
-        <reference value="Practitioner/Physician"/>
-      </reference>
-      <name value="Physician"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
@@ -635,28 +614,6 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/VunsLabPatient"/>
-      </reference>
-      <name value="VunsLabPatient"/>
-      <description value="Profil pour un Patient enrôlé dans le cadre du projet Vers Un Souffle Nouveau"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Patient"/>
-      </extension>
-      <reference>
-        <reference value="Patient/VunsLabPatientExample"/>
-      </reference>
-      <name value="VunsLabPatientExample"/>
-      <description value="Example de patient CHU Liège"/>
-      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsLabPatient"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
         <reference value="StructureDefinition/VunsPatient"/>
       </reference>
       <name value="VunsPatient"/>
@@ -701,6 +658,27 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/VunsPneumoBioReport"/>
+      </reference>
+      <name value="VunsPneumoBioReport"/>
+      <description value="Profil pour un rapport de biologie d'intérêt pneumologique"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DiagnosticReport"/>
+      </extension>
+      <reference>
+        <reference value="DiagnosticReport/VunsPneumoBioReportExample"/>
+      </reference>
+      <name value="VunsPneumoBioReportExample"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBioReport"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/VunsPneumoBundle"/>
       </reference>
       <name value="VunsPneumoBundle"/>
@@ -716,17 +694,6 @@
       </reference>
       <name value="VunsPneumoBundleExample"/>
       <description value="Example de bundle dans le cadre du projet Vers Un Souffle Nouveau"/>
-      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBundle"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Bundle"/>
-      </extension>
-      <reference>
-        <reference value="Bundle/VunsPneumoBundleExampleLab"/>
-      </reference>
-      <name value="VunsPneumoBundleExampleLab"/>
-      <description value="Example de bundle dans le cadre du projet Vers Un Souffle Nouveau (laboratoire)"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBundle"/>
     </resource>
     <resource>

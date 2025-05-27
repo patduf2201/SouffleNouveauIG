@@ -18,7 +18,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "SouffleNouveauIG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-05-23T16:57:29+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-27T16:55:56+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "CHU Liège"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "CHU Liège" ] ;
@@ -69,13 +69,13 @@
      fhir:packageId [ fhir:v "hl7.fhir.be.core" ] ;
      fhir:version [ fhir:v "2.1.2" ]
   ] [
-     fhir:id [ fhir:v "hl7_fhir_eu_base_r4" ] ;
+     fhir:id [ fhir:v "hl7_fhir_eu_base" ] ;
      fhir:uri [
-       fhir:v "http://hl7.eu/fhir/base/ImplementationGuide/hl7.fhir.eu.base.r4"^^xsd:anyURI ;
-       fhir:link <http://hl7.eu/fhir/base/ImplementationGuide/hl7.fhir.eu.base.r4>
+       fhir:v "http://hl7.eu/fhir/base/ImplementationGuide/hl7.fhir.eu.base"^^xsd:anyURI ;
+       fhir:link <http://hl7.eu/fhir/base/ImplementationGuide/hl7.fhir.eu.base>
      ] ;
-     fhir:packageId [ fhir:v "hl7.fhir.eu.base.r4" ] ;
-     fhir:version [ fhir:v "0.0.1-ci" ]
+     fhir:packageId [ fhir:v "hl7.fhir.eu.base" ] ;
+     fhir:version [ fhir:v "0.1.0-ballot" ]
   ] [
      fhir:id [ fhir:v "hl7_fhir_eu_hdr" ] ;
      fhir:uri [
@@ -83,7 +83,7 @@
        fhir:link <http://hl7.eu/fhir/hdr/ImplementationGuide/hl7.fhir.eu.hdr>
      ] ;
      fhir:packageId [ fhir:v "hl7.fhir.eu.hdr" ] ;
-     fhir:version [ fhir:v "0.0.1-ci" ]
+     fhir:version [ fhir:v "0.1.0-ballot" ]
   ] [
      fhir:id [ fhir:v "hl7_fhir_uv_ips" ] ;
      fhir:uri [
@@ -99,7 +99,7 @@
        fhir:link <http://hl7.eu/fhir/laboratory/ImplementationGuide/hl7.fhir.eu.laboratory>
      ] ;
      fhir:packageId [ fhir:v "hl7.fhir.eu.laboratory" ] ;
-     fhir:version [ fhir:v "0.1.0" ]
+     fhir:version [ fhir:v "0.1.1" ]
   ] ) ; # 
   fhir:definition [
      fhir:extension ( [
@@ -886,25 +886,6 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Composition/VunsPneumoCompositionExampleLab> ;
-         fhir:reference [ fhir:v "Composition/VunsPneumoCompositionExampleLab" ]
-       ] ;
-       fhir:name [ fhir:v "Exemple de composition en pneumologie" ] ;
-       fhir:description [ fhir:v "Example de composition en pneumologie dans le cadre du projet Vers Un Souffle Nouveau (laboratoire)" ] ;
-       fhir:example [
-         a fhir:canonical ;
-         fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoComposition"^^xsd:anyURI ;
-         fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoComposition>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "Composition"
-         ]
-       ] ) ;
-       fhir:reference [
          fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Composition/VunsPneumoCompositionExample> ;
          fhir:reference [ fhir:v "Composition/VunsPneumoCompositionExample" ]
        ] ;
@@ -1027,23 +1008,6 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "Practitioner"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Practitioner/Physician> ;
-         fhir:reference [ fhir:v "Practitioner/Physician" ]
-       ] ;
-       fhir:name [ fhir:v "Physician" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v true
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
            fhir:v "StructureDefinition:resource"
          ]
        ] ) ;
@@ -1140,43 +1104,6 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsLabPatient> ;
-         fhir:reference [ fhir:v "StructureDefinition/VunsLabPatient" ]
-       ] ;
-       fhir:name [ fhir:v "VunsLabPatient" ] ;
-       fhir:description [ fhir:v "Profil pour un Patient enrôlé dans le cadre du projet Vers Un Souffle Nouveau" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "Patient"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Patient/VunsLabPatientExample> ;
-         fhir:reference [ fhir:v "Patient/VunsLabPatientExample" ]
-       ] ;
-       fhir:name [ fhir:v "VunsLabPatientExample" ] ;
-       fhir:description [ fhir:v "Example de patient CHU Liège" ] ;
-       fhir:example [
-         a fhir:canonical ;
-         fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsLabPatient"^^xsd:anyURI ;
-         fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsLabPatient>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "StructureDefinition:resource"
-         ]
-       ] ) ;
-       fhir:reference [
          fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPatient> ;
          fhir:reference [ fhir:v "StructureDefinition/VunsPatient" ]
        ] ;
@@ -1251,6 +1178,42 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBioReport> ;
+         fhir:reference [ fhir:v "StructureDefinition/VunsPneumoBioReport" ]
+       ] ;
+       fhir:name [ fhir:v "VunsPneumoBioReport" ] ;
+       fhir:description [ fhir:v "Profil pour un rapport de biologie d'intérêt pneumologique" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "DiagnosticReport"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/DiagnosticReport/VunsPneumoBioReportExample> ;
+         fhir:reference [ fhir:v "DiagnosticReport/VunsPneumoBioReportExample" ]
+       ] ;
+       fhir:name [ fhir:v "VunsPneumoBioReportExample" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBioReport"^^xsd:anyURI ;
+         fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBioReport>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBundle> ;
          fhir:reference [ fhir:v "StructureDefinition/VunsPneumoBundle" ]
        ] ;
@@ -1274,25 +1237,6 @@
        ] ;
        fhir:name [ fhir:v "VunsPneumoBundleExample" ] ;
        fhir:description [ fhir:v "Example de bundle dans le cadre du projet Vers Un Souffle Nouveau" ] ;
-       fhir:example [
-         a fhir:canonical ;
-         fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBundle"^^xsd:anyURI ;
-         fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBundle>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "Bundle"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Bundle/VunsPneumoBundleExampleLab> ;
-         fhir:reference [ fhir:v "Bundle/VunsPneumoBundleExampleLab" ]
-       ] ;
-       fhir:name [ fhir:v "VunsPneumoBundleExampleLab" ] ;
-       fhir:description [ fhir:v "Example de bundle dans le cadre du projet Vers Un Souffle Nouveau (laboratoire)" ] ;
        fhir:example [
          a fhir:canonical ;
          fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBundle"^^xsd:anyURI ;

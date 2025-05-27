@@ -43,8 +43,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"4.27"}
-    h3,h4,h5,h6{--heading-prefix:"4.27"}</style>
+    <style type="text/css">h2{--heading-prefix:"4.25"}
+    h3,h4,h5,h6{--heading-prefix:"4.25"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -280,7 +280,7 @@
             ]
           },
           {
-            "<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.title">title</a>" : "Historique des épreuves fonctionnelles respiratoires",
+            "<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.title">title</a>" : "Résultats des EFRs",
             "<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.code">code</a>" : {
               "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
                 {
@@ -291,11 +291,31 @@
             },
             "<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.text">text</a>" : {
               "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "empty",
-              "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;EFR&lt;/div&gt;"
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;Résultats des EFRs&lt;/div&gt;"
             },
             "<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.entry">entry</a>" : [
               {
                 <a href="Procedure-VunsEfrExample.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Procedure/VunsEfrExample"
+              }
+            ]
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.title">title</a>" : "Biologies",
+            "<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.code">code</a>" : {
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://loinc.org",
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "30954-2"
+                }
+              ]
+            },
+            "<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.text">text</a>" : {
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "empty",
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;Biologies&lt;/div&gt;"
+            },
+            "<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.entry">entry</a>" : [
+              {
+                <a href="DiagnosticReport-VunsPneumoBioReportExample.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "DiagnosticReport/VunsPneumoBioReportExample"
               }
             ]
           },
@@ -329,14 +349,12 @@
         "<a href="http://hl7.org/fhir/R4/patient.html#Patient.id">id</a>" : "VunsPatientExample",
         "<a href="http://hl7.org/fhir/R4/patient.html#Patient.meta">meta</a>" : {
           "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
-            <a href="StructureDefinition-VunsPatient.html" style="color: Maroon">&#x1F517;</a> "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPatient"<a href="https://www.ehealth.fgov.be/standards/fhir/core/2.1.2/StructureDefinition-be-patient.html" style="color: Maroon">&#x1F517;</a> ,
-            "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient"<a href="http://hl7.eu/fhir/laboratory/0.1.0/StructureDefinition-Patient-eu-lab.html" style="color: Maroon">&#x1F517;</a> ,
-            "http://hl7.eu/fhir/laboratory/StructureDefinition/Patient-eu-lab"
+            <a href="StructureDefinition-VunsPatient.html" style="color: Maroon">&#x1F517;</a> "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPatient"
           ]
         },
         "<a href="http://hl7.org/fhir/R4/patient.html#Patient.text">text</a>" : {
           "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Patient_VunsPatientExample\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Patient VunsPatientExample&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;VunsPatientExample\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcVunsPatientExample\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;VunsPatientExample-und\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profils: &lt;a href=\&quot;StructureDefinition-VunsPatient.html\&quot;&gt;VunsPatient&lt;/a&gt;, &lt;a href=\&quot;https://www.ehealth.fgov.be/standards/fhir/core/2.1.2/StructureDefinition-be-patient.html\&quot;&gt;BePatient&lt;/a&gt;, &lt;a href=\&quot;http://hl7.eu/fhir/laboratory/0.1.0/StructureDefinition-Patient-eu-lab.html\&quot;&gt;Patient: Person&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p style=\&quot;border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\&quot;&gt;Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)&lt;/p&gt;&lt;hr/&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Moyens de contacter le Patient\&quot;&gt;Contact Detail&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;ul&gt;&lt;li&gt;ph: 04497887145&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;mailto:pduflot@chuliege.be\&quot;&gt;pduflot@chuliege.be&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Patient_VunsPatientExample\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Patient VunsPatientExample&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;VunsPatientExample\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcVunsPatientExample\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;VunsPatientExample-und\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-VunsPatient.html\&quot;&gt;VunsPatient&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p style=\&quot;border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\&quot;&gt;Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)&lt;/p&gt;&lt;hr/&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Moyens de contacter le Patient\&quot;&gt;Contact Detail&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;ul&gt;&lt;li&gt;ph: 04497887145&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;mailto:pduflot@chuliege.be\&quot;&gt;pduflot@chuliege.be&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
         },
         "<a href="http://hl7.org/fhir/R4/patient.html#Patient.identifier">identifier</a>" : [
           {
@@ -437,7 +455,7 @@
         },
         "<a href="http://hl7.org/fhir/R4/observation.html#Observation.text">text</a>" : {
           "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Observation_VunsPneumoVitalSignExample\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Observation VunsPneumoVitalSignExample&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;VunsPneumoVitalSignExample\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcVunsPneumoVitalSignExample\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;VunsPneumoVitalSignExample-und\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-VunsPneumoVitalSign.html\&quot;&gt;VunsPneumoVitalSign&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\&quot;&gt;Vital Signs&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://loinc.org 29463-7}\&quot;&gt;Body weight&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-VunsPatientExample.html\&quot;&gt;Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2023-10-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;a href=\&quot;Practitioner-Physician.html\&quot;&gt;Practitioner Dr. Jean Toubib&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 80 kg&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: UCUM  codekg = 'kg')&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Observation_VunsPneumoVitalSignExample\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Observation VunsPneumoVitalSignExample&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;VunsPneumoVitalSignExample\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcVunsPneumoVitalSignExample\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;VunsPneumoVitalSignExample-und\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-VunsPneumoVitalSign.html\&quot;&gt;VunsPneumoVitalSign&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\&quot;&gt;Vital Signs&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://loinc.org 29463-7}\&quot;&gt;Body weight&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-VunsPatientExample.html\&quot;&gt;Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2023-10-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;a href=\&quot;Bundle-VunsPneumoBundleExample.html#Practitioner_Physician\&quot;&gt;Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 80 kg&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: UCUM  codekg = 'kg')&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"
         },
         "<a href="http://hl7.org/fhir/R4/observation.html#Observation.status">status</a>" : "final",
         "<a href="http://hl7.org/fhir/R4/observation.html#Observation.category">category</a>" : [
@@ -464,7 +482,7 @@
         "<a href="http://hl7.org/fhir/R4/observation.html#Observation.effective[x]">effectiveDateTime</a>" : "2023-10-01",
         "<a href="http://hl7.org/fhir/R4/observation.html#Observation.performer">performer</a>" : [
           {
-            <a href="Practitioner-Physician.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Practitioner/Physician"
+            "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Practitioner/Physician"
           }
         ],
         "<a href="http://hl7.org/fhir/R4/observation.html#Observation.value[x]">valueQuantity</a>" : {
@@ -487,7 +505,7 @@
         },
         "<a href="http://hl7.org/fhir/R4/observation.html#Observation.text">text</a>" : {
           "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Observation_VunsEfrObservationExample\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Observation VunsEfrObservationExample&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;VunsEfrObservationExample\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcVunsEfrObservationExample\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;VunsEfrObservationExample-und\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-VunsEfrObservation.html\&quot;&gt;VunsEfrObservation&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;partOf&lt;/b&gt;: &lt;a href=\&quot;Procedure-VunsEfrExample.html\&quot;&gt;Procedure Measurement of respiratory function&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://snomed.info/sct 313222007}\&quot;&gt;Volume expiratoire maximal par seconde divisé par la capacité vitale forcée&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-VunsPatientExample.html\&quot;&gt;Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2025-03-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;a href=\&quot;Practitioner-Physician.html\&quot;&gt;Practitioner Dr. Jean Toubib&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 80 %&lt;/p&gt;&lt;p&gt;&lt;b&gt;derivedFrom&lt;/b&gt;: &lt;a href=\&quot;Observation-VunsEfrObservationSource.html\&quot;&gt;Observation Tiffeneau&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Observation_VunsEfrObservationExample\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Observation VunsEfrObservationExample&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;VunsEfrObservationExample\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcVunsEfrObservationExample\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;VunsEfrObservationExample-und\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-VunsEfrObservation.html\&quot;&gt;VunsEfrObservation&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;partOf&lt;/b&gt;: &lt;a href=\&quot;Procedure-VunsEfrExample.html\&quot;&gt;Procedure Measurement of respiratory function&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://snomed.info/sct 313222007}\&quot;&gt;Volume expiratoire maximal par seconde divisé par la capacité vitale forcée&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-VunsPatientExample.html\&quot;&gt;Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2025-03-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;a href=\&quot;Bundle-VunsPneumoBundleExample.html#Practitioner_Physician\&quot;&gt;Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 80 %&lt;/p&gt;&lt;p&gt;&lt;b&gt;derivedFrom&lt;/b&gt;: &lt;a href=\&quot;Observation-VunsEfrObservationSource.html\&quot;&gt;Observation Tiffeneau&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"
         },
         "<a href="http://hl7.org/fhir/R4/observation.html#Observation.partOf">partOf</a>" : [
           {
@@ -511,7 +529,7 @@
         "<a href="http://hl7.org/fhir/R4/observation.html#Observation.effective[x]">effectiveDateTime</a>" : "2025-03-01",
         "<a href="http://hl7.org/fhir/R4/observation.html#Observation.performer">performer</a>" : [
           {
-            <a href="Practitioner-Physician.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Practitioner/Physician"
+            "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Practitioner/Physician"
           }
         ],
         "<a href="http://hl7.org/fhir/R4/observation.html#Observation.value[x]">valueQuantity</a>" : {
@@ -530,10 +548,15 @@
       "<a href="http://hl7.org/fhir/R4/observation.html#Observation">resource</a>" : {
         "<a href="http://hl7.org/fhir/R4/observation.html">resourceType</a>" : "Observation",
         "<a href="http://hl7.org/fhir/R4/observation.html#Observation.id">id</a>" : "VunsEfrObservationSource",
+        "<a href="http://hl7.org/fhir/R4/observation.html#Observation.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
+            <a href="http://hl7.org/fhir/uv/ips/STU1.1/StructureDefinition-Observation-results-uv-ips.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-uv-ips"
+          ]
+        },
         "<a href="http://hl7.org/fhir/R4/observation.html#Observation.language">language</a>" : "fr-BE",
         "<a href="http://hl7.org/fhir/R4/observation.html#Observation.text">text</a>" : {
           "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; xml:lang=\&quot;fr-BE\&quot; lang=\&quot;fr-BE\&quot;&gt;&lt;a name=\&quot;Observation_VunsEfrObservationSource\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Observation VunsEfrObservationSource&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;VunsEfrObservationSource\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcVunsEfrObservationSource\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;VunsEfrObservationSource-und\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Language: fr-BE&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://terminology.chuliege.be/OmniPro 30040:VTIFF}\&quot;&gt;Tiffeneau&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-VunsPatientExample.html\&quot;&gt;Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2025-03-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;a href=\&quot;Practitioner-Physician.html\&quot;&gt;Practitioner Dr. Jean Toubib&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 80&lt;/p&gt;&lt;/div&gt;"
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; xml:lang=\&quot;fr-BE\&quot; lang=\&quot;fr-BE\&quot;&gt;&lt;a name=\&quot;Observation_VunsEfrObservationSource\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Observation VunsEfrObservationSource&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;VunsEfrObservationSource\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcVunsEfrObservationSource\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;VunsEfrObservationSource-und\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Language: fr-BE&lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;http://hl7.org/fhir/uv/ips/STU1.1/StructureDefinition-Observation-results-uv-ips.html\&quot;&gt;Observation Results (IPS)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://terminology.chuliege.be/OmniPro 30040:VTIFF}\&quot;&gt;Tiffeneau&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-VunsPatientExample.html\&quot;&gt;Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2025-03-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;a href=\&quot;Bundle-VunsPneumoBundleExample.html#Practitioner_Physician\&quot;&gt;Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 80&lt;/p&gt;&lt;/div&gt;"
         },
         "<a href="http://hl7.org/fhir/R4/observation.html#Observation.status">status</a>" : "final",
         "<a href="http://hl7.org/fhir/R4/observation.html#Observation.code">code</a>" : {
@@ -551,7 +574,7 @@
         "<a href="http://hl7.org/fhir/R4/observation.html#Observation.effective[x]">effectiveDateTime</a>" : "2025-03-01",
         "<a href="http://hl7.org/fhir/R4/observation.html#Observation.performer">performer</a>" : [
           {
-            <a href="Practitioner-Physician.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Practitioner/Physician"
+            "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Practitioner/Physician"
           }
         ],
         "<a href="http://hl7.org/fhir/R4/observation.html#Observation.value[x]">valueQuantity</a>" : {
@@ -571,7 +594,7 @@
         },
         "<a href="http://hl7.org/fhir/R4/observation.html#Observation.text">text</a>" : {
           "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Observation_VunsTobaccoObservationExample\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Observation VunsTobaccoObservationExample&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;VunsTobaccoObservationExample\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcVunsTobaccoObservationExample\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;VunsTobaccoObservationExample-und\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-VunsTobaccoObservation.html\&quot;&gt;VunsTobaccoObservation&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://loinc.org 72166-2}\&quot;&gt;Tobacco smoking status&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-VunsPatientExample.html\&quot;&gt;Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2023-10-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;a href=\&quot;Practitioner-Physician.html\&quot;&gt;Practitioner Dr. Jean Toubib&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://loinc.org LA18976-3}\&quot;&gt;Current every day smoker&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Observation_VunsTobaccoObservationExample\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Observation VunsTobaccoObservationExample&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;VunsTobaccoObservationExample\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcVunsTobaccoObservationExample\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;VunsTobaccoObservationExample-und\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-VunsTobaccoObservation.html\&quot;&gt;VunsTobaccoObservation&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://loinc.org 72166-2}\&quot;&gt;Tobacco smoking status&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-VunsPatientExample.html\&quot;&gt;Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2023-10-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;a href=\&quot;Bundle-VunsPneumoBundleExample.html#Practitioner_Physician\&quot;&gt;Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://loinc.org LA18976-3}\&quot;&gt;Current every day smoker&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"
         },
         "<a href="http://hl7.org/fhir/R4/observation.html#Observation.status">status</a>" : "final",
         "<a href="http://hl7.org/fhir/R4/observation.html#Observation.code">code</a>" : {
@@ -588,7 +611,7 @@
         "<a href="http://hl7.org/fhir/R4/observation.html#Observation.effective[x]">effectiveDateTime</a>" : "2023-10-01",
         "<a href="http://hl7.org/fhir/R4/observation.html#Observation.performer">performer</a>" : [
           {
-            <a href="Practitioner-Physician.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Practitioner/Physician"
+            "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Practitioner/Physician"
           }
         ],
         "<a href="http://hl7.org/fhir/R4/observation.html#Observation.value[x]">valueCodeableConcept</a>" : {
@@ -598,6 +621,40 @@
               "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "LA18976-3"
             }
           ]
+        }
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "http://si-s-serv1041/ig/Observation/VunsPneumoBioExample",
+      "<a href="http://hl7.org/fhir/R4/observation.html#Observation">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R4/observation.html">resourceType</a>" : "Observation",
+        "<a href="http://hl7.org/fhir/R4/observation.html#Observation.id">id</a>" : "VunsPneumoBioExample",
+        "<a href="http://hl7.org/fhir/R4/observation.html#Observation.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
+            <a href="StructureDefinition-VunsPneumoBio.html" style="color: Maroon">&#x1F517;</a> "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBio"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R4/observation.html#Observation.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Observation_VunsPneumoBioExample\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Observation VunsPneumoBioExample&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;VunsPneumoBioExample\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcVunsPneumoBioExample\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;VunsPneumoBioExample-und\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-VunsPneumoBio.html\&quot;&gt;VunsPneumoBio&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://loinc.org 38483-4}\&quot;&gt;Creatinine [Mass/volume] in Blood&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-VunsPatientExample.html\&quot;&gt;Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2025-03-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 1.8 mg/dL&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: UCUM  codemg/dL = 'mg/dL')&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"
+        },
+        "<a href="http://hl7.org/fhir/R4/observation.html#Observation.status">status</a>" : "final",
+        "<a href="http://hl7.org/fhir/R4/observation.html#Observation.code">code</a>" : {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://loinc.org",
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "38483-4"
+            }
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R4/observation.html#Observation.subject">subject</a>" : {
+          <a href="Patient-VunsPatientExample.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Patient/VunsPatientExample"
+        },
+        "<a href="http://hl7.org/fhir/R4/observation.html#Observation.effective[x]">effectiveDateTime</a>" : "2025-03-01",
+        "<a href="http://hl7.org/fhir/R4/observation.html#Observation.value[x]">valueQuantity</a>" : {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">value</a>" : 1.8,
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">system</a>" : "http://unitsofmeasure.org",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">code</a>" : "mg/dL"
         }
       }
     },
@@ -614,18 +671,17 @@
         "<a href="http://hl7.org/fhir/R4/procedure.html#Procedure.language">language</a>" : "fr-BE",
         "<a href="http://hl7.org/fhir/R4/procedure.html#Procedure.text">text</a>" : {
           "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; xml:lang=\&quot;fr-BE\&quot; lang=\&quot;fr-BE\&quot;&gt;&lt;a name=\&quot;Procedure_VunsEfrExample\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Procedure VunsEfrExample&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;VunsEfrExample\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcVunsEfrExample\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;VunsEfrExample-und\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Language: fr-BE&lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-VunsEfr.html\&quot;&gt;VunsEfr&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Completed&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://snomed.info/sct 23426006}\&quot;&gt;mesure de la fonction respiratoire&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-VunsPatientExample.html\&quot;&gt;Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;encounter&lt;/b&gt;: &lt;a href=\&quot;Bundle-VunsPneumoBundleExample.html#Encounter_EuEncounterExample\&quot;&gt;Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;performed&lt;/b&gt;: 2025-03-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;report&lt;/b&gt;: &lt;a href=\&quot;Bundle-VunsPneumoBundleExample.html#DiagnosticReport_EfrDiagnosticReport\&quot;&gt;Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; xml:lang=\&quot;fr-BE\&quot; lang=\&quot;fr-BE\&quot;&gt;&lt;a name=\&quot;Procedure_VunsEfrExample\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Procedure VunsEfrExample&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;VunsEfrExample\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcVunsEfrExample\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;VunsEfrExample-und\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Language: fr-BE&lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-VunsEfr.html\&quot;&gt;VunsEfr&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Completed&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://snomed.info/sct 23426006}\&quot;&gt;Mesure de la fonction respiratoire&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-VunsPatientExample.html\&quot;&gt;Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;encounter&lt;/b&gt;: &lt;a href=\&quot;Bundle-VunsPneumoBundleExample.html#Encounter_EuEncounterExample\&quot;&gt;Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;performed&lt;/b&gt;: 2025-03-01&lt;/p&gt;&lt;p&gt;&lt;b&gt;report&lt;/b&gt;: &lt;a href=\&quot;Bundle-VunsPneumoBundleExample.html#DiagnosticReport_EfrDiagnosticReport\&quot;&gt;Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"
         },
         "<a href="http://hl7.org/fhir/R4/procedure.html#Procedure.status">status</a>" : "completed",
         "<a href="http://hl7.org/fhir/R4/procedure.html#Procedure.code">code</a>" : {
           "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
             {
               "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://snomed.info/sct",
-              "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "23426006",
-              "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Measurement of respiratory function"
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "23426006"
             }
           ],
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "mesure de la fonction respiratoire"
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "Mesure de la fonction respiratoire"
         },
         "<a href="http://hl7.org/fhir/R4/procedure.html#Procedure.subject">subject</a>" : {
           <a href="Patient-VunsPatientExample.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Patient/VunsPatientExample"
@@ -648,12 +704,12 @@
         "<a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.id">id</a>" : "EfrDiagnosticReport",
         "<a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.meta">meta</a>" : {
           "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
-            <a href="https://build.fhir.org/ig/HL7/fhir-ips/StructureDefinition-DiagnosticReport-uv-ips.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/ips/StructureDefinition/DiagnosticReport-uv-ips"
+            <a href="http://hl7.org/fhir/uv/ips/STU1.1/StructureDefinition-DiagnosticReport-uv-ips.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/ips/StructureDefinition/DiagnosticReport-uv-ips"
           ]
         },
         "<a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.text">text</a>" : {
           "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;DiagnosticReport_EfrDiagnosticReport\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: DiagnosticReport EfrDiagnosticReport&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;EfrDiagnosticReport\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcEfrDiagnosticReport\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;EfrDiagnosticReport-und\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;https://build.fhir.org/ig/HL7/fhir-ips/StructureDefinition-DiagnosticReport-uv-ips.html\&quot;&gt;DiagnosticReport (IPS)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;span title=\&quot;Codes:{http://snomed.info/sct 23426006}\&quot;&gt;Measurement of respiratory function&lt;/span&gt; (&lt;span title=\&quot;Codes:{http://snomed.info/sct 386053000}\&quot;&gt;Investigations&lt;/span&gt;) &lt;/h2&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;Sujet&lt;/td&gt;&lt;td&gt;Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;When For&lt;/td&gt;&lt;td&gt;2025-03-01&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Report Details&lt;/b&gt;&lt;/p&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Valeur&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Drapeaux&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;Observation-VunsEfrObservationExample.html\&quot;&gt;&lt;span title=\&quot;Codes:{http://snomed.info/sct 313222007}\&quot;&gt;Volume expiratoire maximal par seconde divisé par la capacité vitale forcée&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;80 %&lt;/td&gt;&lt;td&gt;Final&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;DiagnosticReport_EfrDiagnosticReport\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: DiagnosticReport EfrDiagnosticReport&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;EfrDiagnosticReport\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcEfrDiagnosticReport\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;EfrDiagnosticReport-und\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;http://hl7.org/fhir/uv/ips/STU1.1/StructureDefinition-DiagnosticReport-uv-ips.html\&quot;&gt;DiagnosticReport (IPS)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;span title=\&quot;Codes:{http://snomed.info/sct 23426006}\&quot;&gt;Mesure de la fonction respiratoire&lt;/span&gt; (&lt;span title=\&quot;Codes:{http://snomed.info/sct 386053000}\&quot;&gt;Procédure d'évaluation&lt;/span&gt;) &lt;/h2&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;Sujet&lt;/td&gt;&lt;td&gt;Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;When For&lt;/td&gt;&lt;td&gt;2025-03-01&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Report Details&lt;/b&gt;&lt;/p&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Valeur&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Drapeaux&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;Observation-VunsEfrObservationExample.html\&quot;&gt;&lt;span title=\&quot;Codes:{http://snomed.info/sct 313222007}\&quot;&gt;Volume expiratoire maximal par seconde divisé par la capacité vitale forcée&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;80 %&lt;/td&gt;&lt;td&gt;Final&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
         },
         "<a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.status">status</a>" : "final",
         "<a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.category">category</a>" : [
@@ -663,7 +719,8 @@
                 "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://snomed.info/sct",
                 "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "386053000"
               }
-            ]
+            ],
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "Procédure d'évaluation"
           }
         ],
         "<a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.code">code</a>" : {
@@ -672,7 +729,8 @@
               "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://snomed.info/sct",
               "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "23426006"
             }
-          ]
+          ],
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "Mesure de la fonction respiratoire"
         },
         "<a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.subject">subject</a>" : {
           <a href="Patient-VunsPatientExample.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Patient/VunsPatientExample"
@@ -686,18 +744,68 @@
       }
     },
     {
+      "<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "http://si-s-serv1041/ig/DiagnosticReport/VunsPneumoBioReportExample",
+      "<a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R4/diagnosticreport.html">resourceType</a>" : "DiagnosticReport",
+        "<a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.id">id</a>" : "VunsPneumoBioReportExample",
+        "<a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
+            <a href="StructureDefinition-VunsPneumoBioReport.html" style="color: Maroon">&#x1F517;</a> "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBioReport"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;DiagnosticReport_VunsPneumoBioReportExample\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: DiagnosticReport VunsPneumoBioReportExample&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;VunsPneumoBioReportExample\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcVunsPneumoBioReportExample\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;VunsPneumoBioReportExample-und\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-VunsPneumoBioReport.html\&quot;&gt;VunsPneumoBioReport&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;span title=\&quot;Codes:{http://loinc.org 11502-2}\&quot;&gt;Compte rendu du laboratoire&lt;/span&gt; (&lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/observation-category laboratory}\&quot;&gt;Laboratory&lt;/span&gt;) &lt;/h2&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;Sujet&lt;/td&gt;&lt;td&gt;Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;When For&lt;/td&gt;&lt;td&gt;2025-03-01&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Performer&lt;/td&gt;&lt;td&gt; &lt;a href=\&quot;Bundle-VunsPneumoBundleExample.html#Organization_VunsLabo\&quot;&gt;Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Report Details&lt;/b&gt;&lt;/p&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Valeur&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Drapeaux&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;Observation-VunsPneumoBioExample.html\&quot;&gt;&lt;span title=\&quot;Codes:{http://loinc.org 38483-4}\&quot;&gt;Creatinine [Mass/volume] in Blood&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;1.8 mg/dL&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: UCUM  codemg/dL = 'mg/dL')&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Final&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+        },
+        "<a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.status">status</a>" : "final",
+        "<a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.category">category</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/observation-category",
+                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "laboratory"
+              }
+            ]
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.code">code</a>" : {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://loinc.org",
+              "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "11502-2"
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "Compte rendu du laboratoire"
+        },
+        "<a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.subject">subject</a>" : {
+          <a href="Patient-VunsPatientExample.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Patient/VunsPatientExample"
+        },
+        "<a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.effective[x]">effectiveDateTime</a>" : "2025-03-01",
+        "<a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.performer">performer</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Organization/VunsLabo"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.result">result</a>" : [
+          {
+            <a href="Observation-VunsPneumoBioExample.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Observation/VunsPneumoBioExample"
+          }
+        ]
+      }
+    },
+    {
       "<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "http://si-s-serv1041/ig/Organization/GSI",
       "<a href="http://hl7.org/fhir/R4/organization.html#Organization">resource</a>" : {
         "<a href="http://hl7.org/fhir/R4/organization.html">resourceType</a>" : "Organization",
         "<a href="http://hl7.org/fhir/R4/organization.html#Organization.id">id</a>" : "GSI",
         "<a href="http://hl7.org/fhir/R4/organization.html#Organization.meta">meta</a>" : {
           "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
-            <a href="https://build.fhir.org/ig/HL7/fhir-ips/StructureDefinition-Organization-uv-ips.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips"
+            <a href="http://hl7.org/fhir/uv/ips/STU1.1/StructureDefinition-Organization-uv-ips.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips"
           ]
         },
         "<a href="http://hl7.org/fhir/R4/organization.html#Organization.text">text</a>" : {
           "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Organization_GSI\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Organization GSI&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;GSI\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcGSI\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;GSI-und\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;https://build.fhir.org/ig/HL7/fhir-ips/StructureDefinition-Organization-uv-ips.html\&quot;&gt;Organization (IPS)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: GSI tests&lt;/p&gt;&lt;/div&gt;"
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Organization_GSI\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Organization GSI&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;GSI\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcGSI\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;GSI-und\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;http://hl7.org/fhir/uv/ips/STU1.1/StructureDefinition-Organization-uv-ips.html\&quot;&gt;Organization (IPS)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: GSI tests&lt;/p&gt;&lt;/div&gt;"
         },
         "<a href="http://hl7.org/fhir/R4/organization.html#Organization.name">name</a>" : "GSI tests"
       }
@@ -716,6 +824,23 @@
             "<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.text">text</a>" : "Dr. Jean Toubib"
           }
         ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "http://si-s-serv1041/ig/Organization/VunsLabo",
+      "<a href="http://hl7.org/fhir/R4/organization.html#Organization">resource</a>" : {
+        "<a href="http://hl7.org/fhir/R4/organization.html">resourceType</a>" : "Organization",
+        "<a href="http://hl7.org/fhir/R4/organization.html#Organization.id">id</a>" : "VunsLabo",
+        "<a href="http://hl7.org/fhir/R4/organization.html#Organization.meta">meta</a>" : {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
+            <a href="http://hl7.org/fhir/uv/ips/STU1.1/StructureDefinition-Organization-uv-ips.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips"
+          ]
+        },
+        "<a href="http://hl7.org/fhir/R4/organization.html#Organization.text">text</a>" : {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Organization_VunsLabo\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Organization VunsLabo&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;VunsLabo\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcVunsLabo\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;VunsLabo-und\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;http://hl7.org/fhir/uv/ips/STU1.1/StructureDefinition-Organization-uv-ips.html\&quot;&gt;Organization (IPS)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: CHU Labo&lt;/p&gt;&lt;/div&gt;"
+        },
+        "<a href="http://hl7.org/fhir/R4/organization.html#Organization.name">name</a>" : "CHU Labo"
       }
     }
   ]
@@ -743,7 +868,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.chuliege.be">CHU Liège</a>.  Package be.chuliege.versunsoufflenouveau#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, May 23, 2025 16:58+0200">2025-05-23</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.chuliege.be">CHU Liège</a>.  Package be.chuliege.versunsoufflenouveau#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, May 27, 2025 16:57+0200">2025-05-27</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

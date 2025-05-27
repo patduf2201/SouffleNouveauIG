@@ -6,15 +6,9 @@
     <profile value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBio"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation VunsPneumoBioExample</b></p><a name="VunsPneumoBioExample"> </a><a name="hcVunsPneumoBioExample"> </a><a name="VunsPneumoBioExample-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="StructureDefinition-VunsPneumoBio.html">VunsPneumoBio</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes:{http://loinc.org 38483-4}">Creatinine [Mass/volume] in Blood</span></p><p><b>subject</b>: <a href="Patient-VunsLabPatientExample.html">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>effective</b>: 2025-03-01</p><p><b>performer</b>: <a href="Bundle-VunsPneumoBundleExampleLab.html#Organization_VunsLabo">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p><p><b>value</b>: 1.8 mg/dL<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemg/dL = 'mg/dL')</span></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation VunsPneumoBioExample</b></p><a name="VunsPneumoBioExample"> </a><a name="hcVunsPneumoBioExample"> </a><a name="VunsPneumoBioExample-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="StructureDefinition-VunsPneumoBio.html">VunsPneumoBio</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://loinc.org 38483-4}">Creatinine [Mass/volume] in Blood</span></p><p><b>subject</b>: <a href="Patient-VunsPatientExample.html">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>effective</b>: 2025-03-01</p><p><b>value</b>: 1.8 mg/dL<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemg/dL = 'mg/dL')</span></p></div>
   </text>
   <status value="final"/>
-  <category>
-    <coding>
-      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
-      <code value="laboratory"/>
-    </coding>
-  </category>
   <code>
     <coding>
       <system value="http://loinc.org"/>
@@ -22,12 +16,9 @@
     </coding>
   </code>
   <subject>
-    <reference value="Patient/VunsLabPatientExample"/>
+    <reference value="Patient/VunsPatientExample"/>
   </subject>
   <effectiveDateTime value="2025-03-01"/>
-  <performer>
-    <reference value="Organization/VunsLabo"/>
-  </performer>
   <valueQuantity>
     <value value="1.8"/>
     <system value="http://unitsofmeasure.org"/>

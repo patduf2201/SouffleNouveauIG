@@ -6,10 +6,6 @@
   "profiles": {
     "Patient": [
       {
-        "url": "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsLabPatient",
-        "title": "VunsLabPatient"
-      },
-      {
         "url": "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPatient",
         "title": "VunsPatient"
       }
@@ -28,6 +24,12 @@
       {
         "url": "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsTobaccoObservation",
         "title": "VunsTobaccoObservation"
+      }
+    ],
+    "DiagnosticReport": [
+      {
+        "url": "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBioReport",
+        "title": "VunsPneumoBioReport"
       }
     ],
     "Bundle": [
@@ -56,30 +58,14 @@
     "http://hl7.eu/fhir/StructureDefinition/presentedForm": [
       "Composition"
     ],
-    "http://hl7.eu/fhir/laboratory/StructureDefinition/observation-certifiedRefMaterialCodeable": [
-      "Observation"
-    ],
-    "http://hl7.eu/fhir/laboratory/StructureDefinition/observation-certifiedRefMaterialIdentifer": [
-      "Observation"
-    ],
-    "http://hl7.eu/fhir/laboratory/StructureDefinition/observation-deviceLabTestKit": [
-      "Observation"
-    ],
     "http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.version": [
       "Composition"
-    ],
-    "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy": [
-      "Observation"
-    ],
-    "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.value[x]": [
-      "Observation",
-      "Observation.component"
     ],
     "http://hl7.org/fhir/StructureDefinition/bodySite": [
       "Condition"
     ],
     "http://hl7.org/fhir/StructureDefinition/data-absent-reason": [
-      "Observation.effective[x]",
+      "DiagnosticReport.effective[x]",
       "Patient.birthDate",
       "Patient.name",
       "Procedure.performed[x]"
@@ -101,18 +87,6 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/event-basedOn": [
       "Composition"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/event-performerFunction": [
-      "Observation.performer"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/humanname-fathers-family": [
-      "Patient.name.family"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family": [
-      "Patient.name.family"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/obligation": [
-      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/patient-birthPlace": [
       "Patient"
@@ -146,14 +120,7 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/translation": [
       "Condition.code.coding.display",
-      "Observation.code.coding.display",
-      "Procedure.code.coding.display"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/workflow-supportingInfo": [
-      "Observation"
-    ],
-    "http://hl7.org/fhir/tools/StructureDefinition/additional-binding": [
-      "StructureDefinition.snapshot.element.binding"
+      "DiagnosticReport.category.coding.display"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
       "ImplementationGuide.definition"

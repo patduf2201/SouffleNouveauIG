@@ -70,7 +70,7 @@
     }]
   },
   {
-    "title" : "Historique des épreuves fonctionnelles respiratoires",
+    "title" : "Résultats des EFRs",
     "code" : {
       "coding" : [{
         "system" : "http://loinc.org",
@@ -79,10 +79,26 @@
     },
     "text" : {
       "status" : "empty",
-      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">EFR</div>"
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Résultats des EFRs</div>"
     },
     "entry" : [{
       "reference" : "Procedure/VunsEfrExample"
+    }]
+  },
+  {
+    "title" : "Biologies",
+    "code" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "30954-2"
+      }]
+    },
+    "text" : {
+      "status" : "empty",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Biologies</div>"
+    },
+    "entry" : [{
+      "reference" : "DiagnosticReport/VunsPneumoBioReportExample"
     }]
   },
   {

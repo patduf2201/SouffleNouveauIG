@@ -10,7 +10,7 @@
   "version" : "0.1.0",
   "name" : "SouffleNouveauIG",
   "status" : "draft",
-  "date" : "2025-05-23T16:57:29+02:00",
+  "date" : "2025-05-27T16:55:56+02:00",
   "publisher" : "CHU Liège",
   "contact" : [{
     "name" : "CHU Liège",
@@ -49,16 +49,16 @@
     "version" : "2.1.2"
   },
   {
-    "id" : "hl7_fhir_eu_base_r4",
-    "uri" : "http://hl7.eu/fhir/base/ImplementationGuide/hl7.fhir.eu.base.r4",
-    "packageId" : "hl7.fhir.eu.base.r4",
-    "version" : "0.0.1-ci"
+    "id" : "hl7_fhir_eu_base",
+    "uri" : "http://hl7.eu/fhir/base/ImplementationGuide/hl7.fhir.eu.base",
+    "packageId" : "hl7.fhir.eu.base",
+    "version" : "0.1.0-ballot"
   },
   {
     "id" : "hl7_fhir_eu_hdr",
     "uri" : "http://hl7.eu/fhir/hdr/ImplementationGuide/hl7.fhir.eu.hdr",
     "packageId" : "hl7.fhir.eu.hdr",
-    "version" : "0.0.1-ci"
+    "version" : "0.1.0-ballot"
   },
   {
     "id" : "hl7_fhir_uv_ips",
@@ -70,7 +70,7 @@
     "id" : "hl7_fhir_eu_laboratory",
     "uri" : "http://hl7.eu/fhir/laboratory/ImplementationGuide/hl7.fhir.eu.laboratory",
     "packageId" : "hl7.fhir.eu.laboratory",
-    "version" : "0.1.0"
+    "version" : "0.1.1"
   }],
   "definition" : {
     "extension" : [{
@@ -645,18 +645,6 @@
         "valueString" : "Composition"
       }],
       "reference" : {
-        "reference" : "Composition/VunsPneumoCompositionExampleLab"
-      },
-      "name" : "Exemple de composition en pneumologie",
-      "description" : "Example de composition en pneumologie dans le cadre du projet Vers Un Souffle Nouveau (laboratoire)",
-      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoComposition"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Composition"
-      }],
-      "reference" : {
         "reference" : "Composition/VunsPneumoCompositionExample"
       },
       "name" : "Exemple de composition en pneumologie dans le cadre du projet Vers Un Souffle Nouveau",
@@ -737,17 +725,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Practitioner"
-      }],
-      "reference" : {
-        "reference" : "Practitioner/Physician"
-      },
-      "name" : "Physician",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
@@ -811,30 +788,6 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/VunsLabPatient"
-      },
-      "name" : "VunsLabPatient",
-      "description" : "Profil pour un Patient enrôlé dans le cadre du projet Vers Un Souffle Nouveau",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Patient"
-      }],
-      "reference" : {
-        "reference" : "Patient/VunsLabPatientExample"
-      },
-      "name" : "VunsLabPatientExample",
-      "description" : "Example de patient CHU Liège",
-      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsLabPatient"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
         "reference" : "StructureDefinition/VunsPatient"
       },
       "name" : "VunsPatient",
@@ -883,6 +836,29 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/VunsPneumoBioReport"
+      },
+      "name" : "VunsPneumoBioReport",
+      "description" : "Profil pour un rapport de biologie d'intérêt pneumologique",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "DiagnosticReport"
+      }],
+      "reference" : {
+        "reference" : "DiagnosticReport/VunsPneumoBioReportExample"
+      },
+      "name" : "VunsPneumoBioReportExample",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBioReport"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/VunsPneumoBundle"
       },
       "name" : "VunsPneumoBundle",
@@ -899,18 +875,6 @@
       },
       "name" : "VunsPneumoBundleExample",
       "description" : "Example de bundle dans le cadre du projet Vers Un Souffle Nouveau",
-      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBundle"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Bundle"
-      }],
-      "reference" : {
-        "reference" : "Bundle/VunsPneumoBundleExampleLab"
-      },
-      "name" : "VunsPneumoBundleExampleLab",
-      "description" : "Example de bundle dans le cadre du projet Vers Un Souffle Nouveau (laboratoire)",
       "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBundle"
     },
     {

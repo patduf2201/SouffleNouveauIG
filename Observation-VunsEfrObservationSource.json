@@ -1,10 +1,13 @@
 {
   "resourceType" : "Observation",
   "id" : "VunsEfrObservationSource",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-uv-ips"]
+  },
   "language" : "fr-BE",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr-BE\" lang=\"fr-BE\"><p class=\"res-header-id\"><b>Generated Narrative: Observation VunsEfrObservationSource</b></p><a name=\"VunsEfrObservationSource\"> </a><a name=\"hcVunsEfrObservationSource\"> </a><a name=\"VunsEfrObservationSource-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: fr-BE</p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://terminology.chuliege.be/OmniPro 30040:VTIFF}\">Tiffeneau</span></p><p><b>subject</b>: <a href=\"Patient-VunsPatientExample.html\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>effective</b>: 2025-03-01</p><p><b>performer</b>: <a href=\"Practitioner-Physician.html\">Practitioner Dr. Jean Toubib</a></p><p><b>value</b>: 80</p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr-BE\" lang=\"fr-BE\"><p class=\"res-header-id\"><b>Generated Narrative: Observation VunsEfrObservationSource</b></p><a name=\"VunsEfrObservationSource\"> </a><a name=\"hcVunsEfrObservationSource\"> </a><a name=\"VunsEfrObservationSource-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: fr-BE</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/uv/ips/STU1.1/StructureDefinition-Observation-results-uv-ips.html\">Observation Results (IPS)</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://terminology.chuliege.be/OmniPro 30040:VTIFF}\">Tiffeneau</span></p><p><b>subject</b>: <a href=\"Patient-VunsPatientExample.html\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>effective</b>: 2025-03-01</p><p><b>performer</b>: <a href=\"Bundle-VunsPneumoBundleExample.html#Practitioner_Physician\">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p><p><b>value</b>: 80</p></div>"
   },
   "status" : "final",
   "code" : {
