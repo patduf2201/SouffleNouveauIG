@@ -3,7 +3,7 @@ SouffleNouveauIG : Validation Results
 
 err = 8, warn = 36, info = 18
 IG Publisher Version: 1.8.22 Out of date - current version is 1.8.26
-Generated Tue May 27 17:00:46 CEST 2025. FHIR version 4.0.1 for be.chuliege.versunsoufflenouveau#0.1.0 (canonical = http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG)
+Generated Wed May 28 10:09:33 CEST 2025. FHIR version 4.0.1 for be.chuliege.versunsoufflenouveau#0.1.0 (canonical = http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG)
  Build Errors : 0 / 7 / 0
  C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\fsh-generated\resources\Bundle-VunsPneumoBundleExample : 0 / 4 / 55
  C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\fsh-generated\resources\Composition-VunsPneumoCompositionExample : 1 / 0 / 3
