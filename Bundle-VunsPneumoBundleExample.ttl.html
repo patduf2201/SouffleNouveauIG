@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>VunsPneumoBundleExample - TTL Representation -  v0.1.0</title>
+    <title>VunsPneumoBundleExample - TTL Representation -  v0.1.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -54,7 +54,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold"></span>
             <br/>
-            <span style="display:inline-block;">0.1.0 - ci-build
+            <span style="display:inline-block;">0.1.1 - ci-build
 
 
             </span>
@@ -118,7 +118,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 9" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">SouffleNouveauIG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">SouffleNouveauIG - Local Development build (v0.1.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -247,7 +247,7 @@
   ] ) . # 
 
 &lt;http://si-s-serv1041/ig/Composition/VunsPneumoCompositionExample&gt; <a href="http://hl7.org/fhir/R4/composition.html">a</a> fhir:Composition ;
-  <a href="http://hl7.org/fhir/R4/composition.html#Composition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;VunsPneumoCompositionExample&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/composition.html#Composition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;VunsPneumoCompositionExample&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/composition.html#Composition.meta">fhir:meta</a> [
     ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoComposition&quot;^^xsd:anyURI ;
@@ -274,6 +274,16 @@ a loinc:34105-7 ;
   ] ) ; # 
   <a href="http://hl7.org/fhir/R4/composition.html#Composition.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Exemple de composition en pneumologie dans le cadre du projet Vers Un Souffle Nouveau&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/composition.html#Composition.section">fhir:section</a> ( [
+<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Exemple de titre en pneumologie&quot; ] ;
+<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.code">fhir:code</a> [
+      ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+a loinc:8648-8 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://loinc.org&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;8648-8&quot; ]       ] )     ] ;
+<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;Exemple de rapport en pneumologie&lt;/div&gt;&quot;^^rdf:XMLLiteral     ]
+  ] [
 <a href="http://hl7.org/fhir/R4/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Paramètres de référence&quot; ] ;
 <a href="http://hl7.org/fhir/R4/composition.html#Composition.section.code">fhir:code</a> [
       ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
@@ -285,16 +295,6 @@ a loinc:8716-3 ;
 fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;Paramètres vitaux&lt;/div&gt;&quot;^^rdf:XMLLiteral     ] ;
     ( <a href="http://hl7.org/fhir/R4/composition.html#Composition.section.entry">fhir:entry</a> [
 <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Observation/VunsPneumoVitalSignExample&quot; ]     ] )
-  ] [
-<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Exemple de titre en pneumologie&quot; ] ;
-<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.code">fhir:code</a> [
-      ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-a loinc:8648-8 ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://loinc.org&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;8648-8&quot; ]       ] )     ] ;
-<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.text">fhir:text</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;additional&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;Exemple de rapport en pneumologie&lt;/div&gt;&quot;^^rdf:XMLLiteral     ]
   ] [
 <a href="http://hl7.org/fhir/R4/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Diagnostic primaire&quot; ] ;
 <a href="http://hl7.org/fhir/R4/composition.html#Composition.section.code">fhir:code</a> [
@@ -775,7 +775,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.chuliege.be">CHU Liège</a>.  Package be.chuliege.versunsoufflenouveau#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, May 28, 2025 10:03+0200">2025-05-28</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.chuliege.be">CHU Liège</a>.  Package be.chuliege.versunsoufflenouveau#0.1.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jun 2, 2025 10:45+0200">2025-06-02</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

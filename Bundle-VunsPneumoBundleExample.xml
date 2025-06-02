@@ -39,6 +39,18 @@
         </author>
         <title value="Exemple de composition en pneumologie dans le cadre du projet Vers Un Souffle Nouveau"/>
         <section>
+          <title value="Exemple de titre en pneumologie"/>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="8648-8"/>
+            </coding>
+          </code>
+          <text>
+            <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml">Exemple de rapport en pneumologie</div>
+          </text>
+        </section>
+        <section>
           <title value="Paramètres de référence"/>
           <code>
             <coding>
@@ -52,18 +64,6 @@
           <entry>
             <reference value="Observation/VunsPneumoVitalSignExample"/>
           </entry>
-        </section>
-        <section>
-          <title value="Exemple de titre en pneumologie"/>
-          <code>
-            <coding>
-              <system value="http://loinc.org"/>
-              <code value="8648-8"/>
-            </coding>
-          </code>
-          <text>
-            <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml">Exemple de rapport en pneumologie</div>
-          </text>
         </section>
         <section>
           <title value="Diagnostic primaire"/>

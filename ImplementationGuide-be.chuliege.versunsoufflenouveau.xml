@@ -7,10 +7,10 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-BE" lang="fr-BE"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide be.chuliege.versunsoufflenouveau</b></p><a name="be.chuliege.versunsoufflenouveau"> </a><a name="hcbe.chuliege.versunsoufflenouveau"> </a><a name="be.chuliege.versunsoufflenouveau-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: fr-BE</p></div><h2>SouffleNouveauIG</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ImplementationGuide/be.chuliege.versunsoufflenouveau</pre></div>
   </text>
   <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ImplementationGuide/be.chuliege.versunsoufflenouveau"/>
-  <version value="0.1.0"/>
+  <version value="0.1.1"/>
   <name value="SouffleNouveauIG"/>
   <status value="draft"/>
-  <date value="2025-05-28T10:00:58+02:00"/>
+  <date value="2025-06-02T10:39:09+02:00"/>
   <publisher value="CHU Liège"/>
   <contact>
     <name value="CHU Liège"/>
@@ -28,7 +28,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="6.3.0"/>
+    <version value="6.4.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -661,7 +661,7 @@
         <reference value="StructureDefinition/VunsPneumoBioReport"/>
       </reference>
       <name value="VunsPneumoBioReport"/>
-      <description value="Profil pour un rapport de biologie d'intérêt pneumologique"/>
+      <description value="Profil pour un rapport de biologies d'intérêt pneumologique"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -672,6 +672,7 @@
         <reference value="DiagnosticReport/VunsPneumoBioReportExample"/>
       </reference>
       <name value="VunsPneumoBioReportExample"/>
+      <description value="Example de rapport de biologies d'intérêt pneumologique"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBioReport"/>
     </resource>
     <resource>

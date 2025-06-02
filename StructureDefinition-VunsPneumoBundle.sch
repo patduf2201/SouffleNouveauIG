@@ -9,4 +9,93 @@
     you may need to use this schematron fragment to build a, 
     single schematron that validates contained resources (if you have any) 
   -->
+  <sch:pattern>
+    <sch:title>f:Bundle/f:entry</sch:title>
+    <sch:rule context="f:Bundle/f:entry">
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+      <sch:assert test="count(f:search) &lt;= 1">search: maximum cardinality of 'search' is 1</sch:assert>
+      <sch:assert test="count(f:request) &lt;= 1">request: maximum cardinality of 'request' is 1</sch:assert>
+      <sch:assert test="count(f:response) &lt;= 1">response: maximum cardinality of 'response' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
 </sch:schema>

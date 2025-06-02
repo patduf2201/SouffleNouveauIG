@@ -102,6 +102,19 @@
   ] ) ; # 
   fhir:title [ fhir:v "Exemple de composition en pneumologie dans le cadre du projet Vers Un Souffle Nouveau"] ; # 
   fhir:section ( [
+     fhir:title [ fhir:v "Exemple de titre en pneumologie" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:8648-8 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "8648-8" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Exemple de rapport en pneumologie</div>"^^rdf:XMLLiteral
+     ]
+  ] [
      fhir:title [ fhir:v "Paramètres de référence" ] ;
      fhir:code [
        fhir:coding ( [
@@ -118,19 +131,6 @@
        fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/VunsPneumoVitalSignExample> ;
        fhir:reference [ fhir:v "Observation/VunsPneumoVitalSignExample" ]
      ] )
-  ] [
-     fhir:title [ fhir:v "Exemple de titre en pneumologie" ] ;
-     fhir:code [
-       fhir:coding ( [
-         a loinc:8648-8 ;
-         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "8648-8" ]
-       ] )
-     ] ;
-     fhir:text [
-       fhir:status [ fhir:v "additional" ] ;
-       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Exemple de rapport en pneumologie</div>"^^rdf:XMLLiteral
-     ]
   ] [
      fhir:title [ fhir:v "Diagnostic primaire" ] ;
      fhir:code [

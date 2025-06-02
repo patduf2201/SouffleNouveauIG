@@ -6,11 +6,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet i2x-pneumo-bio</b></p><a name="i2x-pneumo-bio"> </a><a name="hci2x-pneumo-bio"> </a><a name="i2x-pneumo-bio-und"> </a><ul><li>Include ces codes sont définis dans <a href="http://loinc.org"><code>http://loinc.org</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="https://loinc.org/718-7/">718-7</a></td><td>Hémoglobine</td></tr><tr><td><a href="https://loinc.org/1988-5/">1988-5</a></td><td>CRP</td></tr><tr><td><a href="https://loinc.org/26449-9/">26449-9</a></td><td>Éosinophiles</td></tr><tr><td><a href="https://loinc.org/38483-4/">38483-4</a></td><td>Créatinine</td></tr><tr><td><a href="https://loinc.org/70969-1/">70969-1</a></td><td>Taux de filtration glomérulaire parmi la population masculine</td></tr><tr><td><a href="https://loinc.org/50044-7/">50044-7</a></td><td>Taux de filtration glomérulaire parmi la population féminine</td></tr></table></li></ul></div>
   </text>
   <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-bio"/>
-  <version value="0.1.0"/>
+  <version value="0.1.1"/>
   <name value="PNEUMO_BIO_VS"/>
   <title value="Jeu de biologies d'intérêt pour la télésurveillance des maladies respiratoires"/>
   <status value="draft"/>
-  <date value="2025-05-28T10:00:58+02:00"/>
+  <date value="2025-04-14"/>
   <publisher value="CHU Liège"/>
   <contact>
     <name value="CHU Liège"/>
@@ -20,6 +20,7 @@
     </telecom>
   </contact>
   <description value="Jeu de biologies d'intérêt pour la télésurveillance des maladies respiratoires"/>
+  <copyright value="RM@H IG (C) 2025-2025 University Hospital of Liege, GSI Department, Belgium. This implementation guide is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see &lt;http://www.gnu.org/licenses/&gt;."/>
   <compose>
     <include>
       <system value="http://loinc.org"/>

@@ -7,7 +7,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>VunsEfr - Mappings -  v0.1.0</title>
+    <title>VunsEfr - Mappings -  v0.1.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -56,7 +56,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold"></span>
             <br/>
-            <span style="display:inline-block;">0.1.0 - ci-build
+            <span style="display:inline-block;">0.1.1 - ci-build
 
 
             </span>
@@ -120,7 +120,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 5" class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">SouffleNouveauIG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">SouffleNouveauIG - Local Development build (v0.1.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -203,7 +203,7 @@
         
           Draft
           
-            as of 2025-05-28
+            as of 2025-04-14
           
         
       </td>
@@ -245,65 +245,65 @@
  <tr><td>Procedure</td><td>Entity. Role, or Act, Procedure[moodCode=EVN]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;text</td><td>Act.text?</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;contained</td><td>N/A</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;extension (bodySite)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (bodySite)</td><td>N/A, n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;url</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value[x]</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>.id</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>n/a, II - The Identifier class is a little looser than the v3 type II because it allows URIs as well as registered OIDs or GUIDs.  Also maps to Role[classCode=IDENT], .id</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;instantiatesCanonical</td><td>.outboundRelationship[typeCode=DEFN].target</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;instantiatesUri</td><td>.outboundRelationship[typeCode=DEFN].target</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;basedOn</td><td>.outboundRelationship[typeCode=FLFS].target[classCode=(various e.g. PROC, OBS, PCPR, ACT,  moodCode=RQO].code</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;partOf</td><td>.inboundRelationship[typeCode=COMP].source[classCode=SBADM or PROC or OBS, moodCode=EVN]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;basedOn</td><td>n/a, The target of a resource reference is a RIM entry point (Act, Role, or Entity), .outboundRelationship[typeCode=FLFS].target[classCode=(various e.g. PROC, OBS, PCPR, ACT,  moodCode=RQO].code</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;partOf</td><td>n/a, The target of a resource reference is a RIM entry point (Act, Role, or Entity), .inboundRelationship[typeCode=COMP].source[classCode=SBADM or PROC or OBS, moodCode=EVN]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;status</td><td>statusCode</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;statusReason</td><td>.reason.Observation.value</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;category</td><td>.outboundRelationship[typeCode=&quot;COMP].target[classCode=&quot;LIST&quot;, moodCode=&quot;EVN&quot;].code</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;code</td><td>.code</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;statusReason</td><td>n/a, CD, .reason.Observation.value</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;category</td><td>n/a, CD, .outboundRelationship[typeCode=&quot;COMP].target[classCode=&quot;LIST&quot;, moodCode=&quot;EVN&quot;].code</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;code</td><td>n/a, CD, .code</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;coding</td><td>n/a, CV</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;coding</td><td>n/a, CV, union(., ./translation)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text</td><td>./originalText[mediaType/code=&quot;text/plain&quot;]/data</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;subject</td><td>.participation[typeCode=SBJ].role</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;subject</td><td>n/a, The target of a resource reference is a RIM entry point (Act, Role, or Entity), .participation[typeCode=SBJ].role</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reference</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type</td><td>N/A</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;identifier</td><td>.identifier</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;identifier</td><td>n/a, II - The Identifier class is a little looser than the v3 type II because it allows URIs as well as registered OIDs or GUIDs.  Also maps to Role[classCode=IDENT], .identifier</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;display</td><td>N/A</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;encounter</td><td>.inboundRelationship[typeCode=COMP].source[classCode=ENC, moodCode=EVN]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;performed[x]</td><td>.effectiveTime</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;encounter</td><td>n/a, The target of a resource reference is a RIM entry point (Act, Role, or Entity), .inboundRelationship[typeCode=COMP].source[classCode=ENC, moodCode=EVN]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;performed[x]</td><td>n/a, .effectiveTime</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (data-absent-reason)</td><td>ANY.nullFlavor</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;recorder</td><td>.participation[typeCode=AUT].role</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;asserter</td><td>.participation[typeCode=INF].role</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;performer</td><td>.participation[typeCode=PRF]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function</td><td>.functionCode</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;actor</td><td>.role</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;onBehalfOf</td><td>.scoper</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;location</td><td>.participation[typeCode=LOC].role[classCode=SDLOC]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;reasonCode</td><td>.reasonCode</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;reasonReference</td><td>.reasonCode</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;bodySite</td><td>.targetSiteCode</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;outcome</td><td>.outboundRelationship[typeCode=OUT].target.text</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;report</td><td>.inboundRelationship[typeCode=SUBJ].source[classCode=OBS, moodCode=EVN]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;complication</td><td>.outboundRelationship[typeCode=OUTC].target[classCode=OBS, code=&quot;complication&quot;, moodCode=EVN].value</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;complicationDetail</td><td>.outboundRelationship[typeCode=OUTC].target[classCode=OBS, code=&quot;complication&quot;, moodCode=EVN].value</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;followUp</td><td>.outboundRelationship[typeCode=COMP].target[classCode=ACT, moodCode=INT].code</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;note</td><td>.inboundRelationship[typeCode=SUBJ].source[classCode=OBS, moodCode=EVN, code=&quot;annotation&quot;].value</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;focalDevice</td><td>.participation[typeCode=DEV].role[classCode=MANU]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a, N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension (data-absent-reason)</td><td>n/a, N/A, ANY.nullFlavor</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;recorder</td><td>n/a, The target of a resource reference is a RIM entry point (Act, Role, or Entity), .participation[typeCode=AUT].role</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;asserter</td><td>n/a, The target of a resource reference is a RIM entry point (Act, Role, or Entity), .participation[typeCode=INF].role</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;performer</td><td>n/a, .participation[typeCode=PRF]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;action</td><td>.inboundRelationship[typeCode=SUBJ].source[classCode=OBS, moodCode=EVN, code=&quot;procedure device action&quot;].value=:procedure device action codes</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;manipulated</td><td>.participation[typeCode=DEV].role[classCode=SDLOC]</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;usedReference</td><td>.participation[typeCode=DEV].role[classCode=MANU] or
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function</td><td>n/a, CD, .functionCode</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;actor</td><td>n/a, The target of a resource reference is a RIM entry point (Act, Role, or Entity), .role</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;onBehalfOf</td><td>n/a, The target of a resource reference is a RIM entry point (Act, Role, or Entity), .scoper</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;location</td><td>n/a, The target of a resource reference is a RIM entry point (Act, Role, or Entity), .participation[typeCode=LOC].role[classCode=SDLOC]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;reasonCode</td><td>n/a, CD, .reasonCode</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;reasonReference</td><td>n/a, The target of a resource reference is a RIM entry point (Act, Role, or Entity), .reasonCode</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;bodySite</td><td>n/a, CD, .targetSiteCode</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;outcome</td><td>n/a, CD, .outboundRelationship[typeCode=OUT].target.text</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;report</td><td>n/a, The target of a resource reference is a RIM entry point (Act, Role, or Entity), .inboundRelationship[typeCode=SUBJ].source[classCode=OBS, moodCode=EVN]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;complication</td><td>n/a, CD, .outboundRelationship[typeCode=OUTC].target[classCode=OBS, code=&quot;complication&quot;, moodCode=EVN].value</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;complicationDetail</td><td>n/a, The target of a resource reference is a RIM entry point (Act, Role, or Entity), .outboundRelationship[typeCode=OUTC].target[classCode=OBS, code=&quot;complication&quot;, moodCode=EVN].value</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;followUp</td><td>n/a, CD, .outboundRelationship[typeCode=COMP].target[classCode=ACT, moodCode=INT].code</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;note</td><td>n/a, Act, .inboundRelationship[typeCode=SUBJ].source[classCode=OBS, moodCode=EVN, code=&quot;annotation&quot;].value</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;focalDevice</td><td>n/a, .participation[typeCode=DEV].role[classCode=MANU]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;action</td><td>n/a, CD, .inboundRelationship[typeCode=SUBJ].source[classCode=OBS, moodCode=EVN, code=&quot;procedure device action&quot;].value=:procedure device action codes</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;manipulated</td><td>n/a, The target of a resource reference is a RIM entry point (Act, Role, or Entity), .participation[typeCode=DEV].role[classCode=SDLOC]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;usedReference</td><td>n/a, The target of a resource reference is a RIM entry point (Act, Role, or Entity), .participation[typeCode=DEV].role[classCode=MANU] or
 .participation[typeCode=CSM].role[classCode=ADMM] (for Medication or Substance)</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;usedCode</td><td>participation[typeCode=Dev].role[classCode=MANU]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;usedCode</td><td>n/a, CD, participation[typeCode=Dev].role[classCode=MANU]</td> </tr>
 </table>
 <a name="w5"> </a><h3>Mappings for FiveWs Pattern Mapping (http://hl7.org/fhir/fivews)</h3><table class="grid">
  <tr><td colspan="3"><b>VunsEfr</b></td></tr>
@@ -326,18 +326,28 @@
 <a name="v2"> </a><h3>Mappings for HL7 v2 Mapping (<a href="http://hl7.org/comparison-v2.html">http://hl7.org/v2</a>)</h3><table class="grid">
  <tr><td colspan="3"><b>VunsEfr</b></td></tr>
  <tr><td>Procedure</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>Some combination of ORC-2 / ORC-3 / OBR-2 / OBR-3 / IPC-1 / IPC-2 / IPC-3 / IPC-4</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;code</td><td>OBR-44/OBR-45</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;coding</td><td>CE/CNE/CWE subset one of the sets of component 1-3 or 4-6</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>CX / EI (occasionally, more often EI maps to a resource id or a URL), Some combination of ORC-2 / ORC-3 / OBR-2 / OBR-3 / IPC-1 / IPC-2 / IPC-3 / IPC-4</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;statusReason</td><td>CE/CNE/CWE</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;category</td><td>CE/CNE/CWE</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;code</td><td>CE/CNE/CWE, OBR-44/OBR-45</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;coding</td><td>CE/CNE/CWE subset one of the sets of component 1-3 or 4-6, C*E.1-8, C*E.10-22</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text</td><td>C*E.9. But note many systems use C*E.2 for this</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;subject</td><td>PID-3</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;identifier</td><td>CX / EI (occasionally, more often EI maps to a resource id or a URL)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;encounter</td><td>PV1-19</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;performed[x]</td><td>OBR-7</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;performer</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function</td><td>Some combination of STF-18 / PRA-3 / PRT-4 / ROL-3 / ORC-12 / OBR-16 / PV1-7 / PV1-8 / PV1-9 / PV1-17 / OBX-25</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function</td><td>CE/CNE/CWE, Some combination of STF-18 / PRA-3 / PRT-4 / ROL-3 / ORC-12 / OBR-16 / PV1-7 / PV1-8 / PV1-9 / PV1-17 / OBX-25</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;actor</td><td>ORC-19/PRT-5</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;bodySite</td><td>OBX-20</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;note</td><td>NTE</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;reasonCode</td><td>CE/CNE/CWE</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;bodySite</td><td>CE/CNE/CWE, OBX-20</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;outcome</td><td>CE/CNE/CWE</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;complication</td><td>CE/CNE/CWE</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;followUp</td><td>CE/CNE/CWE</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;note</td><td>N/A, NTE</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;focalDevice</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;action</td><td>CE/CNE/CWE</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;usedCode</td><td>CE/CNE/CWE</td> </tr>
 </table>
 
 
@@ -365,7 +375,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.chuliege.be">CHU Liège</a>.  Package be.chuliege.versunsoufflenouveau#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, May 28, 2025 10:03+0200">2025-05-28</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.chuliege.be">CHU Liège</a>.  Package be.chuliege.versunsoufflenouveau#0.1.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jun 2, 2025 10:45+0200">2025-06-02</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

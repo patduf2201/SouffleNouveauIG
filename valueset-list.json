@@ -2,7 +2,7 @@
   "codeSystems" : [
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-efr",
-      "version" : "0.1.0",
+      "version" : "0.1.1",
       "status" : "draft",
       "name" : "EFR_VS",
       "title" : "Jeu d'observations d'une épreuve fonctionnelle respiratoire",
@@ -11,7 +11,7 @@
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-bio",
-      "version" : "0.1.0",
+      "version" : "0.1.1",
       "status" : "draft",
       "name" : "PNEUMO_BIO_VS",
       "title" : "Jeu de biologies d'intérêt pour la télésurveillance des maladies respiratoires",
@@ -20,7 +20,7 @@
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-diagnostic",
-      "version" : "0.1.0",
+      "version" : "0.1.1",
       "status" : "draft",
       "name" : "PNEUMO_DIAGNOSTIC_VS",
       "title" : "Jeu de diagnostic principal maladie respiratoire",
@@ -29,7 +29,7 @@
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-vitaux",
-      "version" : "0.1.0",
+      "version" : "0.1.1",
       "status" : "draft",
       "name" : "PNEUMO_VITAAUX_VS",
       "title" : "Jeu de signes vitaux pneumologie",
@@ -38,7 +38,7 @@
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac",
-      "version" : "0.1.0",
+      "version" : "0.1.1",
       "status" : "draft",
       "name" : "TABAC_VS",
       "title" : "Jeu de concept de tabacologie",
@@ -47,7 +47,7 @@
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac-status",
-      "version" : "0.1.0",
+      "version" : "0.1.1",
       "status" : "draft",
       "name" : "TABAC_STATUS_VS",
       "title" : "Jeu de concept pour le statut de tabagisme",

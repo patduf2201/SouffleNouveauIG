@@ -15,10 +15,10 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr-BE\" lang=\"fr-BE\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide be.chuliege.versunsoufflenouveau</b></p><a name=\"be.chuliege.versunsoufflenouveau\"> </a><a name=\"hcbe.chuliege.versunsoufflenouveau\"> </a><a name=\"be.chuliege.versunsoufflenouveau-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: fr-BE</p></div><h2>SouffleNouveauIG</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ImplementationGuide/be.chuliege.versunsoufflenouveau</pre></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ImplementationGuide/be.chuliege.versunsoufflenouveau"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "0.1.1"] ; # 
   fhir:name [ fhir:v "SouffleNouveauIG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-05-28T10:00:58+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-02T10:39:09+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "CHU Liège"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "CHU Liège" ] ;
@@ -44,7 +44,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "6.3.0" ]
+     fhir:version [ fhir:v "6.4.0" ]
   ] [
      fhir:id [ fhir:v "hl7ext" ] ;
      fhir:extension ( [
@@ -1182,7 +1182,7 @@
          fhir:reference [ fhir:v "StructureDefinition/VunsPneumoBioReport" ]
        ] ;
        fhir:name [ fhir:v "VunsPneumoBioReport" ] ;
-       fhir:description [ fhir:v "Profil pour un rapport de biologie d'intérêt pneumologique" ] ;
+       fhir:description [ fhir:v "Profil pour un rapport de biologies d'intérêt pneumologique" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -1200,6 +1200,7 @@
          fhir:reference [ fhir:v "DiagnosticReport/VunsPneumoBioReportExample" ]
        ] ;
        fhir:name [ fhir:v "VunsPneumoBioReportExample" ] ;
+       fhir:description [ fhir:v "Example de rapport de biologies d'intérêt pneumologique" ] ;
        fhir:example [
          a fhir:canonical ;
          fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBioReport"^^xsd:anyURI ;

@@ -28,8 +28,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1"],
       "uses" : {
       },
-      "StructureDefinition-ChulPatient.html" : "ChulPatient",
-      "StructureDefinition-VunsPatient.html" : "VunsPatient"
+      "StructureDefinition-VunsPatient.html" : "VunsPatient",
+      "StructureDefinition-ChulPatient.html" : "ChulPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/body-site",
@@ -43,12 +43,12 @@
       "sources" : ["2.16.840.1.113883.4.642.3.141"],
       "uses" : {
       },
-      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
-      "StructureDefinition-VunsPneumoCondition.html" : "VunsPneumoCondition",
-      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
-      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
       "StructureDefinition-VunsEfr.html" : "VunsEfr",
-      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation"
+      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
+      "StructureDefinition-VunsPneumoCondition.html" : "VunsPneumoCondition",
+      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/bundle-type",
@@ -244,10 +244,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.5"],
       "uses" : {
       },
+      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
       "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
-      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
       "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
-      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation"
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/device-action",
@@ -429,17 +429,17 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-VunsPneumoBundle.html" : "VunsPneumoBundle",
-      "StructureDefinition-VunsPneumoBioReport.html" : "VunsPneumoBioReport",
-      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
       "StructureDefinition-VunsPneumoComposition.html" : "VunsPneumoComposition",
-      "StructureDefinition-VunsPneumoCondition.html" : "VunsPneumoCondition",
-      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
-      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
       "StructureDefinition-VunsEfr.html" : "VunsEfr",
-      "StructureDefinition-ChulPatient.html" : "ChulPatient",
+      "StructureDefinition-VunsPneumoBundle.html" : "VunsPneumoBundle",
+      "StructureDefinition-VunsPatient.html" : "VunsPatient",
+      "StructureDefinition-VunsPneumoBioReport.html" : "VunsPneumoBioReport",
       "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
-      "StructureDefinition-VunsPatient.html" : "VunsPatient"
+      "StructureDefinition-VunsPneumoCondition.html" : "VunsPneumoCondition",
+      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
+      "StructureDefinition-ChulPatient.html" : "ChulPatient",
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -453,8 +453,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.423"],
       "uses" : {
       },
-      "StructureDefinition-ChulPatient.html" : "ChulPatient",
-      "StructureDefinition-VunsPatient.html" : "VunsPatient"
+      "StructureDefinition-VunsPatient.html" : "VunsPatient",
+      "StructureDefinition-ChulPatient.html" : "ChulPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/list-empty-reason",
@@ -527,8 +527,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.29"],
       "uses" : {
       },
-      "StructureDefinition-ChulPatient.html" : "ChulPatient",
-      "StructureDefinition-VunsPatient.html" : "VunsPatient"
+      "StructureDefinition-VunsPatient.html" : "VunsPatient",
+      "StructureDefinition-ChulPatient.html" : "ChulPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/mimetypes",
@@ -542,8 +542,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1024"],
       "uses" : {
       },
-      "StructureDefinition-VunsPneumoBundle.html" : "VunsPneumoBundle",
-      "StructureDefinition-VunsPneumoComposition.html" : "VunsPneumoComposition"
+      "StructureDefinition-VunsPneumoComposition.html" : "VunsPneumoComposition",
+      "StructureDefinition-VunsPneumoBundle.html" : "VunsPneumoBundle"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/name-use",
@@ -571,10 +571,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.403"],
       "uses" : {
       },
+      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
       "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
-      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
       "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
-      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation"
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
@@ -588,10 +588,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.396"],
       "uses" : {
       },
+      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
       "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
-      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
       "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
-      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation"
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
@@ -607,10 +607,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.399"],
       "uses" : {
       },
+      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
       "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
-      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
       "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
-      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation"
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
@@ -624,10 +624,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.395"],
       "uses" : {
       },
+      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
       "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
-      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
       "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
-      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation"
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-status",
@@ -641,10 +641,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.400"],
       "uses" : {
       },
+      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
       "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
-      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
       "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
-      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation"
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
@@ -658,8 +658,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1130"],
       "uses" : {
       },
-      "StructureDefinition-ChulPatient.html" : "ChulPatient",
-      "StructureDefinition-VunsPatient.html" : "VunsPatient"
+      "StructureDefinition-VunsPatient.html" : "VunsPatient",
+      "StructureDefinition-ChulPatient.html" : "ChulPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/performer-role",
@@ -760,10 +760,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.407"],
       "uses" : {
       },
+      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
       "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
-      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
       "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
-      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation"
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
@@ -779,10 +779,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.397"],
       "uses" : {
       },
+      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
       "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
-      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
       "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
-      "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation"
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/report-codes",
@@ -810,9 +810,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.27"],
       "uses" : {
       },
+      "StructureDefinition-VunsEfr.html" : "VunsEfr",
       "StructureDefinition-VunsPneumoBioReport.html" : "VunsPneumoBioReport",
-      "StructureDefinition-VunsPneumoCondition.html" : "VunsPneumoCondition",
-      "StructureDefinition-VunsEfr.html" : "VunsEfr"
+      "StructureDefinition-VunsPneumoCondition.html" : "VunsPneumoCondition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/search-entry-mode",
@@ -856,7 +856,7 @@
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-efr",
-      "version" : "0.1.0",
+      "version" : "0.1.1",
       "status" : "draft",
       "name" : "EFR_VS",
       "title" : "Jeu d'observations d'une épreuve fonctionnelle respiratoire",
@@ -868,7 +868,7 @@
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-bio",
-      "version" : "0.1.0",
+      "version" : "0.1.1",
       "status" : "draft",
       "name" : "PNEUMO_BIO_VS",
       "title" : "Jeu de biologies d'intérêt pour la télésurveillance des maladies respiratoires",
@@ -880,7 +880,7 @@
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-diagnostic",
-      "version" : "0.1.0",
+      "version" : "0.1.1",
       "status" : "draft",
       "name" : "PNEUMO_DIAGNOSTIC_VS",
       "title" : "Jeu de diagnostic principal maladie respiratoire",
@@ -892,7 +892,7 @@
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-vitaux",
-      "version" : "0.1.0",
+      "version" : "0.1.1",
       "status" : "draft",
       "name" : "PNEUMO_VITAAUX_VS",
       "title" : "Jeu de signes vitaux pneumologie",
@@ -904,7 +904,7 @@
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac",
-      "version" : "0.1.0",
+      "version" : "0.1.1",
       "status" : "draft",
       "name" : "TABAC_VS",
       "title" : "Jeu de concept de tabacologie",
@@ -916,7 +916,7 @@
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac-status",
-      "version" : "0.1.0",
+      "version" : "0.1.1",
       "status" : "draft",
       "name" : "TABAC_STATUS_VS",
       "title" : "Jeu de concept pour le statut de tabagisme",

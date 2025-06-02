@@ -39,6 +39,19 @@
       }],
       "title" : "Exemple de composition en pneumologie dans le cadre du projet Vers Un Souffle Nouveau",
       "section" : [{
+        "title" : "Exemple de titre en pneumologie",
+        "code" : {
+          "coding" : [{
+            "system" : "http://loinc.org",
+            "code" : "8648-8"
+          }]
+        },
+        "text" : {
+          "status" : "additional",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Exemple de rapport en pneumologie</div>"
+        }
+      },
+      {
         "title" : "Paramètres de référence",
         "code" : {
           "coding" : [{
@@ -53,19 +66,6 @@
         "entry" : [{
           "reference" : "Observation/VunsPneumoVitalSignExample"
         }]
-      },
-      {
-        "title" : "Exemple de titre en pneumologie",
-        "code" : {
-          "coding" : [{
-            "system" : "http://loinc.org",
-            "code" : "8648-8"
-          }]
-        },
-        "text" : {
-          "status" : "additional",
-          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Exemple de rapport en pneumologie</div>"
-        }
       },
       {
         "title" : "Diagnostic primaire",
