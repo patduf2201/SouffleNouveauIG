@@ -7,10 +7,10 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-BE" lang="fr-BE"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide be.chuliege.versunsoufflenouveau</b></p><a name="be.chuliege.versunsoufflenouveau"> </a><a name="hcbe.chuliege.versunsoufflenouveau"> </a><a name="be.chuliege.versunsoufflenouveau-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: fr-BE</p></div><h2>SouffleNouveauIG</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ImplementationGuide/be.chuliege.versunsoufflenouveau</pre></div>
   </text>
   <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ImplementationGuide/be.chuliege.versunsoufflenouveau"/>
-  <version value="0.1.1"/>
+  <version value="0.1.2"/>
   <name value="SouffleNouveauIG"/>
   <status value="draft"/>
-  <date value="2025-06-02T10:39:09+02:00"/>
+  <date value="2025-08-04T16:28:32+02:00"/>
   <publisher value="CHU Liège"/>
   <contact>
     <name value="CHU Liège"/>
@@ -28,20 +28,17 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="6.4.0"/>
-  </dependsOn>
-  <dependsOn id="hl7ext">
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
-      <valueMarkdown value="Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"/>
-    </extension>
-    <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
-    <packageId value="hl7.fhir.uv.extensions.r4"/>
-    <version value="5.2.0"/>
+    <version value="6.5.0"/>
   </dependsOn>
   <dependsOn id="hl7_fhir_be_core">
     <uri value="https://www.ehealth.fgov.be/standards/fhir/core/ImplementationGuide/hl7.fhir.be.core"/>
     <packageId value="hl7.fhir.be.core"/>
     <version value="2.1.2"/>
+  </dependsOn>
+  <dependsOn id="hl7_fhir_be_core_clinical">
+    <uri value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/ImplementationGuide/hl7.fhir.be.core-clinical"/>
+    <packageId value="hl7.fhir.be.core-clinical"/>
+    <version value="1.0.0"/>
   </dependsOn>
   <dependsOn id="hl7_fhir_eu_base">
     <uri value="http://hl7.eu/fhir/base/ImplementationGuide/hl7.fhir.eu.base"/>
@@ -62,6 +59,11 @@
     <uri value="http://hl7.eu/fhir/laboratory/ImplementationGuide/hl7.fhir.eu.laboratory"/>
     <packageId value="hl7.fhir.eu.laboratory"/>
     <version value="0.1.1"/>
+  </dependsOn>
+  <dependsOn id="hl7_fhir_uv_extensions_r4">
+    <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <packageId value="hl7.fhir.uv.extensions.r4"/>
+    <version value="5.2.0"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -472,7 +474,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/ChulPatient"/>
+        <reference value="StructureDefinition/chul-patient"/>
       </reference>
       <name value="ChulPatient"/>
       <description value="Profil pour un Patient CHU Liège"/>
@@ -556,6 +558,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/vuns-context"/>
+      </reference>
+      <name value="Logical model for remote monitoring context in the scope of the VUNS project"/>
+      <description value="This models represents the information extracted from the EHR to contextualize a remote monitoring session in the scope of the VUNS project."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
@@ -564,6 +577,72 @@
       <name value="VunsEfr"/>
       <description value="Profile pour les épreuves fonctionnelles respiratoires"/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/VunsEfrCPT"/>
+      </reference>
+      <name value="VunsEfrCPT"/>
+      <description value="Example de capacité pulmonaire totale"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/VunsEfrCPTRatio"/>
+      </reference>
+      <name value="VunsEfrCPTRatio"/>
+      <description value="Example de CPT%"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/VunsEfrCVF"/>
+      </reference>
+      <name value="VunsEfrCVF"/>
+      <description value="Example de capacité vitale forcée lors d'une épreuve fonctionnelle respiratoire"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/VunsEfrCVFRatio"/>
+      </reference>
+      <name value="VunsEfrCVFRatio"/>
+      <description value="Example de CVF%"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/VunsEfrDLCORatio"/>
+      </reference>
+      <name value="VunsEfrDLCORatio"/>
+      <description value="Example de DLCO%"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/VunsEfrDLCOVARatio"/>
+      </reference>
+      <name value="VunsEfrDLCOVARatio"/>
+      <description value="Example de DLCO/VA(%)"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -592,10 +671,10 @@
         <valueString value="Observation"/>
       </extension>
       <reference>
-        <reference value="Observation/VunsEfrObservationExample"/>
+        <reference value="Observation/VunsEfrVRCPTRatio"/>
       </reference>
-      <name value="VunsEfrObservationExample"/>
-      <description value="Example d'observation lors d'une épreuve fonctionnelle respiratoire"/>
+      <name value="VunsEfrVRCPTRatio"/>
+      <description value="Example de VR/CPT%"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"/>
     </resource>
     <resource>
@@ -603,11 +682,55 @@
         <valueString value="Observation"/>
       </extension>
       <reference>
-        <reference value="Observation/VunsEfrObservationSource"/>
+        <reference value="Observation/VunsEfrVRRatio"/>
       </reference>
-      <name value="VunsEfrObservationSource"/>
+      <name value="VunsEfrVRRatio"/>
+      <description value="Example de VR%"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/VunsEfrVTiff"/>
+      </reference>
+      <name value="VunsEfrVTiff"/>
+      <description value="Example de Tiffeneau lors d'une épreuve fonctionnelle respiratoire"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/VunsEfrVTiffSource"/>
+      </reference>
+      <name value="VunsEfrVTiffSource"/>
       <description value="Example d'observation originale dans OmniPro"/>
       <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/VunsEfrVVEMS"/>
+      </reference>
+      <name value="VunsEfrVVEMS"/>
+      <description value="Example de FEV1"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/VunsEfrVVEMSRatio"/>
+      </reference>
+      <name value="VunsEfrVVEMSRatio"/>
+      <description value="Example de CVF%"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -647,10 +770,54 @@
         <valueString value="Observation"/>
       </extension>
       <reference>
-        <reference value="Observation/VunsPneumoBioExample"/>
+        <reference value="Observation/VunsPneumoBioCreatinin"/>
       </reference>
-      <name value="VunsPneumoBioExample"/>
-      <description value="Example de biologie d'intérêt pneumologique"/>
+      <name value="VunsPneumoBioCreatinin"/>
+      <description value="Example de créatinine"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBio"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/VunsPneumoBioCRP"/>
+      </reference>
+      <name value="VunsPneumoBioCRP"/>
+      <description value="Example de CRP"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBio"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/VunsPneumoBioEosinophils"/>
+      </reference>
+      <name value="VunsPneumoBioEosinophils"/>
+      <description value="Example de Éosinophiles"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBio"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/VunsPneumoBioGFR"/>
+      </reference>
+      <name value="VunsPneumoBioGFR"/>
+      <description value="Example de taux de filtration glomérulaire parmi la population masculine"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBio"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/VunsPneumoBioHemoglobin"/>
+      </reference>
+      <name value="VunsPneumoBioHemoglobin"/>
+      <description value="Example de Hémoglobine"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBio"/>
     </resource>
     <resource>
@@ -724,10 +891,21 @@
         <valueString value="Condition"/>
       </extension>
       <reference>
-        <reference value="Condition/VunsPneumoConditionExample"/>
+        <reference value="Condition/VunsPneumoConditionAsthma"/>
       </reference>
-      <name value="VunsPneumoConditionExample"/>
-      <description value="Example de diagnostic pneumologique"/>
+      <name value="VunsPneumoConditionAsthma"/>
+      <description value="Example de diagnostic asthme"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/VunsPneumoConditionCOPD"/>
+      </reference>
+      <name value="VunsPneumoConditionCOPD"/>
+      <description value="Example de diagnostic bpco"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition"/>
     </resource>
     <resource>
@@ -746,11 +924,33 @@
         <valueString value="Observation"/>
       </extension>
       <reference>
-        <reference value="Observation/VunsPneumoVitalSignExample"/>
+        <reference value="Observation/VunsPneumoVitalSignHeight"/>
       </reference>
-      <name value="VunsPneumoVitalSignExample"/>
-      <description value="Example de signe vital en pneumologie"/>
+      <name value="VunsPneumoVitalSignHeight"/>
+      <description value="Example de taille"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoVitalSign"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/VunsPneumoVitalSignWeight"/>
+      </reference>
+      <name value="VunsPneumoVitalSignWeight"/>
+      <description value="Example de poids"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoVitalSign"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/VunsTobaccoAge"/>
+      </reference>
+      <name value="VunsTobaccoAge"/>
+      <description value="Example Nombre d'années de tabagisme"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsTobaccoObservation"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -768,10 +968,21 @@
         <valueString value="Observation"/>
       </extension>
       <reference>
-        <reference value="Observation/VunsTobaccoObservationExample"/>
+        <reference value="Observation/VunsTobaccoQuantity"/>
       </reference>
-      <name value="VunsTobaccoObservationExample"/>
-      <description value="Example d'observation en tabacologie"/>
+      <name value="VunsTobaccoQuantity"/>
+      <description value="Example Nombre de cigarettes fumées par jour"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsTobaccoObservation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/VunsTobaccoStatus"/>
+      </reference>
+      <name value="VunsTobaccoStatus"/>
+      <description value="Example de statut de tabagisme"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsTobaccoObservation"/>
     </resource>
     <page>

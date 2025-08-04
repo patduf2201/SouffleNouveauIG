@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Artifacts Summary -  v0.1.1</title>
+    <title>Artifacts Summary -  v0.1.2</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -52,7 +52,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold"></span>
             <br/>
-            <span style="display:inline-block;">0.1.1 - ci-build
+            <span style="display:inline-block;">0.1.2 - ci-build
 
 
             </span>
@@ -123,7 +123,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">SouffleNouveauIG - Local Development build (v0.1.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">SouffleNouveauIG - Local Development build (v0.1.2) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Artifacts Summary</h2>
   
   
@@ -135,13 +135,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
    <p>Contents:</p>
    <ul>
       <li>
-         <a href="#1">Structures: Resource Profiles</a>
+         <a href="#1">Structures: Logical Models</a>
       </li>
       <li>
-         <a href="#2">Terminology: Value Sets</a>
+         <a href="#2">Structures: Resource Profiles</a>
       </li>
       <li>
-         <a href="#3">Example: Example Instances</a>
+         <a href="#3">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#4">Example: Example Instances</a>
       </li>
    </ul>
 </div>
@@ -150,6 +153,23 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
      xmlns:html="http://www.w3.org/1999/xhtml">
    <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
    <a name="1"> </a>
+   <h3>Structures: Logical Models </h3>
+    <p>These define data models that represent the domain covered by this implementation guide in more business-friendly terms than the underlying FHIR resources.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-vuns-context.html"
+                  title="StructureDefinition/vuns-context">Logical model for remote monitoring context in the scope of the VUNS project</a>
+            </td>
+            <td>
+<p>This models represents the information extracted from the EHR to contextualize a remote monitoring session in the scope of the VUNS project.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="2"> </a>
    <h3>Structures: Resource Profiles </h3>
     <p>These define constraints on FHIR resources for systems conforming to this implementation guide.</p>
 <table class="grid">
@@ -157,8 +177,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <tbody>
          <tr>
             <td style="column-width:30%">
-               <a href="StructureDefinition-ChulPatient.html"
-                  title="StructureDefinition/ChulPatient">ChulPatient</a>
+               <a href="StructureDefinition-chul-patient.html"
+                  title="StructureDefinition/chul-patient">ChulPatient</a>
             </td>
             <td>
 <p>Profil pour un Patient CHU Liège</p>
@@ -256,7 +276,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
       </tbody>
    </table>
-   <a name="2"> </a>
+   <a name="3"> </a>
    <h3>Terminology: Value Sets </h3>
     <p>These define sets of codes used by systems conforming to this implementation guide.</p>
 <table class="grid">
@@ -314,7 +334,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
       </tbody>
    </table>
-   <a name="3"> </a>
+   <a name="4"> </a>
    <h3>Example: Example Instances </h3>
     <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
 <table class="grid">
@@ -331,6 +351,58 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="Observation-VunsEfrCPT.html" title="Observation/VunsEfrCPT">VunsEfrCPT</a>
+            </td>
+            <td>
+<p>Example de capacité pulmonaire totale</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-VunsEfrCPTRatio.html"
+                  title="Observation/VunsEfrCPTRatio">VunsEfrCPTRatio</a>
+            </td>
+            <td>
+<p>Example de CPT%</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-VunsEfrCVF.html" title="Observation/VunsEfrCVF">VunsEfrCVF</a>
+            </td>
+            <td>
+<p>Example de capacité vitale forcée lors d'une épreuve fonctionnelle respiratoire</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-VunsEfrCVFRatio.html"
+                  title="Observation/VunsEfrCVFRatio">VunsEfrCVFRatio</a>
+            </td>
+            <td>
+<p>Example de CVF%</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-VunsEfrDLCORatio.html"
+                  title="Observation/VunsEfrDLCORatio">VunsEfrDLCORatio</a>
+            </td>
+            <td>
+<p>Example de DLCO%</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-VunsEfrDLCOVARatio.html"
+                  title="Observation/VunsEfrDLCOVARatio">VunsEfrDLCOVARatio</a>
+            </td>
+            <td>
+<p>Example de DLCO/VA(%)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="Procedure-VunsEfrExample.html" title="Procedure/VunsEfrExample">VunsEfrExample</a>
             </td>
             <td>
@@ -339,20 +411,54 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="Observation-VunsEfrObservationExample.html"
-                  title="Observation/VunsEfrObservationExample">VunsEfrObservationExample</a>
+               <a href="Observation-VunsEfrVRCPTRatio.html"
+                  title="Observation/VunsEfrVRCPTRatio">VunsEfrVRCPTRatio</a>
             </td>
             <td>
-<p>Example d'observation lors d'une épreuve fonctionnelle respiratoire</p>
+<p>Example de VR/CPT%</p>
 </td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="Observation-VunsEfrObservationSource.html"
-                  title="Observation/VunsEfrObservationSource">VunsEfrObservationSource</a>
+               <a href="Observation-VunsEfrVRRatio.html"
+                  title="Observation/VunsEfrVRRatio">VunsEfrVRRatio</a>
+            </td>
+            <td>
+<p>Example de VR%</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-VunsEfrVTiff.html" title="Observation/VunsEfrVTiff">VunsEfrVTiff</a>
+            </td>
+            <td>
+<p>Example de Tiffeneau lors d'une épreuve fonctionnelle respiratoire</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-VunsEfrVTiffSource.html"
+                  title="Observation/VunsEfrVTiffSource">VunsEfrVTiffSource</a>
             </td>
             <td>
 <p>Example d'observation originale dans OmniPro</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-VunsEfrVVEMS.html" title="Observation/VunsEfrVVEMS">VunsEfrVVEMS</a>
+            </td>
+            <td>
+<p>Example de FEV1</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-VunsEfrVVEMSRatio.html"
+                  title="Observation/VunsEfrVVEMSRatio">VunsEfrVVEMSRatio</a>
+            </td>
+            <td>
+<p>Example de CVF%</p>
 </td>
          </tr>
          <tr>
@@ -366,11 +472,47 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="Observation-VunsPneumoBioExample.html"
-                  title="Observation/VunsPneumoBioExample">VunsPneumoBioExample</a>
+               <a href="Observation-VunsPneumoBioCRP.html"
+                  title="Observation/VunsPneumoBioCRP">VunsPneumoBioCRP</a>
             </td>
             <td>
-<p>Example de biologie d'intérêt pneumologique</p>
+<p>Example de CRP</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-VunsPneumoBioCreatinin.html"
+                  title="Observation/VunsPneumoBioCreatinin">VunsPneumoBioCreatinin</a>
+            </td>
+            <td>
+<p>Example de créatinine</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-VunsPneumoBioEosinophils.html"
+                  title="Observation/VunsPneumoBioEosinophils">VunsPneumoBioEosinophils</a>
+            </td>
+            <td>
+<p>Example de Éosinophiles</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-VunsPneumoBioGFR.html"
+                  title="Observation/VunsPneumoBioGFR">VunsPneumoBioGFR</a>
+            </td>
+            <td>
+<p>Example de taux de filtration glomérulaire parmi la population masculine</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-VunsPneumoBioHemoglobin.html"
+                  title="Observation/VunsPneumoBioHemoglobin">VunsPneumoBioHemoglobin</a>
+            </td>
+            <td>
+<p>Example de Hémoglobine</p>
 </td>
          </tr>
          <tr>
@@ -393,29 +535,65 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="Condition-VunsPneumoConditionExample.html"
-                  title="Condition/VunsPneumoConditionExample">VunsPneumoConditionExample</a>
+               <a href="Condition-VunsPneumoConditionAsthma.html"
+                  title="Condition/VunsPneumoConditionAsthma">VunsPneumoConditionAsthma</a>
             </td>
             <td>
-<p>Example de diagnostic pneumologique</p>
+<p>Example de diagnostic asthme</p>
 </td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="Observation-VunsPneumoVitalSignExample.html"
-                  title="Observation/VunsPneumoVitalSignExample">VunsPneumoVitalSignExample</a>
+               <a href="Condition-VunsPneumoConditionCOPD.html"
+                  title="Condition/VunsPneumoConditionCOPD">VunsPneumoConditionCOPD</a>
             </td>
             <td>
-<p>Example de signe vital en pneumologie</p>
+<p>Example de diagnostic bpco</p>
 </td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="Observation-VunsTobaccoObservationExample.html"
-                  title="Observation/VunsTobaccoObservationExample">VunsTobaccoObservationExample</a>
+               <a href="Observation-VunsPneumoVitalSignHeight.html"
+                  title="Observation/VunsPneumoVitalSignHeight">VunsPneumoVitalSignHeight</a>
             </td>
             <td>
-<p>Example d'observation en tabacologie</p>
+<p>Example de taille</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-VunsPneumoVitalSignWeight.html"
+                  title="Observation/VunsPneumoVitalSignWeight">VunsPneumoVitalSignWeight</a>
+            </td>
+            <td>
+<p>Example de poids</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-VunsTobaccoAge.html"
+                  title="Observation/VunsTobaccoAge">VunsTobaccoAge</a>
+            </td>
+            <td>
+<p>Example Nombre d'années de tabagisme</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-VunsTobaccoQuantity.html"
+                  title="Observation/VunsTobaccoQuantity">VunsTobaccoQuantity</a>
+            </td>
+            <td>
+<p>Example Nombre de cigarettes fumées par jour</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-VunsTobaccoStatus.html"
+                  title="Observation/VunsTobaccoStatus">VunsTobaccoStatus</a>
+            </td>
+            <td>
+<p>Example de statut de tabagisme</p>
 </td>
          </tr>
       </tbody>
@@ -438,7 +616,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.chuliege.be">CHU Liège</a>.  Package be.chuliege.versunsoufflenouveau#0.1.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jun 2, 2025 10:45+0200">2025-06-02</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.chuliege.be">CHU Liège</a>.  Package be.chuliege.versunsoufflenouveau#0.1.2 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Aug 4, 2025 16:29+0200">2025-08-04</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

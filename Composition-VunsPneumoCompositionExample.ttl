@@ -53,8 +53,11 @@
        fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Paramètres vitaux</div>"^^rdf:XMLLiteral
      ] ;
      fhir:entry ( [
-       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/VunsPneumoVitalSignExample> ;
-       fhir:reference [ fhir:v "Observation/VunsPneumoVitalSignExample" ]
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/VunsPneumoVitalSignWeight> ;
+       fhir:reference [ fhir:v "Observation/VunsPneumoVitalSignWeight" ]
+     ] [
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/VunsPneumoVitalSignHeight> ;
+       fhir:reference [ fhir:v "Observation/VunsPneumoVitalSignHeight" ]
      ] )
   ] [
      fhir:title [ fhir:v "Exemple de titre en pneumologie" ] ;
@@ -83,8 +86,11 @@
        fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Diagnostic</div>"^^rdf:XMLLiteral
      ] ;
      fhir:entry ( [
-       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Condition/VunsPneumoConditionExample> ;
-       fhir:reference [ fhir:v "Condition/VunsPneumoConditionExample" ]
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Condition/VunsPneumoConditionAsthma> ;
+       fhir:reference [ fhir:v "Condition/VunsPneumoConditionAsthma" ]
+     ] [
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Condition/VunsPneumoConditionCOPD> ;
+       fhir:reference [ fhir:v "Condition/VunsPneumoConditionCOPD" ]
      ] )
   ] [
      fhir:title [ fhir:v "Résultats des EFRs" ] ;
@@ -134,8 +140,14 @@
        fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Tabagisme</div>"^^rdf:XMLLiteral
      ] ;
      fhir:entry ( [
-       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/VunsTobaccoObservationExample> ;
-       fhir:reference [ fhir:v "Observation/VunsTobaccoObservationExample" ]
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/VunsTobaccoStatus> ;
+       fhir:reference [ fhir:v "Observation/VunsTobaccoStatus" ]
+     ] [
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/VunsTobaccoQuantity> ;
+       fhir:reference [ fhir:v "Observation/VunsTobaccoQuantity" ]
+     ] [
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/VunsTobaccoAge> ;
+       fhir:reference [ fhir:v "Observation/VunsTobaccoAge" ]
      ] )
   ] ) . # 
 

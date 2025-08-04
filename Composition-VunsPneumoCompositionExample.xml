@@ -36,7 +36,10 @@
       <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml">Paramètres vitaux</div>
     </text>
     <entry>
-      <reference value="Observation/VunsPneumoVitalSignExample"/>
+      <reference value="Observation/VunsPneumoVitalSignWeight"/>
+    </entry>
+    <entry>
+      <reference value="Observation/VunsPneumoVitalSignHeight"/>
     </entry>
   </section>
   <section>
@@ -63,7 +66,10 @@
       <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml">Diagnostic</div>
     </text>
     <entry>
-      <reference value="Condition/VunsPneumoConditionExample"/>
+      <reference value="Condition/VunsPneumoConditionAsthma"/>
+    </entry>
+    <entry>
+      <reference value="Condition/VunsPneumoConditionCOPD"/>
     </entry>
   </section>
   <section>
@@ -108,7 +114,13 @@
       <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml">Tabagisme</div>
     </text>
     <entry>
-      <reference value="Observation/VunsTobaccoObservationExample"/>
+      <reference value="Observation/VunsTobaccoStatus"/>
+    </entry>
+    <entry>
+      <reference value="Observation/VunsTobaccoQuantity"/>
+    </entry>
+    <entry>
+      <reference value="Observation/VunsTobaccoAge"/>
     </entry>
   </section>
 </Composition>

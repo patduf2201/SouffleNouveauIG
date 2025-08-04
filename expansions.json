@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "bb085566-f2e3-4c31-b2ea-1fffa0f5bf43",
+  "id" : "4439efb3-c885-4615-9825-2e76eb0de7f1",
   "meta" : {
-    "lastUpdated" : "2025-06-02T10:45:11.449+02:00"
+    "lastUpdated" : "2025-08-04T16:29:47.320+02:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -14,14 +14,14 @@
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on Loinc v2.80</p><p>Ce jeu de valeur (ValueSet) contient 11 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Système</b></td><td><b>Display (und)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-19876-2\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/19876-2/\">19876-2</a></td><td>http://loinc.org</td><td>Forced vital capacity [Volume] Respiratory system by Spirometry --pre bronchodilation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-20157-4\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/20157-4/\">20157-4</a></td><td>http://loinc.org</td><td>FEV1 --pre bronchodilation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-81450-9\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/81450-9/\">81450-9</a></td><td>http://loinc.org</td><td>Total lung capacity --pre bronchodilation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-19926-5\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/19926-5/\">19926-5</a></td><td>http://loinc.org</td><td>FEV1/FVC</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-19871-3\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/19871-3/\">19871-3</a></td><td>http://loinc.org</td><td>FVC pre bronchodilation measured/predicted</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-20152-5\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/20152-5/\">20152-5</a></td><td>http://loinc.org</td><td>FEV1 measured/predicted</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-89085-5\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/89085-5/\">89085-5</a></td><td>http://loinc.org</td><td>Total lung capacity measured/predicted by Plethysmograph body box</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-81454-1\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/81454-1/\">81454-1</a></td><td>http://loinc.org</td><td>Residual volume/Total capacity --pre bronchodilation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-43252-6\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/43252-6/\">43252-6</a></td><td>http://loinc.org</td><td>Residual volume/Total capacity Predicted</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-98130-8\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/98130-8/\">98130-8</a></td><td>http://loinc.org</td><td>Diffusion capacity.carbon monoxide/Predicted</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-98203-3\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/98203-3/\">98203-3</a></td><td>http://loinc.org</td><td>(Diffusion capacity/Alveolar volume)/predicted</td></tr></table></div>"
       },
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-efr",
-      "version" : "0.1.1",
+      "version" : "0.1.2",
       "name" : "EFR_VS",
       "title" : "Jeu d'observations d'une épreuve fonctionnelle respiratoire",
       "status" : "draft",
       "date" : "2025-04-14",
       "expansion" : {
-        "identifier" : "urn:uuid:92321e92-aa75-4279-aa66-158f40f9edf4",
-        "timestamp" : "2025-06-02T10:49:13+02:00",
+        "identifier" : "urn:uuid:0d612902-e3fa-4a44-a203-fdbfe4b82f81",
+        "timestamp" : "2025-08-04T16:31:11+02:00",
         "total" : 11,
         "offset" : 0,
         "parameter" : [{
@@ -119,14 +119,14 @@
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on Loinc v2.80</p><p>Ce jeu de valeur (ValueSet) contient 6 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Système</b></td><td><b>Display (und)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-718-7\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/718-7/\">718-7</a></td><td>http://loinc.org</td><td>Hemoglobin [Mass/volume] in Blood</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-1988-5\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/1988-5/\">1988-5</a></td><td>http://loinc.org</td><td>C reactive protein [Mass/volume] in Serum or Plasma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-26449-9\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/26449-9/\">26449-9</a></td><td>http://loinc.org</td><td>Eosinophils [#/volume] in Blood</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-38483-4\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/38483-4/\">38483-4</a></td><td>http://loinc.org</td><td>Creatinine [Mass/volume] in Blood</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-70969-1\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/70969-1/\">70969-1</a></td><td>http://loinc.org</td><td>Glomerular filtration rate [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)/1.73 sq M among male population</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-50044-7\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/50044-7/\">50044-7</a></td><td>http://loinc.org</td><td>Glomerular filtration rate [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)/1.73 sq M among female population</td></tr></table></div>"
       },
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-bio",
-      "version" : "0.1.1",
+      "version" : "0.1.2",
       "name" : "PNEUMO_BIO_VS",
       "title" : "Jeu de biologies d'intérêt pour la télésurveillance des maladies respiratoires",
       "status" : "draft",
       "date" : "2025-04-14",
       "expansion" : {
-        "identifier" : "urn:uuid:5ce71362-a349-4102-a997-850b31493f7c",
-        "timestamp" : "2025-06-02T10:49:14+02:00",
+        "identifier" : "urn:uuid:6d3b8b6d-b089-40f8-a1a0-9dadebbf1e04",
+        "timestamp" : "2025-08-04T16:31:12+02:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -200,18 +200,18 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT 900000000000207008 edition 01-févr. 2025</p><p>Ce jeu de valeur (ValueSet) contient 5 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Système</b></td><td><b>Display (und)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-195967001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/195967001\">195967001</a></td><td>http://snomed.info/sct</td><td>Airway hyperreactivity</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-63480004\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/63480004\">63480004</a></td><td>http://snomed.info/sct</td><td>Chronic bronchitis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-102361000119104\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/102361000119104\">102361000119104</a></td><td>http://snomed.info/sct</td><td>Chronic pneumonia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-2561000112106\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/2561000112106\">2561000112106</a></td><td>http://snomed.info/sct</td><td>Chronic refractory cough</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-13645005\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/13645005\">13645005</a></td><td>http://snomed.info/sct</td><td>Chronic obstructive lung disease</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT 900000000000207008 edition 01-févr. 2025</p><p>Ce jeu de valeur (ValueSet) contient 21 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Système</b></td><td><b>Display (und)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-233703007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/233703007\">233703007</a></td><td>http://snomed.info/sct</td><td>Interstitial lung disease</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-51615001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/51615001\">51615001</a></td><td>http://snomed.info/sct</td><td>Fibrosis of lung</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-708030004\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/708030004\">708030004</a></td><td>http://snomed.info/sct</td><td>CPFE - combined pulmonary fibrosis and emphysema</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-1172606002\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/1172606002\">1172606002</a></td><td>http://snomed.info/sct</td><td>Idiopathic pleuroparenchymal fibroelastosis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-700249006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/700249006\">700249006</a></td><td>http://snomed.info/sct</td><td>pneumonie interstitielle idiopathique</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-782964007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/782964007\">782964007</a></td><td>http://snomed.info/sct</td><td>Genetic disease</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-105969002\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/105969002\">105969002</a></td><td>http://snomed.info/sct</td><td>affection d'un tissu conjonctif</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-870573008\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/870573008\">870573008</a></td><td>http://snomed.info/sct</td><td>pneumonie interstitielle avec des caractéristiques auto-immunes</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-37471005\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/37471005\">37471005</a></td><td>http://snomed.info/sct</td><td>Extrinsic allergic alveolitis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-40122008\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/40122008\">40122008</a></td><td>http://snomed.info/sct</td><td>Pneumoconiosis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-31541009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/31541009\">31541009</a></td><td>http://snomed.info/sct</td><td>Sarcoidosis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-31996006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/31996006\">31996006</a></td><td>http://snomed.info/sct</td><td>Vasculitis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-87119009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/87119009\">87119009</a></td><td>http://snomed.info/sct</td><td>Congenital cystic lung</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-70995007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/70995007\">70995007</a></td><td>http://snomed.info/sct</td><td>Pulmonary hypertension</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-11399002\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/11399002\">11399002</a></td><td>http://snomed.info/sct</td><td>Pulmonary hypertensive arterial disease</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-84114007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/84114007\">84114007</a></td><td>http://snomed.info/sct</td><td>Heart failure</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-76267008\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/76267008\">76267008</a></td><td>http://snomed.info/sct</td><td>Pulmonary valve disorder</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-195967001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/195967001\">195967001</a></td><td>http://snomed.info/sct</td><td>Airway hyperreactivity</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-63480004\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/63480004\">63480004</a></td><td>http://snomed.info/sct</td><td>Chronic bronchitis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-2561000112106\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/2561000112106\">2561000112106</a></td><td>http://snomed.info/sct</td><td>Chronic refractory cough</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-13645005\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/13645005\">13645005</a></td><td>http://snomed.info/sct</td><td>Chronic obstructive lung disease</td></tr></table></div>"
       },
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-diagnostic",
-      "version" : "0.1.1",
+      "version" : "0.1.2",
       "name" : "PNEUMO_DIAGNOSTIC_VS",
       "title" : "Jeu de diagnostic principal maladie respiratoire",
       "status" : "draft",
       "date" : "2025-04-14",
       "expansion" : {
-        "identifier" : "urn:uuid:aff888fc-478f-4e4e-bdc1-c18525d27445",
-        "timestamp" : "2025-06-02T10:49:14+02:00",
-        "total" : 5,
+        "identifier" : "urn:uuid:a732ff2c-28ed-4442-ba39-1b0dae9cf910",
+        "timestamp" : "2025-08-04T16:31:12+02:00",
+        "total" : 21,
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -234,10 +234,6 @@
           "valueUri" : "null"
         },
         {
-          "name" : "displayLanguage",
-          "valueCode" : "en-US"
-        },
-        {
           "name" : "used-codesystem",
           "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
         },
@@ -247,6 +243,91 @@
         }],
         "contains" : [{
           "system" : "http://snomed.info/sct",
+          "code" : "233703007",
+          "display" : "Interstitial lung disease"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "51615001",
+          "display" : "Fibrosis of lung"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "708030004",
+          "display" : "CPFE - combined pulmonary fibrosis and emphysema"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "1172606002",
+          "display" : "Idiopathic pleuroparenchymal fibroelastosis"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "700249006",
+          "display" : "pneumonie interstitielle idiopathique"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "782964007",
+          "display" : "Genetic disease"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "105969002",
+          "display" : "affection d'un tissu conjonctif"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "870573008",
+          "display" : "pneumonie interstitielle avec des caractéristiques auto-immunes"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "37471005",
+          "display" : "Extrinsic allergic alveolitis"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "40122008",
+          "display" : "Pneumoconiosis"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "31541009",
+          "display" : "Sarcoidosis"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "31996006",
+          "display" : "Vasculitis"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "87119009",
+          "display" : "Congenital cystic lung"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "70995007",
+          "display" : "Pulmonary hypertension"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "11399002",
+          "display" : "Pulmonary hypertensive arterial disease"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "84114007",
+          "display" : "Heart failure"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "76267008",
+          "display" : "Pulmonary valve disorder"
+        },
+        {
+          "system" : "http://snomed.info/sct",
           "code" : "195967001",
           "display" : "Airway hyperreactivity"
         },
@@ -254,11 +335,6 @@
           "system" : "http://snomed.info/sct",
           "code" : "63480004",
           "display" : "Chronic bronchitis"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "102361000119104",
-          "display" : "Chronic pneumonia"
         },
         {
           "system" : "http://snomed.info/sct",
@@ -282,14 +358,14 @@
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on Loinc v2.80</p><p>Ce jeu de valeur (ValueSet) contient 2 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Système</b></td><td><b>Display (und)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-29463-7\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/29463-7/\">29463-7</a></td><td>http://loinc.org</td><td>Body weight</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-8302-2\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/8302-2/\">8302-2</a></td><td>http://loinc.org</td><td>Body height</td></tr></table></div>"
       },
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-vitaux",
-      "version" : "0.1.1",
+      "version" : "0.1.2",
       "name" : "PNEUMO_VITAAUX_VS",
       "title" : "Jeu de signes vitaux pneumologie",
       "status" : "draft",
       "date" : "2025-04-14",
       "expansion" : {
-        "identifier" : "urn:uuid:61312b51-2e9e-43fb-b5a4-2e8e2fc96b03",
-        "timestamp" : "2025-06-02T10:49:14+02:00",
+        "identifier" : "urn:uuid:c5dc0385-60ae-4edf-bac5-588cc44e47ae",
+        "timestamp" : "2025-08-04T16:31:12+02:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -346,14 +422,14 @@
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on Loinc v2.80</p><p>Ce jeu de valeur (ValueSet) contient 4 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Système</b></td><td><b>Display (und)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-LA18976-3\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/LA18976-3/\">LA18976-3</a></td><td>http://loinc.org</td><td>Current every day smoker</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-LA15920-4\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/LA15920-4/\">LA15920-4</a></td><td>http://loinc.org</td><td>Former smoker</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-LA18978-9\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/LA18978-9/\">LA18978-9</a></td><td>http://loinc.org</td><td>Never smoker</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-LA18979-7\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/LA18979-7/\">LA18979-7</a></td><td>http://loinc.org</td><td>Smoker, current status unknown</td></tr></table></div>"
       },
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac-status",
-      "version" : "0.1.1",
+      "version" : "0.1.2",
       "name" : "TABAC_STATUS_VS",
       "title" : "Jeu de concept pour le statut de tabagisme",
       "status" : "draft",
       "date" : "2025-04-14",
       "expansion" : {
-        "identifier" : "urn:uuid:b20b4db5-6f6a-4f79-9f68-c179ee2c2547",
-        "timestamp" : "2025-06-02T10:49:15+02:00",
+        "identifier" : "urn:uuid:86f477f9-fc82-4f99-aa9e-e1d05e5878f5",
+        "timestamp" : "2025-08-04T16:31:13+02:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -420,14 +496,14 @@
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on Loinc v2.80</p><p>Ce jeu de valeur (ValueSet) contient 3 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Système</b></td><td><b>Display (und)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-72166-2\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/72166-2/\">72166-2</a></td><td>http://loinc.org</td><td>Tobacco smoking status</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-74011-8\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/74011-8/\">74011-8</a></td><td>http://loinc.org</td><td>Lifetime tobacco use</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-88029-4\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/88029-4/\">88029-4</a></td><td>http://loinc.org</td><td>Tobacco use duration</td></tr></table></div>"
       },
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac",
-      "version" : "0.1.1",
+      "version" : "0.1.2",
       "name" : "TABAC_VS",
       "title" : "Jeu de concept de tabacologie",
       "status" : "draft",
       "date" : "2025-04-14",
       "expansion" : {
-        "identifier" : "urn:uuid:8a78f726-bdbe-4fe6-82e3-b976b5feda1c",
-        "timestamp" : "2025-06-02T10:49:15+02:00",
+        "identifier" : "urn:uuid:effc3f81-4bf9-4953-9b4f-c761f947cbac",
+        "timestamp" : "2025-08-04T16:31:13+02:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{

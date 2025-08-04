@@ -7,10 +7,10 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr-BE\" lang=\"fr-BE\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide be.chuliege.versunsoufflenouveau</b></p><a name=\"be.chuliege.versunsoufflenouveau\"> </a><a name=\"hcbe.chuliege.versunsoufflenouveau\"> </a><a name=\"be.chuliege.versunsoufflenouveau-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: fr-BE</p></div><h2>SouffleNouveauIG</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ImplementationGuide/be.chuliege.versunsoufflenouveau</pre></div>"
   },
   "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ImplementationGuide/be.chuliege.versunsoufflenouveau",
-  "version" : "0.1.1",
+  "version" : "0.1.2",
   "name" : "SouffleNouveauIG",
   "status" : "draft",
-  "date" : "2025-06-02T10:39:09+02:00",
+  "date" : "2025-08-04T16:28:32+02:00",
   "publisher" : "CHU Liège",
   "contact" : [{
     "name" : "CHU Liège",
@@ -30,23 +30,19 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "6.4.0"
-  },
-  {
-    "id" : "hl7ext",
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
-      "valueMarkdown" : "Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"
-    }],
-    "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
-    "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "5.2.0"
+    "version" : "6.5.0"
   },
   {
     "id" : "hl7_fhir_be_core",
     "uri" : "https://www.ehealth.fgov.be/standards/fhir/core/ImplementationGuide/hl7.fhir.be.core",
     "packageId" : "hl7.fhir.be.core",
     "version" : "2.1.2"
+  },
+  {
+    "id" : "hl7_fhir_be_core_clinical",
+    "uri" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ImplementationGuide/hl7.fhir.be.core-clinical",
+    "packageId" : "hl7.fhir.be.core-clinical",
+    "version" : "1.0.0"
   },
   {
     "id" : "hl7_fhir_eu_base",
@@ -71,6 +67,12 @@
     "uri" : "http://hl7.eu/fhir/laboratory/ImplementationGuide/hl7.fhir.eu.laboratory",
     "packageId" : "hl7.fhir.eu.laboratory",
     "version" : "0.1.1"
+  },
+  {
+    "id" : "hl7_fhir_uv_extensions_r4",
+    "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+    "packageId" : "hl7.fhir.uv.extensions.r4",
+    "version" : "5.2.0"
   }],
   "definition" : {
     "extension" : [{
@@ -633,7 +635,7 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/ChulPatient"
+        "reference" : "StructureDefinition/chul-patient"
       },
       "name" : "ChulPatient",
       "description" : "Profil pour un Patient CHU Liège",
@@ -725,6 +727,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/vuns-context"
+      },
+      "name" : "Logical model for remote monitoring context in the scope of the VUNS project",
+      "description" : "This models represents the information extracted from the EHR to contextualize a remote monitoring session in the scope of the VUNS project.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
@@ -733,6 +747,78 @@
       "name" : "VunsEfr",
       "description" : "Profile pour les épreuves fonctionnelles respiratoires",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/VunsEfrCPT"
+      },
+      "name" : "VunsEfrCPT",
+      "description" : "Example de capacité pulmonaire totale",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/VunsEfrCPTRatio"
+      },
+      "name" : "VunsEfrCPTRatio",
+      "description" : "Example de CPT%",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/VunsEfrCVF"
+      },
+      "name" : "VunsEfrCVF",
+      "description" : "Example de capacité vitale forcée lors d'une épreuve fonctionnelle respiratoire",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/VunsEfrCVFRatio"
+      },
+      "name" : "VunsEfrCVFRatio",
+      "description" : "Example de CVF%",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/VunsEfrDLCORatio"
+      },
+      "name" : "VunsEfrDLCORatio",
+      "description" : "Example de DLCO%",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/VunsEfrDLCOVARatio"
+      },
+      "name" : "VunsEfrDLCOVARatio",
+      "description" : "Example de DLCO/VA(%)",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"
     },
     {
       "extension" : [{
@@ -764,10 +850,10 @@
         "valueString" : "Observation"
       }],
       "reference" : {
-        "reference" : "Observation/VunsEfrObservationExample"
+        "reference" : "Observation/VunsEfrVRCPTRatio"
       },
-      "name" : "VunsEfrObservationExample",
-      "description" : "Example d'observation lors d'une épreuve fonctionnelle respiratoire",
+      "name" : "VunsEfrVRCPTRatio",
+      "description" : "Example de VR/CPT%",
       "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"
     },
     {
@@ -776,11 +862,59 @@
         "valueString" : "Observation"
       }],
       "reference" : {
-        "reference" : "Observation/VunsEfrObservationSource"
+        "reference" : "Observation/VunsEfrVRRatio"
       },
-      "name" : "VunsEfrObservationSource",
+      "name" : "VunsEfrVRRatio",
+      "description" : "Example de VR%",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/VunsEfrVTiff"
+      },
+      "name" : "VunsEfrVTiff",
+      "description" : "Example de Tiffeneau lors d'une épreuve fonctionnelle respiratoire",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/VunsEfrVTiffSource"
+      },
+      "name" : "VunsEfrVTiffSource",
       "description" : "Example d'observation originale dans OmniPro",
       "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/VunsEfrVVEMS"
+      },
+      "name" : "VunsEfrVVEMS",
+      "description" : "Example de FEV1",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/VunsEfrVVEMSRatio"
+      },
+      "name" : "VunsEfrVVEMSRatio",
+      "description" : "Example de CVF%",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"
     },
     {
       "extension" : [{
@@ -824,10 +958,58 @@
         "valueString" : "Observation"
       }],
       "reference" : {
-        "reference" : "Observation/VunsPneumoBioExample"
+        "reference" : "Observation/VunsPneumoBioCreatinin"
       },
-      "name" : "VunsPneumoBioExample",
-      "description" : "Example de biologie d'intérêt pneumologique",
+      "name" : "VunsPneumoBioCreatinin",
+      "description" : "Example de créatinine",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBio"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/VunsPneumoBioCRP"
+      },
+      "name" : "VunsPneumoBioCRP",
+      "description" : "Example de CRP",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBio"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/VunsPneumoBioEosinophils"
+      },
+      "name" : "VunsPneumoBioEosinophils",
+      "description" : "Example de Éosinophiles",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBio"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/VunsPneumoBioGFR"
+      },
+      "name" : "VunsPneumoBioGFR",
+      "description" : "Example de taux de filtration glomérulaire parmi la population masculine",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBio"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/VunsPneumoBioHemoglobin"
+      },
+      "name" : "VunsPneumoBioHemoglobin",
+      "description" : "Example de Hémoglobine",
       "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBio"
     },
     {
@@ -908,10 +1090,22 @@
         "valueString" : "Condition"
       }],
       "reference" : {
-        "reference" : "Condition/VunsPneumoConditionExample"
+        "reference" : "Condition/VunsPneumoConditionAsthma"
       },
-      "name" : "VunsPneumoConditionExample",
-      "description" : "Example de diagnostic pneumologique",
+      "name" : "VunsPneumoConditionAsthma",
+      "description" : "Example de diagnostic asthme",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/VunsPneumoConditionCOPD"
+      },
+      "name" : "VunsPneumoConditionCOPD",
+      "description" : "Example de diagnostic bpco",
       "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition"
     },
     {
@@ -932,11 +1126,35 @@
         "valueString" : "Observation"
       }],
       "reference" : {
-        "reference" : "Observation/VunsPneumoVitalSignExample"
+        "reference" : "Observation/VunsPneumoVitalSignHeight"
       },
-      "name" : "VunsPneumoVitalSignExample",
-      "description" : "Example de signe vital en pneumologie",
+      "name" : "VunsPneumoVitalSignHeight",
+      "description" : "Example de taille",
       "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoVitalSign"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/VunsPneumoVitalSignWeight"
+      },
+      "name" : "VunsPneumoVitalSignWeight",
+      "description" : "Example de poids",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoVitalSign"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/VunsTobaccoAge"
+      },
+      "name" : "VunsTobaccoAge",
+      "description" : "Example Nombre d'années de tabagisme",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsTobaccoObservation"
     },
     {
       "extension" : [{
@@ -956,10 +1174,22 @@
         "valueString" : "Observation"
       }],
       "reference" : {
-        "reference" : "Observation/VunsTobaccoObservationExample"
+        "reference" : "Observation/VunsTobaccoQuantity"
       },
-      "name" : "VunsTobaccoObservationExample",
-      "description" : "Example d'observation en tabacologie",
+      "name" : "VunsTobaccoQuantity",
+      "description" : "Example Nombre de cigarettes fumées par jour",
+      "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsTobaccoObservation"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/VunsTobaccoStatus"
+      },
+      "name" : "VunsTobaccoStatus",
+      "description" : "Example de statut de tabagisme",
       "exampleCanonical" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsTobaccoObservation"
     }],
     "page" : {

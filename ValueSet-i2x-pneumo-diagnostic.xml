@@ -3,10 +3,10 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="i2x-pneumo-diagnostic"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet i2x-pneumo-diagnostic</b></p><a name="i2x-pneumo-diagnostic"> </a><a name="hci2x-pneumo-diagnostic"> </a><a name="i2x-pneumo-diagnostic-und"> </a><ul><li>Include ces codes sont définis dans <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/195967001">195967001</a></td><td>asthme</td></tr><tr><td><a href="http://snomed.info/id/63480004">63480004</a></td><td>bronchite chronique</td></tr><tr><td><a href="http://snomed.info/id/102361000119104">102361000119104</a></td><td>pneumonie chronique</td></tr><tr><td><a href="http://snomed.info/id/2561000112106">2561000112106</a></td><td>toux chronique réfractaire</td></tr><tr><td><a href="http://snomed.info/id/13645005">13645005</a></td><td>bronchopneumopathie chronique obstructive</td></tr></table></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet i2x-pneumo-diagnostic</b></p><a name="i2x-pneumo-diagnostic"> </a><a name="hci2x-pneumo-diagnostic"> </a><a name="i2x-pneumo-diagnostic-und"> </a><ul><li>Include ces codes sont définis dans <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/233703007">233703007</a></td><td>pneumopathie interstitielle diffuse</td></tr><tr><td><a href="http://snomed.info/id/51615001">51615001</a></td><td>fibrose pulmonaire</td></tr><tr><td><a href="http://snomed.info/id/708030004">708030004</a></td><td>emphysème pulmonaire concomitant à une fibrose pulmonaire</td></tr><tr><td><a href="http://snomed.info/id/1172606002">1172606002</a></td><td>fibroélastose pleuroparenchymateuse idiopathique</td></tr><tr><td><a href="http://snomed.info/id/700249006">700249006</a></td><td>pneumonie interstitielle idiopathique</td></tr><tr><td><a href="http://snomed.info/id/782964007">782964007</a></td><td>maladie génétique</td></tr><tr><td><a href="http://snomed.info/id/105969002">105969002</a></td><td>affection d'un tissu conjonctif</td></tr><tr><td><a href="http://snomed.info/id/870573008">870573008</a></td><td>pneumonie interstitielle avec des caractéristiques auto-immunes</td></tr><tr><td><a href="http://snomed.info/id/37471005">37471005</a></td><td>Hypersensitivity pneumonitis</td></tr><tr><td><a href="http://snomed.info/id/40122008">40122008</a></td><td>pneumoconiose</td></tr><tr><td><a href="http://snomed.info/id/31541009">31541009</a></td><td>sarcoïdose</td></tr><tr><td><a href="http://snomed.info/id/31996006">31996006</a></td><td>vascularite</td></tr><tr><td><a href="http://snomed.info/id/87119009">87119009</a></td><td>poumon kystique congénital</td></tr><tr><td><a href="http://snomed.info/id/70995007">70995007</a></td><td>hypertension pulmonaire</td></tr><tr><td><a href="http://snomed.info/id/11399002">11399002</a></td><td>hypertension artérielle pulmonaire</td></tr><tr><td><a href="http://snomed.info/id/84114007">84114007</a></td><td>insuffisance cardiaque</td></tr><tr><td><a href="http://snomed.info/id/76267008">76267008</a></td><td>valvulopathie pulmonaire</td></tr><tr><td><a href="http://snomed.info/id/195967001">195967001</a></td><td>asthme</td></tr><tr><td><a href="http://snomed.info/id/63480004">63480004</a></td><td>bronchite chronique</td></tr><tr><td><a href="http://snomed.info/id/2561000112106">2561000112106</a></td><td>toux chronique réfractaire</td></tr><tr><td><a href="http://snomed.info/id/13645005">13645005</a></td><td>bronchopneumopathie chronique obstructive</td></tr></table></li></ul></div>
   </text>
   <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-diagnostic"/>
-  <version value="0.1.1"/>
+  <version value="0.1.2"/>
   <name value="PNEUMO_DIAGNOSTIC_VS"/>
   <title value="Jeu de diagnostic principal maladie respiratoire"/>
   <status value="draft"/>
@@ -25,16 +25,80 @@
     <include>
       <system value="http://snomed.info/sct"/>
       <concept>
+        <code value="233703007"/>
+        <display value="pneumopathie interstitielle diffuse"/>
+      </concept>
+      <concept>
+        <code value="51615001"/>
+        <display value="fibrose pulmonaire"/>
+      </concept>
+      <concept>
+        <code value="708030004"/>
+        <display value="emphysème pulmonaire concomitant à une fibrose pulmonaire"/>
+      </concept>
+      <concept>
+        <code value="1172606002"/>
+        <display value="fibroélastose pleuroparenchymateuse idiopathique"/>
+      </concept>
+      <concept>
+        <code value="700249006"/>
+        <display value="pneumonie interstitielle idiopathique"/>
+      </concept>
+      <concept>
+        <code value="782964007"/>
+        <display value="maladie génétique"/>
+      </concept>
+      <concept>
+        <code value="105969002"/>
+        <display value="affection d'un tissu conjonctif"/>
+      </concept>
+      <concept>
+        <code value="870573008"/>
+        <display value="pneumonie interstitielle avec des caractéristiques auto-immunes"/>
+      </concept>
+      <concept>
+        <code value="37471005"/>
+        <display value="Hypersensitivity pneumonitis"/>
+      </concept>
+      <concept>
+        <code value="40122008"/>
+        <display value="pneumoconiose"/>
+      </concept>
+      <concept>
+        <code value="31541009"/>
+        <display value="sarcoïdose"/>
+      </concept>
+      <concept>
+        <code value="31996006"/>
+        <display value="vascularite"/>
+      </concept>
+      <concept>
+        <code value="87119009"/>
+        <display value="poumon kystique congénital"/>
+      </concept>
+      <concept>
+        <code value="70995007"/>
+        <display value="hypertension pulmonaire"/>
+      </concept>
+      <concept>
+        <code value="11399002"/>
+        <display value="hypertension artérielle pulmonaire"/>
+      </concept>
+      <concept>
+        <code value="84114007"/>
+        <display value="insuffisance cardiaque"/>
+      </concept>
+      <concept>
+        <code value="76267008"/>
+        <display value="valvulopathie pulmonaire"/>
+      </concept>
+      <concept>
         <code value="195967001"/>
         <display value="asthme"/>
       </concept>
       <concept>
         <code value="63480004"/>
         <display value="bronchite chronique"/>
-      </concept>
-      <concept>
-        <code value="102361000119104"/>
-        <display value="pneumonie chronique"/>
       </concept>
       <concept>
         <code value="2561000112106"/>
