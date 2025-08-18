@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="VunsPneumoBundleShortExample"/>
+  <meta>
+    <profile value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBundle"/>
+  </meta>
+  <identifier>
+    <system value="https://terminology.chuliege.be/NamingSystem/global"/>
+    <value value="ShortBundle01"/>
+  </identifier>
+  <type value="document"/>
+  <timestamp value="2025-03-01T12:00:00+01:00"/>
+  <entry>
+    <fullUrl value="http://si-s-serv1041/ig/Composition/VunsPneumoCompositionShortExample"/>
+    <resource>
+      <Composition>
+        <id value="VunsPneumoCompositionShortExample"/>
+        <meta>
+          <profile value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoComposition"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Composition_VunsPneumoCompositionShortExample"> </a><p class="res-header-id"><b>Generated Narrative: Composition VunsPneumoCompositionShortExample</b></p><a name="VunsPneumoCompositionShortExample"> </a><a name="hcVunsPneumoCompositionShortExample"> </a><a name="VunsPneumoCompositionShortExample-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="StructureDefinition-VunsPneumoComposition.html">VunsPneumoComposition</a></p></div><p><b>status</b>: Final</p><p><b>type</b>: <span title="Codes:{http://loinc.org 34105-7}">Hospital Discharge summary</span></p><p><b>date</b>: 2025-03-01</p><p><b>author</b>: <a href="Bundle-VunsPneumoBundleExample.html#Organization_GSI">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p><p><b>title</b>: Short composition example in the scope in the 'Vers Un Souffle Nouveau' project</p></div>
+        </text>
+        <status value="final"/>
+        <type>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="34105-7"/>
+            <display value="Hospital Discharge summary"/>
+          </coding>
+        </type>
+        <subject>
+          <reference value="Patient/VunsPatientExample"/>
+        </subject>
+        <date value="2025-03-01"/>
+        <author>
+          <reference value="Organization/GSI"/>
+        </author>
+        <title value="Short composition example in the scope in the 'Vers Un Souffle Nouveau' project"/>
+        <section>
+          <title value="Paramètres de référence"/>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="8716-3"/>
+            </coding>
+          </code>
+          <text>
+            <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml">Paramètres vitaux</div>
+          </text>
+          <entry>
+            <reference value="Observation/VunsPneumoVitalSignWeight"/>
+          </entry>
+        </section>
+        <section>
+          <title value="Exemple de titre en pneumologie"/>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="8648-8"/>
+            </coding>
+          </code>
+          <text>
+            <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml">Exemple de rapport en pneumologie</div>
+          </text>
+        </section>
+        <section>
+          <title value="Diagnostic primaire"/>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="11535-2"/>
+            </coding>
+          </code>
+          <text>
+            <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml">Diagnostic</div>
+          </text>
+          <entry>
+            <reference value="Condition/VunsPneumoConditionAsthma"/>
+          </entry>
+        </section>
+        <section>
+          <title value="Résultats des EFRs"/>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="10185-7"/>
+            </coding>
+          </code>
+          <text>
+            <status value="empty"/><div xmlns="http://www.w3.org/1999/xhtml">Résultats des EFRs</div>
+          </text>
+          <entry>
+            <reference value="Procedure/VunsEfrExample"/>
+          </entry>
+        </section>
+        <section>
+          <title value="Biologies"/>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="30954-2"/>
+            </coding>
+          </code>
+          <text>
+            <status value="empty"/><div xmlns="http://www.w3.org/1999/xhtml">Biologies</div>
+          </text>
+          <entry>
+            <reference value="DiagnosticReport/VunsPneumoBioReportExample"/>
+          </entry>
+        </section>
+        <section>
+          <title value="Tabagisme"/>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="11367-0"/>
+            </coding>
+          </code>
+          <text>
+            <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml">Tabagisme</div>
+          </text>
+          <entry>
+            <reference value="Observation/VunsTobaccoStatus"/>
+          </entry>
+        </section>
+      </Composition>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://si-s-serv1041/ig/Patient/VunsPatientExample"/>
+    <resource>
+      <Patient>
+        <id value="VunsPatientExample"/>
+        <meta>
+          <profile value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPatient"/>
+          <profile value="https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient"/>
+          <profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips"/>
+          <profile value="https://terminology.chuliege.be/fhir/StructureDefinition/chul-patient"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Patient_VunsPatientExample"> </a><p class="res-header-id"><b>Generated Narrative: Patient VunsPatientExample</b></p><a name="VunsPatientExample"> </a><a name="hcVunsPatientExample"> </a><a name="VunsPatientExample-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profils: <a href="StructureDefinition-VunsPatient.html">VunsPatient</a>, <a href="https://www.ehealth.fgov.be/standards/fhir/core/2.1.2/StructureDefinition-be-patient.html">BePatient</a>, <a href="http://hl7.org/fhir/uv/ips/STU1.1/StructureDefinition-Patient-uv-ips.html">Patient (IPS)</a>, <a href="StructureDefinition-chul-patient.html">ChulPatient</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Other Id (see the one above)">Other Id:</td><td colspan="3"><code>https://terminology.chuliege.be/NamingSystem/numnat</code>/111111X</td></tr><tr><td style="background-color: #f3f5da" title="Moyens de contacter le Patient">Contact Detail</td><td colspan="3"><ul><li>ph: 04497887145</li><li><a href="mailto:pduflot@chuliege.be">pduflot@chuliege.be</a></li></ul></td></tr></table></div>
+        </text>
+        <identifier>
+          <system value="https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin"/>
+          <value value="11111111111"/>
+        </identifier>
+        <identifier>
+          <system value="https://terminology.chuliege.be/NamingSystem/numnat"/>
+          <value value="111111X"/>
+        </identifier>
+        <name>
+          <family value="Duflot"/>
+          <given value="Patrick"/>
+        </name>
+        <telecom>
+          <system value="phone"/>
+          <value value="04497887145"/>
+        </telecom>
+        <telecom>
+          <system value="email"/>
+          <value value="pduflot@chuliege.be"/>
+        </telecom>
+        <gender value="male"/>
+        <birthDate value="1974-01-22"/>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://si-s-serv1041/ig/Encounter/EuEncounterExample"/>
+    <resource>
+      <Encounter>
+        <id value="EuEncounterExample"/>
+        <meta>
+          <profile value="http://hl7.eu/fhir/hdr/StructureDefinition/encounter-eu-hdr"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Encounter_EuEncounterExample"> </a><p class="res-header-id"><b>Generated Narrative: Encounter EuEncounterExample</b></p><a name="EuEncounterExample"> </a><a name="hcEuEncounterExample"> </a><a name="EuEncounterExample-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="http://hl7.eu/fhir/hdr/0.1.0-ballot/StructureDefinition-encounter-eu-hdr.html">Encounter (HDR)</a></p></div><p><b>status</b>: Finished</p><p><b>class</b>: <a href="http://terminology.hl7.org/6.2.0/CodeSystem-v3-ActCode.html#v3-ActCode-SS">ActCode SS</a>: short stay</p><p><b>subject</b>: <a href="Patient-VunsPatientExample.html">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p></div>
+        </text>
+        <status value="finished"/>
+        <class>
+          <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+          <code value="SS"/>
+        </class>
+        <subject>
+          <reference value="Patient/VunsPatientExample"/>
+        </subject>
+      </Encounter>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://si-s-serv1041/ig/Condition/VunsPneumoConditionAsthma"/>
+    <resource>
+      <Condition>
+        <id value="VunsPneumoConditionAsthma"/>
+        <meta>
+          <profile value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition"/>
+          <profile value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-problem"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Condition_VunsPneumoConditionAsthma"> </a><p class="res-header-id"><b>Generated Narrative: Condition VunsPneumoConditionAsthma</b></p><a name="VunsPneumoConditionAsthma"> </a><a name="hcVunsPneumoConditionAsthma"> </a><a name="VunsPneumoConditionAsthma-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profils: <a href="StructureDefinition-VunsPneumoCondition.html">VunsPneumoCondition</a>, <a href="https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.0.0/StructureDefinition-be-problem.html">BeProblem</a></p></div><p><b>clinicalStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}">Active</span></p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}">Problem List Item</span></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 195967001}">Asthme</span></p><p><b>subject</b>: <a href="Patient-VunsPatientExample.html">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>recordedDate</b>: 2025-03-01</p><p><b>recorder</b>: <a href="Bundle-VunsPneumoBundleExample.html#Practitioner_Physician">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p></div>
+        </text>
+        <clinicalStatus>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+            <code value="active"/>
+          </coding>
+        </clinicalStatus>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/condition-category"/>
+            <code value="problem-list-item"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="195967001"/>
+          </coding>
+          <text value="Asthme"/>
+        </code>
+        <subject>
+          <reference value="Patient/VunsPatientExample"/>
+        </subject>
+        <recordedDate value="2025-03-01"/>
+        <recorder>
+          <reference value="Practitioner/Physician"/>
+        </recorder>
+      </Condition>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://si-s-serv1041/ig/Observation/VunsPneumoVitalSignWeight"/>
+    <resource>
+      <Observation>
+        <id value="VunsPneumoVitalSignWeight"/>
+        <meta>
+          <profile value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoVitalSign"/>
+          <profile value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-observation"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Observation_VunsPneumoVitalSignWeight"> </a><p class="res-header-id"><b>Generated Narrative: Observation VunsPneumoVitalSignWeight</b></p><a name="VunsPneumoVitalSignWeight"> </a><a name="hcVunsPneumoVitalSignWeight"> </a><a name="VunsPneumoVitalSignWeight-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profils: <a href="StructureDefinition-VunsPneumoVitalSign.html">VunsPneumoVitalSign</a>, <a href="https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.0.0/StructureDefinition-be-observation.html">BeObservation</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}">Vital Signs</span></p><p><b>code</b>: <span title="Codes:{http://loinc.org 29463-7}">Body weight</span></p><p><b>subject</b>: <a href="Patient-VunsPatientExample.html">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>effective</b>: 2025-03-01</p><p><b>performer</b>: <a href="Bundle-VunsPneumoBundleExample.html#Practitioner_Physician">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p><p><b>value</b>: 80 kg<span style="background: LightGoldenRodYellow"> (Details: UCUM  codekg = 'kg')</span></p></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="vital-signs"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="29463-7"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/VunsPatientExample"/>
+        </subject>
+        <effectiveDateTime value="2025-03-01"/>
+        <performer>
+          <reference value="Practitioner/Physician"/>
+        </performer>
+        <valueQuantity>
+          <value value="80"/>
+          <unit value="kg"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="kg"/>
+        </valueQuantity>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://si-s-serv1041/ig/Observation/VunsEfrCVF"/>
+    <resource>
+      <Observation>
+        <id value="VunsEfrCVF"/>
+        <meta>
+          <profile value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"/>
+          <profile value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-observation"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Observation_VunsEfrCVF"> </a><p class="res-header-id"><b>Generated Narrative: Observation VunsEfrCVF</b></p><a name="VunsEfrCVF"> </a><a name="hcVunsEfrCVF"> </a><a name="VunsEfrCVF-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profils: <a href="StructureDefinition-VunsEfrObservation.html">VunsEfrObservation</a>, <a href="https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.0.0/StructureDefinition-be-observation.html">BeObservation</a></p></div><p><b>partOf</b>: <a href="Procedure-VunsEfrExample.html">Procedure Measurement of respiratory function</a></p><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://loinc.org 19876-2}">Capacité vitale forcée</span></p><p><b>subject</b>: <a href="Patient-VunsPatientExample.html">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>effective</b>: 2025-03-01</p><p><b>performer</b>: <a href="Bundle-VunsPneumoBundleExample.html#Practitioner_Physician">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p><p><b>value</b>: 3 L</p></div>
+        </text>
+        <partOf>
+          <reference value="Procedure/VunsEfrExample"/>
+        </partOf>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="19876-2"/>
+          </coding>
+          <text value="Capacité vitale forcée"/>
+        </code>
+        <subject>
+          <reference value="Patient/VunsPatientExample"/>
+        </subject>
+        <effectiveDateTime value="2025-03-01"/>
+        <performer>
+          <reference value="Practitioner/Physician"/>
+        </performer>
+        <valueQuantity>
+          <value value="3"/>
+          <unit value="L"/>
+          <system value="http://unitsofmeasure.org"/>
+        </valueQuantity>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://si-s-serv1041/ig/Observation/VunsTobaccoStatus"/>
+    <resource>
+      <Observation>
+        <id value="VunsTobaccoStatus"/>
+        <meta>
+          <profile value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsTobaccoObservation"/>
+          <profile value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-observation"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Observation_VunsTobaccoStatus"> </a><p class="res-header-id"><b>Generated Narrative: Observation VunsTobaccoStatus</b></p><a name="VunsTobaccoStatus"> </a><a name="hcVunsTobaccoStatus"> </a><a name="VunsTobaccoStatus-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profils: <a href="StructureDefinition-VunsTobaccoObservation.html">VunsTobaccoObservation</a>, <a href="https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.0.0/StructureDefinition-be-observation.html">BeObservation</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://loinc.org 72166-2}">Tobacco smoking status</span></p><p><b>subject</b>: <a href="Patient-VunsPatientExample.html">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>effective</b>: 2023-10-01</p><p><b>performer</b>: <a href="Bundle-VunsPneumoBundleExample.html#Practitioner_Physician">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p><p><b>value</b>: <span title="Codes:{http://loinc.org LA18976-3}">Current every day smoker</span></p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="72166-2"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/VunsPatientExample"/>
+        </subject>
+        <effectiveDateTime value="2023-10-01"/>
+        <performer>
+          <reference value="Practitioner/Physician"/>
+        </performer>
+        <valueCodeableConcept>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="LA18976-3"/>
+          </coding>
+        </valueCodeableConcept>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://si-s-serv1041/ig/Observation/VunsPneumoBioCRP"/>
+    <resource>
+      <Observation>
+        <id value="VunsPneumoBioCRP"/>
+        <meta>
+          <profile value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBio"/>
+          <profile value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-observation"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Observation_VunsPneumoBioCRP"> </a><p class="res-header-id"><b>Generated Narrative: Observation VunsPneumoBioCRP</b></p><a name="VunsPneumoBioCRP"> </a><a name="hcVunsPneumoBioCRP"> </a><a name="VunsPneumoBioCRP-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profils: <a href="StructureDefinition-VunsPneumoBio.html">VunsPneumoBio</a>, <a href="https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.0.0/StructureDefinition-be-observation.html">BeObservation</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://loinc.org 1988-5}">CRP</span></p><p><b>subject</b>: <a href="Patient-VunsPatientExample.html">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>effective</b>: 2025-03-01</p><p><b>performer</b>: <a href="Bundle-VunsPneumoBundleExample.html#Organization_VunsLabo">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p><p><b>value</b>: 8 mg/dL<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemg/dL = 'mg/dL')</span></p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="1988-5"/>
+          </coding>
+          <text value="CRP"/>
+        </code>
+        <subject>
+          <reference value="Patient/VunsPatientExample"/>
+        </subject>
+        <effectiveDateTime value="2025-03-01"/>
+        <performer>
+          <reference value="Organization/VunsLabo"/>
+        </performer>
+        <valueQuantity>
+          <value value="8"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="mg/dL"/>
+        </valueQuantity>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://si-s-serv1041/ig/Procedure/VunsEfrExample"/>
+    <resource>
+      <Procedure>
+        <id value="VunsEfrExample"/>
+        <meta>
+          <profile value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfr"/>
+        </meta>
+        <language value="fr-BE"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-BE" lang="fr-BE"><a name="Procedure_VunsEfrExample"> </a><p class="res-header-id"><b>Generated Narrative: Procedure VunsEfrExample</b></p><a name="VunsEfrExample"> </a><a name="hcVunsEfrExample"> </a><a name="VunsEfrExample-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: fr-BE</p><p style="margin-bottom: 0px">Profil: <a href="StructureDefinition-VunsEfr.html">VunsEfr</a></p></div><p><b>status</b>: Completed</p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 23426006}">Mesure de la fonction respiratoire</span></p><p><b>subject</b>: <a href="Patient-VunsPatientExample.html">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>encounter</b>: <a href="Bundle-VunsPneumoBundleExample.html#Encounter_EuEncounterExample">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p><p><b>performed</b>: 2025-03-01</p><p><b>report</b>: <a href="Bundle-VunsPneumoBundleExample.html#DiagnosticReport_EfrDiagnosticReport">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p></div>
+        </text>
+        <status value="completed"/>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="23426006"/>
+          </coding>
+          <text value="Mesure de la fonction respiratoire"/>
+        </code>
+        <subject>
+          <reference value="Patient/VunsPatientExample"/>
+        </subject>
+        <encounter>
+          <reference value="Encounter/EuEncounterExample"/>
+        </encounter>
+        <performedDateTime value="2025-03-01"/>
+        <report>
+          <reference value="DiagnosticReport/EfrDiagnosticReport"/>
+        </report>
+      </Procedure>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://si-s-serv1041/ig/DiagnosticReport/EfrDiagnosticReport"/>
+    <resource>
+      <DiagnosticReport>
+        <id value="EfrDiagnosticReport"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/DiagnosticReport-uv-ips"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="DiagnosticReport_EfrDiagnosticReport"> </a><p class="res-header-id"><b>Generated Narrative: DiagnosticReport EfrDiagnosticReport</b></p><a name="EfrDiagnosticReport"> </a><a name="hcEfrDiagnosticReport"> </a><a name="EfrDiagnosticReport-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/uv/ips/STU1.1/StructureDefinition-DiagnosticReport-uv-ips.html">DiagnosticReport (IPS)</a></p></div><h2><span title="Codes:{http://snomed.info/sct 23426006}">Pulmonary function test</span> (<span title="Codes:{http://snomed.info/sct 386053000}">Evaluation procedure</span>) </h2><table class="grid"><tr><td>Sujet</td><td>Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</td></tr><tr><td>When For</td><td>2025-03-01</td></tr></table><p><b>Report Details</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Valeur</b></td><td><b>Drapeaux</b></td></tr><tr><td><a href="Observation-VunsEfrCVF.html"><span title="Codes:{http://loinc.org 19876-2}">Capacité vitale forcée</span></a></td><td>3 L</td><td>Final</td></tr><tr><td><a href="Observation-VunsEfrVVEMS.html"><span title="Codes:{http://loinc.org 20157-4}">FEV1</span></a></td><td>1.8 L</td><td>Final</td></tr><tr><td><a href="Observation-VunsEfrCPT.html"><span title="Codes:{http://loinc.org 81450-9}">Capacité pulmonaire totale</span></a></td><td>4 L</td><td>Final</td></tr><tr><td><a href="Observation-VunsEfrVTiff.html"><span title="Codes:{http://loinc.org 19926-5}">Volume expiratoire maximal par seconde divisé par la capacité vitale forcée</span></a></td><td>80 %</td><td>Final</td></tr><tr><td><a href="Observation-VunsEfrCVFRatio.html"><span title="Codes:{http://loinc.org 19871-3}">FVC pre bronchodilation measured/predicted</span></a></td><td>64 %</td><td>Final</td></tr><tr><td><a href="Observation-VunsEfrVVEMSRatio.html"><span title="Codes:{http://loinc.org 20152-5}">FEV1 measured/predicted</span></a></td><td>62 %</td><td>Final</td></tr><tr><td><a href="Observation-VunsEfrCPTRatio.html"><span title="Codes:{http://loinc.org 89085-5}">Total lung capacity/Predicted total lung capacity</span></a></td><td>72 %</td><td>Final</td></tr><tr><td><a href="Observation-VunsEfrVRRatio.html"><span title="Codes:{http://loinc.org 81454-1}">Residual volume/Total capacity --pre bronchodilation</span></a></td><td>45 %</td><td>Final</td></tr><tr><td><a href="Observation-VunsEfrVRCPTRatio.html"><span title="Codes:{http://loinc.org 43252-6}">Residual volume/Total capacity predicted</span></a></td><td>36 %</td><td>Final</td></tr><tr><td><a href="Observation-VunsEfrDLCORatio.html"><span title="Codes:{http://loinc.org 98130-8}">Diffusion capacity.carbon monoxide/Predicted</span></a></td><td>50 %</td><td>Final</td></tr><tr><td><a href="Observation-VunsEfrDLCOVARatio.html"><span title="Codes:{http://loinc.org 98203-3}">(Diffusion capacity/Alveolar volume)/predicted</span></a></td><td>55 %</td><td>Final</td></tr></table></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="386053000"/>
+          </coding>
+          <text value="Evaluation procedure"/>
+        </category>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="23426006"/>
+          </coding>
+          <text value="Pulmonary function test"/>
+        </code>
+        <subject>
+          <reference value="Patient/VunsPatientExample"/>
+        </subject>
+        <effectiveDateTime value="2025-03-01"/>
+        <result>
+          <reference value="Observation/VunsEfrCVF"/>
+        </result>
+        <result>
+          <reference value="Observation/VunsEfrVVEMS"/>
+        </result>
+        <result>
+          <reference value="Observation/VunsEfrCPT"/>
+        </result>
+        <result>
+          <reference value="Observation/VunsEfrVTiff"/>
+        </result>
+        <result>
+          <reference value="Observation/VunsEfrCVFRatio"/>
+        </result>
+        <result>
+          <reference value="Observation/VunsEfrVVEMSRatio"/>
+        </result>
+        <result>
+          <reference value="Observation/VunsEfrCPTRatio"/>
+        </result>
+        <result>
+          <reference value="Observation/VunsEfrVRRatio"/>
+        </result>
+        <result>
+          <reference value="Observation/VunsEfrVRCPTRatio"/>
+        </result>
+        <result>
+          <reference value="Observation/VunsEfrDLCORatio"/>
+        </result>
+        <result>
+          <reference value="Observation/VunsEfrDLCOVARatio"/>
+        </result>
+      </DiagnosticReport>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://si-s-serv1041/ig/DiagnosticReport/VunsPneumoBioReportExample"/>
+    <resource>
+      <DiagnosticReport>
+        <id value="VunsPneumoBioReportExample"/>
+        <meta>
+          <profile value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBioReport"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="DiagnosticReport_VunsPneumoBioReportExample"> </a><p class="res-header-id"><b>Generated Narrative: DiagnosticReport VunsPneumoBioReportExample</b></p><a name="VunsPneumoBioReportExample"> </a><a name="hcVunsPneumoBioReportExample"> </a><a name="VunsPneumoBioReportExample-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="StructureDefinition-VunsPneumoBioReport.html">VunsPneumoBioReport</a></p></div><h2><span title="Codes:{http://loinc.org 11502-2}">Laboratory report</span> (<span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span>) </h2><table class="grid"><tr><td>Sujet</td><td>Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</td></tr><tr><td>When For</td><td>2025-03-01</td></tr><tr><td>Performer</td><td> <a href="Bundle-VunsPneumoBundleExample.html#Organization_VunsLabo">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></td></tr></table><p><b>Report Details</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Valeur</b></td><td><b>Drapeaux</b></td></tr><tr><td><a href="Observation-VunsPneumoBioHemoglobin.html"><span title="Codes:{http://loinc.org 718-7}">Hemoglobin</span></a></td><td>14.5 g/dL<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/dL = 'g/dL')</span></td><td>Final</td></tr><tr><td><a href="Observation-VunsPneumoBioCRP.html"><span title="Codes:{http://loinc.org 1988-5}">CRP</span></a></td><td>8 mg/dL<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemg/dL = 'mg/dL')</span></td><td>Final</td></tr><tr><td><a href="Observation-VunsPneumoBioEosinophils.html"><span title="Codes:{http://loinc.org 26449-9}">Eosinophils</span></a></td><td>300 10*3/uL<span style="background: LightGoldenRodYellow"> (Details: UCUM  code10*3/uL = '10*3/uL')</span></td><td>Final</td></tr><tr><td><a href="Observation-VunsPneumoBioCreatinin.html"><span title="Codes:{http://loinc.org 38483-4}">Creatinin</span></a></td><td>1.8 mg/dL<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemg/dL = 'mg/dL')</span></td><td>Final</td></tr><tr><td><a href="Observation-VunsPneumoBioGFR.html"><span title="Codes:{http://loinc.org 70969-1}">Taux de filtration glomérulaire parmi la population masculine</span></a></td><td>90 mL/min<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemL/min = 'mL/min')</span></td><td>Final</td></tr></table></div>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="11502-2"/>
+          </coding>
+          <text value="Laboratory report"/>
+        </code>
+        <subject>
+          <reference value="Patient/VunsPatientExample"/>
+        </subject>
+        <effectiveDateTime value="2025-03-01"/>
+        <performer>
+          <reference value="Organization/VunsLabo"/>
+        </performer>
+        <result>
+          <reference value="Observation/VunsPneumoBioHemoglobin"/>
+        </result>
+        <result>
+          <reference value="Observation/VunsPneumoBioCRP"/>
+        </result>
+        <result>
+          <reference value="Observation/VunsPneumoBioEosinophils"/>
+        </result>
+        <result>
+          <reference value="Observation/VunsPneumoBioCreatinin"/>
+        </result>
+        <result>
+          <reference value="Observation/VunsPneumoBioGFR"/>
+        </result>
+      </DiagnosticReport>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://si-s-serv1041/ig/Organization/GSI"/>
+    <resource>
+      <Organization>
+        <id value="GSI"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Organization_GSI"> </a><p class="res-header-id"><b>Generated Narrative: Organization GSI</b></p><a name="GSI"> </a><a name="hcGSI"> </a><a name="GSI-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/uv/ips/STU1.1/StructureDefinition-Organization-uv-ips.html">Organization (IPS)</a></p></div><p><b>name</b>: GSI tests</p></div>
+        </text>
+        <name value="GSI tests"/>
+      </Organization>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://si-s-serv1041/ig/Practitioner/Physician"/>
+    <resource>
+      <Practitioner>
+        <id value="Physician"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Practitioner_Physician"> </a><p class="res-header-id"><b>Generated Narrative: Practitioner Physician</b></p><a name="Physician"> </a><a name="hcPhysician"> </a><a name="Physician-und"> </a><p><b>name</b>: Dr. Jean Toubib</p></div>
+        </text>
+        <name>
+          <text value="Dr. Jean Toubib"/>
+        </name>
+      </Practitioner>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://si-s-serv1041/ig/Organization/VunsLabo"/>
+    <resource>
+      <Organization>
+        <id value="VunsLabo"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Organization_VunsLabo"> </a><p class="res-header-id"><b>Generated Narrative: Organization VunsLabo</b></p><a name="VunsLabo"> </a><a name="hcVunsLabo"> </a><a name="VunsLabo-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/uv/ips/STU1.1/StructureDefinition-Organization-uv-ips.html">Organization (IPS)</a></p></div><p><b>name</b>: CHU Labo</p></div>
+        </text>
+        <name value="CHU Labo"/>
+      </Organization>
+    </resource>
+  </entry>
+</Bundle>

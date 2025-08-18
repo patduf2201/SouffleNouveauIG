@@ -18,7 +18,7 @@
       "value" : "http://www.chuliege.be"
     }]
   }],
-  "description" : "Profil pour un Bundle 'Discharge Report' en pneumologie dans le cadre du projet Vers Un Souffle Nouveau",
+  "description" : "Profile for Bundles 'Discharge Report' in repiratory diseases in the scope of the 'Vers Un Souffle Nouveau' project",
   "copyright" : "RM@H IG (C) 2025-2025 University Hospital of Liege, GSI Department, Belgium. This implementation guide is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.",
   "fhirVersion" : "4.0.1",
   "mapping" : [{

@@ -10,11 +10,11 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
-      "ValueSet-i2x-tabac.html" : "Jeu de concept de tabacologie",
-      "ValueSet-i2x-tabac-status.html" : "Jeu de concept pour le statut de tabagisme",
-      "ValueSet-i2x-pneumo-bio.html" : "Jeu de biologies d'intérêt pour la télésurveillance des maladies respiratoires",
-      "ValueSet-i2x-pneumo-vitaux.html" : "Jeu de signes vitaux pneumologie",
-      "ValueSet-i2x-efr.html" : "Jeu d'observations d'une épreuve fonctionnelle respiratoire"
+      "ValueSet-i2x-pneumo-vitaux.html" : "PNEUMO_VITAAUX_VS",
+      "ValueSet-i2x-tabac-status.html" : "TABAC_STATUS_VS",
+      "ValueSet-i2x-pneumo-bio.html" : "PNEUMO_BIO_VS",
+      "ValueSet-i2x-tabac.html" : "TABAC_VS",
+      "ValueSet-i2x-efr.html" : "Valueset for pulmonary function test measurements"
     },
     {
       "url" : "http://snomed.info/sct",
@@ -26,7 +26,7 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "ValueSet-i2x-pneumo-diagnostic.html" : "Jeu de diagnostic principal maladie respiratoire"
+      "ValueSet-i2x-pneumo-diagnostic.html" : "PNEUMO_DIAGNOSTIC_VS"
     }
   ]
 }

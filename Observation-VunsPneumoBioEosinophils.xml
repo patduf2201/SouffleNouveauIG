@@ -7,7 +7,7 @@
     <profile value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-observation"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation VunsPneumoBioEosinophils</b></p><a name="VunsPneumoBioEosinophils"> </a><a name="hcVunsPneumoBioEosinophils"> </a><a name="VunsPneumoBioEosinophils-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profils: <a href="StructureDefinition-VunsPneumoBio.html">VunsPneumoBio</a>, <a href="https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.0.0/StructureDefinition-be-observation.html">BeObservation</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://loinc.org 26449-9}">Éosinophiles</span></p><p><b>subject</b>: <a href="Patient-VunsPatientExample.html">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>effective</b>: 2025-03-01</p><p><b>performer</b>: <a href="Bundle-VunsPneumoBundleExample.html#Organization_VunsLabo">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p><p><b>value</b>: 300 10*3/uL<span style="background: LightGoldenRodYellow"> (Details: UCUM  code10*3/uL = '10*3/uL')</span></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation VunsPneumoBioEosinophils</b></p><a name="VunsPneumoBioEosinophils"> </a><a name="hcVunsPneumoBioEosinophils"> </a><a name="VunsPneumoBioEosinophils-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profils: <a href="StructureDefinition-VunsPneumoBio.html">VunsPneumoBio</a>, <a href="https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.0.0/StructureDefinition-be-observation.html">BeObservation</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://loinc.org 26449-9}">Eosinophils</span></p><p><b>subject</b>: <a href="Patient-VunsPatientExample.html">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>effective</b>: 2025-03-01</p><p><b>performer</b>: <a href="Bundle-VunsPneumoBundleExample.html#Organization_VunsLabo">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p><p><b>value</b>: 300 10*3/uL<span style="background: LightGoldenRodYellow"> (Details: UCUM  code10*3/uL = '10*3/uL')</span></p></div>
   </text>
   <status value="final"/>
   <code>
@@ -15,7 +15,7 @@
       <system value="http://loinc.org"/>
       <code value="26449-9"/>
     </coding>
-    <text value="Éosinophiles"/>
+    <text value="Eosinophils"/>
   </code>
   <subject>
     <reference value="Patient/VunsPatientExample"/>

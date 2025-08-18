@@ -28,8 +28,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1"],
       "uses" : {
       },
-      "StructureDefinition-VunsPatient.html" : "VunsPatient",
       "StructureDefinition-chul-patient.html" : "ChulPatient",
+      "StructureDefinition-VunsPatient.html" : "VunsPatient",
       "StructureDefinition-vuns-context.html" : "Logical model for remote monitoring context in the scope of the VUNS project"
     },
     {
@@ -44,12 +44,12 @@
       "sources" : ["2.16.840.1.113883.4.642.3.141"],
       "uses" : {
       },
-      "StructureDefinition-VunsEfr.html" : "VunsEfr",
-      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
-      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
       "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
+      "StructureDefinition-VunsEfr.html" : "VunsEfr",
       "StructureDefinition-VunsPneumoCondition.html" : "VunsPneumoCondition",
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
       "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
       "StructureDefinition-vuns-context.html" : "Logical model for remote monitoring context in the scope of the VUNS project"
     },
     {
@@ -268,10 +268,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.5"],
       "uses" : {
       },
-      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
-      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
       "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
-      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign"
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
+      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/device-action",
@@ -285,7 +285,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.425"],
       "uses" : {
       },
-      "StructureDefinition-VunsEfr.html" : "VunsEfr"
+      "StructureDefinition-VunsEfr.html" : "VunsEfr",
+      "StructureDefinition-vuns-context.html" : "Logical model for remote monitoring context in the scope of the VUNS project"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/device-kind",
@@ -299,7 +300,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.208"],
       "uses" : {
       },
-      "StructureDefinition-VunsEfr.html" : "VunsEfr"
+      "StructureDefinition-VunsEfr.html" : "VunsEfr",
+      "StructureDefinition-vuns-context.html" : "Logical model for remote monitoring context in the scope of the VUNS project"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/diagnostic-report-status",
@@ -399,7 +401,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.109"],
       "uses" : {
       },
-      "StructureDefinition-VunsEfr.html" : "VunsEfr"
+      "StructureDefinition-VunsEfr.html" : "VunsEfr",
+      "StructureDefinition-vuns-context.html" : "Logical model for remote monitoring context in the scope of the VUNS project"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/http-verb",
@@ -455,17 +458,17 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-VunsEfr.html" : "VunsEfr",
-      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
-      "StructureDefinition-VunsPatient.html" : "VunsPatient",
-      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
       "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
-      "StructureDefinition-VunsPneumoComposition.html" : "VunsPneumoComposition",
+      "StructureDefinition-VunsEfr.html" : "VunsEfr",
       "StructureDefinition-VunsPneumoCondition.html" : "VunsPneumoCondition",
       "StructureDefinition-chul-patient.html" : "ChulPatient",
       "StructureDefinition-VunsPneumoBioReport.html" : "VunsPneumoBioReport",
       "StructureDefinition-VunsPneumoBundle.html" : "VunsPneumoBundle",
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
       "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
+      "StructureDefinition-VunsPatient.html" : "VunsPatient",
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
+      "StructureDefinition-VunsPneumoComposition.html" : "VunsPneumoComposition",
       "StructureDefinition-vuns-context.html" : "Logical model for remote monitoring context in the scope of the VUNS project"
     },
     {
@@ -480,8 +483,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.423"],
       "uses" : {
       },
-      "StructureDefinition-VunsPatient.html" : "VunsPatient",
       "StructureDefinition-chul-patient.html" : "ChulPatient",
+      "StructureDefinition-VunsPatient.html" : "VunsPatient",
       "StructureDefinition-vuns-context.html" : "Logical model for remote monitoring context in the scope of the VUNS project"
     },
     {
@@ -556,8 +559,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.29"],
       "uses" : {
       },
-      "StructureDefinition-VunsPatient.html" : "VunsPatient",
       "StructureDefinition-chul-patient.html" : "ChulPatient",
+      "StructureDefinition-VunsPatient.html" : "VunsPatient",
       "StructureDefinition-vuns-context.html" : "Logical model for remote monitoring context in the scope of the VUNS project"
     },
     {
@@ -572,8 +575,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1024"],
       "uses" : {
       },
-      "StructureDefinition-VunsPneumoComposition.html" : "VunsPneumoComposition",
-      "StructureDefinition-VunsPneumoBundle.html" : "VunsPneumoBundle"
+      "StructureDefinition-VunsPneumoBundle.html" : "VunsPneumoBundle",
+      "StructureDefinition-VunsPneumoComposition.html" : "VunsPneumoComposition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/name-use",
@@ -601,10 +604,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.403"],
       "uses" : {
       },
-      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
-      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
       "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
-      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign"
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
+      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
@@ -618,10 +621,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.396"],
       "uses" : {
       },
-      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
-      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
       "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
-      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign"
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
+      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
@@ -637,10 +640,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.399"],
       "uses" : {
       },
-      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
-      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
       "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
-      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign"
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
+      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
@@ -654,10 +657,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.395"],
       "uses" : {
       },
-      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
-      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
       "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
-      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign"
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
+      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-status",
@@ -671,10 +674,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.400"],
       "uses" : {
       },
-      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
-      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
       "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
-      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign"
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
+      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
@@ -688,8 +691,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1130"],
       "uses" : {
       },
-      "StructureDefinition-VunsPatient.html" : "VunsPatient",
       "StructureDefinition-chul-patient.html" : "ChulPatient",
+      "StructureDefinition-VunsPatient.html" : "VunsPatient",
       "StructureDefinition-vuns-context.html" : "Logical model for remote monitoring context in the scope of the VUNS project"
     },
     {
@@ -704,7 +707,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.433"],
       "uses" : {
       },
-      "StructureDefinition-VunsEfr.html" : "VunsEfr"
+      "StructureDefinition-VunsEfr.html" : "VunsEfr",
+      "StructureDefinition-vuns-context.html" : "Logical model for remote monitoring context in the scope of the VUNS project"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/procedure-category",
@@ -718,7 +722,22 @@
       "sources" : ["2.16.840.1.113883.4.642.3.430"],
       "uses" : {
       },
-      "StructureDefinition-VunsEfr.html" : "VunsEfr"
+      "StructureDefinition-VunsEfr.html" : "VunsEfr",
+      "StructureDefinition-vuns-context.html" : "Logical model for remote monitoring context in the scope of the VUNS project"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureCodes(SNOMEDCT)",
+      "title" : "Procedure Codes (SNOMED CT)",
+      "description" : "Procedure Code: All SNOMED CT procedure codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.427"],
+      "sources" : ["2.16.840.1.113883.4.642.3.427"],
+      "uses" : {
+      },
+      "StructureDefinition-vuns-context.html" : "Logical model for remote monitoring context in the scope of the VUNS project"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/procedure-followup",
@@ -732,7 +751,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.429"],
       "uses" : {
       },
-      "StructureDefinition-VunsEfr.html" : "VunsEfr"
+      "StructureDefinition-VunsEfr.html" : "VunsEfr",
+      "StructureDefinition-vuns-context.html" : "Logical model for remote monitoring context in the scope of the VUNS project"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/procedure-not-performed-reason",
@@ -746,7 +766,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.431"],
       "uses" : {
       },
-      "StructureDefinition-VunsEfr.html" : "VunsEfr"
+      "StructureDefinition-VunsEfr.html" : "VunsEfr",
+      "StructureDefinition-vuns-context.html" : "Logical model for remote monitoring context in the scope of the VUNS project"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/procedure-outcome",
@@ -760,7 +781,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.428"],
       "uses" : {
       },
-      "StructureDefinition-VunsEfr.html" : "VunsEfr"
+      "StructureDefinition-VunsEfr.html" : "VunsEfr",
+      "StructureDefinition-vuns-context.html" : "Logical model for remote monitoring context in the scope of the VUNS project"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/procedure-reason",
@@ -774,7 +796,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.432"],
       "uses" : {
       },
-      "StructureDefinition-VunsEfr.html" : "VunsEfr"
+      "StructureDefinition-VunsEfr.html" : "VunsEfr",
+      "StructureDefinition-vuns-context.html" : "Logical model for remote monitoring context in the scope of the VUNS project"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
@@ -791,10 +814,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.407"],
       "uses" : {
       },
-      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
-      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
       "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
-      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign"
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
+      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
@@ -810,10 +833,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.397"],
       "uses" : {
       },
-      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio",
-      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
       "StructureDefinition-VunsEfrObservation.html" : "VunsEfrObservation",
-      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign"
+      "StructureDefinition-VunsTobaccoObservation.html" : "VunsTobaccoObservation",
+      "StructureDefinition-VunsPneumoVitalSign.html" : "VunsPneumoVitalSign",
+      "StructureDefinition-VunsPneumoBio.html" : "VunsPneumoBio"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/report-codes",
@@ -911,8 +934,8 @@
       "version" : "0.1.2",
       "status" : "draft",
       "name" : "EFR_VS",
-      "title" : "Jeu d'observations d'une épreuve fonctionnelle respiratoire",
-      "description" : "Jeu d'bservations d'une épreuve fonctionnelle respiratoire",
+      "title" : "Valueset for pulmonary function test measurements",
+      "description" : "Valueset for pulmonary function test measurements",
       "systems" : ["http://loinc.org"],
       "uses" : {
       },
@@ -923,8 +946,8 @@
       "version" : "0.1.2",
       "status" : "draft",
       "name" : "PNEUMO_BIO_VS",
-      "title" : "Jeu de biologies d'intérêt pour la télésurveillance des maladies respiratoires",
-      "description" : "Jeu de biologies d'intérêt pour la télésurveillance des maladies respiratoires",
+      "title" : null,
+      "description" : "Valueset for significant laboratory results in the scope of the 'Vers Un Souffle Nouveau' project",
       "systems" : ["http://loinc.org"],
       "uses" : {
       },
@@ -935,8 +958,8 @@
       "version" : "0.1.2",
       "status" : "draft",
       "name" : "PNEUMO_DIAGNOSTIC_VS",
-      "title" : "Jeu de diagnostic principal maladie respiratoire",
-      "description" : "Jeu de diagnostic principal maladie respiratoire",
+      "title" : null,
+      "description" : "Valueset for principal diagnosis in the scope of he 'Vers Un Souffle Nouveau' project",
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
@@ -947,8 +970,8 @@
       "version" : "0.1.2",
       "status" : "draft",
       "name" : "PNEUMO_VITAAUX_VS",
-      "title" : "Jeu de signes vitaux pneumologie",
-      "description" : "Jeu de signes vitaux pneumologie",
+      "title" : null,
+      "description" : "Valueset for vital signs in the scope of the 'Vers Un Souffle Nouveau' project",
       "systems" : ["http://loinc.org"],
       "uses" : {
       },
@@ -959,8 +982,8 @@
       "version" : "0.1.2",
       "status" : "draft",
       "name" : "TABAC_VS",
-      "title" : "Jeu de concept de tabacologie",
-      "description" : "Jeu de concept de tabacologie",
+      "title" : null,
+      "description" : "Valueset for tobaccoology concepts in the scope of the 'Vers Un Souffle Nouveau' project",
       "systems" : ["http://loinc.org"],
       "uses" : {
       },
@@ -971,8 +994,8 @@
       "version" : "0.1.2",
       "status" : "draft",
       "name" : "TABAC_STATUS_VS",
-      "title" : "Jeu de concept pour le statut de tabagisme",
-      "description" : null,
+      "title" : null,
+      "description" : "Valueset for tobacco status in the scope of the 'Vers Un Souffle Nouveau' project",
       "systems" : ["http://loinc.org"]
     },
     {

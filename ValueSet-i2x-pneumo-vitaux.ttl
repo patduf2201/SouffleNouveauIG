@@ -16,7 +16,6 @@
   fhir:url [ fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-vitaux"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.2"] ; # 
   fhir:name [ fhir:v "PNEUMO_VITAAUX_VS"] ; # 
-  fhir:title [ fhir:v "Jeu de signes vitaux pneumologie"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:date [ fhir:v "2025-04-14"^^xsd:date] ; # 
   fhir:publisher [ fhir:v "CHU Liège"] ; # 
@@ -27,7 +26,7 @@
        fhir:value [ fhir:v "http://www.chuliege.be" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "Jeu de signes vitaux pneumologie"] ; # 
+  fhir:description [ fhir:v "Valueset for vital signs in the scope of the 'Vers Un Souffle Nouveau' project"] ; # 
   fhir:copyright [ fhir:v "RM@H IG (C) 2025-2025 University Hospital of Liege, GSI Department, Belgium. This implementation guide is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>."] ; # 
   fhir:compose [
      fhir:include ( [

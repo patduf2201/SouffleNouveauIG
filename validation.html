@@ -30,10 +30,10 @@
     <![endif]-->
 
     <!-- Favicons -->
-    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
-    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
-    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
-    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
@@ -142,30 +142,34 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <div>
 <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
 </div>
-<p>Les resources FHIR peuvent être validées via l'outil Validator CLI.
-Actuellement, la validation des resources sur un serveur FHIR n'est pas supportée (opération $validate)</p>
+<p>FHIR resources can be validator against this profile using FHIR validator CLI.
+As the IG cannot be published, validating on a FHIR server is not supported ($validate operation)</p>
 
-<h3 id="comment-valider-les-resources-">Comment valider les resources ?</h3>
+<h3 id="how-to-validate-resources-">How to validate resources ?</h3>
 
-<p>Installer dotNET SDK 8
+<p>Install dotNET SDK 8
 <code class="language-plaintext highlighter-rouge">winget install Microsoft.DotNet.SDK.8</code></p>
 
-<p>Installer Firely terminal
+<p>Install Firely terminal
 <code class="language-plaintext highlighter-rouge">dotnet tool install -g firely.terminal</code></p>
 
-<p>Installer Java JRE 17+</p>
+<p>Install Java JRE 17+</p>
 
-<p>Télécharger validator CLI <a href="https://github.com/hapifhir/org.hl7.fhir.core/releases/latest/download/validator_cli.jar">here</a></p>
+<p>Download validator CLI <a href="https://github.com/hapifhir/org.hl7.fhir.core/releases/latest/download/validator_cli.jar">here</a></p>
 
-<p>Charger les guides non publiés dans le cache FHIR local:</p>
-<ul>
-  <li>Télécharger le package de cet IG <a href="https://patduf2201.github.io/SouffleNouveauIG/package.tgz">ici</a> et l'installer: <code class="language-plaintext highlighter-rouge">fhir install package.tgz --file</code>.</li>
-</ul>
+<p>Download this IG package <a href="https://patduf2201.github.io/SouffleNouveauIG/package.tgz">here</a> and install it: <code class="language-plaintext highlighter-rouge">fhir install package.tgz --file</code>.</p>
 
-<p>Exécuter le validateur sur vos resources. Par exemple: 
+<p>Run validator against your resources. Example: 
 <code class="language-plaintext highlighter-rouge">java -jar ..\fhir-validator\validator_cli.jar output\Bundle-ChulPneumoBundleExample.json -ig be.chuliege.versunsoufflenouveau</code></p>
 
-<p>Examiner la sortie du validateur. Voir <a href="https://confluence.hl7.org/spaces/FHIR/pages/35718580/Using+the+FHIR+Validator">documentation</a></p>
+<p>Inspect validator output. See <a href="https://confluence.hl7.org/spaces/FHIR/pages/35718580/Using+the+FHIR+Validator">documentation</a></p>
+
+<p>Useful options:</p>
+<ul>
+  <li>Set output level to error with -level errors</li>
+  <li>Turn off coding display validation with -coding-display Ignore</li>
+  <li>Clear terminology cache with -clear-tx-cache. This can be useful if the cache became invalid due to alternate terminology servers or network issues.</li>
+</ul>
 
 
 
@@ -186,7 +190,7 @@ Actuellement, la validation des resources sur un serveur FHIR n'est pas support�
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.chuliege.be">CHU Liège</a>.  Package be.chuliege.versunsoufflenouveau#0.1.2 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Aug 4, 2025 16:29+0200">2025-08-04</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.chuliege.be">CHU Liège</a>.  Package be.chuliege.versunsoufflenouveau#0.1.2 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Aug 18, 2025 11:24+0200">2025-08-18</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

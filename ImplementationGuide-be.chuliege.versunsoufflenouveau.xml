@@ -10,7 +10,7 @@
   <version value="0.1.2"/>
   <name value="SouffleNouveauIG"/>
   <status value="draft"/>
-  <date value="2025-08-04T16:28:32+02:00"/>
+  <date value="2025-08-18T11:20:46+02:00"/>
   <publisher value="CHU Liège"/>
   <contact>
     <name value="CHU Liège"/>
@@ -488,73 +488,8 @@
         <reference value="Composition/VunsPneumoCompositionExample"/>
       </reference>
       <name value="Exemple de composition en pneumologie dans le cadre du projet Vers Un Souffle Nouveau"/>
-      <description value="Example de composition dans le cadre du projet Vers Un Souffle Nouveau"/>
+      <description value="Composition example"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoComposition"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/i2x-efr"/>
-      </reference>
-      <name value="Jeu d'observations d'une épreuve fonctionnelle respiratoire"/>
-      <description value="Jeu d'bservations d'une épreuve fonctionnelle respiratoire"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/i2x-pneumo-bio"/>
-      </reference>
-      <name value="Jeu de biologies d'intérêt pour la télésurveillance des maladies respiratoires"/>
-      <description value="Jeu de biologies d'intérêt pour la télésurveillance des maladies respiratoires"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/i2x-tabac"/>
-      </reference>
-      <name value="Jeu de concept de tabacologie"/>
-      <description value="Jeu de concept de tabacologie"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/i2x-tabac-status"/>
-      </reference>
-      <name value="Jeu de concept pour le statut de tabagisme"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/i2x-pneumo-diagnostic"/>
-      </reference>
-      <name value="Jeu de diagnostic principal maladie respiratoire"/>
-      <description value="Jeu de diagnostic principal maladie respiratoire"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/i2x-pneumo-vitaux"/>
-      </reference>
-      <name value="Jeu de signes vitaux pneumologie"/>
-      <description value="Jeu de signes vitaux pneumologie"/>
-      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -569,13 +504,90 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/i2x-pneumo-bio"/>
+      </reference>
+      <name value="PNEUMO_BIO_VS"/>
+      <description value="Valueset for significant laboratory results in the scope of the 'Vers Un Souffle Nouveau' project"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/i2x-pneumo-diagnostic"/>
+      </reference>
+      <name value="PNEUMO_DIAGNOSTIC_VS"/>
+      <description value="Valueset for principal diagnosis in the scope of he 'Vers Un Souffle Nouveau' project"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/i2x-pneumo-vitaux"/>
+      </reference>
+      <name value="PNEUMO_VITAAUX_VS"/>
+      <description value="Valueset for vital signs in the scope of the 'Vers Un Souffle Nouveau' project"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Composition"/>
+      </extension>
+      <reference>
+        <reference value="Composition/VunsPneumoCompositionShortExample"/>
+      </reference>
+      <name value="Short composition example in the scope in the 'Vers Un Souffle Nouveau' project"/>
+      <description value="Short composition example in the scope in the 'Vers Un Souffle Nouveau' project"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoComposition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/i2x-tabac-status"/>
+      </reference>
+      <name value="TABAC_STATUS_VS"/>
+      <description value="Valueset for tobacco status in the scope of the 'Vers Un Souffle Nouveau' project"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/i2x-tabac"/>
+      </reference>
+      <name value="TABAC_VS"/>
+      <description value="Valueset for tobaccoology concepts in the scope of the 'Vers Un Souffle Nouveau' project"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/i2x-efr"/>
+      </reference>
+      <name value="Valueset for pulmonary function test measurements"/>
+      <description value="Valueset for pulmonary function test measurements"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/VunsEfr"/>
       </reference>
       <name value="VunsEfr"/>
-      <description value="Profile pour les épreuves fonctionnelles respiratoires"/>
+      <description value="Profile for pulmonary function tests"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -586,7 +598,7 @@
         <reference value="Observation/VunsEfrCPT"/>
       </reference>
       <name value="VunsEfrCPT"/>
-      <description value="Example de capacité pulmonaire totale"/>
+      <description value="Total lung capacity example"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"/>
     </resource>
     <resource>
@@ -597,7 +609,7 @@
         <reference value="Observation/VunsEfrCPTRatio"/>
       </reference>
       <name value="VunsEfrCPTRatio"/>
-      <description value="Example de CPT%"/>
+      <description value="Total lung capacity/Predicted total lung capacity example"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"/>
     </resource>
     <resource>
@@ -608,7 +620,7 @@
         <reference value="Observation/VunsEfrCVF"/>
       </reference>
       <name value="VunsEfrCVF"/>
-      <description value="Example de capacité vitale forcée lors d'une épreuve fonctionnelle respiratoire"/>
+      <description value="Forced vital capacity example"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"/>
     </resource>
     <resource>
@@ -619,7 +631,7 @@
         <reference value="Observation/VunsEfrCVFRatio"/>
       </reference>
       <name value="VunsEfrCVFRatio"/>
-      <description value="Example de CVF%"/>
+      <description value="FVC pre bronchodilation measured/predicted sample"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"/>
     </resource>
     <resource>
@@ -630,7 +642,7 @@
         <reference value="Observation/VunsEfrDLCORatio"/>
       </reference>
       <name value="VunsEfrDLCORatio"/>
-      <description value="Example de DLCO%"/>
+      <description value="Diffusion capacity.carbon monoxide/Predicted example"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"/>
     </resource>
     <resource>
@@ -641,7 +653,7 @@
         <reference value="Observation/VunsEfrDLCOVARatio"/>
       </reference>
       <name value="VunsEfrDLCOVARatio"/>
-      <description value="Example de DLCO/VA(%)"/>
+      <description value="(Diffusion capacity/Alveolar volume)/predicted example"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"/>
     </resource>
     <resource>
@@ -652,7 +664,7 @@
         <reference value="Procedure/VunsEfrExample"/>
       </reference>
       <name value="VunsEfrExample"/>
-      <description value="Exemple d'épreuve fonctionnelle respiratoire"/>
+      <description value="Pulmonary function test examples"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfr"/>
     </resource>
     <resource>
@@ -663,7 +675,7 @@
         <reference value="StructureDefinition/VunsEfrObservation"/>
       </reference>
       <name value="VunsEfrObservation"/>
-      <description value="Profil pour les mesures effectuées dans le cadre d'une épreuve fonctionnelle respiratoire"/>
+      <description value="Profile for pulmonary function test measurements"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -674,7 +686,7 @@
         <reference value="Observation/VunsEfrVRCPTRatio"/>
       </reference>
       <name value="VunsEfrVRCPTRatio"/>
-      <description value="Example de VR/CPT%"/>
+      <description value="Residual volume/Total capacity predicted example"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"/>
     </resource>
     <resource>
@@ -685,7 +697,7 @@
         <reference value="Observation/VunsEfrVRRatio"/>
       </reference>
       <name value="VunsEfrVRRatio"/>
-      <description value="Example de VR%"/>
+      <description value="Residual volume/Total capacity --pre bronchodilation example"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"/>
     </resource>
     <resource>
@@ -696,7 +708,7 @@
         <reference value="Observation/VunsEfrVTiff"/>
       </reference>
       <name value="VunsEfrVTiff"/>
-      <description value="Example de Tiffeneau lors d'une épreuve fonctionnelle respiratoire"/>
+      <description value="Tiffeneau example"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"/>
     </resource>
     <resource>
@@ -707,7 +719,7 @@
         <reference value="Observation/VunsEfrVTiffSource"/>
       </reference>
       <name value="VunsEfrVTiffSource"/>
-      <description value="Example d'observation originale dans OmniPro"/>
+      <description value="Source pumonary function test measurement in EHR at CHUL"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -718,7 +730,7 @@
         <reference value="Observation/VunsEfrVVEMS"/>
       </reference>
       <name value="VunsEfrVVEMS"/>
-      <description value="Example de FEV1"/>
+      <description value="FEV1 example"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"/>
     </resource>
     <resource>
@@ -729,7 +741,7 @@
         <reference value="Observation/VunsEfrVVEMSRatio"/>
       </reference>
       <name value="VunsEfrVVEMSRatio"/>
-      <description value="Example de CVF%"/>
+      <description value="FEV1 measured/predicted example"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"/>
     </resource>
     <resource>
@@ -740,7 +752,7 @@
         <reference value="StructureDefinition/VunsPatient"/>
       </reference>
       <name value="VunsPatient"/>
-      <description value="Profil pour un Patient enrôlé dans le cadre du projet Vers Un Souffle Nouveau"/>
+      <description value="Profile for patient enrolled in the 'Vers Un Souffle Nouveau' project"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -751,7 +763,7 @@
         <reference value="Patient/VunsPatientExample"/>
       </reference>
       <name value="VunsPatientExample"/>
-      <description value="Example de patient CHU Liège"/>
+      <description value="Patient example"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPatient"/>
     </resource>
     <resource>
@@ -762,7 +774,7 @@
         <reference value="StructureDefinition/VunsPneumoBio"/>
       </reference>
       <name value="VunsPneumoBio"/>
-      <description value="Profil pour les biologies d'intérêt pneumologique"/>
+      <description value="Profile for significant laboratory results in the scope of chronic respiratory disease remote monitoring"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -773,7 +785,7 @@
         <reference value="Observation/VunsPneumoBioCreatinin"/>
       </reference>
       <name value="VunsPneumoBioCreatinin"/>
-      <description value="Example de créatinine"/>
+      <description value="Creatinin example"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBio"/>
     </resource>
     <resource>
@@ -784,7 +796,7 @@
         <reference value="Observation/VunsPneumoBioCRP"/>
       </reference>
       <name value="VunsPneumoBioCRP"/>
-      <description value="Example de CRP"/>
+      <description value="CRP example"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBio"/>
     </resource>
     <resource>
@@ -795,7 +807,7 @@
         <reference value="Observation/VunsPneumoBioEosinophils"/>
       </reference>
       <name value="VunsPneumoBioEosinophils"/>
-      <description value="Example de Éosinophiles"/>
+      <description value="Eosinophils example"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBio"/>
     </resource>
     <resource>
@@ -806,7 +818,7 @@
         <reference value="Observation/VunsPneumoBioGFR"/>
       </reference>
       <name value="VunsPneumoBioGFR"/>
-      <description value="Example de taux de filtration glomérulaire parmi la population masculine"/>
+      <description value="Glomerular filtration rate example"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBio"/>
     </resource>
     <resource>
@@ -817,7 +829,7 @@
         <reference value="Observation/VunsPneumoBioHemoglobin"/>
       </reference>
       <name value="VunsPneumoBioHemoglobin"/>
-      <description value="Example de Hémoglobine"/>
+      <description value="Hemoglobin example"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBio"/>
     </resource>
     <resource>
@@ -828,7 +840,7 @@
         <reference value="StructureDefinition/VunsPneumoBioReport"/>
       </reference>
       <name value="VunsPneumoBioReport"/>
-      <description value="Profil pour un rapport de biologies d'intérêt pneumologique"/>
+      <description value="Profile for significant laboratory reports in the scope of chronic respiratory disease remote monitoring"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -839,7 +851,7 @@
         <reference value="DiagnosticReport/VunsPneumoBioReportExample"/>
       </reference>
       <name value="VunsPneumoBioReportExample"/>
-      <description value="Example de rapport de biologies d'intérêt pneumologique"/>
+      <description value="Laboratory report example"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBioReport"/>
     </resource>
     <resource>
@@ -850,7 +862,7 @@
         <reference value="StructureDefinition/VunsPneumoBundle"/>
       </reference>
       <name value="VunsPneumoBundle"/>
-      <description value="Profil pour un Bundle 'Discharge Report' en pneumologie dans le cadre du projet Vers Un Souffle Nouveau"/>
+      <description value="Profile for Bundles 'Discharge Report' in repiratory diseases in the scope of the 'Vers Un Souffle Nouveau' project"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -861,7 +873,18 @@
         <reference value="Bundle/VunsPneumoBundleExample"/>
       </reference>
       <name value="VunsPneumoBundleExample"/>
-      <description value="Example de bundle dans le cadre du projet Vers Un Souffle Nouveau"/>
+      <description value="Bundle example"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBundle"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/VunsPneumoBundleShortExample"/>
+      </reference>
+      <name value="VunsPneumoBundleShortExample"/>
+      <description value="Short bundle example in the scope of the 'Vers Un Souffle Nouveau' project"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBundle"/>
     </resource>
     <resource>
@@ -872,7 +895,7 @@
         <reference value="StructureDefinition/VunsPneumoComposition"/>
       </reference>
       <name value="VunsPneumoComposition"/>
-      <description value="Profil pour une Composition Discharge Report en pneumologie dans le cadre du projet Vers Un Souffle Nouveau"/>
+      <description value="Profile for Composition as hospital discharge report in the scope of the 'Vers Un Souffle Nouveau' project"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -883,7 +906,7 @@
         <reference value="StructureDefinition/VunsPneumoCondition"/>
       </reference>
       <name value="VunsPneumoCondition"/>
-      <description value="Profile pour un diagnostic pneumologique"/>
+      <description value="Profile for primary diagnosis"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -894,7 +917,7 @@
         <reference value="Condition/VunsPneumoConditionAsthma"/>
       </reference>
       <name value="VunsPneumoConditionAsthma"/>
-      <description value="Example de diagnostic asthme"/>
+      <description value="Asthme diagnosis example"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition"/>
     </resource>
     <resource>
@@ -905,7 +928,7 @@
         <reference value="Condition/VunsPneumoConditionCOPD"/>
       </reference>
       <name value="VunsPneumoConditionCOPD"/>
-      <description value="Example de diagnostic bpco"/>
+      <description value="COPD diagnosis example"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition"/>
     </resource>
     <resource>
@@ -916,7 +939,7 @@
         <reference value="StructureDefinition/VunsPneumoVitalSign"/>
       </reference>
       <name value="VunsPneumoVitalSign"/>
-      <description value="Profil pour une observation de signe vital en pneumologie"/>
+      <description value="Profile for Observation of vital sign in the scope of the 'Vers Un Souffle Nouveau' project"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -927,7 +950,7 @@
         <reference value="Observation/VunsPneumoVitalSignHeight"/>
       </reference>
       <name value="VunsPneumoVitalSignHeight"/>
-      <description value="Example de taille"/>
+      <description value="Height example"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoVitalSign"/>
     </resource>
     <resource>
@@ -938,7 +961,7 @@
         <reference value="Observation/VunsPneumoVitalSignWeight"/>
       </reference>
       <name value="VunsPneumoVitalSignWeight"/>
-      <description value="Example de poids"/>
+      <description value="Weight example"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoVitalSign"/>
     </resource>
     <resource>
@@ -949,7 +972,7 @@
         <reference value="Observation/VunsTobaccoAge"/>
       </reference>
       <name value="VunsTobaccoAge"/>
-      <description value="Example Nombre d'années de tabagisme"/>
+      <description value="Number of years smoking example"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsTobaccoObservation"/>
     </resource>
     <resource>
@@ -960,7 +983,7 @@
         <reference value="StructureDefinition/VunsTobaccoObservation"/>
       </reference>
       <name value="VunsTobaccoObservation"/>
-      <description value="Profil pour une observation en tabacologie"/>
+      <description value="Profile Observation in tobaccology in the scope of the 'Vers Un Souffle Nouveau' project"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -971,7 +994,7 @@
         <reference value="Observation/VunsTobaccoQuantity"/>
       </reference>
       <name value="VunsTobaccoQuantity"/>
-      <description value="Example Nombre de cigarettes fumées par jour"/>
+      <description value="Smoking quantity example"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsTobaccoObservation"/>
     </resource>
     <resource>
@@ -982,7 +1005,7 @@
         <reference value="Observation/VunsTobaccoStatus"/>
       </reference>
       <name value="VunsTobaccoStatus"/>
-      <description value="Example de statut de tabagisme"/>
+      <description value="Tobacco status example"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsTobaccoObservation"/>
     </resource>
     <page>

@@ -1,0 +1,699 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Bundle/VunsPneumoBundleShortExample> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "VunsPneumoBundleShortExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBundle"^^xsd:anyURI ;
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBundle>
+     ] )
+  ] ; # 
+  fhir:identifier [
+     fhir:system [ fhir:v "https://terminology.chuliege.be/NamingSystem/global"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "ShortBundle01" ]
+  ] ; # 
+  fhir:type [ fhir:v "document"] ; # 
+  fhir:timestamp [ fhir:v "2025-03-01T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:entry ( [
+     fhir:fullUrl [ fhir:v "http://si-s-serv1041/ig/Composition/VunsPneumoCompositionShortExample"^^xsd:anyURI ] ;
+     fhir:resource ( <http://si-s-serv1041/ig/Composition/VunsPneumoCompositionShortExample> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://si-s-serv1041/ig/Patient/VunsPatientExample"^^xsd:anyURI ] ;
+     fhir:resource ( <http://si-s-serv1041/ig/Patient/VunsPatientExample> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://si-s-serv1041/ig/Encounter/EuEncounterExample"^^xsd:anyURI ] ;
+     fhir:resource ( <http://si-s-serv1041/ig/Encounter/EuEncounterExample> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://si-s-serv1041/ig/Condition/VunsPneumoConditionAsthma"^^xsd:anyURI ] ;
+     fhir:resource ( <http://si-s-serv1041/ig/Condition/VunsPneumoConditionAsthma> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://si-s-serv1041/ig/Observation/VunsPneumoVitalSignWeight"^^xsd:anyURI ] ;
+     fhir:resource ( <http://si-s-serv1041/ig/Observation/VunsPneumoVitalSignWeight> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://si-s-serv1041/ig/Observation/VunsEfrCVF"^^xsd:anyURI ] ;
+     fhir:resource ( <http://si-s-serv1041/ig/Observation/VunsEfrCVF> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://si-s-serv1041/ig/Observation/VunsTobaccoStatus"^^xsd:anyURI ] ;
+     fhir:resource ( <http://si-s-serv1041/ig/Observation/VunsTobaccoStatus> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://si-s-serv1041/ig/Observation/VunsPneumoBioCRP"^^xsd:anyURI ] ;
+     fhir:resource ( <http://si-s-serv1041/ig/Observation/VunsPneumoBioCRP> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://si-s-serv1041/ig/Procedure/VunsEfrExample"^^xsd:anyURI ] ;
+     fhir:resource ( <http://si-s-serv1041/ig/Procedure/VunsEfrExample> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://si-s-serv1041/ig/DiagnosticReport/EfrDiagnosticReport"^^xsd:anyURI ] ;
+     fhir:resource ( <http://si-s-serv1041/ig/DiagnosticReport/EfrDiagnosticReport> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://si-s-serv1041/ig/DiagnosticReport/VunsPneumoBioReportExample"^^xsd:anyURI ] ;
+     fhir:resource ( <http://si-s-serv1041/ig/DiagnosticReport/VunsPneumoBioReportExample> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://si-s-serv1041/ig/Organization/GSI"^^xsd:anyURI ] ;
+     fhir:resource ( <http://si-s-serv1041/ig/Organization/GSI> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://si-s-serv1041/ig/Practitioner/Physician"^^xsd:anyURI ] ;
+     fhir:resource ( <http://si-s-serv1041/ig/Practitioner/Physician> )
+  ] [
+     fhir:fullUrl [ fhir:v "http://si-s-serv1041/ig/Organization/VunsLabo"^^xsd:anyURI ] ;
+     fhir:resource ( <http://si-s-serv1041/ig/Organization/VunsLabo> )
+  ] ) . # 
+
+<http://si-s-serv1041/ig/Composition/VunsPneumoCompositionShortExample> a fhir:Composition ;
+  fhir:id [ fhir:v "VunsPneumoCompositionShortExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoComposition"^^xsd:anyURI ;
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoComposition>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Composition_VunsPneumoCompositionShortExample\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Composition VunsPneumoCompositionShortExample</b></p><a name=\"VunsPneumoCompositionShortExample\"> </a><a name=\"hcVunsPneumoCompositionShortExample\"> </a><a name=\"VunsPneumoCompositionShortExample-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-VunsPneumoComposition.html\">VunsPneumoComposition</a></p></div><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{http://loinc.org 34105-7}\">Hospital Discharge summary</span></p><p><b>date</b>: 2025-03-01</p><p><b>author</b>: <a href=\"Bundle-VunsPneumoBundleExample.html#Organization_GSI\">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p><p><b>title</b>: Short composition example in the scope in the 'Vers Un Souffle Nouveau' project</p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       a loinc:34105-7 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "34105-7" ] ;
+       fhir:display [ fhir:v "Hospital Discharge summary" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Patient/VunsPatientExample> ;
+     fhir:reference [ fhir:v "Patient/VunsPatientExample" ]
+  ] ; # 
+  fhir:date [ fhir:v "2025-03-01"^^xsd:date] ; # 
+  fhir:author ( [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Organization/GSI> ;
+     fhir:reference [ fhir:v "Organization/GSI" ]
+  ] ) ; # 
+  fhir:title [ fhir:v "Short composition example in the scope in the 'Vers Un Souffle Nouveau' project"] ; # 
+  fhir:section ( [
+     fhir:title [ fhir:v "Paramètres de référence" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:8716-3 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "8716-3" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Paramètres vitaux</div>"^^rdf:XMLLiteral
+     ] ;
+     fhir:entry ( [
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/VunsPneumoVitalSignWeight> ;
+       fhir:reference [ fhir:v "Observation/VunsPneumoVitalSignWeight" ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "Exemple de titre en pneumologie" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:8648-8 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "8648-8" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Exemple de rapport en pneumologie</div>"^^rdf:XMLLiteral
+     ]
+  ] [
+     fhir:title [ fhir:v "Diagnostic primaire" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:11535-2 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "11535-2" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Diagnostic</div>"^^rdf:XMLLiteral
+     ] ;
+     fhir:entry ( [
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Condition/VunsPneumoConditionAsthma> ;
+       fhir:reference [ fhir:v "Condition/VunsPneumoConditionAsthma" ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "Résultats des EFRs" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:10185-7 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "10185-7" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "empty" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Résultats des EFRs</div>"^^rdf:XMLLiteral
+     ] ;
+     fhir:entry ( [
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Procedure/VunsEfrExample> ;
+       fhir:reference [ fhir:v "Procedure/VunsEfrExample" ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "Biologies" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:30954-2 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "30954-2" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "empty" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Biologies</div>"^^rdf:XMLLiteral
+     ] ;
+     fhir:entry ( [
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/DiagnosticReport/VunsPneumoBioReportExample> ;
+       fhir:reference [ fhir:v "DiagnosticReport/VunsPneumoBioReportExample" ]
+     ] )
+  ] [
+     fhir:title [ fhir:v "Tabagisme" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:11367-0 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "11367-0" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "additional" ] ;
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Tabagisme</div>"^^rdf:XMLLiteral
+     ] ;
+     fhir:entry ( [
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/VunsTobaccoStatus> ;
+       fhir:reference [ fhir:v "Observation/VunsTobaccoStatus" ]
+     ] )
+  ] ) . # 
+
+<http://si-s-serv1041/ig/Patient/VunsPatientExample> a fhir:Patient ;
+  fhir:id [ fhir:v "VunsPatientExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPatient"^^xsd:anyURI ;
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPatient>
+     ] [
+       fhir:v "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient"^^xsd:anyURI ;
+       fhir:link <https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient>
+     ] [
+       fhir:v "http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips>
+     ] [
+       fhir:v "https://terminology.chuliege.be/fhir/StructureDefinition/chul-patient"^^xsd:anyURI ;
+       fhir:link <https://terminology.chuliege.be/fhir/StructureDefinition/chul-patient>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Patient_VunsPatientExample\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Patient VunsPatientExample</b></p><a name=\"VunsPatientExample\"> </a><a name=\"hcVunsPatientExample\"> </a><a name=\"VunsPatientExample-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profils: <a href=\"StructureDefinition-VunsPatient.html\">VunsPatient</a>, <a href=\"https://www.ehealth.fgov.be/standards/fhir/core/2.1.2/StructureDefinition-be-patient.html\">BePatient</a>, <a href=\"http://hl7.org/fhir/uv/ips/STU1.1/StructureDefinition-Patient-uv-ips.html\">Patient (IPS)</a>, <a href=\"StructureDefinition-chul-patient.html\">ChulPatient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Other Id (see the one above)\">Other Id:</td><td colspan=\"3\"><code>https://terminology.chuliege.be/NamingSystem/numnat</code>/111111X</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Moyens de contacter le Patient\">Contact Detail</td><td colspan=\"3\"><ul><li>ph: 04497887145</li><li><a href=\"mailto:pduflot@chuliege.be\">pduflot@chuliege.be</a></li></ul></td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "11111111111" ]
+  ] [
+     fhir:system [ fhir:v "https://terminology.chuliege.be/NamingSystem/numnat"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "111111X" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:family [ fhir:v "Duflot" ] ;
+     fhir:given ( [ fhir:v "Patrick" ] )
+  ] ) ; # 
+  fhir:telecom ( [
+     fhir:system [ fhir:v "phone" ] ;
+     fhir:value [ fhir:v "04497887145" ]
+  ] [
+     fhir:system [ fhir:v "email" ] ;
+     fhir:value [ fhir:v "pduflot@chuliege.be" ]
+  ] ) ; # 
+  fhir:gender [ fhir:v "male"] ; # 
+  fhir:birthDate [ fhir:v "1974-01-22"^^xsd:date] . # 
+
+<http://si-s-serv1041/ig/Encounter/EuEncounterExample> a fhir:Encounter ;
+  fhir:id [ fhir:v "EuEncounterExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.eu/fhir/hdr/StructureDefinition/encounter-eu-hdr"^^xsd:anyURI ;
+       fhir:link <http://hl7.eu/fhir/hdr/StructureDefinition/encounter-eu-hdr>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Encounter_EuEncounterExample\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Encounter EuEncounterExample</b></p><a name=\"EuEncounterExample\"> </a><a name=\"hcEuEncounterExample\"> </a><a name=\"EuEncounterExample-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.eu/fhir/hdr/0.1.0-ballot/StructureDefinition-encounter-eu-hdr.html\">Encounter (HDR)</a></p></div><p><b>status</b>: Finished</p><p><b>class</b>: <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ActCode.html#v3-ActCode-SS\">ActCode SS</a>: short stay</p><p><b>subject</b>: <a href=\"Patient-VunsPatientExample.html\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "finished"] ; # 
+  fhir:class [
+     fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ] ;
+     fhir:code [ fhir:v "SS" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Patient/VunsPatientExample> ;
+     fhir:reference [ fhir:v "Patient/VunsPatientExample" ]
+  ] . # 
+
+<http://si-s-serv1041/ig/Condition/VunsPneumoConditionAsthma> a fhir:Condition ;
+  fhir:id [ fhir:v "VunsPneumoConditionAsthma"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition"^^xsd:anyURI ;
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition>
+     ] [
+       fhir:v "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-problem"^^xsd:anyURI ;
+       fhir:link <https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-problem>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Condition_VunsPneumoConditionAsthma\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Condition VunsPneumoConditionAsthma</b></p><a name=\"VunsPneumoConditionAsthma\"> </a><a name=\"hcVunsPneumoConditionAsthma\"> </a><a name=\"VunsPneumoConditionAsthma-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profils: <a href=\"StructureDefinition-VunsPneumoCondition.html\">VunsPneumoCondition</a>, <a href=\"https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.0.0/StructureDefinition-be-problem.html\">BeProblem</a></p></div><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}\">Problem List Item</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 195967001}\">Asthme</span></p><p><b>subject</b>: <a href=\"Patient-VunsPatientExample.html\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>recordedDate</b>: 2025-03-01</p><p><b>recorder</b>: <a href=\"Bundle-VunsPneumoBundleExample.html#Practitioner_Physician\">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:clinicalStatus [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/condition-clinical"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/condition-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "problem-list-item" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:195967001 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "195967001" ]
+     ] ) ;
+     fhir:text [ fhir:v "Asthme" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Patient/VunsPatientExample> ;
+     fhir:reference [ fhir:v "Patient/VunsPatientExample" ]
+  ] ; # 
+  fhir:recordedDate [ fhir:v "2025-03-01"^^xsd:date] ; # 
+  fhir:recorder [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Practitioner/Physician> ;
+     fhir:reference [ fhir:v "Practitioner/Physician" ]
+  ] . # 
+
+<http://si-s-serv1041/ig/Observation/VunsPneumoVitalSignWeight> a fhir:Observation ;
+  fhir:id [ fhir:v "VunsPneumoVitalSignWeight"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoVitalSign"^^xsd:anyURI ;
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoVitalSign>
+     ] [
+       fhir:v "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-observation"^^xsd:anyURI ;
+       fhir:link <https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-observation>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_VunsPneumoVitalSignWeight\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation VunsPneumoVitalSignWeight</b></p><a name=\"VunsPneumoVitalSignWeight\"> </a><a name=\"hcVunsPneumoVitalSignWeight\"> </a><a name=\"VunsPneumoVitalSignWeight-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profils: <a href=\"StructureDefinition-VunsPneumoVitalSign.html\">VunsPneumoVitalSign</a>, <a href=\"https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.0.0/StructureDefinition-be-observation.html\">BeObservation</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 29463-7}\">Body weight</span></p><p><b>subject</b>: <a href=\"Patient-VunsPatientExample.html\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>effective</b>: 2025-03-01</p><p><b>performer</b>: <a href=\"Bundle-VunsPneumoBundleExample.html#Practitioner_Physician\">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p><p><b>value</b>: 80 kg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codekg = 'kg')</span></p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "vital-signs" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       a loinc:29463-7 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "29463-7" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Patient/VunsPatientExample> ;
+     fhir:reference [ fhir:v "Patient/VunsPatientExample" ]
+  ] ; # 
+  fhir:effective [
+     a fhir:dateTime ;
+     fhir:v "2025-03-01"^^xsd:date
+  ] ; # 
+  fhir:performer ( [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Practitioner/Physician> ;
+     fhir:reference [ fhir:v "Practitioner/Physician" ]
+  ] ) ; # 
+  fhir:value [
+     a fhir:Quantity ;
+     fhir:value [ fhir:v "80"^^xsd:decimal ] ;
+     fhir:unit [ fhir:v "kg" ] ;
+     fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+     fhir:code [ fhir:v "kg" ]
+  ] . # 
+
+<http://si-s-serv1041/ig/Observation/VunsEfrCVF> a fhir:Observation ;
+  fhir:id [ fhir:v "VunsEfrCVF"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation"^^xsd:anyURI ;
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfrObservation>
+     ] [
+       fhir:v "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-observation"^^xsd:anyURI ;
+       fhir:link <https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-observation>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_VunsEfrCVF\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation VunsEfrCVF</b></p><a name=\"VunsEfrCVF\"> </a><a name=\"hcVunsEfrCVF\"> </a><a name=\"VunsEfrCVF-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profils: <a href=\"StructureDefinition-VunsEfrObservation.html\">VunsEfrObservation</a>, <a href=\"https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.0.0/StructureDefinition-be-observation.html\">BeObservation</a></p></div><p><b>partOf</b>: <a href=\"Procedure-VunsEfrExample.html\">Procedure Measurement of respiratory function</a></p><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 19876-2}\">Capacité vitale forcée</span></p><p><b>subject</b>: <a href=\"Patient-VunsPatientExample.html\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>effective</b>: 2025-03-01</p><p><b>performer</b>: <a href=\"Bundle-VunsPneumoBundleExample.html#Practitioner_Physician\">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p><p><b>value</b>: 3 L</p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:partOf ( [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Procedure/VunsEfrExample> ;
+     fhir:reference [ fhir:v "Procedure/VunsEfrExample" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a loinc:19876-2 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "19876-2" ]
+     ] ) ;
+     fhir:text [ fhir:v "Capacité vitale forcée" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Patient/VunsPatientExample> ;
+     fhir:reference [ fhir:v "Patient/VunsPatientExample" ]
+  ] ; # 
+  fhir:effective [
+     a fhir:dateTime ;
+     fhir:v "2025-03-01"^^xsd:date
+  ] ; # 
+  fhir:performer ( [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Practitioner/Physician> ;
+     fhir:reference [ fhir:v "Practitioner/Physician" ]
+  ] ) ; # 
+  fhir:value [
+     a fhir:Quantity ;
+     fhir:value [ fhir:v "3"^^xsd:decimal ] ;
+     fhir:unit [ fhir:v "L" ] ;
+     fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ]
+  ] . # 
+
+<http://si-s-serv1041/ig/Observation/VunsTobaccoStatus> a fhir:Observation ;
+  fhir:id [ fhir:v "VunsTobaccoStatus"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsTobaccoObservation"^^xsd:anyURI ;
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsTobaccoObservation>
+     ] [
+       fhir:v "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-observation"^^xsd:anyURI ;
+       fhir:link <https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-observation>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_VunsTobaccoStatus\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation VunsTobaccoStatus</b></p><a name=\"VunsTobaccoStatus\"> </a><a name=\"hcVunsTobaccoStatus\"> </a><a name=\"VunsTobaccoStatus-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profils: <a href=\"StructureDefinition-VunsTobaccoObservation.html\">VunsTobaccoObservation</a>, <a href=\"https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.0.0/StructureDefinition-be-observation.html\">BeObservation</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 72166-2}\">Tobacco smoking status</span></p><p><b>subject</b>: <a href=\"Patient-VunsPatientExample.html\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>effective</b>: 2023-10-01</p><p><b>performer</b>: <a href=\"Bundle-VunsPneumoBundleExample.html#Practitioner_Physician\">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p><p><b>value</b>: <span title=\"Codes:{http://loinc.org LA18976-3}\">Current every day smoker</span></p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a loinc:72166-2 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "72166-2" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Patient/VunsPatientExample> ;
+     fhir:reference [ fhir:v "Patient/VunsPatientExample" ]
+  ] ; # 
+  fhir:effective [
+     a fhir:dateTime ;
+     fhir:v "2023-10-01"^^xsd:date
+  ] ; # 
+  fhir:performer ( [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Practitioner/Physician> ;
+     fhir:reference [ fhir:v "Practitioner/Physician" ]
+  ] ) ; # 
+  fhir:value [
+     a fhir:CodeableConcept ;
+     fhir:coding ( [
+       a loinc:LA18976-3 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "LA18976-3" ]
+     ] )
+  ] . # 
+
+<http://si-s-serv1041/ig/Observation/VunsPneumoBioCRP> a fhir:Observation ;
+  fhir:id [ fhir:v "VunsPneumoBioCRP"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBio"^^xsd:anyURI ;
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBio>
+     ] [
+       fhir:v "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-observation"^^xsd:anyURI ;
+       fhir:link <https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-observation>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_VunsPneumoBioCRP\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation VunsPneumoBioCRP</b></p><a name=\"VunsPneumoBioCRP\"> </a><a name=\"hcVunsPneumoBioCRP\"> </a><a name=\"VunsPneumoBioCRP-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profils: <a href=\"StructureDefinition-VunsPneumoBio.html\">VunsPneumoBio</a>, <a href=\"https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.0.0/StructureDefinition-be-observation.html\">BeObservation</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 1988-5}\">CRP</span></p><p><b>subject</b>: <a href=\"Patient-VunsPatientExample.html\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>effective</b>: 2025-03-01</p><p><b>performer</b>: <a href=\"Bundle-VunsPneumoBundleExample.html#Organization_VunsLabo\">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p><p><b>value</b>: 8 mg/dL<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg/dL = 'mg/dL')</span></p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a loinc:1988-5 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "1988-5" ]
+     ] ) ;
+     fhir:text [ fhir:v "CRP" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Patient/VunsPatientExample> ;
+     fhir:reference [ fhir:v "Patient/VunsPatientExample" ]
+  ] ; # 
+  fhir:effective [
+     a fhir:dateTime ;
+     fhir:v "2025-03-01"^^xsd:date
+  ] ; # 
+  fhir:performer ( [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Organization/VunsLabo> ;
+     fhir:reference [ fhir:v "Organization/VunsLabo" ]
+  ] ) ; # 
+  fhir:value [
+     a fhir:Quantity ;
+     fhir:value [ fhir:v "8"^^xsd:decimal ] ;
+     fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+     fhir:code [ fhir:v "mg/dL" ]
+  ] . # 
+
+<http://si-s-serv1041/ig/Procedure/VunsEfrExample> a fhir:Procedure ;
+  fhir:id [ fhir:v "VunsEfrExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfr"^^xsd:anyURI ;
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsEfr>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "fr-BE"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr-BE\" lang=\"fr-BE\"><a name=\"Procedure_VunsEfrExample\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Procedure VunsEfrExample</b></p><a name=\"VunsEfrExample\"> </a><a name=\"hcVunsEfrExample\"> </a><a name=\"VunsEfrExample-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: fr-BE</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-VunsEfr.html\">VunsEfr</a></p></div><p><b>status</b>: Completed</p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 23426006}\">Mesure de la fonction respiratoire</span></p><p><b>subject</b>: <a href=\"Patient-VunsPatientExample.html\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>encounter</b>: <a href=\"Bundle-VunsPneumoBundleExample.html#Encounter_EuEncounterExample\">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p><p><b>performed</b>: 2025-03-01</p><p><b>report</b>: <a href=\"Bundle-VunsPneumoBundleExample.html#DiagnosticReport_EfrDiagnosticReport\">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "completed"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:23426006 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "23426006" ]
+     ] ) ;
+     fhir:text [ fhir:v "Mesure de la fonction respiratoire" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Patient/VunsPatientExample> ;
+     fhir:reference [ fhir:v "Patient/VunsPatientExample" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Encounter/EuEncounterExample> ;
+     fhir:reference [ fhir:v "Encounter/EuEncounterExample" ]
+  ] ; # 
+  fhir:performed [
+     a fhir:dateTime ;
+     fhir:v "2025-03-01"^^xsd:date
+  ] ; # 
+  fhir:report ( [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/DiagnosticReport/EfrDiagnosticReport> ;
+     fhir:reference [ fhir:v "DiagnosticReport/EfrDiagnosticReport" ]
+  ] ) . # 
+
+<http://si-s-serv1041/ig/DiagnosticReport/EfrDiagnosticReport> a fhir:DiagnosticReport ;
+  fhir:id [ fhir:v "EfrDiagnosticReport"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/ips/StructureDefinition/DiagnosticReport-uv-ips"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/ips/StructureDefinition/DiagnosticReport-uv-ips>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"DiagnosticReport_EfrDiagnosticReport\"> </a><p class=\"res-header-id\"><b>Generated Narrative: DiagnosticReport EfrDiagnosticReport</b></p><a name=\"EfrDiagnosticReport\"> </a><a name=\"hcEfrDiagnosticReport\"> </a><a name=\"EfrDiagnosticReport-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/uv/ips/STU1.1/StructureDefinition-DiagnosticReport-uv-ips.html\">DiagnosticReport (IPS)</a></p></div><h2><span title=\"Codes:{http://snomed.info/sct 23426006}\">Pulmonary function test</span> (<span title=\"Codes:{http://snomed.info/sct 386053000}\">Evaluation procedure</span>) </h2><table class=\"grid\"><tr><td>Sujet</td><td>Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</td></tr><tr><td>When For</td><td>2025-03-01</td></tr></table><p><b>Report Details</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Valeur</b></td><td><b>Drapeaux</b></td></tr><tr><td><a href=\"Observation-VunsEfrCVF.html\"><span title=\"Codes:{http://loinc.org 19876-2}\">Capacité vitale forcée</span></a></td><td>3 L</td><td>Final</td></tr><tr><td><a href=\"Observation-VunsEfrVVEMS.html\"><span title=\"Codes:{http://loinc.org 20157-4}\">FEV1</span></a></td><td>1.8 L</td><td>Final</td></tr><tr><td><a href=\"Observation-VunsEfrCPT.html\"><span title=\"Codes:{http://loinc.org 81450-9}\">Capacité pulmonaire totale</span></a></td><td>4 L</td><td>Final</td></tr><tr><td><a href=\"Observation-VunsEfrVTiff.html\"><span title=\"Codes:{http://loinc.org 19926-5}\">Volume expiratoire maximal par seconde divisé par la capacité vitale forcée</span></a></td><td>80 %</td><td>Final</td></tr><tr><td><a href=\"Observation-VunsEfrCVFRatio.html\"><span title=\"Codes:{http://loinc.org 19871-3}\">FVC pre bronchodilation measured/predicted</span></a></td><td>64 %</td><td>Final</td></tr><tr><td><a href=\"Observation-VunsEfrVVEMSRatio.html\"><span title=\"Codes:{http://loinc.org 20152-5}\">FEV1 measured/predicted</span></a></td><td>62 %</td><td>Final</td></tr><tr><td><a href=\"Observation-VunsEfrCPTRatio.html\"><span title=\"Codes:{http://loinc.org 89085-5}\">Total lung capacity/Predicted total lung capacity</span></a></td><td>72 %</td><td>Final</td></tr><tr><td><a href=\"Observation-VunsEfrVRRatio.html\"><span title=\"Codes:{http://loinc.org 81454-1}\">Residual volume/Total capacity --pre bronchodilation</span></a></td><td>45 %</td><td>Final</td></tr><tr><td><a href=\"Observation-VunsEfrVRCPTRatio.html\"><span title=\"Codes:{http://loinc.org 43252-6}\">Residual volume/Total capacity predicted</span></a></td><td>36 %</td><td>Final</td></tr><tr><td><a href=\"Observation-VunsEfrDLCORatio.html\"><span title=\"Codes:{http://loinc.org 98130-8}\">Diffusion capacity.carbon monoxide/Predicted</span></a></td><td>50 %</td><td>Final</td></tr><tr><td><a href=\"Observation-VunsEfrDLCOVARatio.html\"><span title=\"Codes:{http://loinc.org 98203-3}\">(Diffusion capacity/Alveolar volume)/predicted</span></a></td><td>55 %</td><td>Final</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       a sct:386053000 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "386053000" ]
+     ] ) ;
+     fhir:text [ fhir:v "Evaluation procedure" ]
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:23426006 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "23426006" ]
+     ] ) ;
+     fhir:text [ fhir:v "Pulmonary function test" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Patient/VunsPatientExample> ;
+     fhir:reference [ fhir:v "Patient/VunsPatientExample" ]
+  ] ; # 
+  fhir:effective [
+     a fhir:dateTime ;
+     fhir:v "2025-03-01"^^xsd:date
+  ] ; # 
+  fhir:result ( [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/VunsEfrCVF> ;
+     fhir:reference [ fhir:v "Observation/VunsEfrCVF" ]
+  ] [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/VunsEfrVVEMS> ;
+     fhir:reference [ fhir:v "Observation/VunsEfrVVEMS" ]
+  ] [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/VunsEfrCPT> ;
+     fhir:reference [ fhir:v "Observation/VunsEfrCPT" ]
+  ] [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/VunsEfrVTiff> ;
+     fhir:reference [ fhir:v "Observation/VunsEfrVTiff" ]
+  ] [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/VunsEfrCVFRatio> ;
+     fhir:reference [ fhir:v "Observation/VunsEfrCVFRatio" ]
+  ] [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/VunsEfrVVEMSRatio> ;
+     fhir:reference [ fhir:v "Observation/VunsEfrVVEMSRatio" ]
+  ] [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/VunsEfrCPTRatio> ;
+     fhir:reference [ fhir:v "Observation/VunsEfrCPTRatio" ]
+  ] [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/VunsEfrVRRatio> ;
+     fhir:reference [ fhir:v "Observation/VunsEfrVRRatio" ]
+  ] [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/VunsEfrVRCPTRatio> ;
+     fhir:reference [ fhir:v "Observation/VunsEfrVRCPTRatio" ]
+  ] [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/VunsEfrDLCORatio> ;
+     fhir:reference [ fhir:v "Observation/VunsEfrDLCORatio" ]
+  ] [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/VunsEfrDLCOVARatio> ;
+     fhir:reference [ fhir:v "Observation/VunsEfrDLCOVARatio" ]
+  ] ) . # 
+
+<http://si-s-serv1041/ig/DiagnosticReport/VunsPneumoBioReportExample> a fhir:DiagnosticReport ;
+  fhir:id [ fhir:v "VunsPneumoBioReportExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBioReport"^^xsd:anyURI ;
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBioReport>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"DiagnosticReport_VunsPneumoBioReportExample\"> </a><p class=\"res-header-id\"><b>Generated Narrative: DiagnosticReport VunsPneumoBioReportExample</b></p><a name=\"VunsPneumoBioReportExample\"> </a><a name=\"hcVunsPneumoBioReportExample\"> </a><a name=\"VunsPneumoBioReportExample-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-VunsPneumoBioReport.html\">VunsPneumoBioReport</a></p></div><h2><span title=\"Codes:{http://loinc.org 11502-2}\">Laboratory report</span> (<span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category laboratory}\">Laboratory</span>) </h2><table class=\"grid\"><tr><td>Sujet</td><td>Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</td></tr><tr><td>When For</td><td>2025-03-01</td></tr><tr><td>Performer</td><td> <a href=\"Bundle-VunsPneumoBundleExample.html#Organization_VunsLabo\">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></td></tr></table><p><b>Report Details</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Valeur</b></td><td><b>Drapeaux</b></td></tr><tr><td><a href=\"Observation-VunsPneumoBioHemoglobin.html\"><span title=\"Codes:{http://loinc.org 718-7}\">Hemoglobin</span></a></td><td>14.5 g/dL<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codeg/dL = 'g/dL')</span></td><td>Final</td></tr><tr><td><a href=\"Observation-VunsPneumoBioCRP.html\"><span title=\"Codes:{http://loinc.org 1988-5}\">CRP</span></a></td><td>8 mg/dL<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg/dL = 'mg/dL')</span></td><td>Final</td></tr><tr><td><a href=\"Observation-VunsPneumoBioEosinophils.html\"><span title=\"Codes:{http://loinc.org 26449-9}\">Eosinophils</span></a></td><td>300 10*3/uL<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code10*3/uL = '10*3/uL')</span></td><td>Final</td></tr><tr><td><a href=\"Observation-VunsPneumoBioCreatinin.html\"><span title=\"Codes:{http://loinc.org 38483-4}\">Creatinin</span></a></td><td>1.8 mg/dL<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg/dL = 'mg/dL')</span></td><td>Final</td></tr><tr><td><a href=\"Observation-VunsPneumoBioGFR.html\"><span title=\"Codes:{http://loinc.org 70969-1}\">Taux de filtration glomérulaire parmi la population masculine</span></a></td><td>90 mL/min<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemL/min = 'mL/min')</span></td><td>Final</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "laboratory" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       a loinc:11502-2 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "11502-2" ]
+     ] ) ;
+     fhir:text [ fhir:v "Laboratory report" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Patient/VunsPatientExample> ;
+     fhir:reference [ fhir:v "Patient/VunsPatientExample" ]
+  ] ; # 
+  fhir:effective [
+     a fhir:dateTime ;
+     fhir:v "2025-03-01"^^xsd:date
+  ] ; # 
+  fhir:performer ( [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Organization/VunsLabo> ;
+     fhir:reference [ fhir:v "Organization/VunsLabo" ]
+  ] ) ; # 
+  fhir:result ( [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/VunsPneumoBioHemoglobin> ;
+     fhir:reference [ fhir:v "Observation/VunsPneumoBioHemoglobin" ]
+  ] [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/VunsPneumoBioCRP> ;
+     fhir:reference [ fhir:v "Observation/VunsPneumoBioCRP" ]
+  ] [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/VunsPneumoBioEosinophils> ;
+     fhir:reference [ fhir:v "Observation/VunsPneumoBioEosinophils" ]
+  ] [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/VunsPneumoBioCreatinin> ;
+     fhir:reference [ fhir:v "Observation/VunsPneumoBioCreatinin" ]
+  ] [
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Observation/VunsPneumoBioGFR> ;
+     fhir:reference [ fhir:v "Observation/VunsPneumoBioGFR" ]
+  ] ) . # 
+
+<http://si-s-serv1041/ig/Organization/GSI> a fhir:Organization ;
+  fhir:id [ fhir:v "GSI"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_GSI\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Organization GSI</b></p><a name=\"GSI\"> </a><a name=\"hcGSI\"> </a><a name=\"GSI-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/uv/ips/STU1.1/StructureDefinition-Organization-uv-ips.html\">Organization (IPS)</a></p></div><p><b>name</b>: GSI tests</p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:name [ fhir:v "GSI tests"] . # 
+
+<http://si-s-serv1041/ig/Practitioner/Physician> a fhir:Practitioner ;
+  fhir:id [ fhir:v "Physician"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Practitioner_Physician\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Practitioner Physician</b></p><a name=\"Physician\"> </a><a name=\"hcPhysician\"> </a><a name=\"Physician-und\"> </a><p><b>name</b>: Dr. Jean Toubib</p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:name ( [
+     fhir:text [ fhir:v "Dr. Jean Toubib" ]
+  ] ) . # 
+
+<http://si-s-serv1041/ig/Organization/VunsLabo> a fhir:Organization ;
+  fhir:id [ fhir:v "VunsLabo"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_VunsLabo\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Organization VunsLabo</b></p><a name=\"VunsLabo\"> </a><a name=\"hcVunsLabo\"> </a><a name=\"VunsLabo-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/uv/ips/STU1.1/StructureDefinition-Organization-uv-ips.html\">Organization (IPS)</a></p></div><p><b>name</b>: CHU Labo</p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:name [ fhir:v "CHU Labo"] . # 
+
+# -------------------------------------------------------------------------------------
+

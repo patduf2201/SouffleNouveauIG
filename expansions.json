@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "4439efb3-c885-4615-9825-2e76eb0de7f1",
+  "id" : "9ba1a448-2d4d-4fad-ae1b-d0deab8cd462",
   "meta" : {
-    "lastUpdated" : "2025-08-04T16:29:47.320+02:00"
+    "lastUpdated" : "2025-08-18T11:24:02.051+02:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -16,12 +16,12 @@
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-efr",
       "version" : "0.1.2",
       "name" : "EFR_VS",
-      "title" : "Jeu d'observations d'une épreuve fonctionnelle respiratoire",
+      "title" : "Valueset for pulmonary function test measurements",
       "status" : "draft",
       "date" : "2025-04-14",
       "expansion" : {
-        "identifier" : "urn:uuid:0d612902-e3fa-4a44-a203-fdbfe4b82f81",
-        "timestamp" : "2025-08-04T16:31:11+02:00",
+        "identifier" : "urn:uuid:d82c4ede-224c-4a96-b7a4-53a2db8b591a",
+        "timestamp" : "2025-08-18T11:29:08+02:00",
         "total" : 11,
         "offset" : 0,
         "parameter" : [{
@@ -121,12 +121,11 @@
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-bio",
       "version" : "0.1.2",
       "name" : "PNEUMO_BIO_VS",
-      "title" : "Jeu de biologies d'intérêt pour la télésurveillance des maladies respiratoires",
       "status" : "draft",
       "date" : "2025-04-14",
       "expansion" : {
-        "identifier" : "urn:uuid:6d3b8b6d-b089-40f8-a1a0-9dadebbf1e04",
-        "timestamp" : "2025-08-04T16:31:12+02:00",
+        "identifier" : "urn:uuid:76757b89-1ae1-4cc6-9f95-a5c3ff11b2b3",
+        "timestamp" : "2025-08-18T11:29:08+02:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -148,10 +147,6 @@
         {
           "name" : "used-valueset",
           "valueUri" : "null"
-        },
-        {
-          "name" : "displayLanguage",
-          "valueCode" : "en-US"
         },
         {
           "name" : "used-codesystem",
@@ -205,12 +200,11 @@
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-diagnostic",
       "version" : "0.1.2",
       "name" : "PNEUMO_DIAGNOSTIC_VS",
-      "title" : "Jeu de diagnostic principal maladie respiratoire",
       "status" : "draft",
       "date" : "2025-04-14",
       "expansion" : {
-        "identifier" : "urn:uuid:a732ff2c-28ed-4442-ba39-1b0dae9cf910",
-        "timestamp" : "2025-08-04T16:31:12+02:00",
+        "identifier" : "urn:uuid:2f4b98cd-dbb2-4351-bc90-6c8e1ae22f43",
+        "timestamp" : "2025-08-18T11:29:09+02:00",
         "total" : 21,
         "offset" : 0,
         "parameter" : [{
@@ -360,12 +354,11 @@
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-vitaux",
       "version" : "0.1.2",
       "name" : "PNEUMO_VITAAUX_VS",
-      "title" : "Jeu de signes vitaux pneumologie",
       "status" : "draft",
       "date" : "2025-04-14",
       "expansion" : {
-        "identifier" : "urn:uuid:c5dc0385-60ae-4edf-bac5-588cc44e47ae",
-        "timestamp" : "2025-08-04T16:31:12+02:00",
+        "identifier" : "urn:uuid:49d4f766-b6a2-4939-b253-b51c2e7af814",
+        "timestamp" : "2025-08-18T11:29:09+02:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -424,12 +417,11 @@
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac-status",
       "version" : "0.1.2",
       "name" : "TABAC_STATUS_VS",
-      "title" : "Jeu de concept pour le statut de tabagisme",
       "status" : "draft",
       "date" : "2025-04-14",
       "expansion" : {
-        "identifier" : "urn:uuid:86f477f9-fc82-4f99-aa9e-e1d05e5878f5",
-        "timestamp" : "2025-08-04T16:31:13+02:00",
+        "identifier" : "urn:uuid:6dba8217-2a24-4f8e-82b7-bda7f434af91",
+        "timestamp" : "2025-08-18T11:29:09+02:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -498,12 +490,11 @@
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac",
       "version" : "0.1.2",
       "name" : "TABAC_VS",
-      "title" : "Jeu de concept de tabacologie",
       "status" : "draft",
       "date" : "2025-04-14",
       "expansion" : {
-        "identifier" : "urn:uuid:effc3f81-4bf9-4953-9b4f-c761f947cbac",
-        "timestamp" : "2025-08-04T16:31:13+02:00",
+        "identifier" : "urn:uuid:834c8f82-455c-4127-8f62-c124f5126834",
+        "timestamp" : "2025-08-18T11:29:09+02:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{

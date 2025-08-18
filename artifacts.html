@@ -30,10 +30,10 @@
     <![endif]-->
 
     <!-- Favicons -->
-    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
-    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
-    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
-    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
@@ -190,7 +190,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="StructureDefinition/VunsEfr">VunsEfr</a>
             </td>
             <td>
-<p>Profile pour les épreuves fonctionnelles respiratoires</p>
+<p>Profile for pulmonary function tests</p>
 </td>
          </tr>
          <tr>
@@ -199,7 +199,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="StructureDefinition/VunsEfrObservation">VunsEfrObservation</a>
             </td>
             <td>
-<p>Profil pour les mesures effectuées dans le cadre d'une épreuve fonctionnelle respiratoire</p>
+<p>Profile for pulmonary function test measurements</p>
 </td>
          </tr>
          <tr>
@@ -208,7 +208,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="StructureDefinition/VunsPatient">VunsPatient</a>
             </td>
             <td>
-<p>Profil pour un Patient enrôlé dans le cadre du projet Vers Un Souffle Nouveau</p>
+<p>Profile for patient enrolled in the 'Vers Un Souffle Nouveau' project</p>
 </td>
          </tr>
          <tr>
@@ -217,7 +217,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="StructureDefinition/VunsPneumoBio">VunsPneumoBio</a>
             </td>
             <td>
-<p>Profil pour les biologies d'intérêt pneumologique</p>
+<p>Profile for significant laboratory results in the scope of chronic respiratory disease remote monitoring</p>
 </td>
          </tr>
          <tr>
@@ -226,7 +226,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="StructureDefinition/VunsPneumoBioReport">VunsPneumoBioReport</a>
             </td>
             <td>
-<p>Profil pour un rapport de biologies d'intérêt pneumologique</p>
+<p>Profile for significant laboratory reports in the scope of chronic respiratory disease remote monitoring</p>
 </td>
          </tr>
          <tr>
@@ -235,7 +235,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="StructureDefinition/VunsPneumoBundle">VunsPneumoBundle</a>
             </td>
             <td>
-<p>Profil pour un Bundle 'Discharge Report' en pneumologie dans le cadre du projet Vers Un Souffle Nouveau</p>
+<p>Profile for Bundles 'Discharge Report' in repiratory diseases in the scope of the 'Vers Un Souffle Nouveau' project</p>
 </td>
          </tr>
          <tr>
@@ -244,7 +244,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="StructureDefinition/VunsPneumoComposition">VunsPneumoComposition</a>
             </td>
             <td>
-<p>Profil pour une Composition Discharge Report en pneumologie dans le cadre du projet Vers Un Souffle Nouveau</p>
+<p>Profile for Composition as hospital discharge report in the scope of the 'Vers Un Souffle Nouveau' project</p>
 </td>
          </tr>
          <tr>
@@ -253,7 +253,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="StructureDefinition/VunsPneumoCondition">VunsPneumoCondition</a>
             </td>
             <td>
-<p>Profile pour un diagnostic pneumologique</p>
+<p>Profile for primary diagnosis</p>
 </td>
          </tr>
          <tr>
@@ -262,7 +262,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="StructureDefinition/VunsPneumoVitalSign">VunsPneumoVitalSign</a>
             </td>
             <td>
-<p>Profil pour une observation de signe vital en pneumologie</p>
+<p>Profile for Observation of vital sign in the scope of the 'Vers Un Souffle Nouveau' project</p>
 </td>
          </tr>
          <tr>
@@ -271,7 +271,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="StructureDefinition/VunsTobaccoObservation">VunsTobaccoObservation</a>
             </td>
             <td>
-<p>Profil pour une observation en tabacologie</p>
+<p>Profile Observation in tobaccology in the scope of the 'Vers Un Souffle Nouveau' project</p>
 </td>
          </tr>
       </tbody>
@@ -284,52 +284,52 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <tbody>
          <tr>
             <td style="column-width:30%">
-               <a href="ValueSet-i2x-efr.html" title="ValueSet/i2x-efr">Jeu d'observations d'une épreuve fonctionnelle respiratoire</a>
+               <a href="ValueSet-i2x-pneumo-bio.html" title="ValueSet/i2x-pneumo-bio">PNEUMO_BIO_VS</a>
             </td>
             <td>
-<p>Jeu d'bservations d'une épreuve fonctionnelle respiratoire</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-i2x-pneumo-bio.html" title="ValueSet/i2x-pneumo-bio">Jeu de biologies d'intérêt pour la télésurveillance des maladies respiratoires</a>
-            </td>
-            <td>
-<p>Jeu de biologies d'intérêt pour la télésurveillance des maladies respiratoires</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-i2x-tabac.html" title="ValueSet/i2x-tabac">Jeu de concept de tabacologie</a>
-            </td>
-            <td>
-<p>Jeu de concept de tabacologie</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-i2x-tabac-status.html" title="ValueSet/i2x-tabac-status">Jeu de concept pour le statut de tabagisme</a>
-            </td>
-            <td>
-
+<p>Valueset for significant laboratory results in the scope of the 'Vers Un Souffle Nouveau' project</p>
 </td>
          </tr>
          <tr>
             <td style="column-width:30%">
                <a href="ValueSet-i2x-pneumo-diagnostic.html"
-                  title="ValueSet/i2x-pneumo-diagnostic">Jeu de diagnostic principal maladie respiratoire</a>
+                  title="ValueSet/i2x-pneumo-diagnostic">PNEUMO_DIAGNOSTIC_VS</a>
             </td>
             <td>
-<p>Jeu de diagnostic principal maladie respiratoire</p>
+<p>Valueset for principal diagnosis in the scope of he 'Vers Un Souffle Nouveau' project</p>
 </td>
          </tr>
          <tr>
             <td style="column-width:30%">
                <a href="ValueSet-i2x-pneumo-vitaux.html"
-                  title="ValueSet/i2x-pneumo-vitaux">Jeu de signes vitaux pneumologie</a>
+                  title="ValueSet/i2x-pneumo-vitaux">PNEUMO_VITAAUX_VS</a>
             </td>
             <td>
-<p>Jeu de signes vitaux pneumologie</p>
+<p>Valueset for vital signs in the scope of the 'Vers Un Souffle Nouveau' project</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-i2x-tabac-status.html" title="ValueSet/i2x-tabac-status">TABAC_STATUS_VS</a>
+            </td>
+            <td>
+<p>Valueset for tobacco status in the scope of the 'Vers Un Souffle Nouveau' project</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-i2x-tabac.html" title="ValueSet/i2x-tabac">TABAC_VS</a>
+            </td>
+            <td>
+<p>Valueset for tobaccoology concepts in the scope of the 'Vers Un Souffle Nouveau' project</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-i2x-efr.html" title="ValueSet/i2x-efr">Valueset for pulmonary function test measurements</a>
+            </td>
+            <td>
+<p>Valueset for pulmonary function test measurements</p>
 </td>
          </tr>
       </tbody>
@@ -346,7 +346,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="Composition/VunsPneumoCompositionExample">Exemple de composition en pneumologie dans le cadre du projet Vers Un Souffle Nouveau</a>
             </td>
             <td>
-<p>Example de composition dans le cadre du projet Vers Un Souffle Nouveau</p>
+<p>Composition example</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Composition-VunsPneumoCompositionShortExample.html"
+                  title="Composition/VunsPneumoCompositionShortExample">Short composition example in the scope in the 'Vers Un Souffle Nouveau' project</a>
+            </td>
+            <td>
+<p>Short composition example in the scope in the 'Vers Un Souffle Nouveau' project</p>
 </td>
          </tr>
          <tr>
@@ -354,7 +363,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                <a href="Observation-VunsEfrCPT.html" title="Observation/VunsEfrCPT">VunsEfrCPT</a>
             </td>
             <td>
-<p>Example de capacité pulmonaire totale</p>
+<p>Total lung capacity example</p>
 </td>
          </tr>
          <tr>
@@ -363,7 +372,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="Observation/VunsEfrCPTRatio">VunsEfrCPTRatio</a>
             </td>
             <td>
-<p>Example de CPT%</p>
+<p>Total lung capacity/Predicted total lung capacity example</p>
 </td>
          </tr>
          <tr>
@@ -371,7 +380,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                <a href="Observation-VunsEfrCVF.html" title="Observation/VunsEfrCVF">VunsEfrCVF</a>
             </td>
             <td>
-<p>Example de capacité vitale forcée lors d'une épreuve fonctionnelle respiratoire</p>
+<p>Forced vital capacity example</p>
 </td>
          </tr>
          <tr>
@@ -380,7 +389,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="Observation/VunsEfrCVFRatio">VunsEfrCVFRatio</a>
             </td>
             <td>
-<p>Example de CVF%</p>
+<p>FVC pre bronchodilation measured/predicted sample</p>
 </td>
          </tr>
          <tr>
@@ -389,7 +398,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="Observation/VunsEfrDLCORatio">VunsEfrDLCORatio</a>
             </td>
             <td>
-<p>Example de DLCO%</p>
+<p>Diffusion capacity.carbon monoxide/Predicted example</p>
 </td>
          </tr>
          <tr>
@@ -398,7 +407,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="Observation/VunsEfrDLCOVARatio">VunsEfrDLCOVARatio</a>
             </td>
             <td>
-<p>Example de DLCO/VA(%)</p>
+<p>(Diffusion capacity/Alveolar volume)/predicted example</p>
 </td>
          </tr>
          <tr>
@@ -406,7 +415,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                <a href="Procedure-VunsEfrExample.html" title="Procedure/VunsEfrExample">VunsEfrExample</a>
             </td>
             <td>
-<p>Exemple d'épreuve fonctionnelle respiratoire</p>
+<p>Pulmonary function test examples</p>
 </td>
          </tr>
          <tr>
@@ -415,7 +424,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="Observation/VunsEfrVRCPTRatio">VunsEfrVRCPTRatio</a>
             </td>
             <td>
-<p>Example de VR/CPT%</p>
+<p>Residual volume/Total capacity predicted example</p>
 </td>
          </tr>
          <tr>
@@ -424,7 +433,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="Observation/VunsEfrVRRatio">VunsEfrVRRatio</a>
             </td>
             <td>
-<p>Example de VR%</p>
+<p>Residual volume/Total capacity –pre bronchodilation example</p>
 </td>
          </tr>
          <tr>
@@ -432,7 +441,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                <a href="Observation-VunsEfrVTiff.html" title="Observation/VunsEfrVTiff">VunsEfrVTiff</a>
             </td>
             <td>
-<p>Example de Tiffeneau lors d'une épreuve fonctionnelle respiratoire</p>
+<p>Tiffeneau example</p>
 </td>
          </tr>
          <tr>
@@ -441,7 +450,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="Observation/VunsEfrVTiffSource">VunsEfrVTiffSource</a>
             </td>
             <td>
-<p>Example d'observation originale dans OmniPro</p>
+<p>Source pumonary function test measurement in EHR at CHUL</p>
 </td>
          </tr>
          <tr>
@@ -449,7 +458,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                <a href="Observation-VunsEfrVVEMS.html" title="Observation/VunsEfrVVEMS">VunsEfrVVEMS</a>
             </td>
             <td>
-<p>Example de FEV1</p>
+<p>FEV1 example</p>
 </td>
          </tr>
          <tr>
@@ -458,7 +467,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="Observation/VunsEfrVVEMSRatio">VunsEfrVVEMSRatio</a>
             </td>
             <td>
-<p>Example de CVF%</p>
+<p>FEV1 measured/predicted example</p>
 </td>
          </tr>
          <tr>
@@ -467,7 +476,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="Patient/VunsPatientExample">VunsPatientExample</a>
             </td>
             <td>
-<p>Example de patient CHU Liège</p>
+<p>Patient example</p>
 </td>
          </tr>
          <tr>
@@ -476,7 +485,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="Observation/VunsPneumoBioCRP">VunsPneumoBioCRP</a>
             </td>
             <td>
-<p>Example de CRP</p>
+<p>CRP example</p>
 </td>
          </tr>
          <tr>
@@ -485,7 +494,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="Observation/VunsPneumoBioCreatinin">VunsPneumoBioCreatinin</a>
             </td>
             <td>
-<p>Example de créatinine</p>
+<p>Creatinin example</p>
 </td>
          </tr>
          <tr>
@@ -494,7 +503,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="Observation/VunsPneumoBioEosinophils">VunsPneumoBioEosinophils</a>
             </td>
             <td>
-<p>Example de Éosinophiles</p>
+<p>Eosinophils example</p>
 </td>
          </tr>
          <tr>
@@ -503,7 +512,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="Observation/VunsPneumoBioGFR">VunsPneumoBioGFR</a>
             </td>
             <td>
-<p>Example de taux de filtration glomérulaire parmi la population masculine</p>
+<p>Glomerular filtration rate example</p>
 </td>
          </tr>
          <tr>
@@ -512,7 +521,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="Observation/VunsPneumoBioHemoglobin">VunsPneumoBioHemoglobin</a>
             </td>
             <td>
-<p>Example de Hémoglobine</p>
+<p>Hemoglobin example</p>
 </td>
          </tr>
          <tr>
@@ -521,7 +530,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="DiagnosticReport/VunsPneumoBioReportExample">VunsPneumoBioReportExample</a>
             </td>
             <td>
-<p>Example de rapport de biologies d'intérêt pneumologique</p>
+<p>Laboratory report example</p>
 </td>
          </tr>
          <tr>
@@ -530,7 +539,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="Bundle/VunsPneumoBundleExample">VunsPneumoBundleExample</a>
             </td>
             <td>
-<p>Example de bundle dans le cadre du projet Vers Un Souffle Nouveau</p>
+<p>Bundle example</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Bundle-VunsPneumoBundleShortExample.html"
+                  title="Bundle/VunsPneumoBundleShortExample">VunsPneumoBundleShortExample</a>
+            </td>
+            <td>
+<p>Short bundle example in the scope of the 'Vers Un Souffle Nouveau' project</p>
 </td>
          </tr>
          <tr>
@@ -539,7 +557,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="Condition/VunsPneumoConditionAsthma">VunsPneumoConditionAsthma</a>
             </td>
             <td>
-<p>Example de diagnostic asthme</p>
+<p>Asthme diagnosis example</p>
 </td>
          </tr>
          <tr>
@@ -548,7 +566,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="Condition/VunsPneumoConditionCOPD">VunsPneumoConditionCOPD</a>
             </td>
             <td>
-<p>Example de diagnostic bpco</p>
+<p>COPD diagnosis example</p>
 </td>
          </tr>
          <tr>
@@ -557,7 +575,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="Observation/VunsPneumoVitalSignHeight">VunsPneumoVitalSignHeight</a>
             </td>
             <td>
-<p>Example de taille</p>
+<p>Height example</p>
 </td>
          </tr>
          <tr>
@@ -566,7 +584,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="Observation/VunsPneumoVitalSignWeight">VunsPneumoVitalSignWeight</a>
             </td>
             <td>
-<p>Example de poids</p>
+<p>Weight example</p>
 </td>
          </tr>
          <tr>
@@ -575,7 +593,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="Observation/VunsTobaccoAge">VunsTobaccoAge</a>
             </td>
             <td>
-<p>Example Nombre d'années de tabagisme</p>
+<p>Number of years smoking example</p>
 </td>
          </tr>
          <tr>
@@ -584,7 +602,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="Observation/VunsTobaccoQuantity">VunsTobaccoQuantity</a>
             </td>
             <td>
-<p>Example Nombre de cigarettes fumées par jour</p>
+<p>Smoking quantity example</p>
 </td>
          </tr>
          <tr>
@@ -593,7 +611,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="Observation/VunsTobaccoStatus">VunsTobaccoStatus</a>
             </td>
             <td>
-<p>Example de statut de tabagisme</p>
+<p>Tobacco status example</p>
 </td>
          </tr>
       </tbody>
@@ -616,7 +634,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.chuliege.be">CHU Liège</a>.  Package be.chuliege.versunsoufflenouveau#0.1.2 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Aug 4, 2025 16:29+0200">2025-08-04</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.chuliege.be">CHU Liège</a>.  Package be.chuliege.versunsoufflenouveau#0.1.2 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Aug 18, 2025 11:24+0200">2025-08-18</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="4439efb3-c885-4615-9825-2e76eb0de7f1"/>
+  <id value="9ba1a448-2d4d-4fad-ae1b-d0deab8cd462"/>
   <meta>
-    <lastUpdated value="2025-08-04T16:29:47.320+02:00"/>
+    <lastUpdated value="2025-08-18T11:24:02.051+02:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -124,12 +124,12 @@
         <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-efr"/>
         <version value="0.1.2"/>
         <name value="EFR_VS"/>
-        <title value="Jeu d'observations d'une épreuve fonctionnelle respiratoire"/>
+        <title value="Valueset for pulmonary function test measurements"/>
         <status value="draft"/>
         <date value="2025-04-14"/>
         <expansion>
-          <identifier value="urn:uuid:0d612902-e3fa-4a44-a203-fdbfe4b82f81"/>
-          <timestamp value="2025-08-04T16:31:11+02:00"/>
+          <identifier value="urn:uuid:d82c4ede-224c-4a96-b7a4-53a2db8b591a"/>
+          <timestamp value="2025-08-18T11:29:08+02:00"/>
           <total value="11"/>
           <offset value="0"/>
           <parameter>
@@ -297,12 +297,11 @@
         <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-bio"/>
         <version value="0.1.2"/>
         <name value="PNEUMO_BIO_VS"/>
-        <title value="Jeu de biologies d'intérêt pour la télésurveillance des maladies respiratoires"/>
         <status value="draft"/>
         <date value="2025-04-14"/>
         <expansion>
-          <identifier value="urn:uuid:6d3b8b6d-b089-40f8-a1a0-9dadebbf1e04"/>
-          <timestamp value="2025-08-04T16:31:12+02:00"/>
+          <identifier value="urn:uuid:76757b89-1ae1-4cc6-9f95-a5c3ff11b2b3"/>
+          <timestamp value="2025-08-18T11:29:08+02:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -324,10 +323,6 @@
           <parameter>
             <name value="used-valueset"/>
             <valueUri value="null"/>
-          </parameter>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
@@ -569,12 +564,11 @@
         <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-diagnostic"/>
         <version value="0.1.2"/>
         <name value="PNEUMO_DIAGNOSTIC_VS"/>
-        <title value="Jeu de diagnostic principal maladie respiratoire"/>
         <status value="draft"/>
         <date value="2025-04-14"/>
         <expansion>
-          <identifier value="urn:uuid:a732ff2c-28ed-4442-ba39-1b0dae9cf910"/>
-          <timestamp value="2025-08-04T16:31:12+02:00"/>
+          <identifier value="urn:uuid:2f4b98cd-dbb2-4351-bc90-6c8e1ae22f43"/>
+          <timestamp value="2025-08-18T11:29:09+02:00"/>
           <total value="21"/>
           <offset value="0"/>
           <parameter>
@@ -760,12 +754,11 @@
         <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-vitaux"/>
         <version value="0.1.2"/>
         <name value="PNEUMO_VITAAUX_VS"/>
-        <title value="Jeu de signes vitaux pneumologie"/>
         <status value="draft"/>
         <date value="2025-04-14"/>
         <expansion>
-          <identifier value="urn:uuid:c5dc0385-60ae-4edf-bac5-588cc44e47ae"/>
-          <timestamp value="2025-08-04T16:31:12+02:00"/>
+          <identifier value="urn:uuid:49d4f766-b6a2-4939-b253-b51c2e7af814"/>
+          <timestamp value="2025-08-18T11:29:09+02:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -876,12 +869,11 @@
         <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac-status"/>
         <version value="0.1.2"/>
         <name value="TABAC_STATUS_VS"/>
-        <title value="Jeu de concept pour le statut de tabagisme"/>
         <status value="draft"/>
         <date value="2025-04-14"/>
         <expansion>
-          <identifier value="urn:uuid:86f477f9-fc82-4f99-aa9e-e1d05e5878f5"/>
-          <timestamp value="2025-08-04T16:31:13+02:00"/>
+          <identifier value="urn:uuid:6dba8217-2a24-4f8e-82b7-bda7f434af91"/>
+          <timestamp value="2025-08-18T11:29:09+02:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -994,12 +986,11 @@
         <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac"/>
         <version value="0.1.2"/>
         <name value="TABAC_VS"/>
-        <title value="Jeu de concept de tabacologie"/>
         <status value="draft"/>
         <date value="2025-04-14"/>
         <expansion>
-          <identifier value="urn:uuid:effc3f81-4bf9-4953-9b4f-c761f947cbac"/>
-          <timestamp value="2025-08-04T16:31:13+02:00"/>
+          <identifier value="urn:uuid:834c8f82-455c-4127-8f62-c124f5126834"/>
+          <timestamp value="2025-08-18T11:29:09+02:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>

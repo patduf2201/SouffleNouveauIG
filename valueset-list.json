@@ -5,8 +5,8 @@
       "version" : "0.1.2",
       "status" : "draft",
       "name" : "EFR_VS",
-      "title" : "Jeu d'observations d'une épreuve fonctionnelle respiratoire",
-      "description" : "Jeu d'bservations d'une épreuve fonctionnelle respiratoire",
+      "title" : "Valueset for pulmonary function test measurements",
+      "description" : "Valueset for pulmonary function test measurements",
       "systems" : ["http://loinc.org"]
     },
     {
@@ -14,8 +14,8 @@
       "version" : "0.1.2",
       "status" : "draft",
       "name" : "PNEUMO_BIO_VS",
-      "title" : "Jeu de biologies d'intérêt pour la télésurveillance des maladies respiratoires",
-      "description" : "Jeu de biologies d'intérêt pour la télésurveillance des maladies respiratoires",
+      "title" : null,
+      "description" : "Valueset for significant laboratory results in the scope of the 'Vers Un Souffle Nouveau' project",
       "systems" : ["http://loinc.org"]
     },
     {
@@ -23,8 +23,8 @@
       "version" : "0.1.2",
       "status" : "draft",
       "name" : "PNEUMO_DIAGNOSTIC_VS",
-      "title" : "Jeu de diagnostic principal maladie respiratoire",
-      "description" : "Jeu de diagnostic principal maladie respiratoire",
+      "title" : null,
+      "description" : "Valueset for principal diagnosis in the scope of he 'Vers Un Souffle Nouveau' project",
       "systems" : ["http://snomed.info/sct"]
     },
     {
@@ -32,8 +32,8 @@
       "version" : "0.1.2",
       "status" : "draft",
       "name" : "PNEUMO_VITAAUX_VS",
-      "title" : "Jeu de signes vitaux pneumologie",
-      "description" : "Jeu de signes vitaux pneumologie",
+      "title" : null,
+      "description" : "Valueset for vital signs in the scope of the 'Vers Un Souffle Nouveau' project",
       "systems" : ["http://loinc.org"]
     },
     {
@@ -41,8 +41,8 @@
       "version" : "0.1.2",
       "status" : "draft",
       "name" : "TABAC_VS",
-      "title" : "Jeu de concept de tabacologie",
-      "description" : "Jeu de concept de tabacologie",
+      "title" : null,
+      "description" : "Valueset for tobaccoology concepts in the scope of the 'Vers Un Souffle Nouveau' project",
       "systems" : ["http://loinc.org"]
     },
     {
@@ -50,8 +50,8 @@
       "version" : "0.1.2",
       "status" : "draft",
       "name" : "TABAC_STATUS_VS",
-      "title" : "Jeu de concept pour le statut de tabagisme",
-      "description" : null,
+      "title" : null,
+      "description" : "Valueset for tobacco status in the scope of the 'Vers Un Souffle Nouveau' project",
       "systems" : ["http://loinc.org"]
     }
   ]
