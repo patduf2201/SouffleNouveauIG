@@ -1,6 +1,18 @@
 {
   "codeSystems" : [
     {
+      "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/chul-location",
+      "version" : "0.1.2",
+      "status" : "draft",
+      "name" : "CHUL_LOCATION_VS",
+      "title" : null,
+      "description" : "Jeu de valuers pour la sites CHU Liège",
+      "systems" : ["https://terminology.chuliege.be/NamingSystem/location"],
+      "uses" : {
+      },
+      "StructureDefinition-chul-encounter.html" : "ChulEncounter"
+    },
+    {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-efr",
       "version" : "0.1.2",
       "status" : "draft",

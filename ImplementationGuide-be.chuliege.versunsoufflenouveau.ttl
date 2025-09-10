@@ -18,7 +18,7 @@
   fhir:version [ fhir:v "0.1.2"] ; # 
   fhir:name [ fhir:v "SouffleNouveauIG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-08-18T11:20:46+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-26T14:51:56+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "CHU Liège"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "CHU Liège" ] ;
@@ -869,11 +869,66 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/chul-encounter> ;
+         fhir:reference [ fhir:v "StructureDefinition/chul-encounter" ]
+       ] ;
+       fhir:name [ fhir:v "ChulEncounter" ] ;
+       fhir:description [ fhir:v "Profil pour une resource Encounter CHU Liège" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Encounter"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Encounter/ChulEncounterExample> ;
+         fhir:reference [ fhir:v "Encounter/ChulEncounterExample" ]
+       ] ;
+       fhir:name [ fhir:v "ChulEncounterExample" ] ;
+       fhir:description [ fhir:v "Example pour une resource Encounter CHU Liège" ] ;
+       fhir:example [
+         a fhir:canonical ;
+         fhir:v "https://terminology.chuliege.be/fhir/StructureDefinition/chul-encounter"^^xsd:anyURI ;
+         fhir:link <https://terminology.chuliege.be/fhir/StructureDefinition/chul-encounter>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/chul-patient> ;
          fhir:reference [ fhir:v "StructureDefinition/chul-patient" ]
        ] ;
        fhir:name [ fhir:v "ChulPatient" ] ;
        fhir:description [ fhir:v "Profil pour un Patient CHU Liège" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/chul-location> ;
+         fhir:reference [ fhir:v "ValueSet/chul-location" ]
+       ] ;
+       fhir:name [ fhir:v "CHUL_LOCATION_VS" ] ;
+       fhir:description [ fhir:v "Jeu de valuers pour la sites CHU Liège" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

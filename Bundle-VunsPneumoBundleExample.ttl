@@ -30,8 +30,8 @@
      fhir:fullUrl [ fhir:v "http://si-s-serv1041/ig/Patient/VunsPatientExample"^^xsd:anyURI ] ;
      fhir:resource ( <http://si-s-serv1041/ig/Patient/VunsPatientExample> )
   ] [
-     fhir:fullUrl [ fhir:v "http://si-s-serv1041/ig/Encounter/EuEncounterExample"^^xsd:anyURI ] ;
-     fhir:resource ( <http://si-s-serv1041/ig/Encounter/EuEncounterExample> )
+     fhir:fullUrl [ fhir:v "http://si-s-serv1041/ig/Encounter/ChulEncounterExample"^^xsd:anyURI ] ;
+     fhir:resource ( <http://si-s-serv1041/ig/Encounter/ChulEncounterExample> )
   ] [
      fhir:fullUrl [ fhir:v "http://si-s-serv1041/ig/Condition/VunsPneumoConditionAsthma"^^xsd:anyURI ] ;
      fhir:resource ( <http://si-s-serv1041/ig/Condition/VunsPneumoConditionAsthma> )
@@ -309,18 +309,21 @@
   fhir:gender [ fhir:v "male"] ; # 
   fhir:birthDate [ fhir:v "1974-01-22"^^xsd:date] . # 
 
-<http://si-s-serv1041/ig/Encounter/EuEncounterExample> a fhir:Encounter ;
-  fhir:id [ fhir:v "EuEncounterExample"] ; # 
+<http://si-s-serv1041/ig/Encounter/ChulEncounterExample> a fhir:Encounter ;
+  fhir:id [ fhir:v "ChulEncounterExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://hl7.eu/fhir/hdr/StructureDefinition/encounter-eu-hdr"^^xsd:anyURI ;
-       fhir:link <http://hl7.eu/fhir/hdr/StructureDefinition/encounter-eu-hdr>
+       fhir:v "https://terminology.chuliege.be/fhir/StructureDefinition/chul-encounter"^^xsd:anyURI ;
+       fhir:link <https://terminology.chuliege.be/fhir/StructureDefinition/chul-encounter>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Encounter_EuEncounterExample\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Encounter EuEncounterExample</b></p><a name=\"EuEncounterExample\"> </a><a name=\"hcEuEncounterExample\"> </a><a name=\"EuEncounterExample-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.eu/fhir/hdr/0.1.0-ballot/StructureDefinition-encounter-eu-hdr.html\">Encounter (HDR)</a></p></div><p><b>status</b>: Finished</p><p><b>class</b>: <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ActCode.html#v3-ActCode-SS\">ActCode SS</a>: short stay</p><p><b>subject</b>: <a href=\"Patient-VunsPatientExample.html\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Encounter_ChulEncounterExample\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Encounter ChulEncounterExample</b></p><a name=\"ChulEncounterExample\"> </a><a name=\"hcChulEncounterExample\"> </a><a name=\"ChulEncounterExample-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-chul-encounter.html\">ChulEncounter</a></p></div><p><b>identifier</b>: <code>https://terminology.chuliege.be/NamingSystem/location</code>/?ngen-9?</p><p><b>status</b>: Finished</p><p><b>class</b>: <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ActCode.html#v3-ActCode-SS\">ActCode SS</a>: short stay</p><p><b>subject</b>: <a href=\"Patient-VunsPatientExample.html\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><h3>Locations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Location</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Location/SartTilmanLocation\">Location/SartTilmanLocation</a></td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://terminology.chuliege.be/NamingSystem/location"^^xsd:anyURI ]
+  ] ) ; # 
   fhir:status [ fhir:v "finished"] ; # 
   fhir:class [
      fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ] ;
@@ -329,7 +332,13 @@
   fhir:subject [
      fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Patient/VunsPatientExample> ;
      fhir:reference [ fhir:v "Patient/VunsPatientExample" ]
-  ] . # 
+  ] ; # 
+  fhir:location ( [
+     fhir:location [
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Location/SartTilmanLocation> ;
+       fhir:reference [ fhir:v "Location/SartTilmanLocation" ]
+     ]
+  ] ) . # 
 
 <http://si-s-serv1041/ig/Condition/VunsPneumoConditionAsthma> a fhir:Condition ;
   fhir:id [ fhir:v "VunsPneumoConditionAsthma"] ; # 
@@ -1431,7 +1440,7 @@
   fhir:language [ fhir:v "fr-BE"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr-BE\" lang=\"fr-BE\"><a name=\"Procedure_VunsEfrExample\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Procedure VunsEfrExample</b></p><a name=\"VunsEfrExample\"> </a><a name=\"hcVunsEfrExample\"> </a><a name=\"VunsEfrExample-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: fr-BE</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-VunsEfr.html\">VunsEfr</a></p></div><p><b>status</b>: Completed</p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 23426006}\">Mesure de la fonction respiratoire</span></p><p><b>subject</b>: <a href=\"Patient-VunsPatientExample.html\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>encounter</b>: <a href=\"Bundle-VunsPneumoBundleExample.html#Encounter_EuEncounterExample\">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p><p><b>performed</b>: 2025-03-01</p><p><b>report</b>: <a href=\"Bundle-VunsPneumoBundleExample.html#DiagnosticReport_EfrDiagnosticReport\">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr-BE\" lang=\"fr-BE\"><a name=\"Procedure_VunsEfrExample\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Procedure VunsEfrExample</b></p><a name=\"VunsEfrExample\"> </a><a name=\"hcVunsEfrExample\"> </a><a name=\"VunsEfrExample-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: fr-BE</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-VunsEfr.html\">VunsEfr</a></p></div><p><b>status</b>: Completed</p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 23426006}\">Mesure de la fonction respiratoire</span></p><p><b>subject</b>: <a href=\"Patient-VunsPatientExample.html\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>encounter</b>: <a href=\"Encounter-ChulEncounterExample.html\">Encounter : identifier = https://terminology.chuliege.be/NamingSystem/location#?ngen-9?; status = finished; class = short stay (ActCode#SS)</a></p><p><b>performed</b>: 2025-03-01</p><p><b>report</b>: <a href=\"Bundle-VunsPneumoBundleExample.html#DiagnosticReport_EfrDiagnosticReport\">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "completed"] ; # 
   fhir:code [
@@ -1447,8 +1456,8 @@
      fhir:reference [ fhir:v "Patient/VunsPatientExample" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Encounter/EuEncounterExample> ;
-     fhir:reference [ fhir:v "Encounter/EuEncounterExample" ]
+     fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Encounter/ChulEncounterExample> ;
+     fhir:reference [ fhir:v "Encounter/ChulEncounterExample" ]
   ] ; # 
   fhir:performed [
      a fhir:dateTime ;

@@ -84,6 +84,13 @@
     "name" : "VunsContext"
   },
   {
+    "id" : "chul-location",
+    "type" : "ValueSet",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/chul-location",
+    "version" : "0.1.2",
+    "name" : "CHUL_LOCATION_VS"
+  },
+  {
     "id" : "i2x-efr",
     "type" : "ValueSet",
     "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-efr",
@@ -124,6 +131,13 @@
     "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac-status",
     "version" : "0.1.2",
     "name" : "TABAC_STATUS_VS"
+  },
+  {
+    "id" : "chul-encounter",
+    "type" : "StructureDefinition",
+    "url" : "https://terminology.chuliege.be/fhir/StructureDefinition/chul-encounter",
+    "version" : "0.1.2",
+    "name" : "ChulEncounter"
   },
   {
     "id" : "chul-patient",

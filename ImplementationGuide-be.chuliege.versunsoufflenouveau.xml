@@ -10,7 +10,7 @@
   <version value="0.1.2"/>
   <name value="SouffleNouveauIG"/>
   <status value="draft"/>
-  <date value="2025-08-18T11:20:46+02:00"/>
+  <date value="2025-08-26T14:51:56+02:00"/>
   <publisher value="CHU Liège"/>
   <contact>
     <name value="CHU Liège"/>
@@ -474,10 +474,43 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/chul-encounter"/>
+      </reference>
+      <name value="ChulEncounter"/>
+      <description value="Profil pour une resource Encounter CHU Liège"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/ChulEncounterExample"/>
+      </reference>
+      <name value="ChulEncounterExample"/>
+      <description value="Example pour une resource Encounter CHU Liège"/>
+      <exampleCanonical value="https://terminology.chuliege.be/fhir/StructureDefinition/chul-encounter"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/chul-patient"/>
       </reference>
       <name value="ChulPatient"/>
       <description value="Profil pour un Patient CHU Liège"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/chul-location"/>
+      </reference>
+      <name value="CHUL_LOCATION_VS"/>
+      <description value="Jeu de valuers pour la sites CHU Liège"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

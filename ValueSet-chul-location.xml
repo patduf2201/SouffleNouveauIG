@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="chul-location"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet chul-location</b></p><a name="chul-location"> </a><a name="hcchul-location"> </a><a name="chul-location-und"> </a><ul><li>Include ces codes sont définis dans <code>https://terminology.chuliege.be/NamingSystem/location</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>AR</td><td>André Renard</td></tr><tr><td>CM</td><td>Centre Médical Mosan</td></tr><tr><td>EX</td><td>Sites extérieurs</td></tr><tr><td>GL</td><td>Glamo</td></tr><tr><td>SR</td><td>Ste Rosalie</td></tr><tr><td>RO</td><td>Rotheux</td></tr><tr><td>AS</td><td>Espace Femme et Santé</td></tr><tr><td>BY</td><td>Bruyères</td></tr><tr><td>ST</td><td>Sart-Tilman</td></tr><tr><td>ES</td><td>Esneux</td></tr><tr><td>BR</td><td>Brull</td></tr><tr><td>AY</td><td>Aywaille</td></tr><tr><td>SA</td><td>Sauvenière</td></tr><tr><td>CH</td><td>Chaudfontaine</td></tr><tr><td>PI</td><td>Pitteurs</td></tr><tr><td>CE</td><td>Cerexhe</td></tr><tr><td>SI</td><td>Sida Sol Asbl</td></tr><tr><td>BT</td><td>Botanique</td></tr><tr><td>MI</td><td>Micheroux</td></tr><tr><td>AN</td><td>Ans</td></tr><tr><td>CHE</td><td>Chênée</td></tr><tr><td>HOL</td><td>Grace Hollogne</td></tr><tr><td>POU</td><td>Poulseur</td></tr><tr><td>LIE</td><td>Liège</td></tr><tr><td>AM</td><td>Amercoeur</td></tr><tr><td>CL</td><td>La Clé</td></tr><tr><td>CI</td><td>CHR Citadelle</td></tr><tr><td>FR</td><td>CNRF Fraiture</td></tr><tr><td>SJ</td><td>St Joseph</td></tr><tr><td>LB</td><td>Libramont</td></tr><tr><td>HA</td><td>Country Hall</td></tr><tr><td>EC</td><td>Centre de l'Ecoute</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/chul-location"/>
+  <version value="0.1.2"/>
+  <name value="CHUL_LOCATION_VS"/>
+  <status value="draft"/>
+  <date value="2025-04-14"/>
+  <publisher value="CHU Liège"/>
+  <contact>
+    <name value="CHU Liège"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.chuliege.be"/>
+    </telecom>
+  </contact>
+  <description value="Jeu de valuers pour la sites CHU Liège"/>
+  <copyright value="RM@H IG (C) 2025-2025 University Hospital of Liege, GSI Department, Belgium. This implementation guide is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see &lt;http://www.gnu.org/licenses/&gt;."/>
+  <compose>
+    <include>
+      <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+      <concept>
+        <code value="AR"/>
+        <display value="André Renard"/>
+      </concept>
+      <concept>
+        <code value="CM"/>
+        <display value="Centre Médical Mosan"/>
+      </concept>
+      <concept>
+        <code value="EX"/>
+        <display value="Sites extérieurs"/>
+      </concept>
+      <concept>
+        <code value="GL"/>
+        <display value="Glamo"/>
+      </concept>
+      <concept>
+        <code value="SR"/>
+        <display value="Ste Rosalie"/>
+      </concept>
+      <concept>
+        <code value="RO"/>
+        <display value="Rotheux"/>
+      </concept>
+      <concept>
+        <code value="AS"/>
+        <display value="Espace Femme et Santé"/>
+      </concept>
+      <concept>
+        <code value="BY"/>
+        <display value="Bruyères"/>
+      </concept>
+      <concept>
+        <code value="ST"/>
+        <display value="Sart-Tilman"/>
+      </concept>
+      <concept>
+        <code value="ES"/>
+        <display value="Esneux"/>
+      </concept>
+      <concept>
+        <code value="BR"/>
+        <display value="Brull"/>
+      </concept>
+      <concept>
+        <code value="AY"/>
+        <display value="Aywaille"/>
+      </concept>
+      <concept>
+        <code value="SA"/>
+        <display value="Sauvenière"/>
+      </concept>
+      <concept>
+        <code value="CH"/>
+        <display value="Chaudfontaine"/>
+      </concept>
+      <concept>
+        <code value="PI"/>
+        <display value="Pitteurs"/>
+      </concept>
+      <concept>
+        <code value="CE"/>
+        <display value="Cerexhe"/>
+      </concept>
+      <concept>
+        <code value="SI"/>
+        <display value="Sida Sol Asbl"/>
+      </concept>
+      <concept>
+        <code value="BT"/>
+        <display value="Botanique"/>
+      </concept>
+      <concept>
+        <code value="MI"/>
+        <display value="Micheroux"/>
+      </concept>
+      <concept>
+        <code value="AN"/>
+        <display value="Ans"/>
+      </concept>
+      <concept>
+        <code value="CHE"/>
+        <display value="Chênée"/>
+      </concept>
+      <concept>
+        <code value="HOL"/>
+        <display value="Grace Hollogne"/>
+      </concept>
+      <concept>
+        <code value="POU"/>
+        <display value="Poulseur"/>
+      </concept>
+      <concept>
+        <code value="LIE"/>
+        <display value="Liège"/>
+      </concept>
+      <concept>
+        <code value="AM"/>
+        <display value="Amercoeur"/>
+      </concept>
+      <concept>
+        <code value="CL"/>
+        <display value="La Clé"/>
+      </concept>
+      <concept>
+        <code value="CI"/>
+        <display value="CHR Citadelle"/>
+      </concept>
+      <concept>
+        <code value="FR"/>
+        <display value="CNRF Fraiture"/>
+      </concept>
+      <concept>
+        <code value="SJ"/>
+        <display value="St Joseph"/>
+      </concept>
+      <concept>
+        <code value="LB"/>
+        <display value="Libramont"/>
+      </concept>
+      <concept>
+        <code value="HA"/>
+        <display value="Country Hall"/>
+      </concept>
+      <concept>
+        <code value="EC"/>
+        <display value="Centre de l'Ecoute"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

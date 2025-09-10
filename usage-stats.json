@@ -49,9 +49,18 @@
         "url": "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition",
         "title": "VunsPneumoCondition"
       }
+    ],
+    "Encounter": [
+      {
+        "url": "https://terminology.chuliege.be/fhir/StructureDefinition/chul-encounter",
+        "title": "ChulEncounter"
+      }
     ]
   },
   "usage": {
+    "http://hl7.eu/fhir/StructureDefinition/encounter-legalStatus": [
+      "Encounter"
+    ],
     "http://hl7.eu/fhir/StructureDefinition/information-recipient": [
       "Composition"
     ],
@@ -90,6 +99,9 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/event-basedOn": [
       "Composition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/note": [
+      "Encounter"
     ],
     "http://hl7.org/fhir/StructureDefinition/patient-birthPlace": [
       "Patient"

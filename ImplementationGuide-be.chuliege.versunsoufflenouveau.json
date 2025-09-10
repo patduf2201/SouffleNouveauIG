@@ -10,7 +10,7 @@
   "version" : "0.1.2",
   "name" : "SouffleNouveauIG",
   "status" : "draft",
-  "date" : "2025-08-18T11:20:46+02:00",
+  "date" : "2025-08-26T14:51:56+02:00",
   "publisher" : "CHU Liège",
   "contact" : [{
     "name" : "CHU Liège",
@@ -635,10 +635,46 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/chul-encounter"
+      },
+      "name" : "ChulEncounter",
+      "description" : "Profil pour une resource Encounter CHU Liège",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Encounter"
+      }],
+      "reference" : {
+        "reference" : "Encounter/ChulEncounterExample"
+      },
+      "name" : "ChulEncounterExample",
+      "description" : "Example pour une resource Encounter CHU Liège",
+      "exampleCanonical" : "https://terminology.chuliege.be/fhir/StructureDefinition/chul-encounter"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/chul-patient"
       },
       "name" : "ChulPatient",
       "description" : "Profil pour un Patient CHU Liège",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/chul-location"
+      },
+      "name" : "CHUL_LOCATION_VS",
+      "description" : "Jeu de valuers pour la sites CHU Liège",
       "exampleBoolean" : false
     },
     {

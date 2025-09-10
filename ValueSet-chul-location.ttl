@@ -1,0 +1,135 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/chul-location> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "chul-location"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet chul-location</b></p><a name=\"chul-location\"> </a><a name=\"hcchul-location\"> </a><a name=\"chul-location-und\"> </a><ul><li>Include ces codes sont définis dans <code>https://terminology.chuliege.be/NamingSystem/location</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>AR</td><td>André Renard</td></tr><tr><td>CM</td><td>Centre Médical Mosan</td></tr><tr><td>EX</td><td>Sites extérieurs</td></tr><tr><td>GL</td><td>Glamo</td></tr><tr><td>SR</td><td>Ste Rosalie</td></tr><tr><td>RO</td><td>Rotheux</td></tr><tr><td>AS</td><td>Espace Femme et Santé</td></tr><tr><td>BY</td><td>Bruyères</td></tr><tr><td>ST</td><td>Sart-Tilman</td></tr><tr><td>ES</td><td>Esneux</td></tr><tr><td>BR</td><td>Brull</td></tr><tr><td>AY</td><td>Aywaille</td></tr><tr><td>SA</td><td>Sauvenière</td></tr><tr><td>CH</td><td>Chaudfontaine</td></tr><tr><td>PI</td><td>Pitteurs</td></tr><tr><td>CE</td><td>Cerexhe</td></tr><tr><td>SI</td><td>Sida Sol Asbl</td></tr><tr><td>BT</td><td>Botanique</td></tr><tr><td>MI</td><td>Micheroux</td></tr><tr><td>AN</td><td>Ans</td></tr><tr><td>CHE</td><td>Chênée</td></tr><tr><td>HOL</td><td>Grace Hollogne</td></tr><tr><td>POU</td><td>Poulseur</td></tr><tr><td>LIE</td><td>Liège</td></tr><tr><td>AM</td><td>Amercoeur</td></tr><tr><td>CL</td><td>La Clé</td></tr><tr><td>CI</td><td>CHR Citadelle</td></tr><tr><td>FR</td><td>CNRF Fraiture</td></tr><tr><td>SJ</td><td>St Joseph</td></tr><tr><td>LB</td><td>Libramont</td></tr><tr><td>HA</td><td>Country Hall</td></tr><tr><td>EC</td><td>Centre de l'Ecoute</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/chul-location"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.2"] ; # 
+  fhir:name [ fhir:v "CHUL_LOCATION_VS"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2025-04-14"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "CHU Liège"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "CHU Liège" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.chuliege.be" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Jeu de valuers pour la sites CHU Liège"] ; # 
+  fhir:copyright [ fhir:v "RM@H IG (C) 2025-2025 University Hospital of Liege, GSI Department, Belgium. This implementation guide is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://terminology.chuliege.be/NamingSystem/location"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "AR" ] ;
+         fhir:display [ fhir:v "André Renard" ]
+       ] [
+         fhir:code [ fhir:v "CM" ] ;
+         fhir:display [ fhir:v "Centre Médical Mosan" ]
+       ] [
+         fhir:code [ fhir:v "EX" ] ;
+         fhir:display [ fhir:v "Sites extérieurs" ]
+       ] [
+         fhir:code [ fhir:v "GL" ] ;
+         fhir:display [ fhir:v "Glamo" ]
+       ] [
+         fhir:code [ fhir:v "SR" ] ;
+         fhir:display [ fhir:v "Ste Rosalie" ]
+       ] [
+         fhir:code [ fhir:v "RO" ] ;
+         fhir:display [ fhir:v "Rotheux" ]
+       ] [
+         fhir:code [ fhir:v "AS" ] ;
+         fhir:display [ fhir:v "Espace Femme et Santé" ]
+       ] [
+         fhir:code [ fhir:v "BY" ] ;
+         fhir:display [ fhir:v "Bruyères" ]
+       ] [
+         fhir:code [ fhir:v "ST" ] ;
+         fhir:display [ fhir:v "Sart-Tilman" ]
+       ] [
+         fhir:code [ fhir:v "ES" ] ;
+         fhir:display [ fhir:v "Esneux" ]
+       ] [
+         fhir:code [ fhir:v "BR" ] ;
+         fhir:display [ fhir:v "Brull" ]
+       ] [
+         fhir:code [ fhir:v "AY" ] ;
+         fhir:display [ fhir:v "Aywaille" ]
+       ] [
+         fhir:code [ fhir:v "SA" ] ;
+         fhir:display [ fhir:v "Sauvenière" ]
+       ] [
+         fhir:code [ fhir:v "CH" ] ;
+         fhir:display [ fhir:v "Chaudfontaine" ]
+       ] [
+         fhir:code [ fhir:v "PI" ] ;
+         fhir:display [ fhir:v "Pitteurs" ]
+       ] [
+         fhir:code [ fhir:v "CE" ] ;
+         fhir:display [ fhir:v "Cerexhe" ]
+       ] [
+         fhir:code [ fhir:v "SI" ] ;
+         fhir:display [ fhir:v "Sida Sol Asbl" ]
+       ] [
+         fhir:code [ fhir:v "BT" ] ;
+         fhir:display [ fhir:v "Botanique" ]
+       ] [
+         fhir:code [ fhir:v "MI" ] ;
+         fhir:display [ fhir:v "Micheroux" ]
+       ] [
+         fhir:code [ fhir:v "AN" ] ;
+         fhir:display [ fhir:v "Ans" ]
+       ] [
+         fhir:code [ fhir:v "CHE" ] ;
+         fhir:display [ fhir:v "Chênée" ]
+       ] [
+         fhir:code [ fhir:v "HOL" ] ;
+         fhir:display [ fhir:v "Grace Hollogne" ]
+       ] [
+         fhir:code [ fhir:v "POU" ] ;
+         fhir:display [ fhir:v "Poulseur" ]
+       ] [
+         fhir:code [ fhir:v "LIE" ] ;
+         fhir:display [ fhir:v "Liège" ]
+       ] [
+         fhir:code [ fhir:v "AM" ] ;
+         fhir:display [ fhir:v "Amercoeur" ]
+       ] [
+         fhir:code [ fhir:v "CL" ] ;
+         fhir:display [ fhir:v "La Clé" ]
+       ] [
+         fhir:code [ fhir:v "CI" ] ;
+         fhir:display [ fhir:v "CHR Citadelle" ]
+       ] [
+         fhir:code [ fhir:v "FR" ] ;
+         fhir:display [ fhir:v "CNRF Fraiture" ]
+       ] [
+         fhir:code [ fhir:v "SJ" ] ;
+         fhir:display [ fhir:v "St Joseph" ]
+       ] [
+         fhir:code [ fhir:v "LB" ] ;
+         fhir:display [ fhir:v "Libramont" ]
+       ] [
+         fhir:code [ fhir:v "HA" ] ;
+         fhir:display [ fhir:v "Country Hall" ]
+       ] [
+         fhir:code [ fhir:v "EC" ] ;
+         fhir:display [ fhir:v "Centre de l'Ecoute" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+
