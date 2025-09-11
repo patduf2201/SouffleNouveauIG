@@ -10,7 +10,7 @@
   "version" : "0.1.2",
   "name" : "SouffleNouveauIG",
   "status" : "draft",
-  "date" : "2025-08-26T14:51:56+02:00",
+  "date" : "2025-09-10T16:13:27+02:00",
   "publisher" : "CHU Liège",
   "contact" : [{
     "name" : "CHU Liège",
@@ -659,10 +659,34 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/chul-location"
+      },
+      "name" : "ChulLocation",
+      "description" : "Profil pour une resource Location CHU Liège",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/chul-patient"
       },
       "name" : "ChulPatient",
       "description" : "Profil pour un Patient CHU Liège",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/chul-location-cs"
+      },
+      "name" : "CHUL_LOCATION_CS",
+      "description" : "Jeu de codes pour la sites CHU Liège",
       "exampleBoolean" : false
     },
     {
@@ -674,7 +698,7 @@
         "reference" : "ValueSet/chul-location"
       },
       "name" : "CHUL_LOCATION_VS",
-      "description" : "Jeu de valuers pour la sites CHU Liège",
+      "description" : "Valueset pour les sites CHU Liège",
       "exampleBoolean" : false
     },
     {

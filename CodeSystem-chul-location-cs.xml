@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="chul-location-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem chul-location-cs</b></p><a name="chul-location-cs"> </a><a name="hcchul-location-cs"> </a><a name="chul-location-cs-und"> </a><p>This  code system <code>https://terminology.chuliege.be/NamingSystem/location</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">AR<a name="chul-location-cs-AR"> </a></td><td>André Renard</td></tr><tr><td style="white-space:nowrap">CM<a name="chul-location-cs-CM"> </a></td><td>Centre Médical Mosan</td></tr><tr><td style="white-space:nowrap">EX<a name="chul-location-cs-EX"> </a></td><td>Sites extérieurs</td></tr><tr><td style="white-space:nowrap">GL<a name="chul-location-cs-GL"> </a></td><td>Glamo</td></tr><tr><td style="white-space:nowrap">SR<a name="chul-location-cs-SR"> </a></td><td>Ste Rosalie</td></tr><tr><td style="white-space:nowrap">RO<a name="chul-location-cs-RO"> </a></td><td>Rotheux</td></tr><tr><td style="white-space:nowrap">AS<a name="chul-location-cs-AS"> </a></td><td>Espace Femme et Santé</td></tr><tr><td style="white-space:nowrap">BY<a name="chul-location-cs-BY"> </a></td><td>Bruyères</td></tr><tr><td style="white-space:nowrap">ST<a name="chul-location-cs-ST"> </a></td><td>Sart-Tilman</td></tr><tr><td style="white-space:nowrap">ES<a name="chul-location-cs-ES"> </a></td><td>Esneux</td></tr><tr><td style="white-space:nowrap">BR<a name="chul-location-cs-BR"> </a></td><td>Brull</td></tr><tr><td style="white-space:nowrap">AY<a name="chul-location-cs-AY"> </a></td><td>Aywaille</td></tr><tr><td style="white-space:nowrap">SA<a name="chul-location-cs-SA"> </a></td><td>Sauvenière</td></tr><tr><td style="white-space:nowrap">CH<a name="chul-location-cs-CH"> </a></td><td>Chaudfontaine</td></tr><tr><td style="white-space:nowrap">PI<a name="chul-location-cs-PI"> </a></td><td>Pitteurs</td></tr><tr><td style="white-space:nowrap">CE<a name="chul-location-cs-CE"> </a></td><td>Cerexhe</td></tr><tr><td style="white-space:nowrap">SI<a name="chul-location-cs-SI"> </a></td><td>Sida Sol Asbl</td></tr><tr><td style="white-space:nowrap">BT<a name="chul-location-cs-BT"> </a></td><td>Botanique</td></tr><tr><td style="white-space:nowrap">MI<a name="chul-location-cs-MI"> </a></td><td>Micheroux</td></tr><tr><td style="white-space:nowrap">AN<a name="chul-location-cs-AN"> </a></td><td>Ans</td></tr><tr><td style="white-space:nowrap">CHE<a name="chul-location-cs-CHE"> </a></td><td>Chênée</td></tr><tr><td style="white-space:nowrap">HOL<a name="chul-location-cs-HOL"> </a></td><td>Grace Hollogne</td></tr><tr><td style="white-space:nowrap">POU<a name="chul-location-cs-POU"> </a></td><td>Poulseur</td></tr><tr><td style="white-space:nowrap">LIE<a name="chul-location-cs-LIE"> </a></td><td>Liège</td></tr><tr><td style="white-space:nowrap">AM<a name="chul-location-cs-AM"> </a></td><td>Amercoeur</td></tr><tr><td style="white-space:nowrap">CL<a name="chul-location-cs-CL"> </a></td><td>La Clé</td></tr><tr><td style="white-space:nowrap">CI<a name="chul-location-cs-CI"> </a></td><td>CHR Citadelle</td></tr><tr><td style="white-space:nowrap">FR<a name="chul-location-cs-FR"> </a></td><td>CNRF Fraiture</td></tr><tr><td style="white-space:nowrap">SJ<a name="chul-location-cs-SJ"> </a></td><td>St Joseph</td></tr><tr><td style="white-space:nowrap">LB<a name="chul-location-cs-LB"> </a></td><td>Libramont</td></tr><tr><td style="white-space:nowrap">HA<a name="chul-location-cs-HA"> </a></td><td>Country Hall</td></tr><tr><td style="white-space:nowrap">EC<a name="chul-location-cs-EC"> </a></td><td>Centre de l'Ecoute</td></tr></table></div>
+  </text>
+  <url value="https://terminology.chuliege.be/NamingSystem/location"/>
+  <version value="0.1.2"/>
+  <name value="CHUL_LOCATION_CS"/>
+  <status value="draft"/>
+  <date value="2025-04-14"/>
+  <publisher value="CHU Liège"/>
+  <contact>
+    <name value="CHU Liège"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.chuliege.be"/>
+    </telecom>
+  </contact>
+  <description value="Jeu de codes pour la sites CHU Liège"/>
+  <copyright value="RM@H IG (C) 2025-2025 University Hospital of Liege, GSI Department, Belgium. This implementation guide is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see &lt;http://www.gnu.org/licenses/&gt;."/>
+  <content value="complete"/>
+  <count value="32"/>
+  <concept>
+    <code value="AR"/>
+    <display value="André Renard"/>
+  </concept>
+  <concept>
+    <code value="CM"/>
+    <display value="Centre Médical Mosan"/>
+  </concept>
+  <concept>
+    <code value="EX"/>
+    <display value="Sites extérieurs"/>
+  </concept>
+  <concept>
+    <code value="GL"/>
+    <display value="Glamo"/>
+  </concept>
+  <concept>
+    <code value="SR"/>
+    <display value="Ste Rosalie"/>
+  </concept>
+  <concept>
+    <code value="RO"/>
+    <display value="Rotheux"/>
+  </concept>
+  <concept>
+    <code value="AS"/>
+    <display value="Espace Femme et Santé"/>
+  </concept>
+  <concept>
+    <code value="BY"/>
+    <display value="Bruyères"/>
+  </concept>
+  <concept>
+    <code value="ST"/>
+    <display value="Sart-Tilman"/>
+  </concept>
+  <concept>
+    <code value="ES"/>
+    <display value="Esneux"/>
+  </concept>
+  <concept>
+    <code value="BR"/>
+    <display value="Brull"/>
+  </concept>
+  <concept>
+    <code value="AY"/>
+    <display value="Aywaille"/>
+  </concept>
+  <concept>
+    <code value="SA"/>
+    <display value="Sauvenière"/>
+  </concept>
+  <concept>
+    <code value="CH"/>
+    <display value="Chaudfontaine"/>
+  </concept>
+  <concept>
+    <code value="PI"/>
+    <display value="Pitteurs"/>
+  </concept>
+  <concept>
+    <code value="CE"/>
+    <display value="Cerexhe"/>
+  </concept>
+  <concept>
+    <code value="SI"/>
+    <display value="Sida Sol Asbl"/>
+  </concept>
+  <concept>
+    <code value="BT"/>
+    <display value="Botanique"/>
+  </concept>
+  <concept>
+    <code value="MI"/>
+    <display value="Micheroux"/>
+  </concept>
+  <concept>
+    <code value="AN"/>
+    <display value="Ans"/>
+  </concept>
+  <concept>
+    <code value="CHE"/>
+    <display value="Chênée"/>
+  </concept>
+  <concept>
+    <code value="HOL"/>
+    <display value="Grace Hollogne"/>
+  </concept>
+  <concept>
+    <code value="POU"/>
+    <display value="Poulseur"/>
+  </concept>
+  <concept>
+    <code value="LIE"/>
+    <display value="Liège"/>
+  </concept>
+  <concept>
+    <code value="AM"/>
+    <display value="Amercoeur"/>
+  </concept>
+  <concept>
+    <code value="CL"/>
+    <display value="La Clé"/>
+  </concept>
+  <concept>
+    <code value="CI"/>
+    <display value="CHR Citadelle"/>
+  </concept>
+  <concept>
+    <code value="FR"/>
+    <display value="CNRF Fraiture"/>
+  </concept>
+  <concept>
+    <code value="SJ"/>
+    <display value="St Joseph"/>
+  </concept>
+  <concept>
+    <code value="LB"/>
+    <display value="Libramont"/>
+  </concept>
+  <concept>
+    <code value="HA"/>
+    <display value="Country Hall"/>
+  </concept>
+  <concept>
+    <code value="EC"/>
+    <display value="Centre de l'Ecoute"/>
+  </concept>
+</CodeSystem>

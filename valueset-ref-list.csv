@@ -1,5 +1,5 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
-http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/chul-location,0.1.2,draft,,CHUL_LOCATION_VS,,"Jeu de valuers pour la sites CHU Liège","StructureDefinition/chul-encounter","Other"
+http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/chul-location,0.1.2,draft,,CHUL_LOCATION_VS,,"Valueset pour les sites CHU Liège","StructureDefinition/chul-location","Internal"
 http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-efr,0.1.2,draft,,EFR_VS,Valueset for pulmonary function test measurements,"Valueset for pulmonary function test measurements","StructureDefinition/VunsEfrObservation","LOINC"
 http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-bio,0.1.2,draft,,PNEUMO_BIO_VS,,"Valueset for significant laboratory results in the scope of the 'Vers Un Souffle Nouveau' project","StructureDefinition/VunsPneumoBio","LOINC"
 http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-diagnostic,0.1.2,draft,,PNEUMO_DIAGNOSTIC_VS,,"Valueset for principal diagnosis in the scope of he 'Vers Un Souffle Nouveau' project","StructureDefinition/VunsPneumoCondition","SCT"

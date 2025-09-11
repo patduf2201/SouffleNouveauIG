@@ -55,6 +55,12 @@
         "url": "https://terminology.chuliege.be/fhir/StructureDefinition/chul-encounter",
         "title": "ChulEncounter"
       }
+    ],
+    "Location": [
+      {
+        "url": "https://terminology.chuliege.be/fhir/StructureDefinition/chul-location",
+        "title": "ChulLocation"
+      }
     ]
   },
   "usage": {

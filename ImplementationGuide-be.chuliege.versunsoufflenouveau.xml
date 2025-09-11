@@ -10,7 +10,7 @@
   <version value="0.1.2"/>
   <name value="SouffleNouveauIG"/>
   <status value="draft"/>
-  <date value="2025-08-26T14:51:56+02:00"/>
+  <date value="2025-09-10T16:13:27+02:00"/>
   <publisher value="CHU Liège"/>
   <contact>
     <name value="CHU Liège"/>
@@ -496,10 +496,32 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/chul-location"/>
+      </reference>
+      <name value="ChulLocation"/>
+      <description value="Profil pour une resource Location CHU Liège"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/chul-patient"/>
       </reference>
       <name value="ChulPatient"/>
       <description value="Profil pour un Patient CHU Liège"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/chul-location-cs"/>
+      </reference>
+      <name value="CHUL_LOCATION_CS"/>
+      <description value="Jeu de codes pour la sites CHU Liège"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -510,7 +532,7 @@
         <reference value="ValueSet/chul-location"/>
       </reference>
       <name value="CHUL_LOCATION_VS"/>
-      <description value="Jeu de valuers pour la sites CHU Liège"/>
+      <description value="Valueset pour les sites CHU Liège"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

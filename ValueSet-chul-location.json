@@ -3,7 +3,7 @@
   "id" : "chul-location",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet chul-location</b></p><a name=\"chul-location\"> </a><a name=\"hcchul-location\"> </a><a name=\"chul-location-und\"> </a><ul><li>Include ces codes sont définis dans <code>https://terminology.chuliege.be/NamingSystem/location</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>AR</td><td>André Renard</td></tr><tr><td>CM</td><td>Centre Médical Mosan</td></tr><tr><td>EX</td><td>Sites extérieurs</td></tr><tr><td>GL</td><td>Glamo</td></tr><tr><td>SR</td><td>Ste Rosalie</td></tr><tr><td>RO</td><td>Rotheux</td></tr><tr><td>AS</td><td>Espace Femme et Santé</td></tr><tr><td>BY</td><td>Bruyères</td></tr><tr><td>ST</td><td>Sart-Tilman</td></tr><tr><td>ES</td><td>Esneux</td></tr><tr><td>BR</td><td>Brull</td></tr><tr><td>AY</td><td>Aywaille</td></tr><tr><td>SA</td><td>Sauvenière</td></tr><tr><td>CH</td><td>Chaudfontaine</td></tr><tr><td>PI</td><td>Pitteurs</td></tr><tr><td>CE</td><td>Cerexhe</td></tr><tr><td>SI</td><td>Sida Sol Asbl</td></tr><tr><td>BT</td><td>Botanique</td></tr><tr><td>MI</td><td>Micheroux</td></tr><tr><td>AN</td><td>Ans</td></tr><tr><td>CHE</td><td>Chênée</td></tr><tr><td>HOL</td><td>Grace Hollogne</td></tr><tr><td>POU</td><td>Poulseur</td></tr><tr><td>LIE</td><td>Liège</td></tr><tr><td>AM</td><td>Amercoeur</td></tr><tr><td>CL</td><td>La Clé</td></tr><tr><td>CI</td><td>CHR Citadelle</td></tr><tr><td>FR</td><td>CNRF Fraiture</td></tr><tr><td>SJ</td><td>St Joseph</td></tr><tr><td>LB</td><td>Libramont</td></tr><tr><td>HA</td><td>Country Hall</td></tr><tr><td>EC</td><td>Centre de l'Ecoute</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet chul-location</b></p><a name=\"chul-location\"> </a><a name=\"hcchul-location\"> </a><a name=\"chul-location-und\"> </a><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-chul-location-cs.html\"><code>https://terminology.chuliege.be/NamingSystem/location</code></a></li></ul></div>"
   },
   "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/chul-location",
   "version" : "0.1.2",
@@ -18,139 +18,11 @@
       "value" : "http://www.chuliege.be"
     }]
   }],
-  "description" : "Jeu de valuers pour la sites CHU Liège",
+  "description" : "Valueset pour les sites CHU Liège",
   "copyright" : "RM@H IG (C) 2025-2025 University Hospital of Liege, GSI Department, Belgium. This implementation guide is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.",
   "compose" : {
     "include" : [{
-      "system" : "https://terminology.chuliege.be/NamingSystem/location",
-      "concept" : [{
-        "code" : "AR",
-        "display" : "André Renard"
-      },
-      {
-        "code" : "CM",
-        "display" : "Centre Médical Mosan"
-      },
-      {
-        "code" : "EX",
-        "display" : "Sites extérieurs"
-      },
-      {
-        "code" : "GL",
-        "display" : "Glamo"
-      },
-      {
-        "code" : "SR",
-        "display" : "Ste Rosalie"
-      },
-      {
-        "code" : "RO",
-        "display" : "Rotheux"
-      },
-      {
-        "code" : "AS",
-        "display" : "Espace Femme et Santé"
-      },
-      {
-        "code" : "BY",
-        "display" : "Bruyères"
-      },
-      {
-        "code" : "ST",
-        "display" : "Sart-Tilman"
-      },
-      {
-        "code" : "ES",
-        "display" : "Esneux"
-      },
-      {
-        "code" : "BR",
-        "display" : "Brull"
-      },
-      {
-        "code" : "AY",
-        "display" : "Aywaille"
-      },
-      {
-        "code" : "SA",
-        "display" : "Sauvenière"
-      },
-      {
-        "code" : "CH",
-        "display" : "Chaudfontaine"
-      },
-      {
-        "code" : "PI",
-        "display" : "Pitteurs"
-      },
-      {
-        "code" : "CE",
-        "display" : "Cerexhe"
-      },
-      {
-        "code" : "SI",
-        "display" : "Sida Sol Asbl"
-      },
-      {
-        "code" : "BT",
-        "display" : "Botanique"
-      },
-      {
-        "code" : "MI",
-        "display" : "Micheroux"
-      },
-      {
-        "code" : "AN",
-        "display" : "Ans"
-      },
-      {
-        "code" : "CHE",
-        "display" : "Chênée"
-      },
-      {
-        "code" : "HOL",
-        "display" : "Grace Hollogne"
-      },
-      {
-        "code" : "POU",
-        "display" : "Poulseur"
-      },
-      {
-        "code" : "LIE",
-        "display" : "Liège"
-      },
-      {
-        "code" : "AM",
-        "display" : "Amercoeur"
-      },
-      {
-        "code" : "CL",
-        "display" : "La Clé"
-      },
-      {
-        "code" : "CI",
-        "display" : "CHR Citadelle"
-      },
-      {
-        "code" : "FR",
-        "display" : "CNRF Fraiture"
-      },
-      {
-        "code" : "SJ",
-        "display" : "St Joseph"
-      },
-      {
-        "code" : "LB",
-        "display" : "Libramont"
-      },
-      {
-        "code" : "HA",
-        "display" : "Country Hall"
-      },
-      {
-        "code" : "EC",
-        "display" : "Centre de l'Ecoute"
-      }]
+      "system" : "https://terminology.chuliege.be/NamingSystem/location"
     }]
   }
 }

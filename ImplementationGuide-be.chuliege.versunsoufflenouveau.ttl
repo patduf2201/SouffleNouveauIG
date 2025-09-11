@@ -18,7 +18,7 @@
   fhir:version [ fhir:v "0.1.2"] ; # 
   fhir:name [ fhir:v "SouffleNouveauIG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-08-26T14:51:56+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-10T16:13:27+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "CHU Liège"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "CHU Liège" ] ;
@@ -906,11 +906,47 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/chul-location> ;
+         fhir:reference [ fhir:v "StructureDefinition/chul-location" ]
+       ] ;
+       fhir:name [ fhir:v "ChulLocation" ] ;
+       fhir:description [ fhir:v "Profil pour une resource Location CHU Liège" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/chul-patient> ;
          fhir:reference [ fhir:v "StructureDefinition/chul-patient" ]
        ] ;
        fhir:name [ fhir:v "ChulPatient" ] ;
        fhir:description [ fhir:v "Profil pour un Patient CHU Liège" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/CodeSystem/chul-location-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/chul-location-cs" ]
+       ] ;
+       fhir:name [ fhir:v "CHUL_LOCATION_CS" ] ;
+       fhir:description [ fhir:v "Jeu de codes pour la sites CHU Liège" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -928,7 +964,7 @@
          fhir:reference [ fhir:v "ValueSet/chul-location" ]
        ] ;
        fhir:name [ fhir:v "CHUL_LOCATION_VS" ] ;
-       fhir:description [ fhir:v "Jeu de valuers pour la sites CHU Liège" ] ;
+       fhir:description [ fhir:v "Valueset pour les sites CHU Liège" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

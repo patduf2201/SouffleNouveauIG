@@ -10,11 +10,11 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
-      "ValueSet-i2x-pneumo-bio.html" : "PNEUMO_BIO_VS",
       "ValueSet-i2x-tabac.html" : "TABAC_VS",
       "ValueSet-i2x-pneumo-vitaux.html" : "PNEUMO_VITAAUX_VS",
-      "ValueSet-i2x-tabac-status.html" : "TABAC_STATUS_VS",
-      "ValueSet-i2x-efr.html" : "Valueset for pulmonary function test measurements"
+      "ValueSet-i2x-efr.html" : "Valueset for pulmonary function test measurements",
+      "ValueSet-i2x-pneumo-bio.html" : "PNEUMO_BIO_VS",
+      "ValueSet-i2x-tabac-status.html" : "TABAC_STATUS_VS"
     },
     {
       "url" : "http://snomed.info/sct",
@@ -27,6 +27,17 @@
       "uses" : {
       },
       "ValueSet-i2x-pneumo-diagnostic.html" : "PNEUMO_DIAGNOSTIC_VS"
+    },
+    {
+      "url" : "https://terminology.chuliege.be/NamingSystem/location",
+      "version" : "0.1.2",
+      "status" : "draft",
+      "name" : "CHUL_LOCATION_CS",
+      "title" : null,
+      "description" : "Jeu de codes pour la sites CHU Liège",
+      "uses" : {
+      },
+      "ValueSet-chul-location.html" : "CHUL_LOCATION_VS"
     }
   ]
 }

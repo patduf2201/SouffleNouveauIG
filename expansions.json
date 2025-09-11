@@ -1,11 +1,180 @@
 {
   "resourceType" : "Bundle",
-  "id" : "e8a5247e-3564-4ea1-852e-aca4fb596500",
+  "id" : "0ba774e5-d8f4-4f24-a314-e8308e2d9e82",
   "meta" : {
-    "lastUpdated" : "2025-08-26T14:54:28.035+02:00"
+    "lastUpdated" : "2025-09-10T16:16:28.887+02:00"
   },
   "type" : "collection",
   "entry" : [{
+    "fullUrl" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/chul-location",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-chul-location-cs.html\">codesystem CHUL_LOCATION_CS v0.1.2 (CodeSystem)</a></p><p>Ce jeu de valeur (ValueSet) contient 32 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Système</b></td><td><b>Display (und)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-AR\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-AR\">AR</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-CM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-CM\">CM</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-EX\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-EX\">EX</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-GL\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-GL\">GL</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-SR\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-SR\">SR</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-RO\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-RO\">RO</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-AS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-AS\">AS</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-BY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-BY\">BY</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-ST\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-ST\">ST</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-ES\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-ES\">ES</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-BR\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-BR\">BR</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-AY\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-AY\">AY</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-SA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-SA\">SA</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-CH\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-CH\">CH</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-PI\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-PI\">PI</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-CE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-CE\">CE</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-SI\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-SI\">SI</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-BT\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-BT\">BT</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-MI\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-MI\">MI</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-AN\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-AN\">AN</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-CHE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-CHE\">CHE</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-HOL\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-HOL\">HOL</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-POU\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-POU\">POU</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-LIE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-LIE\">LIE</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-AM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-AM\">AM</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-CL\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-CL\">CL</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-CI\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-CI\">CI</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-FR\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-FR\">FR</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-SJ\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-SJ\">SJ</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-LB\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-LB\">LB</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-HA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-HA\">HA</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://terminology.chuliege.be/NamingSystem/location-EC\"> </a>\u00a0\u00a0<a href=\"CodeSystem-chul-location-cs.html#chul-location-cs-EC\">EC</a></td><td>https://terminology.chuliege.be/NamingSystem/location</td><td/></tr></table></div>"
+      },
+      "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/chul-location",
+      "version" : "0.1.2",
+      "name" : "CHUL_LOCATION_VS",
+      "status" : "draft",
+      "date" : "2025-04-14",
+      "expansion" : {
+        "identifier" : "urn:uuid:14b4795c-14d0-40d4-bf46-d49c33247ee1",
+        "timestamp" : "2025-09-10T16:20:55+02:00",
+        "total" : 32,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "und"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://terminology.chuliege.be/NamingSystem/location|0.1.2"
+        }],
+        "contains" : [{
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "AR"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "CM"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "EX"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "GL"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "SR"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "RO"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "AS"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "BY"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "ST"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "ES"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "BR"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "AY"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "SA"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "CH"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "PI"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "CE"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "SI"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "BT"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "MI"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "AN"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "CHE"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "HOL"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "POU"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "LIE"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "AM"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "CL"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "CI"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "FR"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "SJ"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "LB"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "HA"
+        },
+        {
+          "system" : "https://terminology.chuliege.be/NamingSystem/location",
+          "code" : "EC"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-efr",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -20,8 +189,8 @@
       "status" : "draft",
       "date" : "2025-04-14",
       "expansion" : {
-        "identifier" : "urn:uuid:eac271a1-7002-4687-af44-b25dde1b742e",
-        "timestamp" : "2025-08-26T14:59:18+02:00",
+        "identifier" : "urn:uuid:284bb4ab-9035-45a7-bd96-01ba0d3b148e",
+        "timestamp" : "2025-09-10T16:20:55+02:00",
         "total" : 11,
         "offset" : 0,
         "parameter" : [{
@@ -124,8 +293,8 @@
       "status" : "draft",
       "date" : "2025-04-14",
       "expansion" : {
-        "identifier" : "urn:uuid:6914bdc0-79ad-49d0-8c2c-a2e17afc6054",
-        "timestamp" : "2025-08-26T14:59:18+02:00",
+        "identifier" : "urn:uuid:28d8fffe-5916-45b1-a165-6688f04d63ef",
+        "timestamp" : "2025-09-10T16:20:55+02:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -203,8 +372,8 @@
       "status" : "draft",
       "date" : "2025-04-14",
       "expansion" : {
-        "identifier" : "urn:uuid:cbc29eac-13b4-4755-9ea9-6df01fb91f3b",
-        "timestamp" : "2025-08-26T14:59:18+02:00",
+        "identifier" : "urn:uuid:f71a7dcf-4fa2-492c-84f1-475e835f4d26",
+        "timestamp" : "2025-09-10T16:20:55+02:00",
         "total" : 21,
         "offset" : 0,
         "parameter" : [{
@@ -357,8 +526,8 @@
       "status" : "draft",
       "date" : "2025-04-14",
       "expansion" : {
-        "identifier" : "urn:uuid:96fda9d9-7e89-45cc-97f7-2e38b19dd34b",
-        "timestamp" : "2025-08-26T14:59:19+02:00",
+        "identifier" : "urn:uuid:e86e3256-8080-417a-8512-11ff09c80830",
+        "timestamp" : "2025-09-10T16:20:56+02:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -420,8 +589,8 @@
       "status" : "draft",
       "date" : "2025-04-14",
       "expansion" : {
-        "identifier" : "urn:uuid:3285e693-9c49-41e4-9596-9cd0b466ab93",
-        "timestamp" : "2025-08-26T14:59:19+02:00",
+        "identifier" : "urn:uuid:c6a9d1d3-9b11-475d-8ab4-0772b56c2f9a",
+        "timestamp" : "2025-09-10T16:20:56+02:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -493,8 +662,8 @@
       "status" : "draft",
       "date" : "2025-04-14",
       "expansion" : {
-        "identifier" : "urn:uuid:50db5ea7-1724-40f5-82d2-9db37e6c80eb",
-        "timestamp" : "2025-08-26T14:59:19+02:00",
+        "identifier" : "urn:uuid:78998956-411d-409e-842c-fa4396b0afef",
+        "timestamp" : "2025-09-10T16:20:56+02:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{

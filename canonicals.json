@@ -133,11 +133,25 @@
     "name" : "TABAC_STATUS_VS"
   },
   {
+    "id" : "chul-location-cs",
+    "type" : "CodeSystem",
+    "url" : "https://terminology.chuliege.be/NamingSystem/location",
+    "version" : "0.1.2",
+    "name" : "CHUL_LOCATION_CS"
+  },
+  {
     "id" : "chul-encounter",
     "type" : "StructureDefinition",
     "url" : "https://terminology.chuliege.be/fhir/StructureDefinition/chul-encounter",
     "version" : "0.1.2",
     "name" : "ChulEncounter"
+  },
+  {
+    "id" : "chul-location",
+    "type" : "StructureDefinition",
+    "url" : "https://terminology.chuliege.be/fhir/StructureDefinition/chul-location",
+    "version" : "0.1.2",
+    "name" : "ChulLocation"
   },
   {
     "id" : "chul-patient",

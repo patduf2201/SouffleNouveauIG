@@ -1,11 +1,458 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="e8a5247e-3564-4ea1-852e-aca4fb596500"/>
+  <id value="0ba774e5-d8f4-4f24-a314-e8308e2d9e82"/>
   <meta>
-    <lastUpdated value="2025-08-26T14:54:28.035+02:00"/>
+    <lastUpdated value="2025-09-10T16:16:28.887+02:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <fullUrl value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/chul-location"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-chul-location-cs.html">codesystem CHUL_LOCATION_CS v0.1.2 (CodeSystem)</a>
+            </p>
+            <p>Ce jeu de valeur (ValueSet) contient 32 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td>
+                  <b>Display (und)</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-AR"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-AR">AR</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-CM"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-CM">CM</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-EX"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-EX">EX</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-GL"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-GL">GL</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-SR"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-SR">SR</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-RO"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-RO">RO</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-AS"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-AS">AS</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-BY"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-BY">BY</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-ST"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-ST">ST</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-ES"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-ES">ES</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-BR"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-BR">BR</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-AY"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-AY">AY</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-SA"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-SA">SA</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-CH"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-CH">CH</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-PI"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-PI">PI</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-CE"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-CE">CE</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-SI"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-SI">SI</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-BT"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-BT">BT</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-MI"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-MI">MI</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-AN"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-AN">AN</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-CHE"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-CHE">CHE</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-HOL"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-HOL">HOL</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-POU"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-POU">POU</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-LIE"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-LIE">LIE</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-AM"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-AM">AM</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-CL"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-CL">CL</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-CI"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-CI">CI</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-FR"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-FR">FR</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-SJ"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-SJ">SJ</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-LB"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-LB">LB</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-HA"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-HA">HA</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://terminology.chuliege.be/NamingSystem/location-EC"> </a>  
+                  <a href="CodeSystem-chul-location-cs.html#chul-location-cs-EC">EC</a>
+                </td>
+                <td>https://terminology.chuliege.be/NamingSystem/location</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/chul-location"/>
+        <version value="0.1.2"/>
+        <name value="CHUL_LOCATION_VS"/>
+        <status value="draft"/>
+        <date value="2025-04-14"/>
+        <expansion>
+          <identifier value="urn:uuid:14b4795c-14d0-40d4-bf46-d49c33247ee1"/>
+          <timestamp value="2025-09-10T16:20:55+02:00"/>
+          <total value="32"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="und"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://terminology.chuliege.be/NamingSystem/location|0.1.2"/>
+          </parameter>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="AR"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="CM"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="EX"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="GL"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="SR"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="RO"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="AS"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="BY"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="ST"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="ES"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="BR"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="AY"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="SA"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="CH"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="PI"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="CE"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="SI"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="BT"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="MI"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="AN"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="CHE"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="HOL"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="POU"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="LIE"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="AM"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="CL"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="CI"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="FR"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="SJ"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="LB"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="HA"/>
+          </contains>
+          <contains>
+            <system value="https://terminology.chuliege.be/NamingSystem/location"/>
+            <code value="EC"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
   <entry>
     <fullUrl value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-efr"/>
     <resource>
@@ -128,8 +575,8 @@
         <status value="draft"/>
         <date value="2025-04-14"/>
         <expansion>
-          <identifier value="urn:uuid:eac271a1-7002-4687-af44-b25dde1b742e"/>
-          <timestamp value="2025-08-26T14:59:18+02:00"/>
+          <identifier value="urn:uuid:284bb4ab-9035-45a7-bd96-01ba0d3b148e"/>
+          <timestamp value="2025-09-10T16:20:55+02:00"/>
           <total value="11"/>
           <offset value="0"/>
           <parameter>
@@ -300,8 +747,8 @@
         <status value="draft"/>
         <date value="2025-04-14"/>
         <expansion>
-          <identifier value="urn:uuid:6914bdc0-79ad-49d0-8c2c-a2e17afc6054"/>
-          <timestamp value="2025-08-26T14:59:18+02:00"/>
+          <identifier value="urn:uuid:28d8fffe-5916-45b1-a165-6688f04d63ef"/>
+          <timestamp value="2025-09-10T16:20:55+02:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -567,8 +1014,8 @@
         <status value="draft"/>
         <date value="2025-04-14"/>
         <expansion>
-          <identifier value="urn:uuid:cbc29eac-13b4-4755-9ea9-6df01fb91f3b"/>
-          <timestamp value="2025-08-26T14:59:18+02:00"/>
+          <identifier value="urn:uuid:f71a7dcf-4fa2-492c-84f1-475e835f4d26"/>
+          <timestamp value="2025-09-10T16:20:55+02:00"/>
           <total value="21"/>
           <offset value="0"/>
           <parameter>
@@ -757,8 +1204,8 @@
         <status value="draft"/>
         <date value="2025-04-14"/>
         <expansion>
-          <identifier value="urn:uuid:96fda9d9-7e89-45cc-97f7-2e38b19dd34b"/>
-          <timestamp value="2025-08-26T14:59:19+02:00"/>
+          <identifier value="urn:uuid:e86e3256-8080-417a-8512-11ff09c80830"/>
+          <timestamp value="2025-09-10T16:20:56+02:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -872,8 +1319,8 @@
         <status value="draft"/>
         <date value="2025-04-14"/>
         <expansion>
-          <identifier value="urn:uuid:3285e693-9c49-41e4-9596-9cd0b466ab93"/>
-          <timestamp value="2025-08-26T14:59:19+02:00"/>
+          <identifier value="urn:uuid:c6a9d1d3-9b11-475d-8ab4-0772b56c2f9a"/>
+          <timestamp value="2025-09-10T16:20:56+02:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -989,8 +1436,8 @@
         <status value="draft"/>
         <date value="2025-04-14"/>
         <expansion>
-          <identifier value="urn:uuid:50db5ea7-1724-40f5-82d2-9db37e6c80eb"/>
-          <timestamp value="2025-08-26T14:59:19+02:00"/>
+          <identifier value="urn:uuid:78998956-411d-409e-842c-fa4396b0afef"/>
+          <timestamp value="2025-09-10T16:20:56+02:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>

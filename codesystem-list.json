@@ -1,3 +1,12 @@
 {
-  "codeSystems" : []
+  "codeSystems" : [
+    {
+      "url" : "https://terminology.chuliege.be/NamingSystem/location",
+      "version" : "0.1.2",
+      "status" : "draft",
+      "name" : "CHUL_LOCATION_CS",
+      "title" : null,
+      "description" : "Jeu de codes pour la sites CHU Liège"
+    }
+  ]
 }
