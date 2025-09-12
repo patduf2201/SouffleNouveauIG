@@ -17,7 +17,7 @@
     <valueCanonical value="http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"/>
   </extension>
   <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition"/>
-  <version value="0.1.2"/>
+  <version value="0.2.0"/>
   <name value="VunsPneumoCondition"/>
   <status value="draft"/>
   <date value="2025-04-14"/>

@@ -1193,7 +1193,7 @@
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/chul-location",
-      "version" : "0.1.2",
+      "version" : "0.2.0",
       "status" : "draft",
       "name" : "CHUL_LOCATION_VS",
       "title" : null,
@@ -1205,7 +1205,7 @@
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-efr",
-      "version" : "0.1.2",
+      "version" : "0.2.0",
       "status" : "draft",
       "name" : "EFR_VS",
       "title" : "Valueset for pulmonary function test measurements",
@@ -1217,7 +1217,7 @@
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-bio",
-      "version" : "0.1.2",
+      "version" : "0.2.0",
       "status" : "draft",
       "name" : "PNEUMO_BIO_VS",
       "title" : null,
@@ -1229,7 +1229,7 @@
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-diagnostic",
-      "version" : "0.1.2",
+      "version" : "0.2.0",
       "status" : "draft",
       "name" : "PNEUMO_DIAGNOSTIC_VS",
       "title" : null,
@@ -1241,7 +1241,7 @@
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-vitaux",
-      "version" : "0.1.2",
+      "version" : "0.2.0",
       "status" : "draft",
       "name" : "PNEUMO_VITAAUX_VS",
       "title" : null,
@@ -1253,7 +1253,7 @@
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac",
-      "version" : "0.1.2",
+      "version" : "0.2.0",
       "status" : "draft",
       "name" : "TABAC_VS",
       "title" : null,
@@ -1265,7 +1265,7 @@
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac-status",
-      "version" : "0.1.2",
+      "version" : "0.2.0",
       "status" : "draft",
       "name" : "TABAC_STATUS_VS",
       "title" : null,

@@ -2,7 +2,7 @@
   "codeSystems" : [
     {
       "url" : "https://terminology.chuliege.be/NamingSystem/location",
-      "version" : "0.1.2",
+      "version" : "0.2.0",
       "status" : "draft",
       "name" : "CHUL_LOCATION_CS",
       "title" : null,

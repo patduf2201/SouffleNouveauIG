@@ -22,7 +22,7 @@
      ]
   ] ) ; # 
   fhir:url [ fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.2"] ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
   fhir:name [ fhir:v "VunsPneumoCondition"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:date [ fhir:v "2025-04-14"^^xsd:date] ; # 

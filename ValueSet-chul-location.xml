@@ -6,7 +6,7 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet chul-location</b></p><a name="chul-location"> </a><a name="hcchul-location"> </a><a name="chul-location-und"> </a><ul><li>Include tous les codes définis dans <a href="CodeSystem-chul-location-cs.html"><code>https://terminology.chuliege.be/NamingSystem/location</code></a></li></ul></div>
   </text>
   <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/chul-location"/>
-  <version value="0.1.2"/>
+  <version value="0.2.0"/>
   <name value="CHUL_LOCATION_VS"/>
   <status value="draft"/>
   <date value="2025-04-14"/>

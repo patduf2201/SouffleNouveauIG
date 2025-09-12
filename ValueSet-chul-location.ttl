@@ -14,7 +14,7 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet chul-location</b></p><a name=\"chul-location\"> </a><a name=\"hcchul-location\"> </a><a name=\"chul-location-und\"> </a><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-chul-location-cs.html\"><code>https://terminology.chuliege.be/NamingSystem/location</code></a></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/chul-location"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.2"] ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
   fhir:name [ fhir:v "CHUL_LOCATION_VS"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:date [ fhir:v "2025-04-14"^^xsd:date] ; # 

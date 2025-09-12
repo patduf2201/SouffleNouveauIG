@@ -10,7 +10,7 @@
     "valueCanonical" : "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
   }],
   "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition",
-  "version" : "0.1.2",
+  "version" : "0.2.0",
   "name" : "VunsPneumoCondition",
   "status" : "draft",
   "date" : "2025-04-14",

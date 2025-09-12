@@ -1,6 +1,6 @@
 {
   "package": "be.chuliege.versunsoufflenouveau",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "fhirVersion": "4.0.1",
   "extensions": [],
   "profiles": {

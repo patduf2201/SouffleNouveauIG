@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="aadad2a1-696d-468d-b760-db2512243694"/>
+  <id value="a701d62c-94c7-4228-9d38-d61fa3811fc2"/>
   <meta>
-    <lastUpdated value="2025-09-12T12:07:52.872+02:00"/>
+    <lastUpdated value="2025-09-12T14:19:13.550+02:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -17,7 +17,7 @@
               <b>ValueSet </b>
             </p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="CodeSystem-chul-location-cs.html">codesystem CHUL_LOCATION_CS v0.1.2 (CodeSystem)</a>
+              <a href="CodeSystem-chul-location-cs.html">codesystem CHUL_LOCATION_CS v0.2.0 (CodeSystem)</a>
             </p>
             <p>Ce jeu de valeur (ValueSet) contient 32 concepts</p>
             <table class="codes">
@@ -292,13 +292,13 @@
           </div>
         </text>
         <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/chul-location"/>
-        <version value="0.1.2"/>
+        <version value="0.2.0"/>
         <name value="CHUL_LOCATION_VS"/>
         <status value="draft"/>
         <date value="2025-04-14"/>
         <expansion>
-          <identifier value="urn:uuid:a4f22af8-b540-455f-b4f2-aae4a13fb7d7"/>
-          <timestamp value="2025-09-12T12:13:28+02:00"/>
+          <identifier value="urn:uuid:a4bf4d56-0fdc-40d9-99f1-ef9bb3636b7e"/>
+          <timestamp value="2025-09-12T14:23:31+02:00"/>
           <total value="32"/>
           <offset value="0"/>
           <parameter>
@@ -319,7 +319,7 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="https://terminology.chuliege.be/NamingSystem/location|0.1.2"/>
+            <valueUri value="https://terminology.chuliege.be/NamingSystem/location|0.2.0"/>
           </parameter>
           <contains>
             <system value="https://terminology.chuliege.be/NamingSystem/location"/>
@@ -569,14 +569,14 @@
           </div>
         </text>
         <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-efr"/>
-        <version value="0.1.2"/>
+        <version value="0.2.0"/>
         <name value="EFR_VS"/>
         <title value="Valueset for pulmonary function test measurements"/>
         <status value="draft"/>
         <date value="2025-04-14"/>
         <expansion>
-          <identifier value="urn:uuid:f1c34fe9-9832-44d4-b6fd-1d6c1e1e2cc8"/>
-          <timestamp value="2025-09-12T12:13:29+02:00"/>
+          <identifier value="urn:uuid:5d37feec-d2f3-45c2-81b1-eb4666c3886a"/>
+          <timestamp value="2025-09-12T14:23:31+02:00"/>
           <total value="11"/>
           <offset value="0"/>
           <parameter>
@@ -742,13 +742,13 @@
           </div>
         </text>
         <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-bio"/>
-        <version value="0.1.2"/>
+        <version value="0.2.0"/>
         <name value="PNEUMO_BIO_VS"/>
         <status value="draft"/>
         <date value="2025-04-14"/>
         <expansion>
-          <identifier value="urn:uuid:a347bf55-3596-43a1-abcb-e563b1fbcdad"/>
-          <timestamp value="2025-09-12T12:13:29+02:00"/>
+          <identifier value="urn:uuid:f6efc507-4cb0-45dd-97ff-4e35806c3802"/>
+          <timestamp value="2025-09-12T14:23:31+02:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -1009,13 +1009,13 @@
           </div>
         </text>
         <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-diagnostic"/>
-        <version value="0.1.2"/>
+        <version value="0.2.0"/>
         <name value="PNEUMO_DIAGNOSTIC_VS"/>
         <status value="draft"/>
         <date value="2025-04-14"/>
         <expansion>
-          <identifier value="urn:uuid:041578cf-5b97-48dd-8e69-75d16f660f09"/>
-          <timestamp value="2025-09-12T12:13:29+02:00"/>
+          <identifier value="urn:uuid:a64612cc-6128-4106-accd-16311f3d521d"/>
+          <timestamp value="2025-09-12T14:23:31+02:00"/>
           <total value="21"/>
           <offset value="0"/>
           <parameter>
@@ -1199,13 +1199,13 @@
           </div>
         </text>
         <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-vitaux"/>
-        <version value="0.1.2"/>
+        <version value="0.2.0"/>
         <name value="PNEUMO_VITAAUX_VS"/>
         <status value="draft"/>
         <date value="2025-04-14"/>
         <expansion>
-          <identifier value="urn:uuid:0f109141-99b6-4919-828e-76e6efbcd474"/>
-          <timestamp value="2025-09-12T12:13:29+02:00"/>
+          <identifier value="urn:uuid:b8f8d582-c5e4-4728-82e5-2e4b1666af8a"/>
+          <timestamp value="2025-09-12T14:23:32+02:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -1314,13 +1314,13 @@
           </div>
         </text>
         <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac-status"/>
-        <version value="0.1.2"/>
+        <version value="0.2.0"/>
         <name value="TABAC_STATUS_VS"/>
         <status value="draft"/>
         <date value="2025-04-14"/>
         <expansion>
-          <identifier value="urn:uuid:1c0ca7a3-61cd-46a6-bfd9-7b4c0705722f"/>
-          <timestamp value="2025-09-12T12:13:30+02:00"/>
+          <identifier value="urn:uuid:c181df87-6d1c-4295-846a-bdf6614fdf4b"/>
+          <timestamp value="2025-09-12T14:23:32+02:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -1431,13 +1431,13 @@
           </div>
         </text>
         <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-tabac"/>
-        <version value="0.1.2"/>
+        <version value="0.2.0"/>
         <name value="TABAC_VS"/>
         <status value="draft"/>
         <date value="2025-04-14"/>
         <expansion>
-          <identifier value="urn:uuid:7abf976c-0914-4d1a-9653-5af7a6c5389c"/>
-          <timestamp value="2025-09-12T12:13:30+02:00"/>
+          <identifier value="urn:uuid:cd68d432-6fc5-4e01-a3bc-8767332fc8b4"/>
+          <timestamp value="2025-09-12T14:23:32+02:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
