@@ -194,7 +194,7 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Encounter_ChulEncounterExample\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Encounter ChulEncounterExample</b></p><a name=\"ChulEncounterExample\"> </a><a name=\"hcChulEncounterExample\"> </a><a name=\"ChulEncounterExample-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-chul-encounter.html\">ChulEncounter</a></p></div><p><b>status</b>: Finished</p><p><b>class</b>: <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ActCode.html#v3-ActCode-SS\">ActCode SS</a>: short stay</p><p><b>subject</b>: <a href=\"Patient-VunsPatientExample.html\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><h3>Locations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Location</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Location/SartTilmanLocation\">Location/SartTilmanLocation</a></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Encounter_ChulEncounterExample\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Encounter ChulEncounterExample</b></p><a name=\"ChulEncounterExample\"> </a><a name=\"hcChulEncounterExample\"> </a><a name=\"ChulEncounterExample-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-chul-encounter.html\">ChulEncounter</a></p></div><p><b>status</b>: Finished</p><p><b>class</b>: <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ActCode.html#v3-ActCode-SS\">ActCode SS</a>: short stay</p><p><b>subject</b>: <a href=\"Patient-VunsPatientExample.html\">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><h3>Locations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Location</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Bundle-VunsPneumoBundleExample.html#Location_SartTilmanLocation\">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></td></tr></table></div>"
       },
       "status" : "finished",
       "class" : {
@@ -1268,6 +1268,21 @@
     }
   },
   {
+    "fullUrl" : "http://si-s-serv1041/ig/Organization/VunsLabo",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "VunsLabo",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_VunsLabo\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Organization VunsLabo</b></p><a name=\"VunsLabo\"> </a><a name=\"hcVunsLabo\"> </a><a name=\"VunsLabo-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/uv/ips/STU1.1/StructureDefinition-Organization-uv-ips.html\">Organization (IPS)</a></p></div><p><b>name</b>: CHU Labo</p></div>"
+      },
+      "name" : "CHU Labo"
+    }
+  },
+  {
     "fullUrl" : "http://si-s-serv1041/ig/Practitioner/Physician",
     "resource" : {
       "resourceType" : "Practitioner",
@@ -1282,18 +1297,20 @@
     }
   },
   {
-    "fullUrl" : "http://si-s-serv1041/ig/Organization/VunsLabo",
+    "fullUrl" : "http://si-s-serv1041/ig/Location/SartTilmanLocation",
     "resource" : {
-      "resourceType" : "Organization",
-      "id" : "VunsLabo",
-      "meta" : {
-        "profile" : ["http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips"]
-      },
+      "resourceType" : "Location",
+      "id" : "SartTilmanLocation",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_VunsLabo\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Organization VunsLabo</b></p><a name=\"VunsLabo\"> </a><a name=\"hcVunsLabo\"> </a><a name=\"VunsLabo-und\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/uv/ips/STU1.1/StructureDefinition-Organization-uv-ips.html\">Organization (IPS)</a></p></div><p><b>name</b>: CHU Labo</p></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Location_SartTilmanLocation\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Location SartTilmanLocation</b></p><a name=\"SartTilmanLocation\"> </a><a name=\"hcSartTilmanLocation\"> </a><a name=\"SartTilmanLocation-und\"> </a><p><b>identifier</b>: <code>https://terminology.chuliege.be/NamingSystem/location</code>/ST</p><p><b>status</b>: Active</p><p><b>name</b>: Sart Tilman</p></div>"
       },
-      "name" : "CHU Labo"
+      "identifier" : [{
+        "system" : "https://terminology.chuliege.be/NamingSystem/location",
+        "value" : "ST"
+      }],
+      "status" : "active",
+      "name" : "Sart Tilman"
     }
   }]
 }

@@ -1,11 +1,11 @@
 SouffleNouveauIG : Validation Results
 =========================================
 
-err = 50, warn = 335, info = 65
+err = 47, warn = 335, info = 62
 IG Publisher Version: 1.8.22 Out of date - current version is 2.0.17
-Generated Wed Sep 10 16:23:49 CEST 2025. FHIR version 4.0.1 for be.chuliege.versunsoufflenouveau#0.1.2 (canonical = http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG)
- Build Errors : 3 / 6 / 0
- C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\fsh-generated\resources\Bundle-VunsPneumoBundleExample : 2 / 46 / 128
+Generated Fri Sep 12 12:17:08 CEST 2025. FHIR version 4.0.1 for be.chuliege.versunsoufflenouveau#0.1.2 (canonical = http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG)
+ Build Errors : 0 / 6 / 0
+ C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\fsh-generated\resources\Bundle-VunsPneumoBundleExample : 0 / 46 / 128
  C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\fsh-generated\resources\Bundle-VunsPneumoBundleShortExample : 2 / 10 / 79
  C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\fsh-generated\resources\CodeSystem-chul-location-cs : 2 / 3 / 2
  C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\fsh-generated\resources\Composition-VunsPneumoCompositionExample : 1 / 0 / 3
@@ -13,7 +13,7 @@ Generated Wed Sep 10 16:23:49 CEST 2025. FHIR version 4.0.1 for be.chuliege.vers
  C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\fsh-generated\resources\Condition-VunsPneumoConditionAsthma : 1 / 0 / 7
  C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\fsh-generated\resources\Condition-VunsPneumoConditionCOPD : 1 / 0 / 7
  C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\fsh-generated\resources\DiagnosticReport-VunsPneumoBioReportExample : 1 / 0 / 6
- C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\fsh-generated\resources\Encounter-ChulEncounterExample : 2 / 0 / 1
+ C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\fsh-generated\resources\Encounter-ChulEncounterExample : 1 / 0 / 1
  C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\fsh-generated\resources\ImplementationGuide-be.chuliege.versunsoufflenouveau : 0 / 0 / 1
  C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\fsh-generated\resources\Observation-VunsEfrCPT : 1 / 0 / 4
  C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\fsh-generated\resources\Observation-VunsEfrCPTRatio : 1 / 0 / 4
@@ -62,9 +62,6 @@ Generated Wed Sep 10 16:23:49 CEST 2025. FHIR version 4.0.1 for be.chuliege.vers
  C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\fsh-generated\resources\ValueSet-i2x-tabac-status : 0 / 2 / 1
 </table>
 == n/a ==
-ERROR: C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\output\Bundle-VunsPneumoBundleExample.html#/html/body/div/div/div/div/div/div/blockquote/table/tr/td/a at Line 176, column 7830: The link 'Location/SartTilmanLocation' for "Location/SartTilmanLocation" cannot be resolved
-ERROR: C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\output\Bundle-VunsPneumoBundleShortExample.html#/html/body/div/div/div/div/div/div/blockquote/table/tr/td/a at Line 176, column 7918: The link 'Location/SartTilmanLocation' for "Location/SartTilmanLocation" cannot be resolved
-ERROR: C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\output\Encounter-ChulEncounterExample.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 176, column 1071: The link 'Location/SartTilmanLocation' for "Location/SartTilmanLocation" cannot be resolved
 WARNING: C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\output\StructureDefinition-vuns-context-definitions.html: The html source has duplicate anchor Ids: key_vuns-context.diagnostic.code,key_vuns-context.patient.birthDate,key_vuns-context.patient.gender,vuns-context.diagnostic.code,vuns-context.patient.birthDate,vuns-context.patient.gender
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
@@ -72,8 +69,6 @@ WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-ta
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 WARNING: IG: The IG is not for the international realm, and it uses SNOMED CT, so it should fix the SCT edition in the expansion parameters
 == fsh-generated\resources\Bundle-VunsPneumoBundleExample.json ==
-INFORMATION: Bundle/VunsPneumoBundleExample: Bundle.entry[2]: This element does not match any known slice defined in the profile http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBundle|0.1.2 (this may not be a problem, but you should check that it's not intended to match a slice)
-ERROR: Bundle/VunsPneumoBundleExample: Bundle: Slice 'Bundle.entry:encounter': a matching slice is required, but not found (from http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBundle|0.1.2). Note that other slices are allowed in addition to this required slice
 INFORMATION: Bundle/VunsPneumoBundleExample: Bundle.entry[0].resource.type.coding[0].display: There are no valid display names found for the code http://loinc.org#34105-7 for language(s) 'und'. The display is 'Hospital Discharge summary' the default language display
 WARNING: Bundle/VunsPneumoBundleExample: Bundle.entry[0].resource.section[0].entry[0]: Found multiple matching profiles for Observation/VunsPneumoVitalSignWeight among choices: http://hl7.org/fhir/StructureDefinition/Observation|4.0.1, http://hl7.org/fhir/StructureDefinition/vitalsigns|4.0.1
 WARNING: Bundle/VunsPneumoBundleExample: Bundle.entry[0].resource.section[0].entry[1]: Found multiple matching profiles for Observation/VunsPneumoVitalSignHeight among choices: http://hl7.org/fhir/StructureDefinition/Observation|4.0.1, http://hl7.org/fhir/StructureDefinition/vitalsigns|4.0.1
@@ -83,7 +78,6 @@ INFORMATION: Bundle/VunsPneumoBundleExample: Bundle.entry[0].resource/*Compositi
 WARNING: Bundle/VunsPneumoBundleExample: Bundle.entry[1].resource/*Patient/VunsPatientExample*/.meta.profile[1]: There are multiple different potential matches for the url 'https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer. Using version '2.1.2', found versions: 2.0.0, 2.1.2. Suggested fix: change the canonical reference from 'https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient' to 'https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient|2.1.2'
 INFORMATION: Bundle/VunsPneumoBundleExample: Bundle.entry[1].resource/*Patient/VunsPatientExample*/.identifier[1]: This element does not match any known slice defined in the profile https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient|2.1.2 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Bundle/VunsPneumoBundleExample: Bundle.entry[1].resource/*Patient/VunsPatientExample*/.identifier[0]: This element does not match any known slice defined in the profile https://terminology.chuliege.be/fhir/StructureDefinition/chul-patient|0.1.2 (this may not be a problem, but you should check that it's not intended to match a slice)
-ERROR: Bundle/VunsPneumoBundleExample: Bundle.entry[2].resource/*Encounter/ChulEncounterExample*/.location[0].location: Unable to resolve resource with reference 'Location/SartTilmanLocation'
 INFORMATION: Bundle/VunsPneumoBundleExample: Bundle.entry[3].resource/*Condition/VunsPneumoConditionAsthma*/.category[0]: This element does not match any known slice defined in the profile http://hl7.eu/fhir/hdr/StructureDefinition/condition-eu-hdr|0.1.0-ballot (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Bundle/VunsPneumoBundleExample: Bundle.entry[3].resource/*Condition/VunsPneumoConditionAsthma*/.category[0]: This element does not match any known slice defined in the profile http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition|0.1.2 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Bundle/VunsPneumoBundleExample: Bundle.entry[4].resource/*Condition/VunsPneumoConditionCOPD*/.category[0]: This element does not match any known slice defined in the profile http://hl7.eu/fhir/hdr/StructureDefinition/condition-eu-hdr|0.1.0-ballot (this may not be a problem, but you should check that it's not intended to match a slice)
@@ -131,8 +125,6 @@ WARNING: Bundle/VunsPneumoBundleExample: Bundle.entry[25].resource/*Observation/
 WARNING: Bundle/VunsPneumoBundleExample: Bundle.entry[25].resource/*Observation/VunsPneumoBioCreatinin*/.performer[0]: Found multiple matching profiles for Organization/VunsLabo among choices: http://hl7.org/fhir/StructureDefinition/Organization|4.0.1, https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-organization|2.1.2
 WARNING: Bundle/VunsPneumoBundleExample: Bundle.entry[26].resource/*Observation/VunsPneumoBioGFR*/.subject: Found multiple matching profiles for Patient/VunsPatientExample among choices: http://hl7.org/fhir/StructureDefinition/Patient|4.0.1, https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient|2.1.2
 WARNING: Bundle/VunsPneumoBundleExample: Bundle.entry[26].resource/*Observation/VunsPneumoBioGFR*/.performer[0]: Found multiple matching profiles for Organization/VunsLabo among choices: http://hl7.org/fhir/StructureDefinition/Organization|4.0.1, https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-organization|2.1.2
-INFORMATION: Bundle/VunsPneumoBundleExample: Bundle.entry[27].resource/*Procedure/VunsEfrExample*/.encounter: Details for Encounter/ChulEncounterExample matching against profile http://hl7.org/fhir/StructureDefinition/Encounter|4.0.1
-INFORMATION: Bundle/VunsPneumoBundleExample: Bundle: Can't find 'Location/SartTilmanLocation' in the bundle (Bundle.entry[2].resource.location[0].location)
 == fsh-generated\resources\Bundle-VunsPneumoBundleShortExample.json ==
 INFORMATION: Bundle/VunsPneumoBundleShortExample: Bundle.entry[2]: This element does not match any known slice defined in the profile http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBundle|0.1.2 (this may not be a problem, but you should check that it's not intended to match a slice)
 ERROR: Bundle/VunsPneumoBundleShortExample: Bundle: Slice 'Bundle.entry:encounter': a matching slice is required, but not found (from http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoBundle|0.1.2). Note that other slices are allowed in addition to this required slice
@@ -201,7 +193,6 @@ INFORMATION: DiagnosticReport/VunsPneumoBioReportExample: DiagnosticReport.resul
 ERROR: DiagnosticReport/VunsPneumoBioReportExample: DiagnosticReport.performer[0]: Unable to resolve resource with reference 'Organization/VunsLabo'
 == fsh-generated\resources\Encounter-ChulEncounterExample.json ==
 ERROR: Encounter/ChulEncounterExample: Encounter.location[0].location: Unable to resolve resource with reference 'Location/SartTilmanLocation'
-ERROR: Encounter.text.div: Hyperlink 'Location/SartTilmanLocation' at 'div/table/tr/td/a' for 'Location/SartTilmanLocation' does not resolve
 == fsh-generated\resources\ImplementationGuide-be.chuliege.versunsoufflenouveau.json ==
 == fsh-generated\resources\Observation-VunsEfrCPT.json ==
 ERROR: Observation/VunsEfrCPT: Observation.performer[0]: Unable to resolve resource with reference 'Practitioner/Physician'
