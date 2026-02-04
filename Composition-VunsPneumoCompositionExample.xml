@@ -55,7 +55,7 @@
     </text>
   </section>
   <section>
-    <title value="Diagnostic primaire"/>
+    <title value="Diagnostics"/>
     <code>
       <coding>
         <system value="http://loinc.org"/>
@@ -63,13 +63,13 @@
       </coding>
     </code>
     <text>
-      <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml">Diagnostic</div>
+      <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml">Diagnostics</div>
     </text>
     <entry>
       <reference value="Condition/VunsPneumoConditionAsthma"/>
     </entry>
     <entry>
-      <reference value="Condition/VunsPneumoConditionCOPD"/>
+      <reference value="Condition/VunsPneumoConditionHF"/>
     </entry>
   </section>
   <section>

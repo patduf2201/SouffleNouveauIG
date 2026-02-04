@@ -46,7 +46,31 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
+      "StructureDefinition-VunsPneumoPrimaryCondition.html" : "VunsPneumoPrimaryCondition"
+    },
+    {
+      "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-other-diagnosis-category",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "PNEUMO_OTHER_DIAGNOSIS_CATEGORY_VS",
+      "title" : null,
+      "description" : "Valueset for other diagnosis category",
+      "systems" : ["http://loinc.org"],
+      "uses" : {
+      },
       "StructureDefinition-VunsPneumoCondition.html" : "VunsPneumoCondition"
+    },
+    {
+      "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-primary-diagnosis-category",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "PNEUMO_PRIMARY_DIAGNOSIS_CATEGORY_VS",
+      "title" : null,
+      "description" : "Valueset for primary diagnosis category",
+      "systems" : ["http://loinc.org"],
+      "uses" : {
+      },
+      "StructureDefinition-VunsPneumoPrimaryCondition.html" : "VunsPneumoPrimaryCondition"
     },
     {
       "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-vitaux",

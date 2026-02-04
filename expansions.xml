@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="a701d62c-94c7-4228-9d38-d61fa3811fc2"/>
+  <id value="5ac9ca1a-13de-4e34-af0f-7428a9d0182b"/>
   <meta>
-    <lastUpdated value="2025-09-12T14:19:13.550+02:00"/>
+    <lastUpdated value="2026-02-04T18:28:30.359+01:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -297,8 +297,8 @@
         <status value="draft"/>
         <date value="2025-04-14"/>
         <expansion>
-          <identifier value="urn:uuid:a4bf4d56-0fdc-40d9-99f1-ef9bb3636b7e"/>
-          <timestamp value="2025-09-12T14:23:31+02:00"/>
+          <identifier value="urn:uuid:7cf6ff3d-f058-41c2-bcf3-d166849198ee"/>
+          <timestamp value="2026-02-04T18:30:50+01:00"/>
           <total value="32"/>
           <offset value="0"/>
           <parameter>
@@ -575,8 +575,8 @@
         <status value="draft"/>
         <date value="2025-04-14"/>
         <expansion>
-          <identifier value="urn:uuid:5d37feec-d2f3-45c2-81b1-eb4666c3886a"/>
-          <timestamp value="2025-09-12T14:23:31+02:00"/>
+          <identifier value="urn:uuid:85bd4e6f-e056-4798-a861-67aaf7a13c6f"/>
+          <timestamp value="2026-02-04T18:30:50+01:00"/>
           <total value="11"/>
           <offset value="0"/>
           <parameter>
@@ -747,8 +747,8 @@
         <status value="draft"/>
         <date value="2025-04-14"/>
         <expansion>
-          <identifier value="urn:uuid:f6efc507-4cb0-45dd-97ff-4e35806c3802"/>
-          <timestamp value="2025-09-12T14:23:31+02:00"/>
+          <identifier value="urn:uuid:5e4586cc-fa4f-4817-914d-24d55ac6281f"/>
+          <timestamp value="2026-02-04T18:30:51+01:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -824,7 +824,7 @@
               <b>ValueSet </b>
             </p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on SNOMED CT 900000000000207008 edition 01-févr. 2025</p>
-            <p>Ce jeu de valeur (ValueSet) contient 21 concepts</p>
+            <p>Ce jeu de valeur (ValueSet) contient 18 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -875,23 +875,7 @@
                   <a href="http://snomed.info/id/700249006">700249006</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>pneumonie interstitielle idiopathique</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-782964007"> </a>  
-                  <a href="http://snomed.info/id/782964007">782964007</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Genetic disease</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-105969002"> </a>  
-                  <a href="http://snomed.info/id/105969002">105969002</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>affection d'un tissu conjonctif</td>
+                <td>Idiopathic interstitial pneumonia</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -899,7 +883,7 @@
                   <a href="http://snomed.info/id/870573008">870573008</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>pneumonie interstitielle avec des caractéristiques auto-immunes</td>
+                <td>IPAF - interstitial pneumonia with autoimmune features</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -919,11 +903,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-31541009"> </a>  
-                  <a href="http://snomed.info/id/31541009">31541009</a>
+                  <a name="x-http://snomed.info/sct-24369008"> </a>  
+                  <a href="http://snomed.info/id/24369008">24369008</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Sarcoidosis</td>
+                <td>Pulmonary sarcoidosis</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -956,14 +940,6 @@
                 </td>
                 <td>http://snomed.info/sct</td>
                 <td>Pulmonary hypertensive arterial disease</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-84114007"> </a>  
-                  <a href="http://snomed.info/id/84114007">84114007</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Heart failure</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1014,9 +990,9 @@
         <status value="draft"/>
         <date value="2025-04-14"/>
         <expansion>
-          <identifier value="urn:uuid:a64612cc-6128-4106-accd-16311f3d521d"/>
-          <timestamp value="2025-09-12T14:23:31+02:00"/>
-          <total value="21"/>
+          <identifier value="urn:uuid:6c29cc01-0bdf-4f7d-a219-8cb158b2b575"/>
+          <timestamp value="2026-02-04T18:30:51+01:00"/>
+          <total value="18"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -1042,10 +1018,6 @@
             <name value="used-codesystem"/>
             <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
           </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
-          </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="233703007"/>
@@ -1069,22 +1041,12 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="700249006"/>
-            <display value="pneumonie interstitielle idiopathique"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="782964007"/>
-            <display value="Genetic disease"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="105969002"/>
-            <display value="affection d'un tissu conjonctif"/>
+            <display value="Idiopathic interstitial pneumonia"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="870573008"/>
-            <display value="pneumonie interstitielle avec des caractéristiques auto-immunes"/>
+            <display value="IPAF - interstitial pneumonia with autoimmune features"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -1098,8 +1060,8 @@
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="31541009"/>
-            <display value="Sarcoidosis"/>
+            <code value="24369008"/>
+            <display value="Pulmonary sarcoidosis"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -1120,11 +1082,6 @@
             <system value="http://snomed.info/sct"/>
             <code value="11399002"/>
             <display value="Pulmonary hypertensive arterial disease"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="84114007"/>
-            <display value="Heart failure"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -1150,6 +1107,181 @@
             <system value="http://snomed.info/sct"/>
             <code value="13645005"/>
             <display value="Chronic obstructive lung disease"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-other-diagnosis-category"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on Loinc v2.81</p>
+            <p>Ce jeu de valeur (ValueSet) contient 2 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td>
+                  <b>Display (und)</b>
+                </td>
+                <td>
+                  <b>Inactif</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://loinc.org-81885-6"> </a>  
+                  <a href="https://loinc.org/81885-6/">81885-6</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Secondary diagnosis</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://loinc.org-52465-2"> </a>  
+                  <a href="https://loinc.org/52465-2/">52465-2</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Other Diagnoses, Comorbidities, and Complications</td>
+                <td>inactif</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-other-diagnosis-category"/>
+        <version value="0.2.0"/>
+        <name value="PNEUMO_OTHER_DIAGNOSIS_CATEGORY_VS"/>
+        <status value="draft"/>
+        <date value="2025-04-14"/>
+        <expansion>
+          <identifier value="urn:uuid:c19ab3d9-72bc-455b-97d6-b0572f284964"/>
+          <timestamp value="2026-02-04T18:30:51+01:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="und"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://loinc.org|2.81"/>
+          </parameter>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="81885-6"/>
+            <display value="Secondary diagnosis"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <inactive value="true"/>
+            <code value="52465-2"/>
+            <display value="Other Diagnoses, Comorbidities, and Complications"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-primary-diagnosis-category"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on Loinc v2.81</p>
+            <p>Ce jeu de valeur (ValueSet) contient 1 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td>
+                  <b>Display (und)</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://loinc.org-18630-4"> </a>  
+                  <a href="https://loinc.org/18630-4/">18630-4</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Primary diagnosis</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-primary-diagnosis-category"/>
+        <version value="0.2.0"/>
+        <name value="PNEUMO_PRIMARY_DIAGNOSIS_CATEGORY_VS"/>
+        <status value="draft"/>
+        <date value="2025-04-14"/>
+        <expansion>
+          <identifier value="urn:uuid:13be3591-4497-4988-9588-8ed4c1cbe455"/>
+          <timestamp value="2026-02-04T18:30:52+01:00"/>
+          <total value="1"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="und"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://loinc.org|2.81"/>
+          </parameter>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="18630-4"/>
+            <display value="Primary diagnosis"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -1204,8 +1336,8 @@
         <status value="draft"/>
         <date value="2025-04-14"/>
         <expansion>
-          <identifier value="urn:uuid:b8f8d582-c5e4-4728-82e5-2e4b1666af8a"/>
-          <timestamp value="2025-09-12T14:23:32+02:00"/>
+          <identifier value="urn:uuid:0f74f893-0955-403f-8597-399e328ec399"/>
+          <timestamp value="2026-02-04T18:30:52+01:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -1319,8 +1451,8 @@
         <status value="draft"/>
         <date value="2025-04-14"/>
         <expansion>
-          <identifier value="urn:uuid:c181df87-6d1c-4295-846a-bdf6614fdf4b"/>
-          <timestamp value="2025-09-12T14:23:32+02:00"/>
+          <identifier value="urn:uuid:e3ce3097-ebfc-4d90-b140-79e14734b319"/>
+          <timestamp value="2026-02-04T18:30:52+01:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -1436,8 +1568,8 @@
         <status value="draft"/>
         <date value="2025-04-14"/>
         <expansion>
-          <identifier value="urn:uuid:cd68d432-6fc5-4e01-a3bc-8767332fc8b4"/>
-          <timestamp value="2025-09-12T14:23:32+02:00"/>
+          <identifier value="urn:uuid:dcf989ea-aa9b-4720-98d4-2d419238aa46"/>
+          <timestamp value="2026-02-04T18:30:52+01:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>

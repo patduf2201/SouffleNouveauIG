@@ -63,6 +63,13 @@
     "name" : "VunsPneumoCondition"
   },
   {
+    "id" : "VunsPneumoPrimaryCondition",
+    "type" : "StructureDefinition",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoPrimaryCondition",
+    "version" : "0.2.0",
+    "name" : "VunsPneumoPrimaryCondition"
+  },
+  {
     "id" : "VunsPneumoVitalSign",
     "type" : "StructureDefinition",
     "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoVitalSign",
@@ -110,6 +117,20 @@
     "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-diagnostic",
     "version" : "0.2.0",
     "name" : "PNEUMO_DIAGNOSTIC_VS"
+  },
+  {
+    "id" : "i2x-pneumo-other-diagnosis-category",
+    "type" : "ValueSet",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-other-diagnosis-category",
+    "version" : "0.2.0",
+    "name" : "PNEUMO_OTHER_DIAGNOSIS_CATEGORY_VS"
+  },
+  {
+    "id" : "i2x-pneumo-primary-diagnosis-category",
+    "type" : "ValueSet",
+    "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-primary-diagnosis-category",
+    "version" : "0.2.0",
+    "name" : "PNEUMO_PRIMARY_DIAGNOSIS_CATEGORY_VS"
   },
   {
     "id" : "i2x-pneumo-vitaux",

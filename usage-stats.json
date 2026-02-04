@@ -48,6 +48,10 @@
       {
         "url": "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition",
         "title": "VunsPneumoCondition"
+      },
+      {
+        "url": "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoPrimaryCondition",
+        "title": "VunsPneumoPrimaryCondition"
       }
     ],
     "Encounter": [
@@ -143,6 +147,7 @@
       "StructureDefinition"
     ],
     "http://hl7.org/fhir/StructureDefinition/translation": [
+      "Condition.code.coding.display",
       "DiagnosticReport.category.coding.display"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [

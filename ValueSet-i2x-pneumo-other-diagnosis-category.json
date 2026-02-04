@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "i2x-pneumo-other-diagnosis-category",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet i2x-pneumo-other-diagnosis-category</b></p><a name=\"i2x-pneumo-other-diagnosis-category\"> </a><a name=\"hci2x-pneumo-other-diagnosis-category\"> </a><a name=\"i2x-pneumo-other-diagnosis-category-und\"> </a><ul><li>Include ces codes sont définis dans <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/81885-6/\">81885-6</a></td><td>Secondary diagnosis</td></tr><tr><td><a href=\"https://loinc.org/52465-2/\">52465-2</a></td><td>Other diagnoses, comorbidities, complications</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-other-diagnosis-category",
+  "version" : "0.2.0",
+  "name" : "PNEUMO_OTHER_DIAGNOSIS_CATEGORY_VS",
+  "status" : "draft",
+  "date" : "2025-04-14",
+  "publisher" : "CHU Liège",
+  "contact" : [{
+    "name" : "CHU Liège",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.chuliege.be"
+    }]
+  }],
+  "description" : "Valueset for other diagnosis category",
+  "copyright" : "VUNS IG (C) 2025-2025 University Hospital of Liege, GSI Department, Belgium. This implementation guide is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "81885-6",
+        "display" : "Secondary diagnosis"
+      },
+      {
+        "code" : "52465-2",
+        "display" : "Other diagnoses, comorbidities, complications"
+      }]
+    }]
+  }
+}

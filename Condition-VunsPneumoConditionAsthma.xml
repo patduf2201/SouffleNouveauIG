@@ -3,11 +3,11 @@
 <Condition xmlns="http://hl7.org/fhir">
   <id value="VunsPneumoConditionAsthma"/>
   <meta>
-    <profile value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition"/>
+    <profile value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoPrimaryCondition"/>
     <profile value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-problem"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Condition VunsPneumoConditionAsthma</b></p><a name="VunsPneumoConditionAsthma"> </a><a name="hcVunsPneumoConditionAsthma"> </a><a name="VunsPneumoConditionAsthma-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profils: <a href="StructureDefinition-VunsPneumoCondition.html">VunsPneumoCondition</a>, <a href="https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.0.0/StructureDefinition-be-problem.html">BeProblem</a></p></div><p><b>clinicalStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}">Active</span></p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}">Problem List Item</span></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 195967001}">Asthme</span></p><p><b>subject</b>: <a href="Patient-VunsPatientExample.html">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>recordedDate</b>: 2025-03-01</p><p><b>recorder</b>: <a href="Bundle-VunsPneumoBundleExample.html#Practitioner_Physician">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Condition VunsPneumoConditionAsthma</b></p><a name="VunsPneumoConditionAsthma"> </a><a name="hcVunsPneumoConditionAsthma"> </a><a name="VunsPneumoConditionAsthma-und"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profils: <a href="StructureDefinition-VunsPneumoPrimaryCondition.html">VunsPneumoPrimaryCondition</a>, <a href="https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.0.0/StructureDefinition-be-problem.html">BeProblem</a></p></div><p><b>clinicalStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}">Active</span></p><p><b>category</b>: <span title="Codes:{http://loinc.org 18630-4}">Primary diagnosis</span>, <span title="Codes:{http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}">Problem List Item</span></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 195967001}">Asthme</span></p><p><b>subject</b>: <a href="Patient-VunsPatientExample.html">Patrick Duflot  Male, Date de Naissance :1974-01-22 ( https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin#BeSSINNamingSystem#11111111111)</a></p><p><b>recordedDate</b>: 2025-03-01</p><p><b>recorder</b>: <a href="Bundle-VunsPneumoBundleExample.html#Practitioner_Physician">Bundle : identifier = https://terminology.chuliege.be/NamingSystem/global#SampleBundle01; type = document; timestamp = 2025-03-01 12:00:00+0100</a></p></div>
   </text>
   <clinicalStatus>
     <coding>
@@ -15,6 +15,12 @@
       <code value="active"/>
     </coding>
   </clinicalStatus>
+  <category>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="18630-4"/>
+    </coding>
+  </category>
   <category>
     <coding>
       <system value="http://terminology.hl7.org/CodeSystem/condition-category"/>

@@ -10,7 +10,7 @@
   <version value="0.2.0"/>
   <name value="SouffleNouveauIG"/>
   <status value="draft"/>
-  <date value="2025-09-12T14:17:00+02:00"/>
+  <date value="2026-02-04T18:27:09+01:00"/>
   <publisher value="CHU Liège"/>
   <contact>
     <name value="CHU Liège"/>
@@ -28,7 +28,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="6.5.0"/>
+    <version value="7.0.1"/>
   </dependsOn>
   <dependsOn id="hl7_fhir_be_core">
     <uri value="https://www.ehealth.fgov.be/standards/fhir/core/ImplementationGuide/hl7.fhir.be.core"/>
@@ -584,6 +584,28 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/i2x-pneumo-other-diagnosis-category"/>
+      </reference>
+      <name value="PNEUMO_OTHER_DIAGNOSIS_CATEGORY_VS"/>
+      <description value="Valueset for other diagnosis category"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/i2x-pneumo-primary-diagnosis-category"/>
+      </reference>
+      <name value="PNEUMO_PRIMARY_DIAGNOSIS_CATEGORY_VS"/>
+      <description value="Valueset for primary diagnosis category"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/i2x-pneumo-vitaux"/>
       </reference>
       <name value="PNEUMO_VITAAUX_VS"/>
@@ -961,7 +983,7 @@
         <reference value="StructureDefinition/VunsPneumoCondition"/>
       </reference>
       <name value="VunsPneumoCondition"/>
-      <description value="Profile for primary diagnosis"/>
+      <description value="Profile for comorbidities and diagnoses in the scope of chronic respiratory disease remote monitoring"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -973,18 +995,29 @@
       </reference>
       <name value="VunsPneumoConditionAsthma"/>
       <description value="Asthme diagnosis example"/>
-      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition"/>
+      <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoPrimaryCondition"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Condition"/>
       </extension>
       <reference>
-        <reference value="Condition/VunsPneumoConditionCOPD"/>
+        <reference value="Condition/VunsPneumoConditionHF"/>
       </reference>
-      <name value="VunsPneumoConditionCOPD"/>
-      <description value="COPD diagnosis example"/>
+      <name value="VunsPneumoConditionHF"/>
+      <description value="Heart failure diagnosis example"/>
       <exampleCanonical value="http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/VunsPneumoPrimaryCondition"/>
+      </reference>
+      <name value="VunsPneumoPrimaryCondition"/>
+      <description value="Profile for primary diagnosis"/>
+      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

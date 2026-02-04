@@ -3,7 +3,7 @@
   "id" : "i2x-pneumo-diagnostic",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet i2x-pneumo-diagnostic</b></p><a name=\"i2x-pneumo-diagnostic\"> </a><a name=\"hci2x-pneumo-diagnostic\"> </a><a name=\"i2x-pneumo-diagnostic-und\"> </a><ul><li>Include ces codes sont définis dans <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/233703007\">233703007</a></td><td>pneumopathie interstitielle diffuse</td></tr><tr><td><a href=\"http://snomed.info/id/51615001\">51615001</a></td><td>fibrose pulmonaire</td></tr><tr><td><a href=\"http://snomed.info/id/708030004\">708030004</a></td><td>emphysème pulmonaire concomitant à une fibrose pulmonaire</td></tr><tr><td><a href=\"http://snomed.info/id/1172606002\">1172606002</a></td><td>fibroélastose pleuroparenchymateuse idiopathique</td></tr><tr><td><a href=\"http://snomed.info/id/700249006\">700249006</a></td><td>pneumonie interstitielle idiopathique</td></tr><tr><td><a href=\"http://snomed.info/id/782964007\">782964007</a></td><td>maladie génétique</td></tr><tr><td><a href=\"http://snomed.info/id/105969002\">105969002</a></td><td>affection d'un tissu conjonctif</td></tr><tr><td><a href=\"http://snomed.info/id/870573008\">870573008</a></td><td>pneumonie interstitielle avec des caractéristiques auto-immunes</td></tr><tr><td><a href=\"http://snomed.info/id/37471005\">37471005</a></td><td>Hypersensitivity pneumonitis</td></tr><tr><td><a href=\"http://snomed.info/id/40122008\">40122008</a></td><td>pneumoconiose</td></tr><tr><td><a href=\"http://snomed.info/id/31541009\">31541009</a></td><td>sarcoïdose</td></tr><tr><td><a href=\"http://snomed.info/id/31996006\">31996006</a></td><td>vascularite</td></tr><tr><td><a href=\"http://snomed.info/id/87119009\">87119009</a></td><td>poumon kystique congénital</td></tr><tr><td><a href=\"http://snomed.info/id/70995007\">70995007</a></td><td>hypertension pulmonaire</td></tr><tr><td><a href=\"http://snomed.info/id/11399002\">11399002</a></td><td>hypertension artérielle pulmonaire</td></tr><tr><td><a href=\"http://snomed.info/id/84114007\">84114007</a></td><td>insuffisance cardiaque</td></tr><tr><td><a href=\"http://snomed.info/id/76267008\">76267008</a></td><td>valvulopathie pulmonaire</td></tr><tr><td><a href=\"http://snomed.info/id/195967001\">195967001</a></td><td>asthme</td></tr><tr><td><a href=\"http://snomed.info/id/63480004\">63480004</a></td><td>bronchite chronique</td></tr><tr><td><a href=\"http://snomed.info/id/2561000112106\">2561000112106</a></td><td>toux chronique réfractaire</td></tr><tr><td><a href=\"http://snomed.info/id/13645005\">13645005</a></td><td>bronchopneumopathie chronique obstructive</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet i2x-pneumo-diagnostic</b></p><a name=\"i2x-pneumo-diagnostic\"> </a><a name=\"hci2x-pneumo-diagnostic\"> </a><a name=\"i2x-pneumo-diagnostic-und\"> </a><ul><li>Include ces codes sont définis dans <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/233703007\">233703007</a></td><td>pneumopathie interstitielle diffuse</td></tr><tr><td><a href=\"http://snomed.info/id/51615001\">51615001</a></td><td>fibrose pulmonaire</td></tr><tr><td><a href=\"http://snomed.info/id/708030004\">708030004</a></td><td>emphysème pulmonaire concomitant à une fibrose pulmonaire</td></tr><tr><td><a href=\"http://snomed.info/id/1172606002\">1172606002</a></td><td>fibroélastose pleuroparenchymateuse idiopathique</td></tr><tr><td><a href=\"http://snomed.info/id/700249006\">700249006</a></td><td>pneumonie interstitielle idiopathique</td></tr><tr><td><a href=\"http://snomed.info/id/870573008\">870573008</a></td><td>pneumonie interstitielle avec des caractéristiques auto-immunes</td></tr><tr><td><a href=\"http://snomed.info/id/37471005\">37471005</a></td><td>Hypersensitivity pneumonitis</td></tr><tr><td><a href=\"http://snomed.info/id/40122008\">40122008</a></td><td>pneumoconiose</td></tr><tr><td><a href=\"http://snomed.info/id/24369008\">24369008</a></td><td>sarcoïdose pulmonaire</td></tr><tr><td><a href=\"http://snomed.info/id/31996006\">31996006</a></td><td>vascularite</td></tr><tr><td><a href=\"http://snomed.info/id/87119009\">87119009</a></td><td>poumon kystique congénital</td></tr><tr><td><a href=\"http://snomed.info/id/70995007\">70995007</a></td><td>hypertension pulmonaire</td></tr><tr><td><a href=\"http://snomed.info/id/11399002\">11399002</a></td><td>hypertension artérielle pulmonaire</td></tr><tr><td><a href=\"http://snomed.info/id/76267008\">76267008</a></td><td>valvulopathie pulmonaire</td></tr><tr><td><a href=\"http://snomed.info/id/195967001\">195967001</a></td><td>asthme</td></tr><tr><td><a href=\"http://snomed.info/id/63480004\">63480004</a></td><td>bronchite chronique</td></tr><tr><td><a href=\"http://snomed.info/id/2561000112106\">2561000112106</a></td><td>toux chronique réfractaire</td></tr><tr><td><a href=\"http://snomed.info/id/13645005\">13645005</a></td><td>bronchopneumopathie chronique obstructive</td></tr></table></li></ul></div>"
   },
   "url" : "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-diagnostic",
   "version" : "0.2.0",
@@ -19,7 +19,7 @@
     }]
   }],
   "description" : "Valueset for principal diagnosis in the scope of he 'Vers Un Souffle Nouveau' project",
-  "copyright" : "RM@H IG (C) 2025-2025 University Hospital of Liege, GSI Department, Belgium. This implementation guide is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.",
+  "copyright" : "VUNS IG (C) 2025-2025 University Hospital of Liege, GSI Department, Belgium. This implementation guide is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.",
   "compose" : {
     "include" : [{
       "system" : "http://snomed.info/sct",
@@ -44,14 +44,6 @@
         "display" : "pneumonie interstitielle idiopathique"
       },
       {
-        "code" : "782964007",
-        "display" : "maladie génétique"
-      },
-      {
-        "code" : "105969002",
-        "display" : "affection d'un tissu conjonctif"
-      },
-      {
         "code" : "870573008",
         "display" : "pneumonie interstitielle avec des caractéristiques auto-immunes"
       },
@@ -64,8 +56,8 @@
         "display" : "pneumoconiose"
       },
       {
-        "code" : "31541009",
-        "display" : "sarcoïdose"
+        "code" : "24369008",
+        "display" : "sarcoïdose pulmonaire"
       },
       {
         "code" : "31996006",
@@ -82,10 +74,6 @@
       {
         "code" : "11399002",
         "display" : "hypertension artérielle pulmonaire"
-      },
-      {
-        "code" : "84114007",
-        "display" : "insuffisance cardiaque"
       },
       {
         "code" : "76267008",

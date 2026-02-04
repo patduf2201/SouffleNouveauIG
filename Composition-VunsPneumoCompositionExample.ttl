@@ -73,7 +73,7 @@
        fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Exemple de rapport en pneumologie</div>"^^rdf:XMLLiteral
      ]
   ] [
-     fhir:title [ fhir:v "Diagnostic primaire" ] ;
+     fhir:title [ fhir:v "Diagnostics" ] ;
      fhir:code [
        fhir:coding ( [
          a loinc:11535-2 ;
@@ -83,14 +83,14 @@
      ] ;
      fhir:text [
        fhir:status [ fhir:v "additional" ] ;
-       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Diagnostic</div>"^^rdf:XMLLiteral
+       fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Diagnostics</div>"^^rdf:XMLLiteral
      ] ;
      fhir:entry ( [
        fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Condition/VunsPneumoConditionAsthma> ;
        fhir:reference [ fhir:v "Condition/VunsPneumoConditionAsthma" ]
      ] [
-       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Condition/VunsPneumoConditionCOPD> ;
-       fhir:reference [ fhir:v "Condition/VunsPneumoConditionCOPD" ]
+       fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Condition/VunsPneumoConditionHF> ;
+       fhir:reference [ fhir:v "Condition/VunsPneumoConditionHF" ]
      ] )
   ] [
      fhir:title [ fhir:v "Résultats des EFRs" ] ;

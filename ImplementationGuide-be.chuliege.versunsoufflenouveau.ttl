@@ -18,7 +18,7 @@
   fhir:version [ fhir:v "0.2.0"] ; # 
   fhir:name [ fhir:v "SouffleNouveauIG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-09-12T14:17:00+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-04T18:27:09+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "CHU Liège"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "CHU Liège" ] ;
@@ -44,7 +44,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "6.5.0" ]
+     fhir:version [ fhir:v "7.0.1" ]
   ] [
      fhir:id [ fhir:v "hl7_fhir_be_core" ] ;
      fhir:uri [
@@ -1051,6 +1051,42 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-other-diagnosis-category> ;
+         fhir:reference [ fhir:v "ValueSet/i2x-pneumo-other-diagnosis-category" ]
+       ] ;
+       fhir:name [ fhir:v "PNEUMO_OTHER_DIAGNOSIS_CATEGORY_VS" ] ;
+       fhir:description [ fhir:v "Valueset for other diagnosis category" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-primary-diagnosis-category> ;
+         fhir:reference [ fhir:v "ValueSet/i2x-pneumo-primary-diagnosis-category" ]
+       ] ;
+       fhir:name [ fhir:v "PNEUMO_PRIMARY_DIAGNOSIS_CATEGORY_VS" ] ;
+       fhir:description [ fhir:v "Valueset for primary diagnosis category" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-vitaux> ;
          fhir:reference [ fhir:v "ValueSet/i2x-pneumo-vitaux" ]
        ] ;
@@ -1689,7 +1725,7 @@
          fhir:reference [ fhir:v "StructureDefinition/VunsPneumoCondition" ]
        ] ;
        fhir:name [ fhir:v "VunsPneumoCondition" ] ;
-       fhir:description [ fhir:v "Profile for primary diagnosis" ] ;
+       fhir:description [ fhir:v "Profile for comorbidities and diagnoses in the scope of chronic respiratory disease remote monitoring" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -1710,8 +1746,8 @@
        fhir:description [ fhir:v "Asthme diagnosis example" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition"^^xsd:anyURI ;
-         fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition>
+         fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoPrimaryCondition"^^xsd:anyURI ;
+         fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoPrimaryCondition>
        ]
      ] [
        fhir:extension ( [
@@ -1722,15 +1758,33 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Condition/VunsPneumoConditionCOPD> ;
-         fhir:reference [ fhir:v "Condition/VunsPneumoConditionCOPD" ]
+         fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/Condition/VunsPneumoConditionHF> ;
+         fhir:reference [ fhir:v "Condition/VunsPneumoConditionHF" ]
        ] ;
-       fhir:name [ fhir:v "VunsPneumoConditionCOPD" ] ;
-       fhir:description [ fhir:v "COPD diagnosis example" ] ;
+       fhir:name [ fhir:v "VunsPneumoConditionHF" ] ;
+       fhir:description [ fhir:v "Heart failure diagnosis example" ] ;
        fhir:example [
          a fhir:canonical ;
          fhir:v "http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition"^^xsd:anyURI ;
          fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoCondition>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/StructureDefinition/VunsPneumoPrimaryCondition> ;
+         fhir:reference [ fhir:v "StructureDefinition/VunsPneumoPrimaryCondition" ]
+       ] ;
+       fhir:name [ fhir:v "VunsPneumoPrimaryCondition" ] ;
+       fhir:description [ fhir:v "Profile for primary diagnosis" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
        ]
      ] [
        fhir:extension ( [

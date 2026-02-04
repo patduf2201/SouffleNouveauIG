@@ -57,7 +57,7 @@
     }
   },
   {
-    "title" : "Diagnostic primaire",
+    "title" : "Diagnostics",
     "code" : {
       "coding" : [{
         "system" : "http://loinc.org",
@@ -66,13 +66,13 @@
     },
     "text" : {
       "status" : "additional",
-      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Diagnostic</div>"
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Diagnostics</div>"
     },
     "entry" : [{
       "reference" : "Condition/VunsPneumoConditionAsthma"
     },
     {
-      "reference" : "Condition/VunsPneumoConditionCOPD"
+      "reference" : "Condition/VunsPneumoConditionHF"
     }]
   },
   {
