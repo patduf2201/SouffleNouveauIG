@@ -1,12 +1,10 @@
 SouffleNouveauIG : Validation Results
 =========================================
 
-err = 54, warn = 346, info = 73
-IG Publisher Version: 1.8.22 Out of date - current version is 2.3.4
-Generated Thu Sep 17 17:34:02 CEST 2026. FHIR version 4.0.1 for be.chuliege.versunsoufflenouveau#0.2.0 (canonical = http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG)
-Warning: This IG was generated with HTML generation off. Some kinds of errors will not be reported.
-
- Build Errors : 0 / 1 / 0
+err = 55, warn = 351, info = 73
+IG Publisher Version: 1.8.22 Out of date - current version is 3.0.0
+Generated Thu Oct 15 10:04:16 CEST 2026. FHIR version 4.0.1 for be.chuliege.versunsoufflenouveau#0.2.0 (canonical = http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG)
+ Build Errors : 3 / 6 / 0
  C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\fsh-generated\resources\Bundle-VunsPneumoBundleExample : 1 / 46 / 133
  C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\fsh-generated\resources\Bundle-VunsPneumoBundleShortExample : 2 / 10 / 80
  C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\fsh-generated\resources\CodeSystem-chul-location-cs : 2 / 3 / 2
@@ -67,6 +65,14 @@ Warning: This IG was generated with HTML generation off. Some kinds of errors wi
  C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\fsh-generated\resources\ValueSet-i2x-tabac-status : 0 / 2 / 1
 </table>
 == n/a ==
+ERROR: StructureDefinition-chul-encounter.html: The reference CodeableReference could not be resolved
+ERROR: C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\output\StructureDefinition-chul-encounter-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 248, column 561: The link 'CodeableReference.html' for "CodeableReference" cannot be resolved
+ERROR: C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\output\StructureDefinition-chul-encounter-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 385, column 561: The link 'CodeableReference.html' for "CodeableReference" cannot be resolved
+WARNING: C:\workspace\VersUnSouffleNouveau\versunsoufflenouveauig\output\StructureDefinition-vuns-context-definitions.html: The html source has duplicate anchor Ids: key_vuns-context.diagnostic.code,key_vuns-context.patient.birthDate,key_vuns-context.patient.gender,vuns-context.diagnostic.code,vuns-context.patient.birthDate,vuns-context.patient.gender
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 WARNING: IG: The IG is not for the international realm, and it uses SNOMED CT, so it should fix the SCT edition in the expansion parameters
 == fsh-generated\resources\Bundle-VunsPneumoBundleExample.json ==
 INFORMATION: Bundle/VunsPneumoBundleExample: Bundle.entry[0].resource.type.coding[0].display: There are no valid display names found for the code http://loinc.org#34105-7 for language(s) 'und'. The display is 'Hospital Discharge summary' the default language display
@@ -212,7 +218,7 @@ ERROR: Encounter/ChulEncounterExample: Encounter.location[0].location: Unable to
 == fsh-generated\resources\ImplementationGuide-be.chuliege.versunsoufflenouveau.json ==
 WARNING: ImplementationGuide/be.chuliege.versunsoufflenouveau: ImplementationGuide.dependsOn[1]: The ImplementationGuide uses package hl7.fhir.be.core#2.1.2 released on 2024-08-30, but the most recent appropriate version is 2.2.0. This reference is getting old and the more recent version should be considered
 WARNING: ImplementationGuide/be.chuliege.versunsoufflenouveau: ImplementationGuide.dependsOn[2]: The ImplementationGuide uses package hl7.fhir.be.core-clinical#1.0.0 released on 2022-05-31, but the most recent appropriate version is 1.3.0. This reference is getting old and the more recent version should be considered
-WARNING: ImplementationGuide/be.chuliege.versunsoufflenouveau: ImplementationGuide.dependsOn[3]: The ImplementationGuide uses package hl7.fhir.eu.base#0.1.0-ballot released on 2025-05-05, but the most recent appropriate version is 2.0.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/be.chuliege.versunsoufflenouveau: ImplementationGuide.dependsOn[3]: The ImplementationGuide uses package hl7.fhir.eu.base#0.1.0-ballot released on 2025-05-05, but the most recent appropriate version is 2.0.1. This reference is getting old and the more recent version should be considered
 WARNING: ImplementationGuide/be.chuliege.versunsoufflenouveau: ImplementationGuide.dependsOn[5]: The ImplementationGuide uses package hl7.fhir.uv.ips#1.1.0 released on 2022-11-22, but the most recent appropriate version is 2.0.1. This reference is getting old and the more recent version should be considered
 WARNING: ImplementationGuide/be.chuliege.versunsoufflenouveau: ImplementationGuide.dependsOn[6]: The ImplementationGuide uses package hl7.fhir.eu.laboratory#0.1.1 released on 2025-03-25, but the most recent appropriate version is 2.0.0. This reference is getting old and the more recent version should be considered
 WARNING: ImplementationGuide/be.chuliege.versunsoufflenouveau: ImplementationGuide.dependsOn[7]: The ImplementationGuide uses package hl7.fhir.uv.extensions.r4#5.2.0 released on 2025-02-10, but the most recent appropriate version is 5.3.0. This reference is getting old and the more recent version should be considered

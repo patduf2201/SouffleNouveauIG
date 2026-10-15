@@ -10,21 +10,21 @@ Accept: application/fhir+json; fhirVersion=4.0
 User-Agent: fhir/publisher
 
 
-Response (00:00:00.116): 
+Response (00:00:00.118): 
 
 200
 access-control-allow-credentials:true
 connection:keep-alive
-content-length:4220
 content-type:application/fhir+json; charset=utf-8
-date:Thu, 17 Sep 2026 15:11:08 GMT
-etag:W/"107c-5PPfk0m8mQXi/HfidMwVDYhP6sw"
+date:Thu, 15 Oct 2026 07:52:14 GMT
+etag:W/"fb4-BpEUaq0WKtJ5+Cb89cX5c7yKQM4"
 server:nginx
+transfer-encoding:chunked
 vary:Origin
 x-powered-by:Express
-x-request-id:tx-3729137
+x-request-id:tx-5218963
 
-{"resourceType":"CapabilityStatement","id":"FhirServer","extension":[{"extension":[{"url":"definition","valueCanonical":"http://hl7.org/fhir/uv/tx-tests/FeatureDefinition/test-version"},{"url":"value","valueCode":"1.9.5-SNAPSHOT"},{"extension":[{"url":"name","valueCode":"mode"},{"url":"value","valueCode":"tx.fhir.org"}],"url":"qualifier"}],"url":"http://hl7.org/fhir/uv/application-feature/StructureDefinition/feature"},{"extension":[{"url":"definition","valueCanonical":"http://hl7.org/fhir/uv/tx-ecosystem/FeatureDefinition/CodeSystemAsParameter"},{"url":"value","valueBoolean":true}],"url":"http://hl7.org/fhir/uv/application-feature/StructureDefinition/feature"}],"url":"http://tx.fhir.org/r4/CapabilityStatement/tx","version":"4.0.1-0.13.2","name":"FHIRTerminologyServer","title":"FHIR Terminology Server","status":"active","date":"2026-09-17T15:11:08.493Z","contact":[{"telecom":[{"system":"other","value":"http://example.org/"}]}],"description":"FHIR Terminology Server","kind":"instance","instantiates":["http://hl7.org/fhir/CapabilityStatement/terminology-server"],"software":{"name":"FHIRsmith","version":"0.13.2","releaseDate":"2026-09-17T15:11:08.493Z"},"implementation":{"description":"FHIR Server running at http://tx.fhir.org/r4","url":"http://tx.fhir.org/r4"},"fhirVersion":"4.0.1","format":["application/fhir+xml","application/fhir+json"],"rest":[{"mode":"server","security":{"cors":true},"resource":[{"type":"CodeSystem","interaction":[{"code":"read","documentation":"Read a code system"},{"code":"search-type","documentation":"Search the code systems"}],"searchParam":[{"name":"url","type":"uri"},{"name":"version","type":"token"},{"name":"name","type":"string"},{"name":"title","type":"string"},{"name":"status","type":"token"},{"name":"_id","type":"token"}],"operation":[{"name":"lookup","definition":"http://hl7.org/fhir/OperationDefinition/CodeSystem-lookup"},{"name":"validate-code","definition":"http://hl7.org/fhir/OperationDefinition/CodeSystem-validate-code"},{"name":"subsumes","definition":"http://hl7.org/fhir/OperationDefinition/CodeSystem-subsumes"}]},{"type":"ValueSet","interaction":[{"code":"read","documentation":"Read a ValueSet"},{"code":"search-type","documentation":"Search the value sets"}],"searchParam":[{"name":"url","type":"uri"},{"name":"version","type":"token"},{"name":"name","type":"string"},{"name":"title","type":"string"},{"name":"status","type":"token"},{"name":"_id","type":"token"}],"operation":[{"name":"expand","definition":"http://hl7.org/fhir/OperationDefinition/ValueSet-expand"},{"name":"validate-code","definition":"http://hl7.org/fhir/OperationDefinition/ValueSet-validate-code"},{"name":"compare","definition":"http://hl7.org/fhir/tools/OperationDefinition/ValueSet-compare"}]},{"type":"ConceptMap","interaction":[{"code":"read","documentation":"Read a ConceptMap"},{"code":"search-type","documentation":"Search the concept maps"}],"searchParam":[{"name":"url","type":"uri"},{"name":"version","type":"token"},{"name":"name","type":"string"},{"name":"title","type":"string"},{"name":"status","type":"token"},{"name":"_id","type":"token"}],"operation":[{"name":"translate","definition":"http://hl7.org/fhir/OperationDefinition/ConceptMap-translate"},{"name":"closure","definition":"http://hl7.org/fhir/OperationDefinition/ConceptMap-closure"}]}],"interaction":[{"code":"transaction"}],"operation":[{"name":"expand","definition":"http://hl7.org/fhir/OperationDefinition/ValueSet-expand"},{"name":"lookup","definition":"http://hl7.org/fhir/OperationDefinition/CodeSystem-lookup"},{"name":"subsumes","definition":"http://hl7.org/fhir/OperationDefinition/CodeSystem-subsumes"},{"name":"validate-code","definition":"http://hl7.org/fhir/OperationDefinition/Resource-validate-code"},{"name":"translate","definition":"http://hl7.org/fhir/OperationDefinition/ConceptMap-translate"},{"name":"closure","definition":"http://hl7.org/fhir/OperationDefinition/ConceptMap-closure"},{"name":"compare","definition":"http://hl7.org/fhir/tools/OperationDefinition/ValueSet-compare"},{"name":"cache-control","definition":"http://hl7.org/fhir/tools/OperationDefinition/cache-control"},{"name":"versions","definition":"http://hl7.org/fhir/OperationDefinition/fhir-versions"}]}]}
+{"resourceType":"CapabilityStatement","id":"FhirServer","extension":[{"extension":[{"url":"definition","valueCanonical":"http://hl7.org/fhir/uv/tx-tests/FeatureDefinition/test-version"},{"url":"value","valueCode":"1.9.5-SNAPSHOT"},{"extension":[{"url":"name","valueCode":"mode"},{"url":"value","valueCode":"tx.fhir.org"}],"url":"qualifier"}],"url":"http://hl7.org/fhir/uv/application-feature/StructureDefinition/feature"},{"extension":[{"url":"definition","valueCanonical":"http://hl7.org/fhir/uv/tx-ecosystem/FeatureDefinition/CodeSystemAsParameter"},{"url":"value","valueBoolean":true}],"url":"http://hl7.org/fhir/uv/application-feature/StructureDefinition/feature"}],"url":"http://tx.fhir.org/r4/CapabilityStatement/tx","version":"4.0.1-0.15.0","name":"FHIRTerminologyServer","title":"FHIR Terminology Server","status":"active","date":"2026-10-15T07:52:14.071Z","contact":[{"telecom":[{"system":"other","value":"http://example.org/"}]}],"description":"FHIR Terminology Server","kind":"instance","instantiates":["http://hl7.org/fhir/CapabilityStatement/terminology-server"],"software":{"name":"FHIRsmith","version":"0.15.0","releaseDate":"2026-10-08"},"implementation":{"description":"FHIR Server running at http://tx.fhir.org/r4","url":"http://tx.fhir.org/r4"},"fhirVersion":"4.0.1","format":["application/fhir+xml","application/fhir+json"],"rest":[{"mode":"server","security":{"cors":true},"resource":[{"type":"CodeSystem","interaction":[{"code":"read","documentation":"Read a code system"},{"code":"search-type","documentation":"Search the code systems"}],"searchParam":[{"name":"url","type":"uri"},{"name":"version","type":"token"},{"name":"name","type":"string"},{"name":"title","type":"string"},{"name":"status","type":"token"},{"name":"_id","type":"token"}],"operation":[{"name":"lookup","definition":"http://hl7.org/fhir/OperationDefinition/CodeSystem-lookup"},{"name":"validate-code","definition":"http://hl7.org/fhir/OperationDefinition/CodeSystem-validate-code"},{"name":"subsumes","definition":"http://hl7.org/fhir/OperationDefinition/CodeSystem-subsumes"}]},{"type":"ValueSet","interaction":[{"code":"read","documentation":"Read a ValueSet"},{"code":"search-type","documentation":"Search the value sets"}],"searchParam":[{"name":"url","type":"uri"},{"name":"version","type":"token"},{"name":"name","type":"string"},{"name":"title","type":"string"},{"name":"status","type":"token"},{"name":"_id","type":"token"}],"operation":[{"name":"expand","definition":"http://hl7.org/fhir/OperationDefinition/ValueSet-expand"},{"name":"validate-code","definition":"http://hl7.org/fhir/OperationDefinition/ValueSet-validate-code"},{"name":"compare","definition":"http://hl7.org/fhir/tools/OperationDefinition/ValueSet-compare"}]},{"type":"ConceptMap","interaction":[{"code":"read","documentation":"Read a ConceptMap"},{"code":"search-type","documentation":"Search the concept maps"}],"searchParam":[{"name":"url","type":"uri"},{"name":"version","type":"token"},{"name":"name","type":"string"},{"name":"title","type":"string"},{"name":"status","type":"token"},{"name":"_id","type":"token"}],"operation":[{"name":"translate","definition":"http://hl7.org/fhir/OperationDefinition/ConceptMap-translate"}]}],"interaction":[{"code":"transaction"}],"operation":[{"name":"expand","definition":"http://hl7.org/fhir/OperationDefinition/ValueSet-expand"},{"name":"lookup","definition":"http://hl7.org/fhir/OperationDefinition/CodeSystem-lookup"},{"name":"subsumes","definition":"http://hl7.org/fhir/OperationDefinition/CodeSystem-subsumes"},{"name":"validate-code","definition":"http://hl7.org/fhir/OperationDefinition/Resource-validate-code"},{"name":"translate","definition":"http://hl7.org/fhir/OperationDefinition/ConceptMap-translate"},{"name":"compare","definition":"http://hl7.org/fhir/tools/OperationDefinition/ValueSet-compare"},{"name":"cache-control","definition":"http://hl7.org/fhir/tools/OperationDefinition/cache-control"},{"name":"versions","definition":"http://hl7.org/fhir/OperationDefinition/fhir-versions"}]}]}
 
 </pre><hr/>
 <a name="l2"> </a><h3>2</h3>
@@ -36,65 +36,5 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://hl7.org/fhir/fhir-types","code":"Practitioner"}},{"name":"displayLanguage","valueString":"en, en-US, und"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"58f1c4bf-3bc3-4986-a193-b3175f0ff047"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
-
-</pre><hr/>
-<a name="l3"> </a><h3>3</h3>
-<pre>
-Request: 
-
-POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
-Accept: application/fhir+json; fhirVersion=4.0
-Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
-User-Agent: fhir/publisher
-
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://hl7.org/fhir/fhir-types","code":"Location"}},{"name":"displayLanguage","valueString":"en, en-US, und"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"58f1c4bf-3bc3-4986-a193-b3175f0ff047"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
-
-</pre><hr/>
-<a name="l4"> </a><h3>4</h3>
-<pre>
-Request: 
-
-POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
-Accept: application/fhir+json; fhirVersion=4.0
-Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
-User-Agent: fhir/publisher
-
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://hl7.org/fhir/fhir-types","code":"CodeSystem"}},{"name":"displayLanguage","valueString":"en, en-US, und"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"58f1c4bf-3bc3-4986-a193-b3175f0ff047"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
-
-</pre><hr/>
-<a name="l5"> </a><h3>5</h3>
-<pre>
-Request: 
-
-POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
-Accept: application/fhir+json; fhirVersion=4.0
-Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
-User-Agent: fhir/publisher
-
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://hl7.org/fhir/fhir-types","code":"StructureDefinition"}},{"name":"displayLanguage","valueString":"en, en-US, und"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"58f1c4bf-3bc3-4986-a193-b3175f0ff047"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
-
-</pre><hr/>
-<a name="l6"> </a><h3>6</h3>
-<pre>
-Request: 
-
-POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
-Accept: application/fhir+json; fhirVersion=4.0
-Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
-User-Agent: fhir/publisher
-
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://hl7.org/fhir/fhir-types","code":"ValueSet"}},{"name":"displayLanguage","valueString":"en, en-US, und"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"58f1c4bf-3bc3-4986-a193-b3175f0ff047"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
-
-</pre><hr/>
-<a name="l7"> </a><h3>7</h3>
-<pre>
-Request: 
-
-POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
-Accept: application/fhir+json; fhirVersion=4.0
-Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
-User-Agent: fhir/publisher
-
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://terminology.chuliege.be/OmniPro","code":"30040:VTIFF","display":"Tiffeneau"}},{"name":"displayLanguage","valueString":"fr-BE"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"58f1c4bf-3bc3-4986-a193-b3175f0ff047"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://hl7.org/fhir/fhir-types","code":"Bundle"}},{"name":"displayLanguage","valueString":"en, en-US, und"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"d2437473-84f2-4877-8196-020c90c993d8"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
 </pre></head></html>
