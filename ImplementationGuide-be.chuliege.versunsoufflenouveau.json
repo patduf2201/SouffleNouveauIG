@@ -10,7 +10,7 @@
   "version" : "0.2.0",
   "name" : "SouffleNouveauIG",
   "status" : "draft",
-  "date" : "2026-02-04T18:27:09+01:00",
+  "date" : "2026-09-17T17:10:37+02:00",
   "publisher" : "CHU Liège",
   "contact" : [{
     "name" : "CHU Liège",
@@ -30,7 +30,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.0.1"
+    "version" : "7.3.0"
   },
   {
     "id" : "hl7_fhir_be_core",

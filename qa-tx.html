@@ -10,22 +10,21 @@ Accept: application/fhir+json; fhirVersion=4.0
 User-Agent: fhir/publisher
 
 
-Response (00:00:00.135): 
+Response (00:00:00.116): 
 
 200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
+access-control-allow-credentials:true
 connection:keep-alive
-content-length:2356
-content-type:application/fhir+json
-date:Wed, 04 Feb 2026 17:27:45 GMT
-pragma:no-cache
+content-length:4220
+content-type:application/fhir+json; charset=utf-8
+date:Thu, 17 Sep 2026 15:11:08 GMT
+etag:W/"107c-5PPfk0m8mQXi/HfidMwVDYhP6sw"
 server:nginx
-x-request-id:255-754265
+vary:Origin
+x-powered-by:Express
+x-request-id:tx-3729137
 
-{"resourceType" : "CapabilityStatement","id" : "FhirServer","meta" : {"tag" : [{"system" : "http://hl7.org/fhir/v3/ObservationValue","code" : "SUBSETTED","display" : "Subsetted"}]},"url" : "http://tx.fhir.org/r4/CapabilityStatement/tx","version" : "4.0.1-4.0.7","name" : "FHIRReferenceServer","title" : "FHIR Reference Server Conformance Statement","status" : "active","date" : "2026-02-04T17:27:45.814Z","contact" : [{"telecom" : [{"system" : "other","value" : "http://healthintersections.com.au/"}]}],"kind" : "instance","instantiates" : ["http://hl7.org/fhir/CapabilityStatement/terminology-server","http://hl7.org/fhir/CapabilityStatement/terminology-server"],"software" : {"name" : "HealthIntersections Server","version" : "4.0.7","releaseDate" : "2025-12-08T22:14:53.000Z"},"implementation" : {"description" : "FHIR Server running at http://tx.fhir.org/r4","url" : "http://tx.fhir.org/r4"},"fhirVersion" : "4.0.1","format" : ["application/fhir+xml","application/fhir+json"],"rest" : [{"mode" : "server","security" : {"cors" : true},"resource" : [{"type" : "CodeSystem","operation" : [{"name" : "validate-code","definition" : "http://hl7.org/fhir/OperationDefinition/CodeSystem-validate-code"},{"name" : "lookup","definition" : "http://hl7.org/fhir/OperationDefinition/CodeSystem-lookup"}]},{"type" : "ValueSet","operation" : [{"name" : "validate-code","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-validate-code"},{"name" : "expand","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-expand"}]}],"operation" : [{"name" : "expand","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-expand"},{"name" : "lookup","definition" : "http://hl7.org/fhir/OperationDefinition/ValueSet-lookup"},{"name" : "subsumes","definition" : "http://hl7.org/fhir/OperationDefinition/CodeSystem-subsumes"},{"name" : "validate-code","definition" : "http://hl7.org/fhir/OperationDefinition/Resource-validate-code"},{"name" : "batch-validate-code","definition" : "http://hl7.org/fhir/OperationDefinition/Resource-batch-validate-code"},{"name" : "translate","definition" : "http://hl7.org/fhir/OperationDefinition/ConceptMap-translate"},{"name" : "closure","definition" : "http://hl7.org/fhir/OperationDefinition/ConceptMap-closure"},{"name" : "versions","definition" : "http://tx.fhir.org/r4/OperationDefinition/fso-versions"}]}]}
+{"resourceType":"CapabilityStatement","id":"FhirServer","extension":[{"extension":[{"url":"definition","valueCanonical":"http://hl7.org/fhir/uv/tx-tests/FeatureDefinition/test-version"},{"url":"value","valueCode":"1.9.5-SNAPSHOT"},{"extension":[{"url":"name","valueCode":"mode"},{"url":"value","valueCode":"tx.fhir.org"}],"url":"qualifier"}],"url":"http://hl7.org/fhir/uv/application-feature/StructureDefinition/feature"},{"extension":[{"url":"definition","valueCanonical":"http://hl7.org/fhir/uv/tx-ecosystem/FeatureDefinition/CodeSystemAsParameter"},{"url":"value","valueBoolean":true}],"url":"http://hl7.org/fhir/uv/application-feature/StructureDefinition/feature"}],"url":"http://tx.fhir.org/r4/CapabilityStatement/tx","version":"4.0.1-0.13.2","name":"FHIRTerminologyServer","title":"FHIR Terminology Server","status":"active","date":"2026-09-17T15:11:08.493Z","contact":[{"telecom":[{"system":"other","value":"http://example.org/"}]}],"description":"FHIR Terminology Server","kind":"instance","instantiates":["http://hl7.org/fhir/CapabilityStatement/terminology-server"],"software":{"name":"FHIRsmith","version":"0.13.2","releaseDate":"2026-09-17T15:11:08.493Z"},"implementation":{"description":"FHIR Server running at http://tx.fhir.org/r4","url":"http://tx.fhir.org/r4"},"fhirVersion":"4.0.1","format":["application/fhir+xml","application/fhir+json"],"rest":[{"mode":"server","security":{"cors":true},"resource":[{"type":"CodeSystem","interaction":[{"code":"read","documentation":"Read a code system"},{"code":"search-type","documentation":"Search the code systems"}],"searchParam":[{"name":"url","type":"uri"},{"name":"version","type":"token"},{"name":"name","type":"string"},{"name":"title","type":"string"},{"name":"status","type":"token"},{"name":"_id","type":"token"}],"operation":[{"name":"lookup","definition":"http://hl7.org/fhir/OperationDefinition/CodeSystem-lookup"},{"name":"validate-code","definition":"http://hl7.org/fhir/OperationDefinition/CodeSystem-validate-code"},{"name":"subsumes","definition":"http://hl7.org/fhir/OperationDefinition/CodeSystem-subsumes"}]},{"type":"ValueSet","interaction":[{"code":"read","documentation":"Read a ValueSet"},{"code":"search-type","documentation":"Search the value sets"}],"searchParam":[{"name":"url","type":"uri"},{"name":"version","type":"token"},{"name":"name","type":"string"},{"name":"title","type":"string"},{"name":"status","type":"token"},{"name":"_id","type":"token"}],"operation":[{"name":"expand","definition":"http://hl7.org/fhir/OperationDefinition/ValueSet-expand"},{"name":"validate-code","definition":"http://hl7.org/fhir/OperationDefinition/ValueSet-validate-code"},{"name":"compare","definition":"http://hl7.org/fhir/tools/OperationDefinition/ValueSet-compare"}]},{"type":"ConceptMap","interaction":[{"code":"read","documentation":"Read a ConceptMap"},{"code":"search-type","documentation":"Search the concept maps"}],"searchParam":[{"name":"url","type":"uri"},{"name":"version","type":"token"},{"name":"name","type":"string"},{"name":"title","type":"string"},{"name":"status","type":"token"},{"name":"_id","type":"token"}],"operation":[{"name":"translate","definition":"http://hl7.org/fhir/OperationDefinition/ConceptMap-translate"},{"name":"closure","definition":"http://hl7.org/fhir/OperationDefinition/ConceptMap-closure"}]}],"interaction":[{"code":"transaction"}],"operation":[{"name":"expand","definition":"http://hl7.org/fhir/OperationDefinition/ValueSet-expand"},{"name":"lookup","definition":"http://hl7.org/fhir/OperationDefinition/CodeSystem-lookup"},{"name":"subsumes","definition":"http://hl7.org/fhir/OperationDefinition/CodeSystem-subsumes"},{"name":"validate-code","definition":"http://hl7.org/fhir/OperationDefinition/Resource-validate-code"},{"name":"translate","definition":"http://hl7.org/fhir/OperationDefinition/ConceptMap-translate"},{"name":"closure","definition":"http://hl7.org/fhir/OperationDefinition/ConceptMap-closure"},{"name":"compare","definition":"http://hl7.org/fhir/tools/OperationDefinition/ValueSet-compare"},{"name":"cache-control","definition":"http://hl7.org/fhir/tools/OperationDefinition/cache-control"},{"name":"versions","definition":"http://hl7.org/fhir/OperationDefinition/fhir-versions"}]}]}
 
 </pre><hr/>
 <a name="l2"> </a><h3>2</h3>
@@ -37,26 +36,7 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://hl7.org/fhir/fhir-types","code":"ImplementationGuide"}},{"name":"displayLanguage","valueString":"en, en-US, und"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"eb911d0f-8fde-4ed3-b07e-753f97cf0406"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
-
-
-Response (00:00:00.127): 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:1535
-content-type:application/fhir+json
-date:Wed, 04 Feb 2026 17:28:33 GMT
-last-modified:Wed, 04 Feb 2026 17:28:33 GMT
-pragma:no-cache
-server:nginx
-x-request-id:255-754367
-
-{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://hl7.org/fhir/fhir-types"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://hl7.org/fhir/fhir-types"},{"name" : "code","valueCode" : "ImplementationGuide"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://hl7.org/fhir/fhir-types' could not be found, so the code cannot be validated"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"extension" : [{"url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id","valueString" : "UNKNOWN_CODESYSTEM"}],"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://hl7.org/fhir/fhir-types' could not be found, so the code cannot be validated"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}},{"name" : "diagnostics","valueString" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, en-US, und, default-to-latest\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://hl7.org/fhir/fhir-types#ImplementationGuide (\"\")]\"\r\n0 0     : 0ms  : Check \"http://hl7.org/fhir/fhir-types#ImplementationGuide\"\r\n0 0     : 0ms  : Didn't find CodeSystem \"http://hl7.org/fhir/fhir-types\"\r\n"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://hl7.org/fhir/fhir-types","code":"Practitioner"}},{"name":"displayLanguage","valueString":"en, en-US, und"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"58f1c4bf-3bc3-4986-a193-b3175f0ff047"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
 
 </pre><hr/>
 <a name="l3"> </a><h3>3</h3>
@@ -68,88 +48,31 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://loinc.org","code":"52465-2"}},{"name":"displayLanguage","valueString":"en, en-US, und"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"eb911d0f-8fde-4ed3-b07e-753f97cf0406"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
-
-
-Response (00:00:00.123): 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:1532
-content-type:application/fhir+json
-date:Wed, 04 Feb 2026 17:28:35 GMT
-last-modified:Wed, 04 Feb 2026 17:28:35 GMT
-pragma:no-cache
-server:nginx
-x-request-id:255-754375
-
-{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://loinc.org"},{"name" : "code","valueCode" : "52465-2"},{"name" : "version","valueString" : "2.81"},{"name" : "display","valueString" : "Other Diagnoses, Comorbidities, and Complications"},{"name" : "inactive","valueBoolean" : true},{"name" : "status","valueString" : "DISCOURAGED"},{"name" : "message","valueString" : "The concept '52465-2' has a status of DISCOURAGED and its use should be reviewed"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"extension" : [{"url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id","valueString" : "INACTIVE_CONCEPT_FOUND"}],"severity" : "warning","code" : "business-rule","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "code-comment"}],"text" : "The concept '52465-2' has a status of DISCOURAGED and its use should be reviewed"},"location" : ["Coding"],"expression" : ["Coding"]}]}},{"name" : "diagnostics","valueString" : "0 0 : start\r\n15 15   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n15 0    : 0ms  : Parameters: disp-lang=en, en-US, und, default-to-latest\r\n15 0    : 0ms  : Prepare include: \"()\"\r\n15 0    : 0ms  : Validate \"[http://loinc.org#52465-2 (\"\")]\"\r\n15 0    : 0ms  : Check \"http://loinc.org#52465-2\"\r\n15 0    : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://hl7.org/fhir/fhir-types","code":"Location"}},{"name":"displayLanguage","valueString":"en, en-US, und"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"58f1c4bf-3bc3-4986-a193-b3175f0ff047"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
 
 </pre><hr/>
 <a name="l4"> </a><h3>4</h3>
 <pre>
 Request: 
 
-POST http://tx.fhir.org/r4/ValueSet/$expand HTTP/1.0
+POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
 Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"displayLanguage","valueCode":"und"},{"name":"includeDefinition","valueBoolean":false},{"name":"excludeNested","valueBoolean":true},{"name":"cache-id","valueId":"eb911d0f-8fde-4ed3-b07e-753f97cf0406"},{"name":"count","valueInteger":1000},{"name":"offset","valueInteger":0},{"name":"valueSet","resource":{"resourceType":"ValueSet","status":"active","compose":{"inactive":false,"include":[{"system":"http://loinc.org","concept":[{"code":"81885-6","display":"Secondary diagnosis"},{"code":"52465-2","display":"Other diagnoses, comorbidities, complications"}]}]}}}]}
-
-
-Response (00:00:00.127): 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:554
-content-type:application/fhir+json
-date:Wed, 04 Feb 2026 17:28:37 GMT
-last-modified:Wed, 04 Feb 2026 17:28:37 GMT
-pragma:no-cache
-server:nginx
-x-request-id:255-754379
-
-{"resourceType" : "ValueSet","status" : "active","expansion" : {"identifier" : "urn:uuid:aeb5acb3-1d06-4f87-b67e-0b824fc072a0","timestamp" : "2026-02-04T17:28:37.428Z","total" : 2,"offset" : 0,"parameter" : [{"name" : "displayLanguage","valueCode" : "und"},{"name" : "excludeNested","valueBoolean" : true},{"name" : "offset","valueInteger" : 0},{"name" : "count","valueInteger" : 1000},{"name" : "used-codesystem","valueUri" : "http://loinc.org|2.81"}],"contains" : [{"system" : "http://loinc.org","code" : "81885-6","display" : "Secondary diagnosis"}]}}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://hl7.org/fhir/fhir-types","code":"CodeSystem"}},{"name":"displayLanguage","valueString":"en, en-US, und"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"58f1c4bf-3bc3-4986-a193-b3175f0ff047"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
 
 </pre><hr/>
 <a name="l5"> </a><h3>5</h3>
 <pre>
 Request: 
 
-POST http://tx.fhir.org/r4/ HTTP/1.0
-User-Agent: hapi-fhir-tooling-client
+POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
 Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
+User-Agent: fhir/publisher
 
-{"resourceType":"Bundle","type":"batch","entry":[{"resource":{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://loinc.org","code":"52465-2"}},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"displayLanguage","valueCode":"und"},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true}]},"request":{"method":"POST","url":"CodeSystem/$validate-code"}}]}
-
-
-Response (00:00:00.125): 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:1276
-content-type:application/fhir+json
-date:Wed, 04 Feb 2026 17:28:37 GMT
-last-modified:Wed, 04 Feb 2026 17:28:37 GMT
-pragma:no-cache
-server:nginx
-x-request-id:255-754381
-
-{"resourceType" : "Bundle","id" : "e495eabd-4201-4d90-8ec1-706f9048aa7b","type" : "batch-response","entry" : [{"resource" : {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://loinc.org"},{"name" : "code","valueCode" : "52465-2"},{"name" : "version","valueString" : "2.81"},{"name" : "display","valueString" : "Other Diagnoses, Comorbidities, and Complications"},{"name" : "inactive","valueBoolean" : true},{"name" : "status","valueString" : "DISCOURAGED"},{"name" : "message","valueString" : "The concept '52465-2' has a status of DISCOURAGED and its use should be reviewed"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"extension" : [{"url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id","valueString" : "INACTIVE_CONCEPT_FOUND"}],"severity" : "warning","code" : "business-rule","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "code-comment"}],"text" : "The concept '52465-2' has a status of DISCOURAGED and its use should be reviewed"},"location" : ["Coding"],"expression" : ["Coding"]}]}}]},"response" : {"status" : "200","etag" : "W/","lastModified" : "2026-02-04T17:28:37.818Z"}}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://hl7.org/fhir/fhir-types","code":"StructureDefinition"}},{"name":"displayLanguage","valueString":"en, en-US, und"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"58f1c4bf-3bc3-4986-a193-b3175f0ff047"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
 
 </pre><hr/>
 <a name="l6"> </a><h3>6</h3>
@@ -161,334 +84,17 @@ Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://loinc.org","code":"81885-6"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"eb911d0f-8fde-4ed3-b07e-753f97cf0406"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
-
-
-Response (00:00:00.136): 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:754
-content-type:application/fhir+json
-date:Wed, 04 Feb 2026 17:28:38 GMT
-last-modified:Wed, 04 Feb 2026 17:28:38 GMT
-pragma:no-cache
-server:nginx
-x-request-id:255-754383
-
-{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://loinc.org"},{"name" : "code","valueCode" : "81885-6"},{"name" : "version","valueString" : "2.81"},{"name" : "display","valueString" : "Secondary diagnosis"},{"name" : "diagnostics","valueString" : "0 0 : start\r\n15 15   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n15 0    : 0ms  : Parameters: disp-lang=en, en-US, default-to-latest\r\n15 0    : 0ms  : Prepare include: \"()\"\r\n15 0    : 0ms  : Validate \"[http://loinc.org#81885-6 (\"\")]\"\r\n15 0    : 0ms  : Check \"http://loinc.org#81885-6\"\r\n15 0    : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://hl7.org/fhir/fhir-types","code":"ValueSet"}},{"name":"displayLanguage","valueString":"en, en-US, und"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"58f1c4bf-3bc3-4986-a193-b3175f0ff047"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
 
 </pre><hr/>
 <a name="l7"> </a><h3>7</h3>
 <pre>
 Request: 
 
-POST http://tx.fhir.org/r4/ HTTP/1.0
-User-Agent: hapi-fhir-tooling-client
-Accept: application/fhir+json; fhirVersion=4.0
-Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
-
-{"resourceType":"Bundle","type":"batch","entry":[{"resource":{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://loinc.org","code":"52465-2"}},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"displayLanguage","valueCode":"und"},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true}]},"request":{"method":"POST","url":"CodeSystem/$validate-code"}}]}
-
-
-Response (00:00:00.118): 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:1276
-content-type:application/fhir+json
-date:Wed, 04 Feb 2026 17:28:38 GMT
-last-modified:Wed, 04 Feb 2026 17:28:38 GMT
-pragma:no-cache
-server:nginx
-x-request-id:255-754384
-
-{"resourceType" : "Bundle","id" : "0e134d7d-8de2-44f4-bf82-f5095a12110d","type" : "batch-response","entry" : [{"resource" : {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://loinc.org"},{"name" : "code","valueCode" : "52465-2"},{"name" : "version","valueString" : "2.81"},{"name" : "display","valueString" : "Other Diagnoses, Comorbidities, and Complications"},{"name" : "inactive","valueBoolean" : true},{"name" : "status","valueString" : "DISCOURAGED"},{"name" : "message","valueString" : "The concept '52465-2' has a status of DISCOURAGED and its use should be reviewed"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"extension" : [{"url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id","valueString" : "INACTIVE_CONCEPT_FOUND"}],"severity" : "warning","code" : "business-rule","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "code-comment"}],"text" : "The concept '52465-2' has a status of DISCOURAGED and its use should be reviewed"},"location" : ["Coding"],"expression" : ["Coding"]}]}}]},"response" : {"status" : "200","etag" : "W/","lastModified" : "2026-02-04T17:28:38.735Z"}}]}
-
-</pre><hr/>
-<a name="l8"> </a><h3>8</h3>
-<pre>
-Request: 
-
 POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
 Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://loinc.org","code":"52465-2"}},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"eb911d0f-8fde-4ed3-b07e-753f97cf0406"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"displayLanguage","valueCode":"und"},{"name":"diagnostics","valueBoolean":true}]}
-
-
-Response (00:00:00.505): 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:1521
-content-type:application/fhir+json
-date:Wed, 04 Feb 2026 17:29:43 GMT
-last-modified:Wed, 04 Feb 2026 17:29:43 GMT
-pragma:no-cache
-server:nginx
-x-request-id:255-754583
-
-{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://loinc.org"},{"name" : "code","valueCode" : "52465-2"},{"name" : "version","valueString" : "2.81"},{"name" : "display","valueString" : "Other Diagnoses, Comorbidities, and Complications"},{"name" : "inactive","valueBoolean" : true},{"name" : "status","valueString" : "DISCOURAGED"},{"name" : "message","valueString" : "The concept '52465-2' has a status of DISCOURAGED and its use should be reviewed"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"extension" : [{"url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id","valueString" : "INACTIVE_CONCEPT_FOUND"}],"severity" : "warning","code" : "business-rule","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "code-comment"}],"text" : "The concept '52465-2' has a status of DISCOURAGED and its use should be reviewed"},"location" : ["Coding"],"expression" : ["Coding"]}]}},{"name" : "diagnostics","valueString" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=und, default-to-latest\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[http://loinc.org#52465-2 (\"\")]\"\r\n16 0    : 0ms  : Check \"http://loinc.org#52465-2\"\r\n16 0    : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n"}]}
-
-</pre><hr/>
-<a name="l9"> </a><h3>9</h3>
-<pre>
-Request: 
-
-POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
-Accept: application/fhir+json; fhirVersion=4.0
-Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
-User-Agent: fhir/publisher
-
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://loinc.org","code":"52465-2"}},{"name":"displayLanguage","valueString":"und"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"eb911d0f-8fde-4ed3-b07e-753f97cf0406"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
-
-
-Response (00:00:00.489): 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:1521
-content-type:application/fhir+json
-date:Wed, 04 Feb 2026 17:29:43 GMT
-last-modified:Wed, 04 Feb 2026 17:29:43 GMT
-pragma:no-cache
-server:nginx
-x-request-id:255-754584
-
-{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://loinc.org"},{"name" : "code","valueCode" : "52465-2"},{"name" : "version","valueString" : "2.81"},{"name" : "display","valueString" : "Other Diagnoses, Comorbidities, and Complications"},{"name" : "inactive","valueBoolean" : true},{"name" : "status","valueString" : "DISCOURAGED"},{"name" : "message","valueString" : "The concept '52465-2' has a status of DISCOURAGED and its use should be reviewed"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"extension" : [{"url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id","valueString" : "INACTIVE_CONCEPT_FOUND"}],"severity" : "warning","code" : "business-rule","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "code-comment"}],"text" : "The concept '52465-2' has a status of DISCOURAGED and its use should be reviewed"},"location" : ["Coding"],"expression" : ["Coding"]}]}},{"name" : "diagnostics","valueString" : "0 0 : start\r\n15 15   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n15 0    : 0ms  : Parameters: disp-lang=und, default-to-latest\r\n15 0    : 0ms  : Prepare include: \"()\"\r\n15 0    : 0ms  : Validate \"[http://loinc.org#52465-2 (\"\")]\"\r\n15 0    : 0ms  : Check \"http://loinc.org#52465-2\"\r\n15 0    : 0ms  : Using CodeSystem \"http://loinc.org|2.81\" (content = complete)\r\n"}]}
-
-</pre><hr/>
-<a name="l10"> </a><h3>10</h3>
-<pre>
-Request: 
-
-POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
-Accept: application/fhir+json; fhirVersion=4.0
-Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
-User-Agent: fhir/publisher
-
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://loinc.org","code":"52465-2"}},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-other-diagnosis-category--0","version":"0.2.0","status":"active","compose":{"include":[{"system":"http://loinc.org","concept":[{"code":"81885-6","display":"Secondary diagnosis"},{"code":"52465-2","display":"Other diagnoses, comorbidities, complications"}]}]}}},{"name":"cache-id","valueId":"eb911d0f-8fde-4ed3-b07e-753f97cf0406"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"displayLanguage","valueCode":"und"},{"name":"diagnostics","valueBoolean":true}]}
-
-
-Response (00:00:00.126): 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:1839
-content-type:application/fhir+json
-date:Wed, 04 Feb 2026 17:29:44 GMT
-last-modified:Wed, 04 Feb 2026 17:29:44 GMT
-pragma:no-cache
-server:nginx
-x-request-id:255-754585
-
-{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://loinc.org"},{"name" : "code","valueCode" : "52465-2"},{"name" : "version","valueString" : "2.81"},{"name" : "display","valueString" : "Other Diagnoses, Comorbidities, and Complications"},{"name" : "inactive","valueBoolean" : true},{"name" : "status","valueString" : "DISCOURAGED"},{"name" : "message","valueString" : "The concept '52465-2' has a status of DISCOURAGED and its use should be reviewed"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"extension" : [{"url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id","valueString" : "INACTIVE_CONCEPT_FOUND"}],"severity" : "warning","code" : "business-rule","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "code-comment"}],"text" : "The concept '52465-2' has a status of DISCOURAGED and its use should be reviewed"},"location" : ["Coding"],"expression" : ["Coding"]}]}},{"name" : "diagnostics","valueString" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-other-diagnosis-category--0|0.2.0 for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=und, default-to-latest\r\n0 0     : 0ms  : Prepare include: \"(http://loinc.org)(81885-6,52465-2)\"\r\n0 0     : 0ms  : CodeSystem found: \"http://loinc.org|2.81\"\r\n0 0     : 0ms  : Validate \"[http://loinc.org#52465-2 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://loinc.org#52465-2\"\r\n0 0     : 0ms  : CodeSystem found: http://loinc.org|2.81 for http://loinc.org\r\n0 0     : 0ms  : check code in (http://loinc.org)(81885-6,52465-2) at Coding\r\n0 0     : 0ms  : Code \"52465-2\" found in http://loinc.org|2.81\r\n"}]}
-
-</pre><hr/>
-<a name="l11"> </a><h3>11</h3>
-<pre>
-Request: 
-
-POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
-Accept: application/fhir+json; fhirVersion=4.0
-Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
-User-Agent: fhir/publisher
-
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://loinc.org","code":"52465-2"}},{"name":"displayLanguage","valueString":"und"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-other-diagnosis-category--0","version":"0.2.0","status":"active","compose":{"include":[{"system":"http://loinc.org","concept":[{"code":"81885-6","display":"Secondary diagnosis"},{"code":"52465-2","display":"Other diagnoses, comorbidities, complications"}]}]}}},{"name":"cache-id","valueId":"eb911d0f-8fde-4ed3-b07e-753f97cf0406"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
-
-
-Response (00:00:00.120): 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:1839
-content-type:application/fhir+json
-date:Wed, 04 Feb 2026 17:29:44 GMT
-last-modified:Wed, 04 Feb 2026 17:29:44 GMT
-pragma:no-cache
-server:nginx
-x-request-id:255-754589
-
-{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://loinc.org"},{"name" : "code","valueCode" : "52465-2"},{"name" : "version","valueString" : "2.81"},{"name" : "display","valueString" : "Other Diagnoses, Comorbidities, and Complications"},{"name" : "inactive","valueBoolean" : true},{"name" : "status","valueString" : "DISCOURAGED"},{"name" : "message","valueString" : "The concept '52465-2' has a status of DISCOURAGED and its use should be reviewed"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"extension" : [{"url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id","valueString" : "INACTIVE_CONCEPT_FOUND"}],"severity" : "warning","code" : "business-rule","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "code-comment"}],"text" : "The concept '52465-2' has a status of DISCOURAGED and its use should be reviewed"},"location" : ["Coding"],"expression" : ["Coding"]}]}},{"name" : "diagnostics","valueString" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-other-diagnosis-category--0|0.2.0 for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=und, default-to-latest\r\n16 0    : 0ms  : Prepare include: \"(http://loinc.org)(81885-6,52465-2)\"\r\n16 0    : 0ms  : CodeSystem found: \"http://loinc.org|2.81\"\r\n16 0    : 0ms  : Validate \"[http://loinc.org#52465-2 (\"\")]\"\r\n16 0    : 0ms  : Check \"http://loinc.org#52465-2\"\r\n16 0    : 0ms  : CodeSystem found: http://loinc.org|2.81 for http://loinc.org\r\n16 0    : 0ms  : check code in (http://loinc.org)(81885-6,52465-2) at Coding\r\n16 0    : 0ms  : Code \"52465-2\" found in http://loinc.org|2.81\r\n"}]}
-
-</pre><hr/>
-<a name="l12"> </a><h3>12</h3>
-<pre>
-Request: 
-
-POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
-Accept: application/fhir+json; fhirVersion=4.0
-Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
-User-Agent: fhir/publisher
-
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://terminology.chuliege.be/OmniPro","code":"30040:VTIFF","display":"Tiffeneau"}},{"name":"displayLanguage","valueString":"fr-BE"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"eb911d0f-8fde-4ed3-b07e-753f97cf0406"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
-
-
-Response (00:00:00.124): 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:1567
-content-type:application/fhir+json
-date:Wed, 04 Feb 2026 17:29:45 GMT
-last-modified:Wed, 04 Feb 2026 17:29:45 GMT
-pragma:no-cache
-server:nginx
-x-request-id:255-754599
-
-{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://terminology.chuliege.be/OmniPro"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "http://terminology.chuliege.be/OmniPro"},{"name" : "code","valueCode" : "30040:VTIFF"},{"name" : "message","valueString" : "A definition for CodeSystem 'http://terminology.chuliege.be/OmniPro' could not be found, so the code cannot be validated"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"extension" : [{"url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id","valueString" : "UNKNOWN_CODESYSTEM"}],"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'http://terminology.chuliege.be/OmniPro' could not be found, so the code cannot be validated"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}},{"name" : "diagnostics","valueString" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=fr-BE, default-to-latest\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[http://terminology.chuliege.be/OmniPro#30040:VTIFF (\"Tiffeneau\")]\"\r\n16 0    : 0ms  : Check \"http://terminology.chuliege.be/OmniPro#30040:VTIFF\"\r\n16 0    : 0ms  : Didn't find CodeSystem \"http://terminology.chuliege.be/OmniPro\"\r\n"}]}
-
-</pre><hr/>
-<a name="l13"> </a><h3>13</h3>
-<pre>
-Request: 
-
-POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
-Accept: application/fhir+json; fhirVersion=4.0
-Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
-User-Agent: fhir/publisher
-
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://loinc.org","code":"52465-2"}},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-primary-diagnosis-category--0","version":"0.2.0","status":"active","compose":{"include":[{"system":"http://loinc.org","concept":[{"code":"18630-4","display":"Primary diagnosis"}]}]}}},{"name":"cache-id","valueId":"eb911d0f-8fde-4ed3-b07e-753f97cf0406"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"displayLanguage","valueCode":"und"},{"name":"diagnostics","valueBoolean":true}]}
-
-
-Response (00:00:00.123): 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:1915
-content-type:application/fhir+json
-date:Wed, 04 Feb 2026 17:29:48 GMT
-last-modified:Wed, 04 Feb 2026 17:29:48 GMT
-pragma:no-cache
-server:nginx
-x-request-id:255-754605
-
-{"resourceType" : "Parameters","parameter" : [{"name" : "version","valueString" : "2.81"},{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://loinc.org"},{"name" : "code","valueCode" : "52465-2"},{"name" : "display","valueString" : "Other Diagnoses, Comorbidities, and Complications"},{"name" : "message","valueString" : "The provided code 'http://loinc.org#52465-2' was not found in the value set 'http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-primary-diagnosis-category--0|0.2.0'"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"extension" : [{"url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id","valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"}],"severity" : "error","code" : "code-invalid","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-in-vs"}],"text" : "The provided code 'http://loinc.org#52465-2' was not found in the value set 'http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-primary-diagnosis-category--0|0.2.0'"},"location" : ["Coding.code"],"expression" : ["Coding.code"]}]}},{"name" : "diagnostics","valueString" : "0 0 : start\r\n15 15   : 0ms  : Analysing http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-primary-diagnosis-category--0|0.2.0 for validation purposes\r\n15 0    : 0ms  : Parameters: disp-lang=und, default-to-latest\r\n15 0    : 0ms  : Prepare include: \"(http://loinc.org)(18630-4)\"\r\n15 0    : 0ms  : CodeSystem found: \"http://loinc.org|2.81\"\r\n15 0    : 0ms  : Validate \"[http://loinc.org#52465-2 (\"\")]\"\r\n15 0    : 0ms  : Check \"http://loinc.org#52465-2\"\r\n15 0    : 0ms  : CodeSystem found: http://loinc.org|2.81 for http://loinc.org\r\n15 0    : 0ms  : check code in (http://loinc.org)(18630-4) at Coding\r\n"}]}
-
-</pre><hr/>
-<a name="l14"> </a><h3>14</h3>
-<pre>
-Request: 
-
-POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
-Accept: application/fhir+json; fhirVersion=4.0
-Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
-User-Agent: fhir/publisher
-
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://loinc.org","code":"18630-4"}},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-other-diagnosis-category--0","version":"0.2.0","status":"active","compose":{"include":[{"system":"http://loinc.org","concept":[{"code":"81885-6","display":"Secondary diagnosis"},{"code":"52465-2","display":"Other diagnoses, comorbidities, complications"}]}]}}},{"name":"cache-id","valueId":"eb911d0f-8fde-4ed3-b07e-753f97cf0406"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"displayLanguage","valueCode":"und"},{"name":"diagnostics","valueBoolean":true}]}
-
-
-Response (00:00:00.122): 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:1893
-content-type:application/fhir+json
-date:Wed, 04 Feb 2026 17:29:48 GMT
-last-modified:Wed, 04 Feb 2026 17:29:48 GMT
-pragma:no-cache
-server:nginx
-x-request-id:255-754607
-
-{"resourceType" : "Parameters","parameter" : [{"name" : "version","valueString" : "2.81"},{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "http://loinc.org"},{"name" : "code","valueCode" : "18630-4"},{"name" : "display","valueString" : "Primary diagnosis"},{"name" : "message","valueString" : "The provided code 'http://loinc.org#18630-4' was not found in the value set 'http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-other-diagnosis-category--0|0.2.0'"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"extension" : [{"url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id","valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"}],"severity" : "error","code" : "code-invalid","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-in-vs"}],"text" : "The provided code 'http://loinc.org#18630-4' was not found in the value set 'http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-other-diagnosis-category--0|0.2.0'"},"location" : ["Coding.code"],"expression" : ["Coding.code"]}]}},{"name" : "diagnostics","valueString" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://si-s-serv1041.st.chulg/ig/VersUnSouffleNouveauIG/ValueSet/i2x-pneumo-other-diagnosis-category--0|0.2.0 for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=und, default-to-latest\r\n16 0    : 0ms  : Prepare include: \"(http://loinc.org)(81885-6,52465-2)\"\r\n16 0    : 0ms  : CodeSystem found: \"http://loinc.org|2.81\"\r\n16 0    : 0ms  : Validate \"[http://loinc.org#18630-4 (\"\")]\"\r\n16 0    : 0ms  : Check \"http://loinc.org#18630-4\"\r\n16 0    : 0ms  : CodeSystem found: http://loinc.org|2.81 for http://loinc.org\r\n16 0    : 0ms  : check code in (http://loinc.org)(81885-6,52465-2) at Coding\r\n"}]}
-
-</pre><hr/>
-<a name="l15"> </a><h3>15</h3>
-<pre>
-Request: 
-
-POST http://tx.fhir.org/r4/ValueSet/$expand HTTP/1.0
-Accept: application/fhir+json; fhirVersion=4.0
-Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
-User-Agent: fhir/publisher
-
-{"resourceType":"Parameters","parameter":[{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"displayLanguage","valueCode":"und"},{"name":"includeDefinition","valueBoolean":false},{"name":"excludeNested","valueBoolean":true},{"name":"cache-id","valueId":"eb911d0f-8fde-4ed3-b07e-753f97cf0406"},{"name":"count","valueInteger":1000},{"name":"offset","valueInteger":0},{"name":"valueSet","resource":{"resourceType":"ValueSet","status":"active","compose":{"inactive":true,"include":[{"system":"http://loinc.org","concept":[{"code":"81885-6","display":"Secondary diagnosis"},{"code":"52465-2","display":"Other diagnoses, comorbidities, complications"}]}]}}}]}
-
-
-Response (00:00:00.133): 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:1151
-content-type:application/fhir+json
-date:Wed, 04 Feb 2026 17:30:45 GMT
-last-modified:Wed, 04 Feb 2026 17:30:45 GMT
-pragma:no-cache
-server:nginx
-x-request-id:255-754857
-
-{"resourceType" : "ValueSet","status" : "active","expansion" : {"extension" : [{"extension" : [{"url" : "uri","valueUri" : "http://hl7.org/fhir/concept-properties#status"},{"url" : "code","valueCode" : "status"}],"url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property"}],"identifier" : "urn:uuid:a8f852c7-d978-42ed-b305-4a29fbe14b98","timestamp" : "2026-02-04T17:30:45.132Z","total" : 2,"offset" : 0,"parameter" : [{"name" : "displayLanguage","valueCode" : "und"},{"name" : "excludeNested","valueBoolean" : true},{"name" : "offset","valueInteger" : 0},{"name" : "count","valueInteger" : 1000},{"name" : "used-codesystem","valueUri" : "http://loinc.org|2.81"}],"contains" : [{"system" : "http://loinc.org","code" : "81885-6","display" : "Secondary diagnosis"},{"extension" : [{"extension" : [{"url" : "code","valueCode" : "status"},{"url" : "value","valueCode" : "DISCOURAGED"}],"url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property"}],"system" : "http://loinc.org","inactive" : true,"code" : "52465-2","display" : "Other Diagnoses, Comorbidities, and Complications"}]}}
-
-</pre><hr/>
-<a name="l16"> </a><h3>16</h3>
-<pre>
-Request: 
-
-POST http://tx.fhir.org/r4/ValueSet/$expand HTTP/1.0
-Accept: application/fhir+json; fhirVersion=4.0
-Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
-User-Agent: fhir/publisher
-
-{"resourceType":"Parameters","parameter":[{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"displayLanguage","valueCode":"und"},{"name":"includeDefinition","valueBoolean":false},{"name":"excludeNested","valueBoolean":false},{"name":"cache-id","valueId":"eb911d0f-8fde-4ed3-b07e-753f97cf0406"},{"name":"count","valueInteger":1000},{"name":"offset","valueInteger":0},{"name":"valueSet","resource":{"resourceType":"ValueSet","status":"active","compose":{"inactive":true,"include":[{"system":"http://loinc.org","concept":[{"code":"81885-6","display":"Secondary diagnosis"},{"code":"52465-2","display":"Other diagnoses, comorbidities, complications"}]}]}}}]}
-
-
-Response (00:00:00.281): 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:1152
-content-type:application/fhir+json
-date:Wed, 04 Feb 2026 17:30:52 GMT
-last-modified:Wed, 04 Feb 2026 17:30:52 GMT
-pragma:no-cache
-server:nginx
-x-request-id:255-754874
-
-{"resourceType" : "ValueSet","status" : "active","expansion" : {"extension" : [{"extension" : [{"url" : "uri","valueUri" : "http://hl7.org/fhir/concept-properties#status"},{"url" : "code","valueCode" : "status"}],"url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property"}],"identifier" : "urn:uuid:a38d67a7-7288-489a-a367-0e2f1efefde4","timestamp" : "2026-02-04T17:30:52.106Z","total" : 2,"offset" : 0,"parameter" : [{"name" : "displayLanguage","valueCode" : "und"},{"name" : "excludeNested","valueBoolean" : false},{"name" : "offset","valueInteger" : 0},{"name" : "count","valueInteger" : 1000},{"name" : "used-codesystem","valueUri" : "http://loinc.org|2.81"}],"contains" : [{"system" : "http://loinc.org","code" : "81885-6","display" : "Secondary diagnosis"},{"extension" : [{"extension" : [{"url" : "code","valueCode" : "status"},{"url" : "value","valueCode" : "DISCOURAGED"}],"url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property"}],"system" : "http://loinc.org","inactive" : true,"code" : "52465-2","display" : "Other Diagnoses, Comorbidities, and Complications"}]}}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://terminology.chuliege.be/OmniPro","code":"30040:VTIFF","display":"Tiffeneau"}},{"name":"displayLanguage","valueString":"fr-BE"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"58f1c4bf-3bc3-4986-a193-b3175f0ff047"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
 </pre></head></html>

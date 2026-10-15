@@ -1,0 +1,2410 @@
+{
+  "toc.html" : {
+    "title" : "Table of Contents",
+    "label" : "0.0",
+    "breadcrumb" : "<li><b>Table of Contents</b></li>",
+    "next" : "index.html"
+  },
+  "index.html" : {
+    "title" : "Home",
+    "label" : "1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Home</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "toc.html",
+    "next" : "known-issues.html"
+  },
+  "known-issues.html" : {
+    "title" : "Known Issues",
+    "label" : "2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Known Issues</b></li>",
+    "previous" : "index.html",
+    "next" : "validation.html"
+  },
+  "validation.html" : {
+    "title" : "Validation",
+    "label" : "3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Validation</b></li>",
+    "previous" : "known-issues.html",
+    "next" : "artifacts.html"
+  },
+  "artifacts.html" : {
+    "title" : "Artifacts Summary",
+    "label" : "4.0",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>",
+    "previous" : "validation.html",
+    "next" : "StructureDefinition-vuns-context.html"
+  },
+  "StructureDefinition-vuns-context.html" : {
+    "title" : "Logical model for remote monitoring context in the scope of the VUNS project",
+    "label" : "4.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Logical model for remote monitoring context in the scope of the VUNS project</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "artifacts.html",
+    "next" : "StructureDefinition-vuns-context-definitions.html"
+  },
+  "StructureDefinition-vuns-context-definitions.html" : {
+    "title" : "Logical model for remote monitoring context in the scope of the VUNS project - Definitions",
+    "label" : "4.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Logical model for remote monitoring context in the scope of the VUNS project</b></li>",
+    "previous" : "StructureDefinition-vuns-context.html",
+    "next" : "StructureDefinition-vuns-context-mappings.html"
+  },
+  "StructureDefinition-vuns-context-mappings.html" : {
+    "title" : "Logical model for remote monitoring context in the scope of the VUNS project - Mappings",
+    "label" : "4.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Logical model for remote monitoring context in the scope of the VUNS project</b></li>",
+    "previous" : "StructureDefinition-vuns-context-definitions.html",
+    "next" : "StructureDefinition-vuns-context-testing.html"
+  },
+  "StructureDefinition-vuns-context-testing.html" : {
+    "title" : "Logical model for remote monitoring context in the scope of the VUNS project - Testing",
+    "label" : "4.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Logical model for remote monitoring context in the scope of the VUNS project</b></li>",
+    "previous" : "StructureDefinition-vuns-context-mappings.html",
+    "next" : "StructureDefinition-vuns-context.profile.xml.html"
+  },
+  "StructureDefinition-vuns-context.profile.xml.html" : {
+    "title" : "Logical model for remote monitoring context in the scope of the VUNS project - XML Representation",
+    "label" : "4.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Logical model for remote monitoring context in the scope of the VUNS project</b></li>",
+    "previous" : "StructureDefinition-vuns-context-testing.html",
+    "next" : "StructureDefinition-vuns-context.profile.json.html"
+  },
+  "StructureDefinition-vuns-context.profile.json.html" : {
+    "title" : "Logical model for remote monitoring context in the scope of the VUNS project - JSON Representation",
+    "label" : "4.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Logical model for remote monitoring context in the scope of the VUNS project</b></li>",
+    "previous" : "StructureDefinition-vuns-context.profile.xml.html",
+    "next" : "StructureDefinition-vuns-context.profile.ttl.html"
+  },
+  "StructureDefinition-vuns-context.profile.ttl.html" : {
+    "title" : "Logical model for remote monitoring context in the scope of the VUNS project - TTL Representation",
+    "label" : "4.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Logical model for remote monitoring context in the scope of the VUNS project</b></li>",
+    "previous" : "StructureDefinition-vuns-context.profile.json.html",
+    "next" : "StructureDefinition-chul-encounter.html"
+  },
+  "StructureDefinition-chul-encounter.html" : {
+    "title" : "ChulEncounter",
+    "label" : "4.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ChulEncounter</b></li>",
+    "examples" : [
+      {
+        "url" : "Encounter-ChulEncounterExample.html",
+        "title" : "ChulEncounterExample"
+      }
+    ],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-vuns-context.profile.ttl.html",
+    "next" : "StructureDefinition-chul-encounter-definitions.html"
+  },
+  "StructureDefinition-chul-encounter-definitions.html" : {
+    "title" : "ChulEncounter - Definitions",
+    "label" : "4.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ChulEncounter</b></li>",
+    "previous" : "StructureDefinition-chul-encounter.html",
+    "next" : "StructureDefinition-chul-encounter-mappings.html"
+  },
+  "StructureDefinition-chul-encounter-mappings.html" : {
+    "title" : "ChulEncounter - Mappings",
+    "label" : "4.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ChulEncounter</b></li>",
+    "previous" : "StructureDefinition-chul-encounter-definitions.html",
+    "next" : "StructureDefinition-chul-encounter-testing.html"
+  },
+  "StructureDefinition-chul-encounter-testing.html" : {
+    "title" : "ChulEncounter - Testing",
+    "label" : "4.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ChulEncounter</b></li>",
+    "previous" : "StructureDefinition-chul-encounter-mappings.html",
+    "next" : "StructureDefinition-chul-encounter-examples.html"
+  },
+  "StructureDefinition-chul-encounter-examples.html" : {
+    "title" : "ChulEncounter - Examples",
+    "label" : "4.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ChulEncounter</b></li>",
+    "previous" : "StructureDefinition-chul-encounter-testing.html",
+    "next" : "StructureDefinition-chul-encounter.profile.xml.html"
+  },
+  "StructureDefinition-chul-encounter.profile.xml.html" : {
+    "title" : "ChulEncounter - XML Representation",
+    "label" : "4.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ChulEncounter</b></li>",
+    "previous" : "StructureDefinition-chul-encounter-examples.html",
+    "next" : "StructureDefinition-chul-encounter.profile.json.html"
+  },
+  "StructureDefinition-chul-encounter.profile.json.html" : {
+    "title" : "ChulEncounter - JSON Representation",
+    "label" : "4.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ChulEncounter</b></li>",
+    "previous" : "StructureDefinition-chul-encounter.profile.xml.html",
+    "next" : "StructureDefinition-chul-encounter.profile.ttl.html"
+  },
+  "StructureDefinition-chul-encounter.profile.ttl.html" : {
+    "title" : "ChulEncounter - TTL Representation",
+    "label" : "4.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ChulEncounter</b></li>",
+    "previous" : "StructureDefinition-chul-encounter.profile.json.html",
+    "next" : "StructureDefinition-chul-location.html"
+  },
+  "StructureDefinition-chul-location.html" : {
+    "title" : "ChulLocation",
+    "label" : "4.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ChulLocation</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-chul-encounter.profile.ttl.html",
+    "next" : "StructureDefinition-chul-location-definitions.html"
+  },
+  "StructureDefinition-chul-location-definitions.html" : {
+    "title" : "ChulLocation - Definitions",
+    "label" : "4.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ChulLocation</b></li>",
+    "previous" : "StructureDefinition-chul-location.html",
+    "next" : "StructureDefinition-chul-location-mappings.html"
+  },
+  "StructureDefinition-chul-location-mappings.html" : {
+    "title" : "ChulLocation - Mappings",
+    "label" : "4.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ChulLocation</b></li>",
+    "previous" : "StructureDefinition-chul-location-definitions.html",
+    "next" : "StructureDefinition-chul-location-testing.html"
+  },
+  "StructureDefinition-chul-location-testing.html" : {
+    "title" : "ChulLocation - Testing",
+    "label" : "4.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ChulLocation</b></li>",
+    "previous" : "StructureDefinition-chul-location-mappings.html",
+    "next" : "StructureDefinition-chul-location.profile.xml.html"
+  },
+  "StructureDefinition-chul-location.profile.xml.html" : {
+    "title" : "ChulLocation - XML Representation",
+    "label" : "4.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ChulLocation</b></li>",
+    "previous" : "StructureDefinition-chul-location-testing.html",
+    "next" : "StructureDefinition-chul-location.profile.json.html"
+  },
+  "StructureDefinition-chul-location.profile.json.html" : {
+    "title" : "ChulLocation - JSON Representation",
+    "label" : "4.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ChulLocation</b></li>",
+    "previous" : "StructureDefinition-chul-location.profile.xml.html",
+    "next" : "StructureDefinition-chul-location.profile.ttl.html"
+  },
+  "StructureDefinition-chul-location.profile.ttl.html" : {
+    "title" : "ChulLocation - TTL Representation",
+    "label" : "4.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ChulLocation</b></li>",
+    "previous" : "StructureDefinition-chul-location.profile.json.html",
+    "next" : "StructureDefinition-chul-patient.html"
+  },
+  "StructureDefinition-chul-patient.html" : {
+    "title" : "ChulPatient",
+    "label" : "4.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ChulPatient</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-chul-location.profile.ttl.html",
+    "next" : "StructureDefinition-chul-patient-definitions.html"
+  },
+  "StructureDefinition-chul-patient-definitions.html" : {
+    "title" : "ChulPatient - Definitions",
+    "label" : "4.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ChulPatient</b></li>",
+    "previous" : "StructureDefinition-chul-patient.html",
+    "next" : "StructureDefinition-chul-patient-mappings.html"
+  },
+  "StructureDefinition-chul-patient-mappings.html" : {
+    "title" : "ChulPatient - Mappings",
+    "label" : "4.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ChulPatient</b></li>",
+    "previous" : "StructureDefinition-chul-patient-definitions.html",
+    "next" : "StructureDefinition-chul-patient-testing.html"
+  },
+  "StructureDefinition-chul-patient-testing.html" : {
+    "title" : "ChulPatient - Testing",
+    "label" : "4.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ChulPatient</b></li>",
+    "previous" : "StructureDefinition-chul-patient-mappings.html",
+    "next" : "StructureDefinition-chul-patient.profile.xml.html"
+  },
+  "StructureDefinition-chul-patient.profile.xml.html" : {
+    "title" : "ChulPatient - XML Representation",
+    "label" : "4.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ChulPatient</b></li>",
+    "previous" : "StructureDefinition-chul-patient-testing.html",
+    "next" : "StructureDefinition-chul-patient.profile.json.html"
+  },
+  "StructureDefinition-chul-patient.profile.json.html" : {
+    "title" : "ChulPatient - JSON Representation",
+    "label" : "4.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ChulPatient</b></li>",
+    "previous" : "StructureDefinition-chul-patient.profile.xml.html",
+    "next" : "StructureDefinition-chul-patient.profile.ttl.html"
+  },
+  "StructureDefinition-chul-patient.profile.ttl.html" : {
+    "title" : "ChulPatient - TTL Representation",
+    "label" : "4.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ChulPatient</b></li>",
+    "previous" : "StructureDefinition-chul-patient.profile.json.html",
+    "next" : "StructureDefinition-VunsEfr.html"
+  },
+  "StructureDefinition-VunsEfr.html" : {
+    "title" : "VunsEfr",
+    "label" : "4.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfr</b></li>",
+    "examples" : [
+      {
+        "url" : "Procedure-VunsEfrExample.html",
+        "title" : "VunsEfrExample"
+      }
+    ],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-chul-patient.profile.ttl.html",
+    "next" : "StructureDefinition-VunsEfr-definitions.html"
+  },
+  "StructureDefinition-VunsEfr-definitions.html" : {
+    "title" : "VunsEfr - Definitions",
+    "label" : "4.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfr</b></li>",
+    "previous" : "StructureDefinition-VunsEfr.html",
+    "next" : "StructureDefinition-VunsEfr-mappings.html"
+  },
+  "StructureDefinition-VunsEfr-mappings.html" : {
+    "title" : "VunsEfr - Mappings",
+    "label" : "4.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfr</b></li>",
+    "previous" : "StructureDefinition-VunsEfr-definitions.html",
+    "next" : "StructureDefinition-VunsEfr-testing.html"
+  },
+  "StructureDefinition-VunsEfr-testing.html" : {
+    "title" : "VunsEfr - Testing",
+    "label" : "4.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfr</b></li>",
+    "previous" : "StructureDefinition-VunsEfr-mappings.html",
+    "next" : "StructureDefinition-VunsEfr-examples.html"
+  },
+  "StructureDefinition-VunsEfr-examples.html" : {
+    "title" : "VunsEfr - Examples",
+    "label" : "4.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfr</b></li>",
+    "previous" : "StructureDefinition-VunsEfr-testing.html",
+    "next" : "StructureDefinition-VunsEfr.profile.xml.html"
+  },
+  "StructureDefinition-VunsEfr.profile.xml.html" : {
+    "title" : "VunsEfr - XML Representation",
+    "label" : "4.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfr</b></li>",
+    "previous" : "StructureDefinition-VunsEfr-examples.html",
+    "next" : "StructureDefinition-VunsEfr.profile.json.html"
+  },
+  "StructureDefinition-VunsEfr.profile.json.html" : {
+    "title" : "VunsEfr - JSON Representation",
+    "label" : "4.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfr</b></li>",
+    "previous" : "StructureDefinition-VunsEfr.profile.xml.html",
+    "next" : "StructureDefinition-VunsEfr.profile.ttl.html"
+  },
+  "StructureDefinition-VunsEfr.profile.ttl.html" : {
+    "title" : "VunsEfr - TTL Representation",
+    "label" : "4.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfr</b></li>",
+    "previous" : "StructureDefinition-VunsEfr.profile.json.html",
+    "next" : "StructureDefinition-VunsEfrObservation.html"
+  },
+  "StructureDefinition-VunsEfrObservation.html" : {
+    "title" : "VunsEfrObservation",
+    "label" : "4.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrObservation</b></li>",
+    "examples" : [
+      {
+        "url" : "Observation-VunsEfrCPT.html",
+        "title" : "VunsEfrCPT"
+      },
+      {
+        "url" : "Observation-VunsEfrCPTRatio.html",
+        "title" : "VunsEfrCPTRatio"
+      },
+      {
+        "url" : "Observation-VunsEfrCVF.html",
+        "title" : "VunsEfrCVF"
+      },
+      {
+        "url" : "Observation-VunsEfrCVFRatio.html",
+        "title" : "VunsEfrCVFRatio"
+      },
+      {
+        "url" : "Observation-VunsEfrDLCORatio.html",
+        "title" : "VunsEfrDLCORatio"
+      },
+      {
+        "url" : "Observation-VunsEfrDLCOVARatio.html",
+        "title" : "VunsEfrDLCOVARatio"
+      },
+      {
+        "url" : "Observation-VunsEfrVRCPTRatio.html",
+        "title" : "VunsEfrVRCPTRatio"
+      },
+      {
+        "url" : "Observation-VunsEfrVRRatio.html",
+        "title" : "VunsEfrVRRatio"
+      },
+      {
+        "url" : "Observation-VunsEfrVTiff.html",
+        "title" : "VunsEfrVTiff"
+      },
+      {
+        "url" : "Observation-VunsEfrVVEMS.html",
+        "title" : "VunsEfrVVEMS"
+      },
+      {
+        "url" : "Observation-VunsEfrVVEMSRatio.html",
+        "title" : "VunsEfrVVEMSRatio"
+      }
+    ],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-VunsEfr.profile.ttl.html",
+    "next" : "StructureDefinition-VunsEfrObservation-definitions.html"
+  },
+  "StructureDefinition-VunsEfrObservation-definitions.html" : {
+    "title" : "VunsEfrObservation - Definitions",
+    "label" : "4.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrObservation</b></li>",
+    "previous" : "StructureDefinition-VunsEfrObservation.html",
+    "next" : "StructureDefinition-VunsEfrObservation-mappings.html"
+  },
+  "StructureDefinition-VunsEfrObservation-mappings.html" : {
+    "title" : "VunsEfrObservation - Mappings",
+    "label" : "4.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrObservation</b></li>",
+    "previous" : "StructureDefinition-VunsEfrObservation-definitions.html",
+    "next" : "StructureDefinition-VunsEfrObservation-testing.html"
+  },
+  "StructureDefinition-VunsEfrObservation-testing.html" : {
+    "title" : "VunsEfrObservation - Testing",
+    "label" : "4.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrObservation</b></li>",
+    "previous" : "StructureDefinition-VunsEfrObservation-mappings.html",
+    "next" : "StructureDefinition-VunsEfrObservation-examples.html"
+  },
+  "StructureDefinition-VunsEfrObservation-examples.html" : {
+    "title" : "VunsEfrObservation - Examples",
+    "label" : "4.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrObservation</b></li>",
+    "previous" : "StructureDefinition-VunsEfrObservation-testing.html",
+    "next" : "StructureDefinition-VunsEfrObservation.profile.xml.html"
+  },
+  "StructureDefinition-VunsEfrObservation.profile.xml.html" : {
+    "title" : "VunsEfrObservation - XML Representation",
+    "label" : "4.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrObservation</b></li>",
+    "previous" : "StructureDefinition-VunsEfrObservation-examples.html",
+    "next" : "StructureDefinition-VunsEfrObservation.profile.json.html"
+  },
+  "StructureDefinition-VunsEfrObservation.profile.json.html" : {
+    "title" : "VunsEfrObservation - JSON Representation",
+    "label" : "4.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrObservation</b></li>",
+    "previous" : "StructureDefinition-VunsEfrObservation.profile.xml.html",
+    "next" : "StructureDefinition-VunsEfrObservation.profile.ttl.html"
+  },
+  "StructureDefinition-VunsEfrObservation.profile.ttl.html" : {
+    "title" : "VunsEfrObservation - TTL Representation",
+    "label" : "4.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrObservation</b></li>",
+    "previous" : "StructureDefinition-VunsEfrObservation.profile.json.html",
+    "next" : "StructureDefinition-VunsPatient.html"
+  },
+  "StructureDefinition-VunsPatient.html" : {
+    "title" : "VunsPatient",
+    "label" : "4.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPatient</b></li>",
+    "examples" : [
+      {
+        "url" : "Patient-VunsPatientExample.html",
+        "title" : "VunsPatientExample"
+      }
+    ],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-VunsEfrObservation.profile.ttl.html",
+    "next" : "StructureDefinition-VunsPatient-definitions.html"
+  },
+  "StructureDefinition-VunsPatient-definitions.html" : {
+    "title" : "VunsPatient - Definitions",
+    "label" : "4.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPatient</b></li>",
+    "previous" : "StructureDefinition-VunsPatient.html",
+    "next" : "StructureDefinition-VunsPatient-mappings.html"
+  },
+  "StructureDefinition-VunsPatient-mappings.html" : {
+    "title" : "VunsPatient - Mappings",
+    "label" : "4.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPatient</b></li>",
+    "previous" : "StructureDefinition-VunsPatient-definitions.html",
+    "next" : "StructureDefinition-VunsPatient-testing.html"
+  },
+  "StructureDefinition-VunsPatient-testing.html" : {
+    "title" : "VunsPatient - Testing",
+    "label" : "4.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPatient</b></li>",
+    "previous" : "StructureDefinition-VunsPatient-mappings.html",
+    "next" : "StructureDefinition-VunsPatient-examples.html"
+  },
+  "StructureDefinition-VunsPatient-examples.html" : {
+    "title" : "VunsPatient - Examples",
+    "label" : "4.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPatient</b></li>",
+    "previous" : "StructureDefinition-VunsPatient-testing.html",
+    "next" : "StructureDefinition-VunsPatient.profile.xml.html"
+  },
+  "StructureDefinition-VunsPatient.profile.xml.html" : {
+    "title" : "VunsPatient - XML Representation",
+    "label" : "4.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPatient</b></li>",
+    "previous" : "StructureDefinition-VunsPatient-examples.html",
+    "next" : "StructureDefinition-VunsPatient.profile.json.html"
+  },
+  "StructureDefinition-VunsPatient.profile.json.html" : {
+    "title" : "VunsPatient - JSON Representation",
+    "label" : "4.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPatient</b></li>",
+    "previous" : "StructureDefinition-VunsPatient.profile.xml.html",
+    "next" : "StructureDefinition-VunsPatient.profile.ttl.html"
+  },
+  "StructureDefinition-VunsPatient.profile.ttl.html" : {
+    "title" : "VunsPatient - TTL Representation",
+    "label" : "4.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPatient</b></li>",
+    "previous" : "StructureDefinition-VunsPatient.profile.json.html",
+    "next" : "StructureDefinition-VunsPneumoBio.html"
+  },
+  "StructureDefinition-VunsPneumoBio.html" : {
+    "title" : "VunsPneumoBio",
+    "label" : "4.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBio</b></li>",
+    "examples" : [
+      {
+        "url" : "Observation-VunsPneumoBioCRP.html",
+        "title" : "VunsPneumoBioCRP"
+      },
+      {
+        "url" : "Observation-VunsPneumoBioCreatinin.html",
+        "title" : "VunsPneumoBioCreatinin"
+      },
+      {
+        "url" : "Observation-VunsPneumoBioEosinophils.html",
+        "title" : "VunsPneumoBioEosinophils"
+      },
+      {
+        "url" : "Observation-VunsPneumoBioGFR.html",
+        "title" : "VunsPneumoBioGFR"
+      },
+      {
+        "url" : "Observation-VunsPneumoBioHemoglobin.html",
+        "title" : "VunsPneumoBioHemoglobin"
+      }
+    ],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-VunsPatient.profile.ttl.html",
+    "next" : "StructureDefinition-VunsPneumoBio-definitions.html"
+  },
+  "StructureDefinition-VunsPneumoBio-definitions.html" : {
+    "title" : "VunsPneumoBio - Definitions",
+    "label" : "4.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBio</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoBio.html",
+    "next" : "StructureDefinition-VunsPneumoBio-mappings.html"
+  },
+  "StructureDefinition-VunsPneumoBio-mappings.html" : {
+    "title" : "VunsPneumoBio - Mappings",
+    "label" : "4.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBio</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoBio-definitions.html",
+    "next" : "StructureDefinition-VunsPneumoBio-testing.html"
+  },
+  "StructureDefinition-VunsPneumoBio-testing.html" : {
+    "title" : "VunsPneumoBio - Testing",
+    "label" : "4.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBio</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoBio-mappings.html",
+    "next" : "StructureDefinition-VunsPneumoBio-examples.html"
+  },
+  "StructureDefinition-VunsPneumoBio-examples.html" : {
+    "title" : "VunsPneumoBio - Examples",
+    "label" : "4.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBio</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoBio-testing.html",
+    "next" : "StructureDefinition-VunsPneumoBio.profile.xml.html"
+  },
+  "StructureDefinition-VunsPneumoBio.profile.xml.html" : {
+    "title" : "VunsPneumoBio - XML Representation",
+    "label" : "4.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBio</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoBio-examples.html",
+    "next" : "StructureDefinition-VunsPneumoBio.profile.json.html"
+  },
+  "StructureDefinition-VunsPneumoBio.profile.json.html" : {
+    "title" : "VunsPneumoBio - JSON Representation",
+    "label" : "4.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBio</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoBio.profile.xml.html",
+    "next" : "StructureDefinition-VunsPneumoBio.profile.ttl.html"
+  },
+  "StructureDefinition-VunsPneumoBio.profile.ttl.html" : {
+    "title" : "VunsPneumoBio - TTL Representation",
+    "label" : "4.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBio</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoBio.profile.json.html",
+    "next" : "StructureDefinition-VunsPneumoBioReport.html"
+  },
+  "StructureDefinition-VunsPneumoBioReport.html" : {
+    "title" : "VunsPneumoBioReport",
+    "label" : "4.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioReport</b></li>",
+    "examples" : [
+      {
+        "url" : "DiagnosticReport-VunsPneumoBioReportExample.html",
+        "title" : "VunsPneumoBioReportExample"
+      }
+    ],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-VunsPneumoBio.profile.ttl.html",
+    "next" : "StructureDefinition-VunsPneumoBioReport-definitions.html"
+  },
+  "StructureDefinition-VunsPneumoBioReport-definitions.html" : {
+    "title" : "VunsPneumoBioReport - Definitions",
+    "label" : "4.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioReport</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoBioReport.html",
+    "next" : "StructureDefinition-VunsPneumoBioReport-mappings.html"
+  },
+  "StructureDefinition-VunsPneumoBioReport-mappings.html" : {
+    "title" : "VunsPneumoBioReport - Mappings",
+    "label" : "4.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioReport</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoBioReport-definitions.html",
+    "next" : "StructureDefinition-VunsPneumoBioReport-testing.html"
+  },
+  "StructureDefinition-VunsPneumoBioReport-testing.html" : {
+    "title" : "VunsPneumoBioReport - Testing",
+    "label" : "4.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioReport</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoBioReport-mappings.html",
+    "next" : "StructureDefinition-VunsPneumoBioReport-examples.html"
+  },
+  "StructureDefinition-VunsPneumoBioReport-examples.html" : {
+    "title" : "VunsPneumoBioReport - Examples",
+    "label" : "4.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioReport</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoBioReport-testing.html",
+    "next" : "StructureDefinition-VunsPneumoBioReport.profile.xml.html"
+  },
+  "StructureDefinition-VunsPneumoBioReport.profile.xml.html" : {
+    "title" : "VunsPneumoBioReport - XML Representation",
+    "label" : "4.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioReport</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoBioReport-examples.html",
+    "next" : "StructureDefinition-VunsPneumoBioReport.profile.json.html"
+  },
+  "StructureDefinition-VunsPneumoBioReport.profile.json.html" : {
+    "title" : "VunsPneumoBioReport - JSON Representation",
+    "label" : "4.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioReport</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoBioReport.profile.xml.html",
+    "next" : "StructureDefinition-VunsPneumoBioReport.profile.ttl.html"
+  },
+  "StructureDefinition-VunsPneumoBioReport.profile.ttl.html" : {
+    "title" : "VunsPneumoBioReport - TTL Representation",
+    "label" : "4.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioReport</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoBioReport.profile.json.html",
+    "next" : "StructureDefinition-VunsPneumoBundle.html"
+  },
+  "StructureDefinition-VunsPneumoBundle.html" : {
+    "title" : "VunsPneumoBundle",
+    "label" : "4.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBundle</b></li>",
+    "examples" : [
+      {
+        "url" : "Bundle-VunsPneumoBundleExample.html",
+        "title" : "VunsPneumoBundleExample"
+      },
+      {
+        "url" : "Bundle-VunsPneumoBundleShortExample.html",
+        "title" : "VunsPneumoBundleShortExample"
+      }
+    ],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-VunsPneumoBioReport.profile.ttl.html",
+    "next" : "StructureDefinition-VunsPneumoBundle-definitions.html"
+  },
+  "StructureDefinition-VunsPneumoBundle-definitions.html" : {
+    "title" : "VunsPneumoBundle - Definitions",
+    "label" : "4.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBundle</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoBundle.html",
+    "next" : "StructureDefinition-VunsPneumoBundle-mappings.html"
+  },
+  "StructureDefinition-VunsPneumoBundle-mappings.html" : {
+    "title" : "VunsPneumoBundle - Mappings",
+    "label" : "4.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBundle</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoBundle-definitions.html",
+    "next" : "StructureDefinition-VunsPneumoBundle-testing.html"
+  },
+  "StructureDefinition-VunsPneumoBundle-testing.html" : {
+    "title" : "VunsPneumoBundle - Testing",
+    "label" : "4.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBundle</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoBundle-mappings.html",
+    "next" : "StructureDefinition-VunsPneumoBundle-examples.html"
+  },
+  "StructureDefinition-VunsPneumoBundle-examples.html" : {
+    "title" : "VunsPneumoBundle - Examples",
+    "label" : "4.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBundle</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoBundle-testing.html",
+    "next" : "StructureDefinition-VunsPneumoBundle.profile.xml.html"
+  },
+  "StructureDefinition-VunsPneumoBundle.profile.xml.html" : {
+    "title" : "VunsPneumoBundle - XML Representation",
+    "label" : "4.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBundle</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoBundle-examples.html",
+    "next" : "StructureDefinition-VunsPneumoBundle.profile.json.html"
+  },
+  "StructureDefinition-VunsPneumoBundle.profile.json.html" : {
+    "title" : "VunsPneumoBundle - JSON Representation",
+    "label" : "4.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBundle</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoBundle.profile.xml.html",
+    "next" : "StructureDefinition-VunsPneumoBundle.profile.ttl.html"
+  },
+  "StructureDefinition-VunsPneumoBundle.profile.ttl.html" : {
+    "title" : "VunsPneumoBundle - TTL Representation",
+    "label" : "4.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBundle</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoBundle.profile.json.html",
+    "next" : "StructureDefinition-VunsPneumoComposition.html"
+  },
+  "StructureDefinition-VunsPneumoComposition.html" : {
+    "title" : "VunsPneumoComposition",
+    "label" : "4.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoComposition</b></li>",
+    "examples" : [
+      {
+        "url" : "Composition-VunsPneumoCompositionExample.html",
+        "title" : "Exemple de composition en pneumologie dans le cadre du projet Vers Un Souffle Nouveau"
+      },
+      {
+        "url" : "Composition-VunsPneumoCompositionShortExample.html",
+        "title" : "Short composition example in the scope in the 'Vers Un Souffle Nouveau' project"
+      }
+    ],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-VunsPneumoBundle.profile.ttl.html",
+    "next" : "StructureDefinition-VunsPneumoComposition-definitions.html"
+  },
+  "StructureDefinition-VunsPneumoComposition-definitions.html" : {
+    "title" : "VunsPneumoComposition - Definitions",
+    "label" : "4.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoComposition</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoComposition.html",
+    "next" : "StructureDefinition-VunsPneumoComposition-mappings.html"
+  },
+  "StructureDefinition-VunsPneumoComposition-mappings.html" : {
+    "title" : "VunsPneumoComposition - Mappings",
+    "label" : "4.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoComposition</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoComposition-definitions.html",
+    "next" : "StructureDefinition-VunsPneumoComposition-testing.html"
+  },
+  "StructureDefinition-VunsPneumoComposition-testing.html" : {
+    "title" : "VunsPneumoComposition - Testing",
+    "label" : "4.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoComposition</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoComposition-mappings.html",
+    "next" : "StructureDefinition-VunsPneumoComposition-examples.html"
+  },
+  "StructureDefinition-VunsPneumoComposition-examples.html" : {
+    "title" : "VunsPneumoComposition - Examples",
+    "label" : "4.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoComposition</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoComposition-testing.html",
+    "next" : "StructureDefinition-VunsPneumoComposition.profile.xml.html"
+  },
+  "StructureDefinition-VunsPneumoComposition.profile.xml.html" : {
+    "title" : "VunsPneumoComposition - XML Representation",
+    "label" : "4.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoComposition</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoComposition-examples.html",
+    "next" : "StructureDefinition-VunsPneumoComposition.profile.json.html"
+  },
+  "StructureDefinition-VunsPneumoComposition.profile.json.html" : {
+    "title" : "VunsPneumoComposition - JSON Representation",
+    "label" : "4.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoComposition</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoComposition.profile.xml.html",
+    "next" : "StructureDefinition-VunsPneumoComposition.profile.ttl.html"
+  },
+  "StructureDefinition-VunsPneumoComposition.profile.ttl.html" : {
+    "title" : "VunsPneumoComposition - TTL Representation",
+    "label" : "4.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoComposition</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoComposition.profile.json.html",
+    "next" : "StructureDefinition-VunsPneumoCondition.html"
+  },
+  "StructureDefinition-VunsPneumoCondition.html" : {
+    "title" : "VunsPneumoCondition",
+    "label" : "4.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoCondition</b></li>",
+    "examples" : [
+      {
+        "url" : "Condition-VunsPneumoConditionHF.html",
+        "title" : "VunsPneumoConditionHF"
+      }
+    ],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-VunsPneumoComposition.profile.ttl.html",
+    "next" : "StructureDefinition-VunsPneumoCondition-definitions.html"
+  },
+  "StructureDefinition-VunsPneumoCondition-definitions.html" : {
+    "title" : "VunsPneumoCondition - Definitions",
+    "label" : "4.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoCondition</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoCondition.html",
+    "next" : "StructureDefinition-VunsPneumoCondition-mappings.html"
+  },
+  "StructureDefinition-VunsPneumoCondition-mappings.html" : {
+    "title" : "VunsPneumoCondition - Mappings",
+    "label" : "4.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoCondition</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoCondition-definitions.html",
+    "next" : "StructureDefinition-VunsPneumoCondition-testing.html"
+  },
+  "StructureDefinition-VunsPneumoCondition-testing.html" : {
+    "title" : "VunsPneumoCondition - Testing",
+    "label" : "4.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoCondition</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoCondition-mappings.html",
+    "next" : "StructureDefinition-VunsPneumoCondition-examples.html"
+  },
+  "StructureDefinition-VunsPneumoCondition-examples.html" : {
+    "title" : "VunsPneumoCondition - Examples",
+    "label" : "4.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoCondition</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoCondition-testing.html",
+    "next" : "StructureDefinition-VunsPneumoCondition.profile.xml.html"
+  },
+  "StructureDefinition-VunsPneumoCondition.profile.xml.html" : {
+    "title" : "VunsPneumoCondition - XML Representation",
+    "label" : "4.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoCondition</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoCondition-examples.html",
+    "next" : "StructureDefinition-VunsPneumoCondition.profile.json.html"
+  },
+  "StructureDefinition-VunsPneumoCondition.profile.json.html" : {
+    "title" : "VunsPneumoCondition - JSON Representation",
+    "label" : "4.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoCondition</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoCondition.profile.xml.html",
+    "next" : "StructureDefinition-VunsPneumoCondition.profile.ttl.html"
+  },
+  "StructureDefinition-VunsPneumoCondition.profile.ttl.html" : {
+    "title" : "VunsPneumoCondition - TTL Representation",
+    "label" : "4.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoCondition</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoCondition.profile.json.html",
+    "next" : "StructureDefinition-VunsPneumoPrimaryCondition.html"
+  },
+  "StructureDefinition-VunsPneumoPrimaryCondition.html" : {
+    "title" : "VunsPneumoPrimaryCondition",
+    "label" : "4.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoPrimaryCondition</b></li>",
+    "examples" : [
+      {
+        "url" : "Condition-VunsPneumoConditionAsthma.html",
+        "title" : "VunsPneumoConditionAsthma"
+      }
+    ],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-VunsPneumoCondition.profile.ttl.html",
+    "next" : "StructureDefinition-VunsPneumoPrimaryCondition-definitions.html"
+  },
+  "StructureDefinition-VunsPneumoPrimaryCondition-definitions.html" : {
+    "title" : "VunsPneumoPrimaryCondition - Definitions",
+    "label" : "4.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoPrimaryCondition</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoPrimaryCondition.html",
+    "next" : "StructureDefinition-VunsPneumoPrimaryCondition-mappings.html"
+  },
+  "StructureDefinition-VunsPneumoPrimaryCondition-mappings.html" : {
+    "title" : "VunsPneumoPrimaryCondition - Mappings",
+    "label" : "4.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoPrimaryCondition</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoPrimaryCondition-definitions.html",
+    "next" : "StructureDefinition-VunsPneumoPrimaryCondition-testing.html"
+  },
+  "StructureDefinition-VunsPneumoPrimaryCondition-testing.html" : {
+    "title" : "VunsPneumoPrimaryCondition - Testing",
+    "label" : "4.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoPrimaryCondition</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoPrimaryCondition-mappings.html",
+    "next" : "StructureDefinition-VunsPneumoPrimaryCondition-examples.html"
+  },
+  "StructureDefinition-VunsPneumoPrimaryCondition-examples.html" : {
+    "title" : "VunsPneumoPrimaryCondition - Examples",
+    "label" : "4.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoPrimaryCondition</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoPrimaryCondition-testing.html",
+    "next" : "StructureDefinition-VunsPneumoPrimaryCondition.profile.xml.html"
+  },
+  "StructureDefinition-VunsPneumoPrimaryCondition.profile.xml.html" : {
+    "title" : "VunsPneumoPrimaryCondition - XML Representation",
+    "label" : "4.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoPrimaryCondition</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoPrimaryCondition-examples.html",
+    "next" : "StructureDefinition-VunsPneumoPrimaryCondition.profile.json.html"
+  },
+  "StructureDefinition-VunsPneumoPrimaryCondition.profile.json.html" : {
+    "title" : "VunsPneumoPrimaryCondition - JSON Representation",
+    "label" : "4.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoPrimaryCondition</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoPrimaryCondition.profile.xml.html",
+    "next" : "StructureDefinition-VunsPneumoPrimaryCondition.profile.ttl.html"
+  },
+  "StructureDefinition-VunsPneumoPrimaryCondition.profile.ttl.html" : {
+    "title" : "VunsPneumoPrimaryCondition - TTL Representation",
+    "label" : "4.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoPrimaryCondition</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoPrimaryCondition.profile.json.html",
+    "next" : "StructureDefinition-VunsPneumoVitalSign.html"
+  },
+  "StructureDefinition-VunsPneumoVitalSign.html" : {
+    "title" : "VunsPneumoVitalSign",
+    "label" : "4.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoVitalSign</b></li>",
+    "examples" : [
+      {
+        "url" : "Observation-VunsPneumoVitalSignHeight.html",
+        "title" : "VunsPneumoVitalSignHeight"
+      },
+      {
+        "url" : "Observation-VunsPneumoVitalSignWeight.html",
+        "title" : "VunsPneumoVitalSignWeight"
+      }
+    ],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-VunsPneumoPrimaryCondition.profile.ttl.html",
+    "next" : "StructureDefinition-VunsPneumoVitalSign-definitions.html"
+  },
+  "StructureDefinition-VunsPneumoVitalSign-definitions.html" : {
+    "title" : "VunsPneumoVitalSign - Definitions",
+    "label" : "4.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoVitalSign</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoVitalSign.html",
+    "next" : "StructureDefinition-VunsPneumoVitalSign-mappings.html"
+  },
+  "StructureDefinition-VunsPneumoVitalSign-mappings.html" : {
+    "title" : "VunsPneumoVitalSign - Mappings",
+    "label" : "4.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoVitalSign</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoVitalSign-definitions.html",
+    "next" : "StructureDefinition-VunsPneumoVitalSign-testing.html"
+  },
+  "StructureDefinition-VunsPneumoVitalSign-testing.html" : {
+    "title" : "VunsPneumoVitalSign - Testing",
+    "label" : "4.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoVitalSign</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoVitalSign-mappings.html",
+    "next" : "StructureDefinition-VunsPneumoVitalSign-examples.html"
+  },
+  "StructureDefinition-VunsPneumoVitalSign-examples.html" : {
+    "title" : "VunsPneumoVitalSign - Examples",
+    "label" : "4.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoVitalSign</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoVitalSign-testing.html",
+    "next" : "StructureDefinition-VunsPneumoVitalSign.profile.xml.html"
+  },
+  "StructureDefinition-VunsPneumoVitalSign.profile.xml.html" : {
+    "title" : "VunsPneumoVitalSign - XML Representation",
+    "label" : "4.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoVitalSign</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoVitalSign-examples.html",
+    "next" : "StructureDefinition-VunsPneumoVitalSign.profile.json.html"
+  },
+  "StructureDefinition-VunsPneumoVitalSign.profile.json.html" : {
+    "title" : "VunsPneumoVitalSign - JSON Representation",
+    "label" : "4.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoVitalSign</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoVitalSign.profile.xml.html",
+    "next" : "StructureDefinition-VunsPneumoVitalSign.profile.ttl.html"
+  },
+  "StructureDefinition-VunsPneumoVitalSign.profile.ttl.html" : {
+    "title" : "VunsPneumoVitalSign - TTL Representation",
+    "label" : "4.14",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoVitalSign</b></li>",
+    "previous" : "StructureDefinition-VunsPneumoVitalSign.profile.json.html",
+    "next" : "StructureDefinition-VunsTobaccoObservation.html"
+  },
+  "StructureDefinition-VunsTobaccoObservation.html" : {
+    "title" : "VunsTobaccoObservation",
+    "label" : "4.15",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsTobaccoObservation</b></li>",
+    "examples" : [
+      {
+        "url" : "Observation-VunsTobaccoAge.html",
+        "title" : "VunsTobaccoAge"
+      },
+      {
+        "url" : "Observation-VunsTobaccoQuantity.html",
+        "title" : "VunsTobaccoQuantity"
+      },
+      {
+        "url" : "Observation-VunsTobaccoStatus.html",
+        "title" : "VunsTobaccoStatus"
+      }
+    ],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-VunsPneumoVitalSign.profile.ttl.html",
+    "next" : "StructureDefinition-VunsTobaccoObservation-definitions.html"
+  },
+  "StructureDefinition-VunsTobaccoObservation-definitions.html" : {
+    "title" : "VunsTobaccoObservation - Definitions",
+    "label" : "4.15",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsTobaccoObservation</b></li>",
+    "previous" : "StructureDefinition-VunsTobaccoObservation.html",
+    "next" : "StructureDefinition-VunsTobaccoObservation-mappings.html"
+  },
+  "StructureDefinition-VunsTobaccoObservation-mappings.html" : {
+    "title" : "VunsTobaccoObservation - Mappings",
+    "label" : "4.15",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsTobaccoObservation</b></li>",
+    "previous" : "StructureDefinition-VunsTobaccoObservation-definitions.html",
+    "next" : "StructureDefinition-VunsTobaccoObservation-testing.html"
+  },
+  "StructureDefinition-VunsTobaccoObservation-testing.html" : {
+    "title" : "VunsTobaccoObservation - Testing",
+    "label" : "4.15",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsTobaccoObservation</b></li>",
+    "previous" : "StructureDefinition-VunsTobaccoObservation-mappings.html",
+    "next" : "StructureDefinition-VunsTobaccoObservation-examples.html"
+  },
+  "StructureDefinition-VunsTobaccoObservation-examples.html" : {
+    "title" : "VunsTobaccoObservation - Examples",
+    "label" : "4.15",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsTobaccoObservation</b></li>",
+    "previous" : "StructureDefinition-VunsTobaccoObservation-testing.html",
+    "next" : "StructureDefinition-VunsTobaccoObservation.profile.xml.html"
+  },
+  "StructureDefinition-VunsTobaccoObservation.profile.xml.html" : {
+    "title" : "VunsTobaccoObservation - XML Representation",
+    "label" : "4.15",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsTobaccoObservation</b></li>",
+    "previous" : "StructureDefinition-VunsTobaccoObservation-examples.html",
+    "next" : "StructureDefinition-VunsTobaccoObservation.profile.json.html"
+  },
+  "StructureDefinition-VunsTobaccoObservation.profile.json.html" : {
+    "title" : "VunsTobaccoObservation - JSON Representation",
+    "label" : "4.15",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsTobaccoObservation</b></li>",
+    "previous" : "StructureDefinition-VunsTobaccoObservation.profile.xml.html",
+    "next" : "StructureDefinition-VunsTobaccoObservation.profile.ttl.html"
+  },
+  "StructureDefinition-VunsTobaccoObservation.profile.ttl.html" : {
+    "title" : "VunsTobaccoObservation - TTL Representation",
+    "label" : "4.15",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsTobaccoObservation</b></li>",
+    "previous" : "StructureDefinition-VunsTobaccoObservation.profile.json.html",
+    "next" : "ValueSet-chul-location.html"
+  },
+  "ValueSet-chul-location.html" : {
+    "title" : "CHUL_LOCATION_VS",
+    "label" : "4.16",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CHUL_LOCATION_VS</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-VunsTobaccoObservation.profile.ttl.html",
+    "next" : "ValueSet-chul-location-testing.html"
+  },
+  "ValueSet-chul-location-testing.html" : {
+    "title" : "CHUL_LOCATION_VS - Testing",
+    "label" : "4.16",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CHUL_LOCATION_VS</b></li>",
+    "previous" : "ValueSet-chul-location.html",
+    "next" : "ValueSet-chul-location.xml.html"
+  },
+  "ValueSet-chul-location.xml.html" : {
+    "title" : "CHUL_LOCATION_VS - XML Representation",
+    "label" : "4.16",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CHUL_LOCATION_VS</b></li>",
+    "previous" : "ValueSet-chul-location-testing.html",
+    "next" : "ValueSet-chul-location.json.html"
+  },
+  "ValueSet-chul-location.json.html" : {
+    "title" : "CHUL_LOCATION_VS - JSON Representation",
+    "label" : "4.16",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CHUL_LOCATION_VS</b></li>",
+    "previous" : "ValueSet-chul-location.xml.html",
+    "next" : "ValueSet-chul-location.ttl.html"
+  },
+  "ValueSet-chul-location.ttl.html" : {
+    "title" : "CHUL_LOCATION_VS - TTL Representation",
+    "label" : "4.16",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CHUL_LOCATION_VS</b></li>",
+    "previous" : "ValueSet-chul-location.json.html",
+    "next" : "ValueSet-i2x-pneumo-bio.html"
+  },
+  "ValueSet-i2x-pneumo-bio.html" : {
+    "title" : "PNEUMO_BIO_VS",
+    "label" : "4.17",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PNEUMO_BIO_VS</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "ValueSet-chul-location.ttl.html",
+    "next" : "ValueSet-i2x-pneumo-bio-testing.html"
+  },
+  "ValueSet-i2x-pneumo-bio-testing.html" : {
+    "title" : "PNEUMO_BIO_VS - Testing",
+    "label" : "4.17",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PNEUMO_BIO_VS</b></li>",
+    "previous" : "ValueSet-i2x-pneumo-bio.html",
+    "next" : "ValueSet-i2x-pneumo-bio.xml.html"
+  },
+  "ValueSet-i2x-pneumo-bio.xml.html" : {
+    "title" : "PNEUMO_BIO_VS - XML Representation",
+    "label" : "4.17",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PNEUMO_BIO_VS</b></li>",
+    "previous" : "ValueSet-i2x-pneumo-bio-testing.html",
+    "next" : "ValueSet-i2x-pneumo-bio.json.html"
+  },
+  "ValueSet-i2x-pneumo-bio.json.html" : {
+    "title" : "PNEUMO_BIO_VS - JSON Representation",
+    "label" : "4.17",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PNEUMO_BIO_VS</b></li>",
+    "previous" : "ValueSet-i2x-pneumo-bio.xml.html",
+    "next" : "ValueSet-i2x-pneumo-bio.ttl.html"
+  },
+  "ValueSet-i2x-pneumo-bio.ttl.html" : {
+    "title" : "PNEUMO_BIO_VS - TTL Representation",
+    "label" : "4.17",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PNEUMO_BIO_VS</b></li>",
+    "previous" : "ValueSet-i2x-pneumo-bio.json.html",
+    "next" : "ValueSet-i2x-pneumo-diagnostic.html"
+  },
+  "ValueSet-i2x-pneumo-diagnostic.html" : {
+    "title" : "PNEUMO_DIAGNOSTIC_VS",
+    "label" : "4.18",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PNEUMO_DIAGNOSTIC_VS</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "ValueSet-i2x-pneumo-bio.ttl.html",
+    "next" : "ValueSet-i2x-pneumo-diagnostic-testing.html"
+  },
+  "ValueSet-i2x-pneumo-diagnostic-testing.html" : {
+    "title" : "PNEUMO_DIAGNOSTIC_VS - Testing",
+    "label" : "4.18",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PNEUMO_DIAGNOSTIC_VS</b></li>",
+    "previous" : "ValueSet-i2x-pneumo-diagnostic.html",
+    "next" : "ValueSet-i2x-pneumo-diagnostic.xml.html"
+  },
+  "ValueSet-i2x-pneumo-diagnostic.xml.html" : {
+    "title" : "PNEUMO_DIAGNOSTIC_VS - XML Representation",
+    "label" : "4.18",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PNEUMO_DIAGNOSTIC_VS</b></li>",
+    "previous" : "ValueSet-i2x-pneumo-diagnostic-testing.html",
+    "next" : "ValueSet-i2x-pneumo-diagnostic.json.html"
+  },
+  "ValueSet-i2x-pneumo-diagnostic.json.html" : {
+    "title" : "PNEUMO_DIAGNOSTIC_VS - JSON Representation",
+    "label" : "4.18",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PNEUMO_DIAGNOSTIC_VS</b></li>",
+    "previous" : "ValueSet-i2x-pneumo-diagnostic.xml.html",
+    "next" : "ValueSet-i2x-pneumo-diagnostic.ttl.html"
+  },
+  "ValueSet-i2x-pneumo-diagnostic.ttl.html" : {
+    "title" : "PNEUMO_DIAGNOSTIC_VS - TTL Representation",
+    "label" : "4.18",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PNEUMO_DIAGNOSTIC_VS</b></li>",
+    "previous" : "ValueSet-i2x-pneumo-diagnostic.json.html",
+    "next" : "ValueSet-i2x-pneumo-other-diagnosis-category.html"
+  },
+  "ValueSet-i2x-pneumo-other-diagnosis-category.html" : {
+    "title" : "PNEUMO_OTHER_DIAGNOSIS_CATEGORY_VS",
+    "label" : "4.19",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PNEUMO_OTHER_DIAGNOSIS_CATEGORY_VS</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "ValueSet-i2x-pneumo-diagnostic.ttl.html",
+    "next" : "ValueSet-i2x-pneumo-other-diagnosis-category-testing.html"
+  },
+  "ValueSet-i2x-pneumo-other-diagnosis-category-testing.html" : {
+    "title" : "PNEUMO_OTHER_DIAGNOSIS_CATEGORY_VS - Testing",
+    "label" : "4.19",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PNEUMO_OTHER_DIAGNOSIS_CATEGORY_VS</b></li>",
+    "previous" : "ValueSet-i2x-pneumo-other-diagnosis-category.html",
+    "next" : "ValueSet-i2x-pneumo-other-diagnosis-category.xml.html"
+  },
+  "ValueSet-i2x-pneumo-other-diagnosis-category.xml.html" : {
+    "title" : "PNEUMO_OTHER_DIAGNOSIS_CATEGORY_VS - XML Representation",
+    "label" : "4.19",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PNEUMO_OTHER_DIAGNOSIS_CATEGORY_VS</b></li>",
+    "previous" : "ValueSet-i2x-pneumo-other-diagnosis-category-testing.html",
+    "next" : "ValueSet-i2x-pneumo-other-diagnosis-category.json.html"
+  },
+  "ValueSet-i2x-pneumo-other-diagnosis-category.json.html" : {
+    "title" : "PNEUMO_OTHER_DIAGNOSIS_CATEGORY_VS - JSON Representation",
+    "label" : "4.19",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PNEUMO_OTHER_DIAGNOSIS_CATEGORY_VS</b></li>",
+    "previous" : "ValueSet-i2x-pneumo-other-diagnosis-category.xml.html",
+    "next" : "ValueSet-i2x-pneumo-other-diagnosis-category.ttl.html"
+  },
+  "ValueSet-i2x-pneumo-other-diagnosis-category.ttl.html" : {
+    "title" : "PNEUMO_OTHER_DIAGNOSIS_CATEGORY_VS - TTL Representation",
+    "label" : "4.19",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PNEUMO_OTHER_DIAGNOSIS_CATEGORY_VS</b></li>",
+    "previous" : "ValueSet-i2x-pneumo-other-diagnosis-category.json.html",
+    "next" : "ValueSet-i2x-pneumo-primary-diagnosis-category.html"
+  },
+  "ValueSet-i2x-pneumo-primary-diagnosis-category.html" : {
+    "title" : "PNEUMO_PRIMARY_DIAGNOSIS_CATEGORY_VS",
+    "label" : "4.20",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PNEUMO_PRIMARY_DIAGNOSIS_CATEGORY_VS</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "ValueSet-i2x-pneumo-other-diagnosis-category.ttl.html",
+    "next" : "ValueSet-i2x-pneumo-primary-diagnosis-category-testing.html"
+  },
+  "ValueSet-i2x-pneumo-primary-diagnosis-category-testing.html" : {
+    "title" : "PNEUMO_PRIMARY_DIAGNOSIS_CATEGORY_VS - Testing",
+    "label" : "4.20",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PNEUMO_PRIMARY_DIAGNOSIS_CATEGORY_VS</b></li>",
+    "previous" : "ValueSet-i2x-pneumo-primary-diagnosis-category.html",
+    "next" : "ValueSet-i2x-pneumo-primary-diagnosis-category.xml.html"
+  },
+  "ValueSet-i2x-pneumo-primary-diagnosis-category.xml.html" : {
+    "title" : "PNEUMO_PRIMARY_DIAGNOSIS_CATEGORY_VS - XML Representation",
+    "label" : "4.20",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PNEUMO_PRIMARY_DIAGNOSIS_CATEGORY_VS</b></li>",
+    "previous" : "ValueSet-i2x-pneumo-primary-diagnosis-category-testing.html",
+    "next" : "ValueSet-i2x-pneumo-primary-diagnosis-category.json.html"
+  },
+  "ValueSet-i2x-pneumo-primary-diagnosis-category.json.html" : {
+    "title" : "PNEUMO_PRIMARY_DIAGNOSIS_CATEGORY_VS - JSON Representation",
+    "label" : "4.20",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PNEUMO_PRIMARY_DIAGNOSIS_CATEGORY_VS</b></li>",
+    "previous" : "ValueSet-i2x-pneumo-primary-diagnosis-category.xml.html",
+    "next" : "ValueSet-i2x-pneumo-primary-diagnosis-category.ttl.html"
+  },
+  "ValueSet-i2x-pneumo-primary-diagnosis-category.ttl.html" : {
+    "title" : "PNEUMO_PRIMARY_DIAGNOSIS_CATEGORY_VS - TTL Representation",
+    "label" : "4.20",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PNEUMO_PRIMARY_DIAGNOSIS_CATEGORY_VS</b></li>",
+    "previous" : "ValueSet-i2x-pneumo-primary-diagnosis-category.json.html",
+    "next" : "ValueSet-i2x-pneumo-vitaux.html"
+  },
+  "ValueSet-i2x-pneumo-vitaux.html" : {
+    "title" : "PNEUMO_VITAAUX_VS",
+    "label" : "4.21",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PNEUMO_VITAAUX_VS</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "ValueSet-i2x-pneumo-primary-diagnosis-category.ttl.html",
+    "next" : "ValueSet-i2x-pneumo-vitaux-testing.html"
+  },
+  "ValueSet-i2x-pneumo-vitaux-testing.html" : {
+    "title" : "PNEUMO_VITAAUX_VS - Testing",
+    "label" : "4.21",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PNEUMO_VITAAUX_VS</b></li>",
+    "previous" : "ValueSet-i2x-pneumo-vitaux.html",
+    "next" : "ValueSet-i2x-pneumo-vitaux.xml.html"
+  },
+  "ValueSet-i2x-pneumo-vitaux.xml.html" : {
+    "title" : "PNEUMO_VITAAUX_VS - XML Representation",
+    "label" : "4.21",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PNEUMO_VITAAUX_VS</b></li>",
+    "previous" : "ValueSet-i2x-pneumo-vitaux-testing.html",
+    "next" : "ValueSet-i2x-pneumo-vitaux.json.html"
+  },
+  "ValueSet-i2x-pneumo-vitaux.json.html" : {
+    "title" : "PNEUMO_VITAAUX_VS - JSON Representation",
+    "label" : "4.21",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PNEUMO_VITAAUX_VS</b></li>",
+    "previous" : "ValueSet-i2x-pneumo-vitaux.xml.html",
+    "next" : "ValueSet-i2x-pneumo-vitaux.ttl.html"
+  },
+  "ValueSet-i2x-pneumo-vitaux.ttl.html" : {
+    "title" : "PNEUMO_VITAAUX_VS - TTL Representation",
+    "label" : "4.21",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PNEUMO_VITAAUX_VS</b></li>",
+    "previous" : "ValueSet-i2x-pneumo-vitaux.json.html",
+    "next" : "ValueSet-i2x-tabac-status.html"
+  },
+  "ValueSet-i2x-tabac-status.html" : {
+    "title" : "TABAC_STATUS_VS",
+    "label" : "4.22",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>TABAC_STATUS_VS</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "ValueSet-i2x-pneumo-vitaux.ttl.html",
+    "next" : "ValueSet-i2x-tabac-status-testing.html"
+  },
+  "ValueSet-i2x-tabac-status-testing.html" : {
+    "title" : "TABAC_STATUS_VS - Testing",
+    "label" : "4.22",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>TABAC_STATUS_VS</b></li>",
+    "previous" : "ValueSet-i2x-tabac-status.html",
+    "next" : "ValueSet-i2x-tabac-status.xml.html"
+  },
+  "ValueSet-i2x-tabac-status.xml.html" : {
+    "title" : "TABAC_STATUS_VS - XML Representation",
+    "label" : "4.22",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>TABAC_STATUS_VS</b></li>",
+    "previous" : "ValueSet-i2x-tabac-status-testing.html",
+    "next" : "ValueSet-i2x-tabac-status.json.html"
+  },
+  "ValueSet-i2x-tabac-status.json.html" : {
+    "title" : "TABAC_STATUS_VS - JSON Representation",
+    "label" : "4.22",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>TABAC_STATUS_VS</b></li>",
+    "previous" : "ValueSet-i2x-tabac-status.xml.html",
+    "next" : "ValueSet-i2x-tabac-status.ttl.html"
+  },
+  "ValueSet-i2x-tabac-status.ttl.html" : {
+    "title" : "TABAC_STATUS_VS - TTL Representation",
+    "label" : "4.22",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>TABAC_STATUS_VS</b></li>",
+    "previous" : "ValueSet-i2x-tabac-status.json.html",
+    "next" : "ValueSet-i2x-tabac.html"
+  },
+  "ValueSet-i2x-tabac.html" : {
+    "title" : "TABAC_VS",
+    "label" : "4.23",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>TABAC_VS</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "ValueSet-i2x-tabac-status.ttl.html",
+    "next" : "ValueSet-i2x-tabac-testing.html"
+  },
+  "ValueSet-i2x-tabac-testing.html" : {
+    "title" : "TABAC_VS - Testing",
+    "label" : "4.23",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>TABAC_VS</b></li>",
+    "previous" : "ValueSet-i2x-tabac.html",
+    "next" : "ValueSet-i2x-tabac.xml.html"
+  },
+  "ValueSet-i2x-tabac.xml.html" : {
+    "title" : "TABAC_VS - XML Representation",
+    "label" : "4.23",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>TABAC_VS</b></li>",
+    "previous" : "ValueSet-i2x-tabac-testing.html",
+    "next" : "ValueSet-i2x-tabac.json.html"
+  },
+  "ValueSet-i2x-tabac.json.html" : {
+    "title" : "TABAC_VS - JSON Representation",
+    "label" : "4.23",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>TABAC_VS</b></li>",
+    "previous" : "ValueSet-i2x-tabac.xml.html",
+    "next" : "ValueSet-i2x-tabac.ttl.html"
+  },
+  "ValueSet-i2x-tabac.ttl.html" : {
+    "title" : "TABAC_VS - TTL Representation",
+    "label" : "4.23",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>TABAC_VS</b></li>",
+    "previous" : "ValueSet-i2x-tabac.json.html",
+    "next" : "ValueSet-i2x-efr.html"
+  },
+  "ValueSet-i2x-efr.html" : {
+    "title" : "Valueset for pulmonary function test measurements",
+    "label" : "4.24",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Valueset for pulmonary function test measurements</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "ValueSet-i2x-tabac.ttl.html",
+    "next" : "ValueSet-i2x-efr-testing.html"
+  },
+  "ValueSet-i2x-efr-testing.html" : {
+    "title" : "Valueset for pulmonary function test measurements - Testing",
+    "label" : "4.24",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Valueset for pulmonary function test measurements</b></li>",
+    "previous" : "ValueSet-i2x-efr.html",
+    "next" : "ValueSet-i2x-efr.xml.html"
+  },
+  "ValueSet-i2x-efr.xml.html" : {
+    "title" : "Valueset for pulmonary function test measurements - XML Representation",
+    "label" : "4.24",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Valueset for pulmonary function test measurements</b></li>",
+    "previous" : "ValueSet-i2x-efr-testing.html",
+    "next" : "ValueSet-i2x-efr.json.html"
+  },
+  "ValueSet-i2x-efr.json.html" : {
+    "title" : "Valueset for pulmonary function test measurements - JSON Representation",
+    "label" : "4.24",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Valueset for pulmonary function test measurements</b></li>",
+    "previous" : "ValueSet-i2x-efr.xml.html",
+    "next" : "ValueSet-i2x-efr.ttl.html"
+  },
+  "ValueSet-i2x-efr.ttl.html" : {
+    "title" : "Valueset for pulmonary function test measurements - TTL Representation",
+    "label" : "4.24",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Valueset for pulmonary function test measurements</b></li>",
+    "previous" : "ValueSet-i2x-efr.json.html",
+    "next" : "CodeSystem-chul-location-cs.html"
+  },
+  "CodeSystem-chul-location-cs.html" : {
+    "title" : "CHUL_LOCATION_CS",
+    "label" : "4.25",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CHUL_LOCATION_CS</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "ValueSet-i2x-efr.ttl.html",
+    "next" : "CodeSystem-chul-location-cs-testing.html"
+  },
+  "CodeSystem-chul-location-cs-testing.html" : {
+    "title" : "CHUL_LOCATION_CS - Testing",
+    "label" : "4.25",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CHUL_LOCATION_CS</b></li>",
+    "previous" : "CodeSystem-chul-location-cs.html",
+    "next" : "CodeSystem-chul-location-cs.xml.html"
+  },
+  "CodeSystem-chul-location-cs.xml.html" : {
+    "title" : "CHUL_LOCATION_CS - XML Representation",
+    "label" : "4.25",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CHUL_LOCATION_CS</b></li>",
+    "previous" : "CodeSystem-chul-location-cs-testing.html",
+    "next" : "CodeSystem-chul-location-cs.json.html"
+  },
+  "CodeSystem-chul-location-cs.json.html" : {
+    "title" : "CHUL_LOCATION_CS - JSON Representation",
+    "label" : "4.25",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CHUL_LOCATION_CS</b></li>",
+    "previous" : "CodeSystem-chul-location-cs.xml.html",
+    "next" : "CodeSystem-chul-location-cs.ttl.html"
+  },
+  "CodeSystem-chul-location-cs.ttl.html" : {
+    "title" : "CHUL_LOCATION_CS - TTL Representation",
+    "label" : "4.25",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CHUL_LOCATION_CS</b></li>",
+    "previous" : "CodeSystem-chul-location-cs.json.html",
+    "next" : "Encounter-ChulEncounterExample.html"
+  },
+  "Encounter-ChulEncounterExample.html" : {
+    "title" : "ChulEncounterExample",
+    "label" : "4.26",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ChulEncounterExample</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "CodeSystem-chul-location-cs.ttl.html",
+    "next" : "Encounter-ChulEncounterExample.xml.html"
+  },
+  "Encounter-ChulEncounterExample.xml.html" : {
+    "title" : "ChulEncounterExample - XML Representation",
+    "label" : "4.26",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ChulEncounterExample</b></li>",
+    "previous" : "Encounter-ChulEncounterExample.html",
+    "next" : "Encounter-ChulEncounterExample.json.html"
+  },
+  "Encounter-ChulEncounterExample.json.html" : {
+    "title" : "ChulEncounterExample - JSON Representation",
+    "label" : "4.26",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ChulEncounterExample</b></li>",
+    "previous" : "Encounter-ChulEncounterExample.xml.html",
+    "next" : "Encounter-ChulEncounterExample.ttl.html"
+  },
+  "Encounter-ChulEncounterExample.ttl.html" : {
+    "title" : "ChulEncounterExample - TTL Representation",
+    "label" : "4.26",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ChulEncounterExample</b></li>",
+    "previous" : "Encounter-ChulEncounterExample.json.html",
+    "next" : "Composition-VunsPneumoCompositionExample.html"
+  },
+  "Composition-VunsPneumoCompositionExample.html" : {
+    "title" : "Exemple de composition en pneumologie dans le cadre du projet Vers Un Souffle Nouveau",
+    "label" : "4.27",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Exemple de composition en pneumologie dans le cadre du projet Vers Un Souffle Nouveau</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Encounter-ChulEncounterExample.ttl.html",
+    "next" : "Composition-VunsPneumoCompositionExample.xml.html"
+  },
+  "Composition-VunsPneumoCompositionExample.xml.html" : {
+    "title" : "Exemple de composition en pneumologie dans le cadre du projet Vers Un Souffle Nouveau - XML Representation",
+    "label" : "4.27",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Exemple de composition en pneumologie dans le cadre du projet Vers Un Souffle Nouveau</b></li>",
+    "previous" : "Composition-VunsPneumoCompositionExample.html",
+    "next" : "Composition-VunsPneumoCompositionExample.json.html"
+  },
+  "Composition-VunsPneumoCompositionExample.json.html" : {
+    "title" : "Exemple de composition en pneumologie dans le cadre du projet Vers Un Souffle Nouveau - JSON Representation",
+    "label" : "4.27",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Exemple de composition en pneumologie dans le cadre du projet Vers Un Souffle Nouveau</b></li>",
+    "previous" : "Composition-VunsPneumoCompositionExample.xml.html",
+    "next" : "Composition-VunsPneumoCompositionExample.ttl.html"
+  },
+  "Composition-VunsPneumoCompositionExample.ttl.html" : {
+    "title" : "Exemple de composition en pneumologie dans le cadre du projet Vers Un Souffle Nouveau - TTL Representation",
+    "label" : "4.27",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Exemple de composition en pneumologie dans le cadre du projet Vers Un Souffle Nouveau</b></li>",
+    "previous" : "Composition-VunsPneumoCompositionExample.json.html",
+    "next" : "Composition-VunsPneumoCompositionShortExample.html"
+  },
+  "Composition-VunsPneumoCompositionShortExample.html" : {
+    "title" : "Short composition example in the scope in the 'Vers Un Souffle Nouveau' project",
+    "label" : "4.28",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Short composition example in the scope in the 'Vers Un Souffle Nouveau' project</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Composition-VunsPneumoCompositionExample.ttl.html",
+    "next" : "Composition-VunsPneumoCompositionShortExample.xml.html"
+  },
+  "Composition-VunsPneumoCompositionShortExample.xml.html" : {
+    "title" : "Short composition example in the scope in the 'Vers Un Souffle Nouveau' project - XML Representation",
+    "label" : "4.28",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Short composition example in the scope in the 'Vers Un Souffle Nouveau' project</b></li>",
+    "previous" : "Composition-VunsPneumoCompositionShortExample.html",
+    "next" : "Composition-VunsPneumoCompositionShortExample.json.html"
+  },
+  "Composition-VunsPneumoCompositionShortExample.json.html" : {
+    "title" : "Short composition example in the scope in the 'Vers Un Souffle Nouveau' project - JSON Representation",
+    "label" : "4.28",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Short composition example in the scope in the 'Vers Un Souffle Nouveau' project</b></li>",
+    "previous" : "Composition-VunsPneumoCompositionShortExample.xml.html",
+    "next" : "Composition-VunsPneumoCompositionShortExample.ttl.html"
+  },
+  "Composition-VunsPneumoCompositionShortExample.ttl.html" : {
+    "title" : "Short composition example in the scope in the 'Vers Un Souffle Nouveau' project - TTL Representation",
+    "label" : "4.28",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Short composition example in the scope in the 'Vers Un Souffle Nouveau' project</b></li>",
+    "previous" : "Composition-VunsPneumoCompositionShortExample.json.html",
+    "next" : "Observation-VunsEfrCPT.html"
+  },
+  "Observation-VunsEfrCPT.html" : {
+    "title" : "VunsEfrCPT",
+    "label" : "4.29",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrCPT</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Composition-VunsPneumoCompositionShortExample.ttl.html",
+    "next" : "Observation-VunsEfrCPT.xml.html"
+  },
+  "Observation-VunsEfrCPT.xml.html" : {
+    "title" : "VunsEfrCPT - XML Representation",
+    "label" : "4.29",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrCPT</b></li>",
+    "previous" : "Observation-VunsEfrCPT.html",
+    "next" : "Observation-VunsEfrCPT.json.html"
+  },
+  "Observation-VunsEfrCPT.json.html" : {
+    "title" : "VunsEfrCPT - JSON Representation",
+    "label" : "4.29",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrCPT</b></li>",
+    "previous" : "Observation-VunsEfrCPT.xml.html",
+    "next" : "Observation-VunsEfrCPT.ttl.html"
+  },
+  "Observation-VunsEfrCPT.ttl.html" : {
+    "title" : "VunsEfrCPT - TTL Representation",
+    "label" : "4.29",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrCPT</b></li>",
+    "previous" : "Observation-VunsEfrCPT.json.html",
+    "next" : "Observation-VunsEfrCPTRatio.html"
+  },
+  "Observation-VunsEfrCPTRatio.html" : {
+    "title" : "VunsEfrCPTRatio",
+    "label" : "4.30",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrCPTRatio</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-VunsEfrCPT.ttl.html",
+    "next" : "Observation-VunsEfrCPTRatio.xml.html"
+  },
+  "Observation-VunsEfrCPTRatio.xml.html" : {
+    "title" : "VunsEfrCPTRatio - XML Representation",
+    "label" : "4.30",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrCPTRatio</b></li>",
+    "previous" : "Observation-VunsEfrCPTRatio.html",
+    "next" : "Observation-VunsEfrCPTRatio.json.html"
+  },
+  "Observation-VunsEfrCPTRatio.json.html" : {
+    "title" : "VunsEfrCPTRatio - JSON Representation",
+    "label" : "4.30",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrCPTRatio</b></li>",
+    "previous" : "Observation-VunsEfrCPTRatio.xml.html",
+    "next" : "Observation-VunsEfrCPTRatio.ttl.html"
+  },
+  "Observation-VunsEfrCPTRatio.ttl.html" : {
+    "title" : "VunsEfrCPTRatio - TTL Representation",
+    "label" : "4.30",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrCPTRatio</b></li>",
+    "previous" : "Observation-VunsEfrCPTRatio.json.html",
+    "next" : "Observation-VunsEfrCVF.html"
+  },
+  "Observation-VunsEfrCVF.html" : {
+    "title" : "VunsEfrCVF",
+    "label" : "4.31",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrCVF</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-VunsEfrCPTRatio.ttl.html",
+    "next" : "Observation-VunsEfrCVF.xml.html"
+  },
+  "Observation-VunsEfrCVF.xml.html" : {
+    "title" : "VunsEfrCVF - XML Representation",
+    "label" : "4.31",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrCVF</b></li>",
+    "previous" : "Observation-VunsEfrCVF.html",
+    "next" : "Observation-VunsEfrCVF.json.html"
+  },
+  "Observation-VunsEfrCVF.json.html" : {
+    "title" : "VunsEfrCVF - JSON Representation",
+    "label" : "4.31",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrCVF</b></li>",
+    "previous" : "Observation-VunsEfrCVF.xml.html",
+    "next" : "Observation-VunsEfrCVF.ttl.html"
+  },
+  "Observation-VunsEfrCVF.ttl.html" : {
+    "title" : "VunsEfrCVF - TTL Representation",
+    "label" : "4.31",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrCVF</b></li>",
+    "previous" : "Observation-VunsEfrCVF.json.html",
+    "next" : "Observation-VunsEfrCVFRatio.html"
+  },
+  "Observation-VunsEfrCVFRatio.html" : {
+    "title" : "VunsEfrCVFRatio",
+    "label" : "4.32",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrCVFRatio</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-VunsEfrCVF.ttl.html",
+    "next" : "Observation-VunsEfrCVFRatio.xml.html"
+  },
+  "Observation-VunsEfrCVFRatio.xml.html" : {
+    "title" : "VunsEfrCVFRatio - XML Representation",
+    "label" : "4.32",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrCVFRatio</b></li>",
+    "previous" : "Observation-VunsEfrCVFRatio.html",
+    "next" : "Observation-VunsEfrCVFRatio.json.html"
+  },
+  "Observation-VunsEfrCVFRatio.json.html" : {
+    "title" : "VunsEfrCVFRatio - JSON Representation",
+    "label" : "4.32",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrCVFRatio</b></li>",
+    "previous" : "Observation-VunsEfrCVFRatio.xml.html",
+    "next" : "Observation-VunsEfrCVFRatio.ttl.html"
+  },
+  "Observation-VunsEfrCVFRatio.ttl.html" : {
+    "title" : "VunsEfrCVFRatio - TTL Representation",
+    "label" : "4.32",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrCVFRatio</b></li>",
+    "previous" : "Observation-VunsEfrCVFRatio.json.html",
+    "next" : "Observation-VunsEfrDLCORatio.html"
+  },
+  "Observation-VunsEfrDLCORatio.html" : {
+    "title" : "VunsEfrDLCORatio",
+    "label" : "4.33",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrDLCORatio</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-VunsEfrCVFRatio.ttl.html",
+    "next" : "Observation-VunsEfrDLCORatio.xml.html"
+  },
+  "Observation-VunsEfrDLCORatio.xml.html" : {
+    "title" : "VunsEfrDLCORatio - XML Representation",
+    "label" : "4.33",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrDLCORatio</b></li>",
+    "previous" : "Observation-VunsEfrDLCORatio.html",
+    "next" : "Observation-VunsEfrDLCORatio.json.html"
+  },
+  "Observation-VunsEfrDLCORatio.json.html" : {
+    "title" : "VunsEfrDLCORatio - JSON Representation",
+    "label" : "4.33",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrDLCORatio</b></li>",
+    "previous" : "Observation-VunsEfrDLCORatio.xml.html",
+    "next" : "Observation-VunsEfrDLCORatio.ttl.html"
+  },
+  "Observation-VunsEfrDLCORatio.ttl.html" : {
+    "title" : "VunsEfrDLCORatio - TTL Representation",
+    "label" : "4.33",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrDLCORatio</b></li>",
+    "previous" : "Observation-VunsEfrDLCORatio.json.html",
+    "next" : "Observation-VunsEfrDLCOVARatio.html"
+  },
+  "Observation-VunsEfrDLCOVARatio.html" : {
+    "title" : "VunsEfrDLCOVARatio",
+    "label" : "4.34",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrDLCOVARatio</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-VunsEfrDLCORatio.ttl.html",
+    "next" : "Observation-VunsEfrDLCOVARatio.xml.html"
+  },
+  "Observation-VunsEfrDLCOVARatio.xml.html" : {
+    "title" : "VunsEfrDLCOVARatio - XML Representation",
+    "label" : "4.34",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrDLCOVARatio</b></li>",
+    "previous" : "Observation-VunsEfrDLCOVARatio.html",
+    "next" : "Observation-VunsEfrDLCOVARatio.json.html"
+  },
+  "Observation-VunsEfrDLCOVARatio.json.html" : {
+    "title" : "VunsEfrDLCOVARatio - JSON Representation",
+    "label" : "4.34",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrDLCOVARatio</b></li>",
+    "previous" : "Observation-VunsEfrDLCOVARatio.xml.html",
+    "next" : "Observation-VunsEfrDLCOVARatio.ttl.html"
+  },
+  "Observation-VunsEfrDLCOVARatio.ttl.html" : {
+    "title" : "VunsEfrDLCOVARatio - TTL Representation",
+    "label" : "4.34",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrDLCOVARatio</b></li>",
+    "previous" : "Observation-VunsEfrDLCOVARatio.json.html",
+    "next" : "Procedure-VunsEfrExample.html"
+  },
+  "Procedure-VunsEfrExample.html" : {
+    "title" : "VunsEfrExample",
+    "label" : "4.35",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrExample</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-VunsEfrDLCOVARatio.ttl.html",
+    "next" : "Procedure-VunsEfrExample.xml.html"
+  },
+  "Procedure-VunsEfrExample.xml.html" : {
+    "title" : "VunsEfrExample - XML Representation",
+    "label" : "4.35",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrExample</b></li>",
+    "previous" : "Procedure-VunsEfrExample.html",
+    "next" : "Procedure-VunsEfrExample.json.html"
+  },
+  "Procedure-VunsEfrExample.json.html" : {
+    "title" : "VunsEfrExample - JSON Representation",
+    "label" : "4.35",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrExample</b></li>",
+    "previous" : "Procedure-VunsEfrExample.xml.html",
+    "next" : "Procedure-VunsEfrExample.ttl.html"
+  },
+  "Procedure-VunsEfrExample.ttl.html" : {
+    "title" : "VunsEfrExample - TTL Representation",
+    "label" : "4.35",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrExample</b></li>",
+    "previous" : "Procedure-VunsEfrExample.json.html",
+    "next" : "Observation-VunsEfrVRCPTRatio.html"
+  },
+  "Observation-VunsEfrVRCPTRatio.html" : {
+    "title" : "VunsEfrVRCPTRatio",
+    "label" : "4.36",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrVRCPTRatio</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Procedure-VunsEfrExample.ttl.html",
+    "next" : "Observation-VunsEfrVRCPTRatio.xml.html"
+  },
+  "Observation-VunsEfrVRCPTRatio.xml.html" : {
+    "title" : "VunsEfrVRCPTRatio - XML Representation",
+    "label" : "4.36",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrVRCPTRatio</b></li>",
+    "previous" : "Observation-VunsEfrVRCPTRatio.html",
+    "next" : "Observation-VunsEfrVRCPTRatio.json.html"
+  },
+  "Observation-VunsEfrVRCPTRatio.json.html" : {
+    "title" : "VunsEfrVRCPTRatio - JSON Representation",
+    "label" : "4.36",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrVRCPTRatio</b></li>",
+    "previous" : "Observation-VunsEfrVRCPTRatio.xml.html",
+    "next" : "Observation-VunsEfrVRCPTRatio.ttl.html"
+  },
+  "Observation-VunsEfrVRCPTRatio.ttl.html" : {
+    "title" : "VunsEfrVRCPTRatio - TTL Representation",
+    "label" : "4.36",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrVRCPTRatio</b></li>",
+    "previous" : "Observation-VunsEfrVRCPTRatio.json.html",
+    "next" : "Observation-VunsEfrVRRatio.html"
+  },
+  "Observation-VunsEfrVRRatio.html" : {
+    "title" : "VunsEfrVRRatio",
+    "label" : "4.37",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrVRRatio</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-VunsEfrVRCPTRatio.ttl.html",
+    "next" : "Observation-VunsEfrVRRatio.xml.html"
+  },
+  "Observation-VunsEfrVRRatio.xml.html" : {
+    "title" : "VunsEfrVRRatio - XML Representation",
+    "label" : "4.37",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrVRRatio</b></li>",
+    "previous" : "Observation-VunsEfrVRRatio.html",
+    "next" : "Observation-VunsEfrVRRatio.json.html"
+  },
+  "Observation-VunsEfrVRRatio.json.html" : {
+    "title" : "VunsEfrVRRatio - JSON Representation",
+    "label" : "4.37",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrVRRatio</b></li>",
+    "previous" : "Observation-VunsEfrVRRatio.xml.html",
+    "next" : "Observation-VunsEfrVRRatio.ttl.html"
+  },
+  "Observation-VunsEfrVRRatio.ttl.html" : {
+    "title" : "VunsEfrVRRatio - TTL Representation",
+    "label" : "4.37",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrVRRatio</b></li>",
+    "previous" : "Observation-VunsEfrVRRatio.json.html",
+    "next" : "Observation-VunsEfrVTiff.html"
+  },
+  "Observation-VunsEfrVTiff.html" : {
+    "title" : "VunsEfrVTiff",
+    "label" : "4.38",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrVTiff</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-VunsEfrVRRatio.ttl.html",
+    "next" : "Observation-VunsEfrVTiff.xml.html"
+  },
+  "Observation-VunsEfrVTiff.xml.html" : {
+    "title" : "VunsEfrVTiff - XML Representation",
+    "label" : "4.38",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrVTiff</b></li>",
+    "previous" : "Observation-VunsEfrVTiff.html",
+    "next" : "Observation-VunsEfrVTiff.json.html"
+  },
+  "Observation-VunsEfrVTiff.json.html" : {
+    "title" : "VunsEfrVTiff - JSON Representation",
+    "label" : "4.38",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrVTiff</b></li>",
+    "previous" : "Observation-VunsEfrVTiff.xml.html",
+    "next" : "Observation-VunsEfrVTiff.ttl.html"
+  },
+  "Observation-VunsEfrVTiff.ttl.html" : {
+    "title" : "VunsEfrVTiff - TTL Representation",
+    "label" : "4.38",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrVTiff</b></li>",
+    "previous" : "Observation-VunsEfrVTiff.json.html",
+    "next" : "Observation-VunsEfrVTiffSource.html"
+  },
+  "Observation-VunsEfrVTiffSource.html" : {
+    "title" : "VunsEfrVTiffSource",
+    "label" : "4.39",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrVTiffSource</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-VunsEfrVTiff.ttl.html",
+    "next" : "Observation-VunsEfrVTiffSource.xml.html"
+  },
+  "Observation-VunsEfrVTiffSource.xml.html" : {
+    "title" : "VunsEfrVTiffSource - XML Representation",
+    "label" : "4.39",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrVTiffSource</b></li>",
+    "previous" : "Observation-VunsEfrVTiffSource.html",
+    "next" : "Observation-VunsEfrVTiffSource.json.html"
+  },
+  "Observation-VunsEfrVTiffSource.json.html" : {
+    "title" : "VunsEfrVTiffSource - JSON Representation",
+    "label" : "4.39",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrVTiffSource</b></li>",
+    "previous" : "Observation-VunsEfrVTiffSource.xml.html",
+    "next" : "Observation-VunsEfrVTiffSource.ttl.html"
+  },
+  "Observation-VunsEfrVTiffSource.ttl.html" : {
+    "title" : "VunsEfrVTiffSource - TTL Representation",
+    "label" : "4.39",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrVTiffSource</b></li>",
+    "previous" : "Observation-VunsEfrVTiffSource.json.html",
+    "next" : "Observation-VunsEfrVVEMS.html"
+  },
+  "Observation-VunsEfrVVEMS.html" : {
+    "title" : "VunsEfrVVEMS",
+    "label" : "4.40",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrVVEMS</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-VunsEfrVTiffSource.ttl.html",
+    "next" : "Observation-VunsEfrVVEMS.xml.html"
+  },
+  "Observation-VunsEfrVVEMS.xml.html" : {
+    "title" : "VunsEfrVVEMS - XML Representation",
+    "label" : "4.40",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrVVEMS</b></li>",
+    "previous" : "Observation-VunsEfrVVEMS.html",
+    "next" : "Observation-VunsEfrVVEMS.json.html"
+  },
+  "Observation-VunsEfrVVEMS.json.html" : {
+    "title" : "VunsEfrVVEMS - JSON Representation",
+    "label" : "4.40",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrVVEMS</b></li>",
+    "previous" : "Observation-VunsEfrVVEMS.xml.html",
+    "next" : "Observation-VunsEfrVVEMS.ttl.html"
+  },
+  "Observation-VunsEfrVVEMS.ttl.html" : {
+    "title" : "VunsEfrVVEMS - TTL Representation",
+    "label" : "4.40",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrVVEMS</b></li>",
+    "previous" : "Observation-VunsEfrVVEMS.json.html",
+    "next" : "Observation-VunsEfrVVEMSRatio.html"
+  },
+  "Observation-VunsEfrVVEMSRatio.html" : {
+    "title" : "VunsEfrVVEMSRatio",
+    "label" : "4.41",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrVVEMSRatio</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-VunsEfrVVEMS.ttl.html",
+    "next" : "Observation-VunsEfrVVEMSRatio.xml.html"
+  },
+  "Observation-VunsEfrVVEMSRatio.xml.html" : {
+    "title" : "VunsEfrVVEMSRatio - XML Representation",
+    "label" : "4.41",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrVVEMSRatio</b></li>",
+    "previous" : "Observation-VunsEfrVVEMSRatio.html",
+    "next" : "Observation-VunsEfrVVEMSRatio.json.html"
+  },
+  "Observation-VunsEfrVVEMSRatio.json.html" : {
+    "title" : "VunsEfrVVEMSRatio - JSON Representation",
+    "label" : "4.41",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrVVEMSRatio</b></li>",
+    "previous" : "Observation-VunsEfrVVEMSRatio.xml.html",
+    "next" : "Observation-VunsEfrVVEMSRatio.ttl.html"
+  },
+  "Observation-VunsEfrVVEMSRatio.ttl.html" : {
+    "title" : "VunsEfrVVEMSRatio - TTL Representation",
+    "label" : "4.41",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsEfrVVEMSRatio</b></li>",
+    "previous" : "Observation-VunsEfrVVEMSRatio.json.html",
+    "next" : "Patient-VunsPatientExample.html"
+  },
+  "Patient-VunsPatientExample.html" : {
+    "title" : "VunsPatientExample",
+    "label" : "4.42",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPatientExample</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-VunsEfrVVEMSRatio.ttl.html",
+    "next" : "Patient-VunsPatientExample.xml.html"
+  },
+  "Patient-VunsPatientExample.xml.html" : {
+    "title" : "VunsPatientExample - XML Representation",
+    "label" : "4.42",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPatientExample</b></li>",
+    "previous" : "Patient-VunsPatientExample.html",
+    "next" : "Patient-VunsPatientExample.json.html"
+  },
+  "Patient-VunsPatientExample.json.html" : {
+    "title" : "VunsPatientExample - JSON Representation",
+    "label" : "4.42",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPatientExample</b></li>",
+    "previous" : "Patient-VunsPatientExample.xml.html",
+    "next" : "Patient-VunsPatientExample.ttl.html"
+  },
+  "Patient-VunsPatientExample.ttl.html" : {
+    "title" : "VunsPatientExample - TTL Representation",
+    "label" : "4.42",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPatientExample</b></li>",
+    "previous" : "Patient-VunsPatientExample.json.html",
+    "next" : "Observation-VunsPneumoBioCreatinin.html"
+  },
+  "Observation-VunsPneumoBioCreatinin.html" : {
+    "title" : "VunsPneumoBioCreatinin",
+    "label" : "4.43",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioCreatinin</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Patient-VunsPatientExample.ttl.html",
+    "next" : "Observation-VunsPneumoBioCreatinin.xml.html"
+  },
+  "Observation-VunsPneumoBioCreatinin.xml.html" : {
+    "title" : "VunsPneumoBioCreatinin - XML Representation",
+    "label" : "4.43",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioCreatinin</b></li>",
+    "previous" : "Observation-VunsPneumoBioCreatinin.html",
+    "next" : "Observation-VunsPneumoBioCreatinin.json.html"
+  },
+  "Observation-VunsPneumoBioCreatinin.json.html" : {
+    "title" : "VunsPneumoBioCreatinin - JSON Representation",
+    "label" : "4.43",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioCreatinin</b></li>",
+    "previous" : "Observation-VunsPneumoBioCreatinin.xml.html",
+    "next" : "Observation-VunsPneumoBioCreatinin.ttl.html"
+  },
+  "Observation-VunsPneumoBioCreatinin.ttl.html" : {
+    "title" : "VunsPneumoBioCreatinin - TTL Representation",
+    "label" : "4.43",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioCreatinin</b></li>",
+    "previous" : "Observation-VunsPneumoBioCreatinin.json.html",
+    "next" : "Observation-VunsPneumoBioCRP.html"
+  },
+  "Observation-VunsPneumoBioCRP.html" : {
+    "title" : "VunsPneumoBioCRP",
+    "label" : "4.44",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioCRP</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-VunsPneumoBioCreatinin.ttl.html",
+    "next" : "Observation-VunsPneumoBioCRP.xml.html"
+  },
+  "Observation-VunsPneumoBioCRP.xml.html" : {
+    "title" : "VunsPneumoBioCRP - XML Representation",
+    "label" : "4.44",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioCRP</b></li>",
+    "previous" : "Observation-VunsPneumoBioCRP.html",
+    "next" : "Observation-VunsPneumoBioCRP.json.html"
+  },
+  "Observation-VunsPneumoBioCRP.json.html" : {
+    "title" : "VunsPneumoBioCRP - JSON Representation",
+    "label" : "4.44",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioCRP</b></li>",
+    "previous" : "Observation-VunsPneumoBioCRP.xml.html",
+    "next" : "Observation-VunsPneumoBioCRP.ttl.html"
+  },
+  "Observation-VunsPneumoBioCRP.ttl.html" : {
+    "title" : "VunsPneumoBioCRP - TTL Representation",
+    "label" : "4.44",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioCRP</b></li>",
+    "previous" : "Observation-VunsPneumoBioCRP.json.html",
+    "next" : "Observation-VunsPneumoBioEosinophils.html"
+  },
+  "Observation-VunsPneumoBioEosinophils.html" : {
+    "title" : "VunsPneumoBioEosinophils",
+    "label" : "4.45",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioEosinophils</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-VunsPneumoBioCRP.ttl.html",
+    "next" : "Observation-VunsPneumoBioEosinophils.xml.html"
+  },
+  "Observation-VunsPneumoBioEosinophils.xml.html" : {
+    "title" : "VunsPneumoBioEosinophils - XML Representation",
+    "label" : "4.45",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioEosinophils</b></li>",
+    "previous" : "Observation-VunsPneumoBioEosinophils.html",
+    "next" : "Observation-VunsPneumoBioEosinophils.json.html"
+  },
+  "Observation-VunsPneumoBioEosinophils.json.html" : {
+    "title" : "VunsPneumoBioEosinophils - JSON Representation",
+    "label" : "4.45",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioEosinophils</b></li>",
+    "previous" : "Observation-VunsPneumoBioEosinophils.xml.html",
+    "next" : "Observation-VunsPneumoBioEosinophils.ttl.html"
+  },
+  "Observation-VunsPneumoBioEosinophils.ttl.html" : {
+    "title" : "VunsPneumoBioEosinophils - TTL Representation",
+    "label" : "4.45",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioEosinophils</b></li>",
+    "previous" : "Observation-VunsPneumoBioEosinophils.json.html",
+    "next" : "Observation-VunsPneumoBioGFR.html"
+  },
+  "Observation-VunsPneumoBioGFR.html" : {
+    "title" : "VunsPneumoBioGFR",
+    "label" : "4.46",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioGFR</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-VunsPneumoBioEosinophils.ttl.html",
+    "next" : "Observation-VunsPneumoBioGFR.xml.html"
+  },
+  "Observation-VunsPneumoBioGFR.xml.html" : {
+    "title" : "VunsPneumoBioGFR - XML Representation",
+    "label" : "4.46",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioGFR</b></li>",
+    "previous" : "Observation-VunsPneumoBioGFR.html",
+    "next" : "Observation-VunsPneumoBioGFR.json.html"
+  },
+  "Observation-VunsPneumoBioGFR.json.html" : {
+    "title" : "VunsPneumoBioGFR - JSON Representation",
+    "label" : "4.46",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioGFR</b></li>",
+    "previous" : "Observation-VunsPneumoBioGFR.xml.html",
+    "next" : "Observation-VunsPneumoBioGFR.ttl.html"
+  },
+  "Observation-VunsPneumoBioGFR.ttl.html" : {
+    "title" : "VunsPneumoBioGFR - TTL Representation",
+    "label" : "4.46",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioGFR</b></li>",
+    "previous" : "Observation-VunsPneumoBioGFR.json.html",
+    "next" : "Observation-VunsPneumoBioHemoglobin.html"
+  },
+  "Observation-VunsPneumoBioHemoglobin.html" : {
+    "title" : "VunsPneumoBioHemoglobin",
+    "label" : "4.47",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioHemoglobin</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-VunsPneumoBioGFR.ttl.html",
+    "next" : "Observation-VunsPneumoBioHemoglobin.xml.html"
+  },
+  "Observation-VunsPneumoBioHemoglobin.xml.html" : {
+    "title" : "VunsPneumoBioHemoglobin - XML Representation",
+    "label" : "4.47",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioHemoglobin</b></li>",
+    "previous" : "Observation-VunsPneumoBioHemoglobin.html",
+    "next" : "Observation-VunsPneumoBioHemoglobin.json.html"
+  },
+  "Observation-VunsPneumoBioHemoglobin.json.html" : {
+    "title" : "VunsPneumoBioHemoglobin - JSON Representation",
+    "label" : "4.47",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioHemoglobin</b></li>",
+    "previous" : "Observation-VunsPneumoBioHemoglobin.xml.html",
+    "next" : "Observation-VunsPneumoBioHemoglobin.ttl.html"
+  },
+  "Observation-VunsPneumoBioHemoglobin.ttl.html" : {
+    "title" : "VunsPneumoBioHemoglobin - TTL Representation",
+    "label" : "4.47",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioHemoglobin</b></li>",
+    "previous" : "Observation-VunsPneumoBioHemoglobin.json.html",
+    "next" : "DiagnosticReport-VunsPneumoBioReportExample.html"
+  },
+  "DiagnosticReport-VunsPneumoBioReportExample.html" : {
+    "title" : "VunsPneumoBioReportExample",
+    "label" : "4.48",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioReportExample</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-VunsPneumoBioHemoglobin.ttl.html",
+    "next" : "DiagnosticReport-VunsPneumoBioReportExample.xml.html"
+  },
+  "DiagnosticReport-VunsPneumoBioReportExample.xml.html" : {
+    "title" : "VunsPneumoBioReportExample - XML Representation",
+    "label" : "4.48",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioReportExample</b></li>",
+    "previous" : "DiagnosticReport-VunsPneumoBioReportExample.html",
+    "next" : "DiagnosticReport-VunsPneumoBioReportExample.json.html"
+  },
+  "DiagnosticReport-VunsPneumoBioReportExample.json.html" : {
+    "title" : "VunsPneumoBioReportExample - JSON Representation",
+    "label" : "4.48",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioReportExample</b></li>",
+    "previous" : "DiagnosticReport-VunsPneumoBioReportExample.xml.html",
+    "next" : "DiagnosticReport-VunsPneumoBioReportExample.ttl.html"
+  },
+  "DiagnosticReport-VunsPneumoBioReportExample.ttl.html" : {
+    "title" : "VunsPneumoBioReportExample - TTL Representation",
+    "label" : "4.48",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBioReportExample</b></li>",
+    "previous" : "DiagnosticReport-VunsPneumoBioReportExample.json.html",
+    "next" : "Bundle-VunsPneumoBundleExample.html"
+  },
+  "Bundle-VunsPneumoBundleExample.html" : {
+    "title" : "VunsPneumoBundleExample",
+    "label" : "4.49",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBundleExample</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "DiagnosticReport-VunsPneumoBioReportExample.ttl.html",
+    "next" : "Bundle-VunsPneumoBundleExample.xml.html"
+  },
+  "Bundle-VunsPneumoBundleExample.xml.html" : {
+    "title" : "VunsPneumoBundleExample - XML Representation",
+    "label" : "4.49",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBundleExample</b></li>",
+    "previous" : "Bundle-VunsPneumoBundleExample.html",
+    "next" : "Bundle-VunsPneumoBundleExample.json.html"
+  },
+  "Bundle-VunsPneumoBundleExample.json.html" : {
+    "title" : "VunsPneumoBundleExample - JSON Representation",
+    "label" : "4.49",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBundleExample</b></li>",
+    "previous" : "Bundle-VunsPneumoBundleExample.xml.html",
+    "next" : "Bundle-VunsPneumoBundleExample.ttl.html"
+  },
+  "Bundle-VunsPneumoBundleExample.ttl.html" : {
+    "title" : "VunsPneumoBundleExample - TTL Representation",
+    "label" : "4.49",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBundleExample</b></li>",
+    "previous" : "Bundle-VunsPneumoBundleExample.json.html",
+    "next" : "Bundle-VunsPneumoBundleShortExample.html"
+  },
+  "Bundle-VunsPneumoBundleShortExample.html" : {
+    "title" : "VunsPneumoBundleShortExample",
+    "label" : "4.50",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBundleShortExample</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Bundle-VunsPneumoBundleExample.ttl.html",
+    "next" : "Bundle-VunsPneumoBundleShortExample.xml.html"
+  },
+  "Bundle-VunsPneumoBundleShortExample.xml.html" : {
+    "title" : "VunsPneumoBundleShortExample - XML Representation",
+    "label" : "4.50",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBundleShortExample</b></li>",
+    "previous" : "Bundle-VunsPneumoBundleShortExample.html",
+    "next" : "Bundle-VunsPneumoBundleShortExample.json.html"
+  },
+  "Bundle-VunsPneumoBundleShortExample.json.html" : {
+    "title" : "VunsPneumoBundleShortExample - JSON Representation",
+    "label" : "4.50",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBundleShortExample</b></li>",
+    "previous" : "Bundle-VunsPneumoBundleShortExample.xml.html",
+    "next" : "Bundle-VunsPneumoBundleShortExample.ttl.html"
+  },
+  "Bundle-VunsPneumoBundleShortExample.ttl.html" : {
+    "title" : "VunsPneumoBundleShortExample - TTL Representation",
+    "label" : "4.50",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoBundleShortExample</b></li>",
+    "previous" : "Bundle-VunsPneumoBundleShortExample.json.html",
+    "next" : "Condition-VunsPneumoConditionAsthma.html"
+  },
+  "Condition-VunsPneumoConditionAsthma.html" : {
+    "title" : "VunsPneumoConditionAsthma",
+    "label" : "4.51",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoConditionAsthma</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Bundle-VunsPneumoBundleShortExample.ttl.html",
+    "next" : "Condition-VunsPneumoConditionAsthma.xml.html"
+  },
+  "Condition-VunsPneumoConditionAsthma.xml.html" : {
+    "title" : "VunsPneumoConditionAsthma - XML Representation",
+    "label" : "4.51",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoConditionAsthma</b></li>",
+    "previous" : "Condition-VunsPneumoConditionAsthma.html",
+    "next" : "Condition-VunsPneumoConditionAsthma.json.html"
+  },
+  "Condition-VunsPneumoConditionAsthma.json.html" : {
+    "title" : "VunsPneumoConditionAsthma - JSON Representation",
+    "label" : "4.51",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoConditionAsthma</b></li>",
+    "previous" : "Condition-VunsPneumoConditionAsthma.xml.html",
+    "next" : "Condition-VunsPneumoConditionAsthma.ttl.html"
+  },
+  "Condition-VunsPneumoConditionAsthma.ttl.html" : {
+    "title" : "VunsPneumoConditionAsthma - TTL Representation",
+    "label" : "4.51",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoConditionAsthma</b></li>",
+    "previous" : "Condition-VunsPneumoConditionAsthma.json.html",
+    "next" : "Condition-VunsPneumoConditionHF.html"
+  },
+  "Condition-VunsPneumoConditionHF.html" : {
+    "title" : "VunsPneumoConditionHF",
+    "label" : "4.52",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoConditionHF</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Condition-VunsPneumoConditionAsthma.ttl.html",
+    "next" : "Condition-VunsPneumoConditionHF.xml.html"
+  },
+  "Condition-VunsPneumoConditionHF.xml.html" : {
+    "title" : "VunsPneumoConditionHF - XML Representation",
+    "label" : "4.52",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoConditionHF</b></li>",
+    "previous" : "Condition-VunsPneumoConditionHF.html",
+    "next" : "Condition-VunsPneumoConditionHF.json.html"
+  },
+  "Condition-VunsPneumoConditionHF.json.html" : {
+    "title" : "VunsPneumoConditionHF - JSON Representation",
+    "label" : "4.52",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoConditionHF</b></li>",
+    "previous" : "Condition-VunsPneumoConditionHF.xml.html",
+    "next" : "Condition-VunsPneumoConditionHF.ttl.html"
+  },
+  "Condition-VunsPneumoConditionHF.ttl.html" : {
+    "title" : "VunsPneumoConditionHF - TTL Representation",
+    "label" : "4.52",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoConditionHF</b></li>",
+    "previous" : "Condition-VunsPneumoConditionHF.json.html",
+    "next" : "Observation-VunsPneumoVitalSignHeight.html"
+  },
+  "Observation-VunsPneumoVitalSignHeight.html" : {
+    "title" : "VunsPneumoVitalSignHeight",
+    "label" : "4.53",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoVitalSignHeight</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Condition-VunsPneumoConditionHF.ttl.html",
+    "next" : "Observation-VunsPneumoVitalSignHeight.xml.html"
+  },
+  "Observation-VunsPneumoVitalSignHeight.xml.html" : {
+    "title" : "VunsPneumoVitalSignHeight - XML Representation",
+    "label" : "4.53",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoVitalSignHeight</b></li>",
+    "previous" : "Observation-VunsPneumoVitalSignHeight.html",
+    "next" : "Observation-VunsPneumoVitalSignHeight.json.html"
+  },
+  "Observation-VunsPneumoVitalSignHeight.json.html" : {
+    "title" : "VunsPneumoVitalSignHeight - JSON Representation",
+    "label" : "4.53",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoVitalSignHeight</b></li>",
+    "previous" : "Observation-VunsPneumoVitalSignHeight.xml.html",
+    "next" : "Observation-VunsPneumoVitalSignHeight.ttl.html"
+  },
+  "Observation-VunsPneumoVitalSignHeight.ttl.html" : {
+    "title" : "VunsPneumoVitalSignHeight - TTL Representation",
+    "label" : "4.53",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoVitalSignHeight</b></li>",
+    "previous" : "Observation-VunsPneumoVitalSignHeight.json.html",
+    "next" : "Observation-VunsPneumoVitalSignWeight.html"
+  },
+  "Observation-VunsPneumoVitalSignWeight.html" : {
+    "title" : "VunsPneumoVitalSignWeight",
+    "label" : "4.54",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoVitalSignWeight</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-VunsPneumoVitalSignHeight.ttl.html",
+    "next" : "Observation-VunsPneumoVitalSignWeight.xml.html"
+  },
+  "Observation-VunsPneumoVitalSignWeight.xml.html" : {
+    "title" : "VunsPneumoVitalSignWeight - XML Representation",
+    "label" : "4.54",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoVitalSignWeight</b></li>",
+    "previous" : "Observation-VunsPneumoVitalSignWeight.html",
+    "next" : "Observation-VunsPneumoVitalSignWeight.json.html"
+  },
+  "Observation-VunsPneumoVitalSignWeight.json.html" : {
+    "title" : "VunsPneumoVitalSignWeight - JSON Representation",
+    "label" : "4.54",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoVitalSignWeight</b></li>",
+    "previous" : "Observation-VunsPneumoVitalSignWeight.xml.html",
+    "next" : "Observation-VunsPneumoVitalSignWeight.ttl.html"
+  },
+  "Observation-VunsPneumoVitalSignWeight.ttl.html" : {
+    "title" : "VunsPneumoVitalSignWeight - TTL Representation",
+    "label" : "4.54",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsPneumoVitalSignWeight</b></li>",
+    "previous" : "Observation-VunsPneumoVitalSignWeight.json.html",
+    "next" : "Observation-VunsTobaccoAge.html"
+  },
+  "Observation-VunsTobaccoAge.html" : {
+    "title" : "VunsTobaccoAge",
+    "label" : "4.55",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsTobaccoAge</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-VunsPneumoVitalSignWeight.ttl.html",
+    "next" : "Observation-VunsTobaccoAge.xml.html"
+  },
+  "Observation-VunsTobaccoAge.xml.html" : {
+    "title" : "VunsTobaccoAge - XML Representation",
+    "label" : "4.55",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsTobaccoAge</b></li>",
+    "previous" : "Observation-VunsTobaccoAge.html",
+    "next" : "Observation-VunsTobaccoAge.json.html"
+  },
+  "Observation-VunsTobaccoAge.json.html" : {
+    "title" : "VunsTobaccoAge - JSON Representation",
+    "label" : "4.55",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsTobaccoAge</b></li>",
+    "previous" : "Observation-VunsTobaccoAge.xml.html",
+    "next" : "Observation-VunsTobaccoAge.ttl.html"
+  },
+  "Observation-VunsTobaccoAge.ttl.html" : {
+    "title" : "VunsTobaccoAge - TTL Representation",
+    "label" : "4.55",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsTobaccoAge</b></li>",
+    "previous" : "Observation-VunsTobaccoAge.json.html",
+    "next" : "Observation-VunsTobaccoQuantity.html"
+  },
+  "Observation-VunsTobaccoQuantity.html" : {
+    "title" : "VunsTobaccoQuantity",
+    "label" : "4.56",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsTobaccoQuantity</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-VunsTobaccoAge.ttl.html",
+    "next" : "Observation-VunsTobaccoQuantity.xml.html"
+  },
+  "Observation-VunsTobaccoQuantity.xml.html" : {
+    "title" : "VunsTobaccoQuantity - XML Representation",
+    "label" : "4.56",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsTobaccoQuantity</b></li>",
+    "previous" : "Observation-VunsTobaccoQuantity.html",
+    "next" : "Observation-VunsTobaccoQuantity.json.html"
+  },
+  "Observation-VunsTobaccoQuantity.json.html" : {
+    "title" : "VunsTobaccoQuantity - JSON Representation",
+    "label" : "4.56",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsTobaccoQuantity</b></li>",
+    "previous" : "Observation-VunsTobaccoQuantity.xml.html",
+    "next" : "Observation-VunsTobaccoQuantity.ttl.html"
+  },
+  "Observation-VunsTobaccoQuantity.ttl.html" : {
+    "title" : "VunsTobaccoQuantity - TTL Representation",
+    "label" : "4.56",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsTobaccoQuantity</b></li>",
+    "previous" : "Observation-VunsTobaccoQuantity.json.html",
+    "next" : "Observation-VunsTobaccoStatus.html"
+  },
+  "Observation-VunsTobaccoStatus.html" : {
+    "title" : "VunsTobaccoStatus",
+    "label" : "4.57",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsTobaccoStatus</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Observation-VunsTobaccoQuantity.ttl.html",
+    "next" : "Observation-VunsTobaccoStatus.xml.html"
+  },
+  "Observation-VunsTobaccoStatus.xml.html" : {
+    "title" : "VunsTobaccoStatus - XML Representation",
+    "label" : "4.57",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsTobaccoStatus</b></li>",
+    "previous" : "Observation-VunsTobaccoStatus.html",
+    "next" : "Observation-VunsTobaccoStatus.json.html"
+  },
+  "Observation-VunsTobaccoStatus.json.html" : {
+    "title" : "VunsTobaccoStatus - JSON Representation",
+    "label" : "4.57",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsTobaccoStatus</b></li>",
+    "previous" : "Observation-VunsTobaccoStatus.xml.html",
+    "next" : "Observation-VunsTobaccoStatus.ttl.html"
+  },
+  "Observation-VunsTobaccoStatus.ttl.html" : {
+    "title" : "VunsTobaccoStatus - TTL Representation",
+    "label" : "4.57",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>VunsTobaccoStatus</b></li>",
+    "previous" : "Observation-VunsTobaccoStatus.json.html"
+  }
+}
